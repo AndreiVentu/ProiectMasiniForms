@@ -28,6 +28,18 @@ namespace ProiectStudentiForms
         int Adaugat = 0;
         int cpt = 0, contor, ContorMeniu = 0;
         int IDm = 0;
+        int xControl = 0, yControl = 47;
+        int PanouSizeX = 266, PanouSizeY = 249;
+        int ImgSizeX = 266, ImgSizeY = 170;
+        int PanouPretSizeX = 266, PanouPretSizeY = 45;
+        int PretSizeX = 87, PretSizeY = 30;
+        int TipPretSizeX = 90, TipPretSizeY = 30;
+        int AnFabSizeX = 60, AnFabSizeY = 20;
+        int PutereSizeX = 60, PutereSizeY = 20;
+        int MarcaSizeX = 87, MarcaSizeY = 30;
+        int ModelSizeX = 87, ModelSizeY = 30;
+        int PretSizeXLei = 133, PretSizeYLei = 6;
+      
         Masina m1, m2, modificat;
         Masina[] Masini = new Masina[200];
         ArrayList masini;
@@ -161,8 +173,60 @@ namespace ProiectStudentiForms
 
             foreach (Masina m in masini)
             {
-                
-                Button but = new Button();
+                MasinaControl ctr = new MasinaControl();
+                ctr.Location = new Point(x, y- 5);
+               foreach(Control tip in ctr.Controls)
+               {
+                    if(tip is PictureBox)
+                    {
+                        PictureBox img = (PictureBox)tip;
+                        img.Image  = Image.FromFile("D:/IconiteMasiniForms/" + m.Nume_Img);
+                    }
+                    if(tip is Label)
+                    {
+                        Label txt = (Label)tip;
+                        if(txt.Name == "Marca")
+                        {
+                            txt.Text = m.Marca;
+                        }
+                        if(txt.Name == "Model")
+                        {
+                            txt.Text = m.Model;
+                        }
+                       
+                    }
+                    if(tip is Panel)
+                    {
+                        Panel pnl = (Panel)tip;
+                        foreach(Control cntr in pnl.Controls)
+                        {
+                            if(cntr is Label)
+                            {
+                                Label lbl = (Label)cntr;
+
+                                if (lbl.Name == "An")
+                                {
+                                    lbl.Text = Convert.ToString(m.An_Fabricatie);
+                                }
+                                if (lbl.Name == "Putere")
+                                {
+                                    lbl.Text = Convert.ToString(m.Putere) + " CP";
+                                }
+                                if (lbl.Name == "Pret")
+                                {
+                                    lbl.Text = Convert.ToString(m.Pret);
+                                }
+                                if (lbl.Name == "TipPret")
+                                {
+                                    lbl.Text = "EUR";
+                                }
+                            }
+                            
+                        }
+                    }
+               }
+                panel2.Controls.Add(ctr);
+                /*Button but = new Button();
                 Panel panou = new Panel();
                 PictureBox img = new PictureBox();
                 Panel panoupret = new Panel();
@@ -179,65 +243,65 @@ namespace ProiectStudentiForms
                 panou.BackgroundImageLayout = ImageLayout.Stretch;
                 panou.BackColor = Color.WhiteSmoke;
                 panou.BackgroundImage = Image.FromFile("D:/IconiteMasiniForms/imgpanou7.gif");
-                panou.Size = new Size(266, 249);
+                panou.Size = new Size(PanouSizeX, PanouSizeY);
 
 
                 //img
 
-                img.Location = new Point(0, 47);
+                img.Location = new Point(xControl,yControl);
                 img.Image = Image.FromFile("D:/IconiteMasiniForms/" + m.Nume_Img);
-                img.Size = new Size(266, 170);
+                img.Size = new Size(ImgSizeX, ImgSizeY);
                 img.SizeMode = PictureBoxSizeMode.Zoom;
                 img.BackColor = Color.Transparent;
 
                 //panoupret
-                panoupret.Location = new Point(0, 204);
+                panoupret.Location = new Point(xControl, yControl + 157);
                 panoupret.BackColor = Color.FromArgb(160, 10, 40, 20);
-                panoupret.Size = new Size(266, 45);
+                panoupret.Size = new Size(PanouPretSizeX, PanouPretSizeY);
 
                 //pret
-                pret.Location = new Point(143, 7);
-                pret.Size = new Size(87, 30);
+                pret.Location = new Point(xControl + 143, yControl - 40);
+                pret.Size = new Size(PretSizeX, PretSizeY);
                 pret.BackColor = Color.Transparent;
                 pret.Text = Convert.ToString(m.Pret);
                 pret.ForeColor = Color.Red;
                 pret.Font = new Font("Montserrat", 16.0f);
 
                 //tippret
-                tipvaluta.Location = new Point(222, 10);
-                tipvaluta.Size = new Size(90, 30);
+                tipvaluta.Location = new Point(xControl + 222, yControl - 37);
+                tipvaluta.Size = new Size(TipPretSizeX, TipPretSizeY);
                 tipvaluta.BackColor = Color.Transparent;
                 tipvaluta.Text = "EUR";
                 tipvaluta.ForeColor = Color.White;
                 tipvaluta.Font = new Font("Montserrat", 10.0f);
 
                 //anfab
-                anfab.Location = new Point(10, 18);
-                anfab.Size = new Size(60, 20);
+                anfab.Location = new Point(xControl + 10, yControl - 29);
+                anfab.Size = new Size(AnFabSizeX, AnFabSizeY);
                 anfab.BackColor = Color.Transparent;
                 anfab.Text = Convert.ToString(m.An_Fabricatie);
                 anfab.ForeColor = Color.White;
                 anfab.Font = new Font("Roboto Black", 9.0f);
 
                 //putere
-                putere.Location = new Point(43, 18);
-                putere.Size = new Size(60, 20);
+                putere.Location = new Point(xControl + 43, yControl - 29);
+                putere.Size = new Size(PutereSizeX, PutereSizeY);
                 putere.BackColor = Color.Transparent;
                 putere.Text = Convert.ToString(m.Putere) + " CP";
                 putere.ForeColor = Color.White;
                 putere.Font = new Font("Roboto Black", 9.0f);
 
                 //marca
-                marca.Location = new Point(15, 13);
-                marca.Size = new Size(87, 30);
+                marca.Location = new Point(xControl + 15, yControl - 34);
+                marca.Size = new Size(MarcaSizeX, MarcaSizeY);
                 marca.BackColor = Color.Transparent;
                 marca.Text = m.Marca;
                 marca.ForeColor = Color.White;
                 marca.Font = new Font("Montserrat", 13.0f);
 
                 //model
-                model.Location = new Point(15, 37);
-                model.Size = new Size(87, 30);
+                model.Location = new Point(xControl + 15, yControl - 10);
+                model.Size = new Size(ModelSizeX, ModelSizeY);
                 model.BackColor = Color.Transparent;
                 model.Text = m.Model;
                 model.ForeColor = Color.DarkGray;
@@ -261,7 +325,7 @@ namespace ProiectStudentiForms
                 panou.Controls.Add(model);
                 model.BringToFront();
 
-
+     */
                 if (contor < 3)
                 {
                     x = x + 290;
@@ -283,6 +347,7 @@ namespace ProiectStudentiForms
 
                 }
                 contor++;
+               
 
             }
         }
@@ -307,8 +372,63 @@ namespace ProiectStudentiForms
 
             foreach (Masina m in masini)
             {
+                MasinaControl ctr = new MasinaControl();
+                ctr.Location = new Point(x, y - 5);
+                foreach (Control tip in ctr.Controls)
+                {
+                    if (tip is PictureBox)
+                    {
+                        PictureBox img = (PictureBox)tip;
+                        img.Image = Image.FromFile("D:/IconiteMasiniForms/" + m.Nume_Img);
+                    }
+                    if (tip is Label)
+                    {
+                        Label txt = (Label)tip;
+                        if (txt.Name == "Marca")
+                        {
+                            txt.Text = m.Marca;
+                        }
+                        if (txt.Name == "Model")
+                        {
+                            txt.Text = m.Model;
+                        }
+                  
+                    }
 
-                Button but = new Button();
+                    if (tip is Panel)
+                    {
+                        Panel pnl = (Panel)tip;
+                        foreach (Control cntr in pnl.Controls)
+                        {
+                            if (cntr is Label)
+                            {
+                                Label lbl = (Label)cntr;
+
+                                if (lbl.Name == "An")
+                                {
+                                    lbl.Text = Convert.ToString(m.An_Fabricatie);
+                                }
+                                if (lbl.Name == "Putere")
+                                {
+                                    lbl.Text = Convert.ToString(m.Putere) + " CP";
+                                }
+                                if (lbl.Name == "Pret")
+                                {
+                                    lbl.Text = Convert.ToString(m.Pret_Lei);
+                                    lbl.Location = new Point(PretSizeXLei,PretSizeYLei);
+                                }
+                                if (lbl.Name == "TipPret")
+                                {
+                                    lbl.Text = "RON";
+                                }
+                            }
+
+                        }
+                    }
+                }
+                panel2.Controls.Add(ctr);
+
+                /*Button but = new Button();
                 Panel panou = new Panel();
                 PictureBox img = new PictureBox();
                 Panel panoupret = new Panel();
@@ -325,65 +445,65 @@ namespace ProiectStudentiForms
                 panou.BackgroundImageLayout = ImageLayout.Stretch;
                 panou.BackColor = Color.WhiteSmoke;
                 panou.BackgroundImage = Image.FromFile("D:/IconiteMasiniForms/imgpanou3.gif");
-                panou.Size = new Size(266, 249);
+                panou.Size = new Size(PanouSizeX, PanouSizeY);
 
 
                 //img
 
-                img.Location = new Point(0, 47);
+                img.Location = new Point(xControl, yControl);
                 img.Image = Image.FromFile("D:/IconiteMasiniForms/" + m.Nume_Img);
-                img.Size = new Size(266, 170);
+                img.Size = new Size(ImgSizeX, ImgSizeY);
                 img.SizeMode = PictureBoxSizeMode.Zoom;
                 img.BackColor = Color.Transparent;
 
                 //panoupret
-                panoupret.Location = new Point(0, 204);
+                panoupret.Location = new Point(xControl, yControl + 157);
                 panoupret.BackColor = Color.FromArgb(160, 10, 40, 20);
-                panoupret.Size = new Size(266, 45);
+                panoupret.Size = new Size(PanouPretSizeX, PanouPretSizeY);
 
                 //pret
-                pret.Location = new Point(127, 7);
-                pret.Size = new Size(98, 30);
+                pret.Location = new Point(xControl + 133, yControl - 40);
+                pret.Size = new Size(PretSizeX + 10, PretSizeY);
                 pret.BackColor = Color.Transparent;
                 pret.Text = Convert.ToString(m.Pret_Lei);
                 pret.ForeColor = Color.Red;
                 pret.Font = new Font("Montserrat", 16.0f);
 
                 //tippret
-                tipvaluta.Location = new Point(222, 10);
-                tipvaluta.Size = new Size(90, 30);
+                tipvaluta.Location = new Point(xControl + 222, yControl - 37);
+                tipvaluta.Size = new Size(TipPretSizeX, TipPretSizeY);
                 tipvaluta.BackColor = Color.Transparent;
                 tipvaluta.Text = "RON";
                 tipvaluta.ForeColor = Color.White;
                 tipvaluta.Font = new Font("Montserrat", 10.0f);
 
                 //anfab
-                anfab.Location = new Point(10, 18);
-                anfab.Size = new Size(60, 20);
+                anfab.Location = new Point(xControl + 10, yControl - 29);
+                anfab.Size = new Size(AnFabSizeX, AnFabSizeY);
                 anfab.BackColor = Color.Transparent;
                 anfab.Text = Convert.ToString(m.An_Fabricatie);
                 anfab.ForeColor = Color.White;
                 anfab.Font = new Font("Roboto Black", 9.0f);
 
                 //putere
-                putere.Location = new Point(43, 18);
-                putere.Size = new Size(60, 20);
+                putere.Location = new Point(xControl + 43, yControl - 29);
+                putere.Size = new Size(PutereSizeX, PutereSizeY);
                 putere.BackColor = Color.Transparent;
                 putere.Text = Convert.ToString(m.Putere) + " CP";
                 putere.ForeColor = Color.White;
                 putere.Font = new Font("Roboto Black", 9.0f);
 
                 //marca
-                marca.Location = new Point(15, 13);
-                marca.Size = new Size(87, 30);
+                marca.Location = new Point(xControl + 15, yControl - 34);
+                marca.Size = new Size(MarcaSizeX, MarcaSizeY);
                 marca.BackColor = Color.Transparent;
                 marca.Text = m.Marca;
                 marca.ForeColor = Color.White;
                 marca.Font = new Font("Montserrat", 13.0f);
 
                 //model
-                model.Location = new Point(15, 37);
-                model.Size = new Size(87, 30);
+                model.Location = new Point(xControl + 15, yControl - 10);
+                model.Size = new Size(ModelSizeX, ModelSizeY);
                 model.BackColor = Color.Transparent;
                 model.Text = m.Model;
                 model.ForeColor = Color.DarkGray;
@@ -406,7 +526,7 @@ namespace ProiectStudentiForms
                 panou.Controls.Add(marca);
                 panou.Controls.Add(model);
                 model.BringToFront();
-
+                */
 
                 if (contor < 3)
                 {

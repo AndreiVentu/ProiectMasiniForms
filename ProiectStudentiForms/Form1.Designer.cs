@@ -39,6 +39,7 @@
             this.PanouMasinaCumparata = new System.Windows.Forms.Panel();
             this.label32 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.guna2TileButton25 = new Guna.UI2.WinForms.Guna2TileButton();
             this.guna2TileButton8 = new Guna.UI2.WinForms.Guna2TileButton();
             this.guna2TileButton3 = new Guna.UI2.WinForms.Guna2TileButton();
             this.guna2TileButton2 = new Guna.UI2.WinForms.Guna2TileButton();
@@ -99,6 +100,7 @@
             this.Home = new System.Windows.Forms.TabPage();
             this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.guna2TileButton26 = new Guna.UI2.WinForms.Guna2TileButton();
             this.guna2TileButton9 = new Guna.UI2.WinForms.Guna2TileButton();
             this.guna2TileButton1 = new Guna.UI2.WinForms.Guna2TileButton();
             this.guna2TileButton6 = new Guna.UI2.WinForms.Guna2TileButton();
@@ -113,6 +115,7 @@
             this.EroareLabel = new System.Windows.Forms.Label();
             this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.guna2TileButton21 = new Guna.UI2.WinForms.Guna2TileButton();
             this.guna2TileButton17 = new Guna.UI2.WinForms.Guna2TileButton();
             this.guna2TileButton12 = new Guna.UI2.WinForms.Guna2TileButton();
             this.guna2TileButton4 = new Guna.UI2.WinForms.Guna2TileButton();
@@ -238,6 +241,9 @@
             this.guna2TileButton22 = new Guna.UI2.WinForms.Guna2TileButton();
             this.guna2TileButton24 = new Guna.UI2.WinForms.Guna2TileButton();
             this.Modifica = new System.Windows.Forms.TabPage();
+            this.guna2ControlBox16 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox17 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox18 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.ModMasinaPret = new System.Windows.Forms.Label();
             this.ModMasinaModel = new System.Windows.Forms.Label();
             this.ModMasinaMarca = new System.Windows.Forms.Label();
@@ -251,6 +257,7 @@
             this.MasinaCul = new System.Windows.Forms.Label();
             this.label78 = new System.Windows.Forms.Label();
             this.ModPanel2 = new System.Windows.Forms.Panel();
+            this.restartBtn = new Guna.UI2.WinForms.Guna2TileButton();
             this.ButonModifica = new Guna.UI2.WinForms.Guna2TileButton();
             this.ModificaPret = new Guna.UI2.WinForms.Guna2TextBox();
             this.label70 = new System.Windows.Forms.Label();
@@ -292,13 +299,6 @@
             this.guna2DragControl6 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2DragControl7 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2DragControl8 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.restartBtn = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2TileButton21 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2TileButton25 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2TileButton26 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2ControlBox16 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2ControlBox17 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2ControlBox18 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.Shop.SuspendLayout();
             this.PanouMasinaCumparata.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -416,6 +416,26 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(75, 335);
             this.panel1.TabIndex = 10;
+            // 
+            // guna2TileButton25
+            // 
+            this.guna2TileButton25.BackColor = System.Drawing.Color.Transparent;
+            this.guna2TileButton25.CheckedState.Parent = this.guna2TileButton25;
+            this.guna2TileButton25.CustomImages.Parent = this.guna2TileButton25;
+            this.Animator.SetDecoration(this.guna2TileButton25, BunifuAnimatorNS.DecorationType.None);
+            this.guna2TileButton25.FillColor = System.Drawing.Color.Transparent;
+            this.guna2TileButton25.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TileButton25.ForeColor = System.Drawing.Color.White;
+            this.guna2TileButton25.HoverState.FillColor = System.Drawing.Color.Red;
+            this.guna2TileButton25.HoverState.Parent = this.guna2TileButton25;
+            this.guna2TileButton25.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton25.Image")));
+            this.guna2TileButton25.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2TileButton25.Location = new System.Drawing.Point(5, 268);
+            this.guna2TileButton25.Name = "guna2TileButton25";
+            this.guna2TileButton25.ShadowDecoration.Parent = this.guna2TileButton25;
+            this.guna2TileButton25.Size = new System.Drawing.Size(70, 60);
+            this.guna2TileButton25.TabIndex = 7;
+            this.guna2TileButton25.Click += new System.EventHandler(this.guna2TileButton25_Click);
             // 
             // guna2TileButton8
             // 
@@ -1326,6 +1346,25 @@
             this.panel4.TabIndex = 25;
             this.panel4.Visible = false;
             // 
+            // guna2TileButton26
+            // 
+            this.guna2TileButton26.BackColor = System.Drawing.Color.Transparent;
+            this.guna2TileButton26.CheckedState.Parent = this.guna2TileButton26;
+            this.guna2TileButton26.CustomImages.Parent = this.guna2TileButton26;
+            this.Animator.SetDecoration(this.guna2TileButton26, BunifuAnimatorNS.DecorationType.None);
+            this.guna2TileButton26.FillColor = System.Drawing.Color.Transparent;
+            this.guna2TileButton26.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TileButton26.ForeColor = System.Drawing.Color.White;
+            this.guna2TileButton26.HoverState.Parent = this.guna2TileButton26;
+            this.guna2TileButton26.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton26.Image")));
+            this.guna2TileButton26.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2TileButton26.Location = new System.Drawing.Point(1, 268);
+            this.guna2TileButton26.Name = "guna2TileButton26";
+            this.guna2TileButton26.ShadowDecoration.Parent = this.guna2TileButton26;
+            this.guna2TileButton26.Size = new System.Drawing.Size(73, 60);
+            this.guna2TileButton26.TabIndex = 7;
+            this.guna2TileButton26.Click += new System.EventHandler(this.guna2TileButton26_Click);
+            // 
             // guna2TileButton9
             // 
             this.guna2TileButton9.BackColor = System.Drawing.Color.Transparent;
@@ -1548,6 +1587,26 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(72, 1087);
             this.panel3.TabIndex = 11;
+            // 
+            // guna2TileButton21
+            // 
+            this.guna2TileButton21.BackColor = System.Drawing.Color.Transparent;
+            this.guna2TileButton21.CheckedState.Parent = this.guna2TileButton21;
+            this.guna2TileButton21.CustomImages.Parent = this.guna2TileButton21;
+            this.Animator.SetDecoration(this.guna2TileButton21, BunifuAnimatorNS.DecorationType.None);
+            this.guna2TileButton21.FillColor = System.Drawing.Color.Transparent;
+            this.guna2TileButton21.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TileButton21.ForeColor = System.Drawing.Color.White;
+            this.guna2TileButton21.HoverState.FillColor = System.Drawing.Color.Red;
+            this.guna2TileButton21.HoverState.Parent = this.guna2TileButton21;
+            this.guna2TileButton21.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton21.Image")));
+            this.guna2TileButton21.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2TileButton21.Location = new System.Drawing.Point(0, 270);
+            this.guna2TileButton21.Name = "guna2TileButton21";
+            this.guna2TileButton21.ShadowDecoration.Parent = this.guna2TileButton21;
+            this.guna2TileButton21.Size = new System.Drawing.Size(73, 60);
+            this.guna2TileButton21.TabIndex = 6;
+            this.guna2TileButton21.Click += new System.EventHandler(this.guna2TileButton21_Click);
             // 
             // guna2TileButton17
             // 
@@ -3797,6 +3856,51 @@
             this.Modifica.TabIndex = 5;
             this.Modifica.Text = "Modifica";
             // 
+            // guna2ControlBox16
+            // 
+            this.guna2ControlBox16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox16.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox16.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.Animator.SetDecoration(this.guna2ControlBox16, BunifuAnimatorNS.DecorationType.None);
+            this.guna2ControlBox16.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox16.HoverState.Parent = this.guna2ControlBox16;
+            this.guna2ControlBox16.IconColor = System.Drawing.Color.DimGray;
+            this.guna2ControlBox16.Location = new System.Drawing.Point(1892, 6);
+            this.guna2ControlBox16.Name = "guna2ControlBox16";
+            this.guna2ControlBox16.ShadowDecoration.Parent = this.guna2ControlBox16;
+            this.guna2ControlBox16.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox16.TabIndex = 53;
+            // 
+            // guna2ControlBox17
+            // 
+            this.guna2ControlBox17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox17.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.guna2ControlBox17, BunifuAnimatorNS.DecorationType.None);
+            this.guna2ControlBox17.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox17.HoverState.Parent = this.guna2ControlBox17;
+            this.guna2ControlBox17.IconColor = System.Drawing.Color.DimGray;
+            this.guna2ControlBox17.Location = new System.Drawing.Point(1994, 6);
+            this.guna2ControlBox17.Name = "guna2ControlBox17";
+            this.guna2ControlBox17.ShadowDecoration.Parent = this.guna2ControlBox17;
+            this.guna2ControlBox17.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox17.TabIndex = 54;
+            // 
+            // guna2ControlBox18
+            // 
+            this.guna2ControlBox18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox18.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox18.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            this.Animator.SetDecoration(this.guna2ControlBox18, BunifuAnimatorNS.DecorationType.None);
+            this.guna2ControlBox18.Enabled = false;
+            this.guna2ControlBox18.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox18.HoverState.Parent = this.guna2ControlBox18;
+            this.guna2ControlBox18.IconColor = System.Drawing.Color.DimGray;
+            this.guna2ControlBox18.Location = new System.Drawing.Point(1943, 6);
+            this.guna2ControlBox18.Name = "guna2ControlBox18";
+            this.guna2ControlBox18.ShadowDecoration.Parent = this.guna2ControlBox18;
+            this.guna2ControlBox18.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox18.TabIndex = 55;
+            // 
             // ModMasinaPret
             // 
             this.ModMasinaPret.AutoSize = true;
@@ -3978,6 +4082,28 @@
             this.ModPanel2.Size = new System.Drawing.Size(773, 211);
             this.ModPanel2.TabIndex = 48;
             this.ModPanel2.Visible = false;
+            // 
+            // restartBtn
+            // 
+            this.restartBtn.BackColor = System.Drawing.Color.Transparent;
+            this.restartBtn.BorderColor = System.Drawing.Color.Transparent;
+            this.restartBtn.BorderRadius = 11;
+            this.restartBtn.CheckedState.Parent = this.restartBtn;
+            this.restartBtn.CustomImages.Parent = this.restartBtn;
+            this.Animator.SetDecoration(this.restartBtn, BunifuAnimatorNS.DecorationType.None);
+            this.restartBtn.FillColor = System.Drawing.Color.Transparent;
+            this.restartBtn.Font = new System.Drawing.Font("HelvLight", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.restartBtn.ForeColor = System.Drawing.Color.White;
+            this.restartBtn.HoverState.Parent = this.restartBtn;
+            this.restartBtn.Image = ((System.Drawing.Image)(resources.GetObject("restartBtn.Image")));
+            this.restartBtn.ImageSize = new System.Drawing.Size(70, 70);
+            this.restartBtn.Location = new System.Drawing.Point(307, 60);
+            this.restartBtn.Name = "restartBtn";
+            this.restartBtn.ShadowDecoration.Parent = this.restartBtn;
+            this.restartBtn.Size = new System.Drawing.Size(138, 104);
+            this.restartBtn.TabIndex = 64;
+            this.restartBtn.Visible = false;
+            this.restartBtn.Click += new System.EventHandler(this.restartBtn_Click);
             // 
             // ButonModifica
             // 
@@ -4686,132 +4812,6 @@
             // guna2DragControl8
             // 
             this.guna2DragControl8.TargetControl = this.Modifica;
-            // 
-            // restartBtn
-            // 
-            this.restartBtn.BackColor = System.Drawing.Color.Transparent;
-            this.restartBtn.BorderColor = System.Drawing.Color.Transparent;
-            this.restartBtn.BorderRadius = 11;
-            this.restartBtn.CheckedState.Parent = this.restartBtn;
-            this.restartBtn.CustomImages.Parent = this.restartBtn;
-            this.Animator.SetDecoration(this.restartBtn, BunifuAnimatorNS.DecorationType.None);
-            this.restartBtn.FillColor = System.Drawing.Color.Transparent;
-            this.restartBtn.Font = new System.Drawing.Font("HelvLight", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.restartBtn.ForeColor = System.Drawing.Color.White;
-            this.restartBtn.HoverState.Parent = this.restartBtn;
-            this.restartBtn.Image = ((System.Drawing.Image)(resources.GetObject("restartBtn.Image")));
-            this.restartBtn.ImageSize = new System.Drawing.Size(70, 70);
-            this.restartBtn.Location = new System.Drawing.Point(307, 60);
-            this.restartBtn.Name = "restartBtn";
-            this.restartBtn.ShadowDecoration.Parent = this.restartBtn;
-            this.restartBtn.Size = new System.Drawing.Size(138, 104);
-            this.restartBtn.TabIndex = 64;
-            this.restartBtn.Visible = false;
-            this.restartBtn.Click += new System.EventHandler(this.restartBtn_Click);
-            // 
-            // guna2TileButton21
-            // 
-            this.guna2TileButton21.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton21.CheckedState.Parent = this.guna2TileButton21;
-            this.guna2TileButton21.CustomImages.Parent = this.guna2TileButton21;
-            this.Animator.SetDecoration(this.guna2TileButton21, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton21.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton21.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton21.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton21.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2TileButton21.HoverState.Parent = this.guna2TileButton21;
-            this.guna2TileButton21.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton21.Image")));
-            this.guna2TileButton21.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton21.Location = new System.Drawing.Point(0, 270);
-            this.guna2TileButton21.Name = "guna2TileButton21";
-            this.guna2TileButton21.ShadowDecoration.Parent = this.guna2TileButton21;
-            this.guna2TileButton21.Size = new System.Drawing.Size(73, 60);
-            this.guna2TileButton21.TabIndex = 6;
-            this.guna2TileButton21.Click += new System.EventHandler(this.guna2TileButton21_Click);
-            // 
-            // guna2TileButton25
-            // 
-            this.guna2TileButton25.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton25.CheckedState.Parent = this.guna2TileButton25;
-            this.guna2TileButton25.CustomImages.Parent = this.guna2TileButton25;
-            this.Animator.SetDecoration(this.guna2TileButton25, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton25.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton25.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton25.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton25.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2TileButton25.HoverState.Parent = this.guna2TileButton25;
-            this.guna2TileButton25.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton25.Image")));
-            this.guna2TileButton25.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton25.Location = new System.Drawing.Point(5, 268);
-            this.guna2TileButton25.Name = "guna2TileButton25";
-            this.guna2TileButton25.ShadowDecoration.Parent = this.guna2TileButton25;
-            this.guna2TileButton25.Size = new System.Drawing.Size(70, 60);
-            this.guna2TileButton25.TabIndex = 7;
-            this.guna2TileButton25.Click += new System.EventHandler(this.guna2TileButton25_Click);
-            // 
-            // guna2TileButton26
-            // 
-            this.guna2TileButton26.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton26.CheckedState.Parent = this.guna2TileButton26;
-            this.guna2TileButton26.CustomImages.Parent = this.guna2TileButton26;
-            this.Animator.SetDecoration(this.guna2TileButton26, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton26.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton26.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton26.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton26.HoverState.Parent = this.guna2TileButton26;
-            this.guna2TileButton26.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton26.Image")));
-            this.guna2TileButton26.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton26.Location = new System.Drawing.Point(1, 268);
-            this.guna2TileButton26.Name = "guna2TileButton26";
-            this.guna2TileButton26.ShadowDecoration.Parent = this.guna2TileButton26;
-            this.guna2TileButton26.Size = new System.Drawing.Size(73, 60);
-            this.guna2TileButton26.TabIndex = 7;
-            this.guna2TileButton26.Click += new System.EventHandler(this.guna2TileButton26_Click);
-            // 
-            // guna2ControlBox16
-            // 
-            this.guna2ControlBox16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox16.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox16.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
-            this.Animator.SetDecoration(this.guna2ControlBox16, BunifuAnimatorNS.DecorationType.None);
-            this.guna2ControlBox16.FillColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox16.HoverState.Parent = this.guna2ControlBox16;
-            this.guna2ControlBox16.IconColor = System.Drawing.Color.DimGray;
-            this.guna2ControlBox16.Location = new System.Drawing.Point(1892, 6);
-            this.guna2ControlBox16.Name = "guna2ControlBox16";
-            this.guna2ControlBox16.ShadowDecoration.Parent = this.guna2ControlBox16;
-            this.guna2ControlBox16.Size = new System.Drawing.Size(45, 29);
-            this.guna2ControlBox16.TabIndex = 53;
-            // 
-            // guna2ControlBox17
-            // 
-            this.guna2ControlBox17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox17.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.guna2ControlBox17, BunifuAnimatorNS.DecorationType.None);
-            this.guna2ControlBox17.FillColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox17.HoverState.Parent = this.guna2ControlBox17;
-            this.guna2ControlBox17.IconColor = System.Drawing.Color.DimGray;
-            this.guna2ControlBox17.Location = new System.Drawing.Point(1994, 6);
-            this.guna2ControlBox17.Name = "guna2ControlBox17";
-            this.guna2ControlBox17.ShadowDecoration.Parent = this.guna2ControlBox17;
-            this.guna2ControlBox17.Size = new System.Drawing.Size(45, 29);
-            this.guna2ControlBox17.TabIndex = 54;
-            // 
-            // guna2ControlBox18
-            // 
-            this.guna2ControlBox18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox18.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox18.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
-            this.Animator.SetDecoration(this.guna2ControlBox18, BunifuAnimatorNS.DecorationType.None);
-            this.guna2ControlBox18.Enabled = false;
-            this.guna2ControlBox18.FillColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox18.HoverState.Parent = this.guna2ControlBox18;
-            this.guna2ControlBox18.IconColor = System.Drawing.Color.DimGray;
-            this.guna2ControlBox18.Location = new System.Drawing.Point(1943, 6);
-            this.guna2ControlBox18.Name = "guna2ControlBox18";
-            this.guna2ControlBox18.ShadowDecoration.Parent = this.guna2ControlBox18;
-            this.guna2ControlBox18.Size = new System.Drawing.Size(45, 29);
-            this.guna2ControlBox18.TabIndex = 55;
             // 
             // Form1
             // 
