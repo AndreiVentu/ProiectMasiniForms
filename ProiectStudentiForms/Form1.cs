@@ -39,7 +39,7 @@ namespace ProiectStudentiForms
         int MarcaSizeX = 87, MarcaSizeY = 30;
         int ModelSizeX = 87, ModelSizeY = 30;
         int PretSizeXLei = 133, PretSizeYLei = 6;
-      
+        int ContorBgrnd = 0;
         Masina m1, m2, modificat;
         Masina[] Masini = new Masina[200];
         ArrayList masini;
@@ -174,7 +174,7 @@ namespace ProiectStudentiForms
             foreach (Masina m in masini)
             {
                 MasinaControl ctr = new MasinaControl();
-                ctr.Location = new Point(x, y- 5);
+                ctr.Location = new Point(x, y - 5);
                foreach(Control tip in ctr.Controls)
                {
                     if(tip is PictureBox)
@@ -1621,6 +1621,75 @@ namespace ProiectStudentiForms
         private void guna2TileButton13_Click_1(object sender, EventArgs e)
         {
             tabControl1.SelectedIndex = 2;
+        }
+
+        private void guna2ImageButton3_MouseHover(object sender, EventArgs e)
+        {
+            guna2ImageButton3.BackColor = Color.Red;
+        }
+
+        private void guna2ImageButton3_MouseLeave(object sender, EventArgs e)
+        {
+            guna2ImageButton3.BackColor = Color.Transparent;
+        }
+
+        private void guna2ImageButton3_Click(object sender, EventArgs e)
+        {
+            ContorBgrnd++;
+            
+            if(ContorBgrnd % 2 == 1)
+            {
+                DarkBtn.Visible = true;
+                DarkLbl.Visible = true;
+                LightBtn.Visible = true;
+                LightLbl.Visible = true;
+                Themelbl.Visible = true;
+            }
+            else
+            {
+                DarkBtn.Visible = false;
+                DarkLbl.Visible = false;
+                LightBtn.Visible = false;
+                LightLbl.Visible = false;
+                Themelbl.Visible = false;
+
+            }
+
+        }
+
+        private void DarkBtn_CheckedChanged(object sender, EventArgs e)
+        {
+            Home.BackgroundImage = Image.FromFile("D:/IconiteMasiniForms/background6.gif");
+            Themelbl.ForeColor = Color.White;
+            DarkLbl.ForeColor = Color.White;
+            LightLbl.ForeColor = Color.White;
+            guna2ImageButton3.Image = Image.FromFile("D:/IconiteMasiniForms/icons8_Settings_64.png");
+            guna2ImageButton1.Image = Image.FromFile("D:/IconiteMasiniForms/icons8_Menu_64.png");
+            Minimizebtn.IconColor = Color.White;
+            Exitbtn.IconColor = Color.White;
+            Maximizebtn.IconColor = Color.White;
+            panel4.BackColor = Color.FromArgb(140, 248, 9, 72);
+           
+        }
+
+        private void LightBtn_CheckedChanged(object sender, EventArgs e)
+        {
+            Home.BackgroundImage = Image.FromFile("D:/IconiteMasiniForms/Backgrounddd.gif");
+            Themelbl.ForeColor = Color.Black;
+            DarkLbl.ForeColor = Color.Black;
+            LightLbl.ForeColor = Color.Black ;
+            guna2ImageButton3.Image = Image.FromFile("D:/IconiteMasiniForms/1ngr_64.png");
+            guna2ImageButton1.Image = Image.FromFile("D:/IconiteMasiniForms/2ngr_64.png");
+            Minimizebtn.IconColor = Color.Black;
+            Exitbtn.IconColor = Color.Black;
+            Maximizebtn.IconColor = Color.Black;
+            panel4.BackColor = Color.Red;
+            
+        }
+
+        private void Home_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void guna2TileButton24_Click(object sender, EventArgs e)

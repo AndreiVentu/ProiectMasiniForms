@@ -30,10 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            BunifuAnimatorNS.Animation animation2 = new BunifuAnimatorNS.Animation();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            BunifuAnimatorNS.Animation animation5 = new BunifuAnimatorNS.Animation();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.Shop = new System.Windows.Forms.TabPage();
             this.PanouMasinaCumparata = new System.Windows.Forms.Panel();
@@ -107,9 +107,9 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.guna2ControlBox4 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2ControlBox5 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2ControlBox6 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.Minimizebtn = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.Exitbtn = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.Maximizebtn = new Guna.UI2.WinForms.Guna2ControlBox();
             this.Inventory = new System.Windows.Forms.TabPage();
             this.MesajPanel = new System.Windows.Forms.Panel();
             this.EroareLabel = new System.Windows.Forms.Label();
@@ -299,6 +299,12 @@
             this.guna2DragControl6 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2DragControl7 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2DragControl8 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.DarkBtn = new Guna.UI2.WinForms.Guna2CustomRadioButton();
+            this.LightBtn = new Guna.UI2.WinForms.Guna2CustomRadioButton();
+            this.guna2ImageButton3 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.DarkLbl = new System.Windows.Forms.Label();
+            this.LightLbl = new System.Windows.Forms.Label();
+            this.Themelbl = new System.Windows.Forms.Label();
             this.Shop.SuspendLayout();
             this.PanouMasinaCumparata.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -1014,21 +1020,21 @@
             // 
             // guna2DataGridView1
             // 
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
             this.guna2DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.guna2DataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.guna2DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.guna2DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.guna2DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.guna2DataGridView1.ColumnHeadersHeight = 27;
             this.guna2DataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -1041,14 +1047,14 @@
             this.Cutie,
             this.NumeImg});
             this.Animator.SetDecoration(this.guna2DataGridView1, BunifuAnimatorNS.DecorationType.None);
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle15;
             this.guna2DataGridView1.EnableHeadersVisualStyles = false;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView1.Location = new System.Drawing.Point(1886, 426);
@@ -1262,22 +1268,22 @@
             // 
             this.Animator.AnimationType = BunifuAnimatorNS.AnimationType.Transparent;
             this.Animator.Cursor = null;
-            animation2.AnimateOnlyDifferences = true;
-            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
-            animation2.LeafCoeff = 0F;
-            animation2.MaxTime = 1F;
-            animation2.MinTime = 0F;
-            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
-            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
-            animation2.MosaicSize = 0;
-            animation2.Padding = new System.Windows.Forms.Padding(0);
-            animation2.RotateCoeff = 0F;
-            animation2.RotateLimit = 0F;
-            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
-            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
-            animation2.TimeCoeff = 0F;
-            animation2.TransparencyCoeff = 1F;
-            this.Animator.DefaultAnimation = animation2;
+            animation5.AnimateOnlyDifferences = true;
+            animation5.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.BlindCoeff")));
+            animation5.LeafCoeff = 0F;
+            animation5.MaxTime = 1F;
+            animation5.MinTime = 0F;
+            animation5.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicCoeff")));
+            animation5.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation5.MosaicShift")));
+            animation5.MosaicSize = 0;
+            animation5.Padding = new System.Windows.Forms.Padding(0);
+            animation5.RotateCoeff = 0F;
+            animation5.RotateLimit = 0F;
+            animation5.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.ScaleCoeff")));
+            animation5.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation5.SlideCoeff")));
+            animation5.TimeCoeff = 0F;
+            animation5.TransparencyCoeff = 1F;
+            this.Animator.DefaultAnimation = animation5;
             this.Animator.Interval = 40;
             // 
             // tabControl1
@@ -1300,14 +1306,20 @@
             this.Home.BackColor = System.Drawing.Color.Black;
             this.Home.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Home.BackgroundImage")));
             this.Home.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Home.Controls.Add(this.Themelbl);
+            this.Home.Controls.Add(this.LightLbl);
+            this.Home.Controls.Add(this.DarkLbl);
+            this.Home.Controls.Add(this.guna2ImageButton3);
+            this.Home.Controls.Add(this.LightBtn);
+            this.Home.Controls.Add(this.DarkBtn);
             this.Home.Controls.Add(this.guna2ImageButton1);
             this.Home.Controls.Add(this.panel4);
             this.Home.Controls.Add(this.pictureBox3);
             this.Home.Controls.Add(this.pictureBox2);
             this.Home.Controls.Add(this.pictureBox1);
-            this.Home.Controls.Add(this.guna2ControlBox4);
-            this.Home.Controls.Add(this.guna2ControlBox5);
-            this.Home.Controls.Add(this.guna2ControlBox6);
+            this.Home.Controls.Add(this.Minimizebtn);
+            this.Home.Controls.Add(this.Exitbtn);
+            this.Home.Controls.Add(this.Maximizebtn);
             this.Animator.SetDecoration(this.Home, BunifuAnimatorNS.DecorationType.None);
             this.Home.Location = new System.Drawing.Point(4, 25);
             this.Home.Name = "Home";
@@ -1315,6 +1327,7 @@
             this.Home.Size = new System.Drawing.Size(2054, 1075);
             this.Home.TabIndex = 1;
             this.Home.Text = "Home";
+            this.Home.Click += new System.EventHandler(this.Home_Click);
             // 
             // guna2ImageButton1
             // 
@@ -1340,9 +1353,9 @@
             this.panel4.Controls.Add(this.guna2TileButton1);
             this.panel4.Controls.Add(this.guna2TileButton6);
             this.Animator.SetDecoration(this.panel4, BunifuAnimatorNS.DecorationType.None);
-            this.panel4.Location = new System.Drawing.Point(-1, 0);
+            this.panel4.Location = new System.Drawing.Point(-1, -2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(72, 1069);
+            this.panel4.Size = new System.Drawing.Size(72, 1079);
             this.panel4.TabIndex = 25;
             this.panel4.Visible = false;
             // 
@@ -1468,53 +1481,53 @@
             this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
             this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
             // 
-            // guna2ControlBox4
+            // Minimizebtn
             // 
-            this.guna2ControlBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox4.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
-            this.Animator.SetDecoration(this.guna2ControlBox4, BunifuAnimatorNS.DecorationType.None);
-            this.guna2ControlBox4.FillColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox4.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2ControlBox4.HoverState.Parent = this.guna2ControlBox4;
-            this.guna2ControlBox4.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox4.Location = new System.Drawing.Point(1893, 9);
-            this.guna2ControlBox4.Name = "guna2ControlBox4";
-            this.guna2ControlBox4.ShadowDecoration.Parent = this.guna2ControlBox4;
-            this.guna2ControlBox4.Size = new System.Drawing.Size(45, 29);
-            this.guna2ControlBox4.TabIndex = 15;
+            this.Minimizebtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Minimizebtn.BackColor = System.Drawing.Color.Transparent;
+            this.Minimizebtn.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.Animator.SetDecoration(this.Minimizebtn, BunifuAnimatorNS.DecorationType.None);
+            this.Minimizebtn.FillColor = System.Drawing.Color.Transparent;
+            this.Minimizebtn.HoverState.FillColor = System.Drawing.Color.Red;
+            this.Minimizebtn.HoverState.Parent = this.Minimizebtn;
+            this.Minimizebtn.IconColor = System.Drawing.Color.White;
+            this.Minimizebtn.Location = new System.Drawing.Point(1893, 9);
+            this.Minimizebtn.Name = "Minimizebtn";
+            this.Minimizebtn.ShadowDecoration.Parent = this.Minimizebtn;
+            this.Minimizebtn.Size = new System.Drawing.Size(45, 29);
+            this.Minimizebtn.TabIndex = 15;
             // 
-            // guna2ControlBox5
+            // Exitbtn
             // 
-            this.guna2ControlBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox5.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.guna2ControlBox5, BunifuAnimatorNS.DecorationType.None);
-            this.guna2ControlBox5.FillColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox5.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2ControlBox5.HoverState.Parent = this.guna2ControlBox5;
-            this.guna2ControlBox5.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox5.Location = new System.Drawing.Point(1995, 9);
-            this.guna2ControlBox5.Name = "guna2ControlBox5";
-            this.guna2ControlBox5.ShadowDecoration.Parent = this.guna2ControlBox5;
-            this.guna2ControlBox5.Size = new System.Drawing.Size(45, 29);
-            this.guna2ControlBox5.TabIndex = 16;
+            this.Exitbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Exitbtn.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.Exitbtn, BunifuAnimatorNS.DecorationType.None);
+            this.Exitbtn.FillColor = System.Drawing.Color.Transparent;
+            this.Exitbtn.HoverState.FillColor = System.Drawing.Color.Red;
+            this.Exitbtn.HoverState.Parent = this.Exitbtn;
+            this.Exitbtn.IconColor = System.Drawing.Color.White;
+            this.Exitbtn.Location = new System.Drawing.Point(1995, 9);
+            this.Exitbtn.Name = "Exitbtn";
+            this.Exitbtn.ShadowDecoration.Parent = this.Exitbtn;
+            this.Exitbtn.Size = new System.Drawing.Size(45, 29);
+            this.Exitbtn.TabIndex = 16;
             // 
-            // guna2ControlBox6
+            // Maximizebtn
             // 
-            this.guna2ControlBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox6.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
-            this.Animator.SetDecoration(this.guna2ControlBox6, BunifuAnimatorNS.DecorationType.None);
-            this.guna2ControlBox6.Enabled = false;
-            this.guna2ControlBox6.FillColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox6.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2ControlBox6.HoverState.Parent = this.guna2ControlBox6;
-            this.guna2ControlBox6.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox6.Location = new System.Drawing.Point(1944, 9);
-            this.guna2ControlBox6.Name = "guna2ControlBox6";
-            this.guna2ControlBox6.ShadowDecoration.Parent = this.guna2ControlBox6;
-            this.guna2ControlBox6.Size = new System.Drawing.Size(45, 29);
-            this.guna2ControlBox6.TabIndex = 17;
+            this.Maximizebtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Maximizebtn.BackColor = System.Drawing.Color.Transparent;
+            this.Maximizebtn.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            this.Animator.SetDecoration(this.Maximizebtn, BunifuAnimatorNS.DecorationType.None);
+            this.Maximizebtn.Enabled = false;
+            this.Maximizebtn.FillColor = System.Drawing.Color.Transparent;
+            this.Maximizebtn.HoverState.FillColor = System.Drawing.Color.Red;
+            this.Maximizebtn.HoverState.Parent = this.Maximizebtn;
+            this.Maximizebtn.IconColor = System.Drawing.Color.White;
+            this.Maximizebtn.Location = new System.Drawing.Point(1944, 9);
+            this.Maximizebtn.Name = "Maximizebtn";
+            this.Maximizebtn.ShadowDecoration.Parent = this.Maximizebtn;
+            this.Maximizebtn.Size = new System.Drawing.Size(45, 29);
+            this.Maximizebtn.TabIndex = 17;
             // 
             // Inventory
             // 
@@ -4813,6 +4826,108 @@
             // 
             this.guna2DragControl8.TargetControl = this.Modifica;
             // 
+            // DarkBtn
+            // 
+            this.DarkBtn.BackColor = System.Drawing.Color.Transparent;
+            this.DarkBtn.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DarkBtn.CheckedState.BorderThickness = 0;
+            this.DarkBtn.CheckedState.FillColor = System.Drawing.Color.Red;
+            this.DarkBtn.CheckedState.InnerColor = System.Drawing.Color.Red;
+            this.DarkBtn.CheckedState.Parent = this.DarkBtn;
+            this.Animator.SetDecoration(this.DarkBtn, BunifuAnimatorNS.DecorationType.None);
+            this.DarkBtn.Location = new System.Drawing.Point(1599, 15);
+            this.DarkBtn.Name = "DarkBtn";
+            this.DarkBtn.ShadowDecoration.Parent = this.DarkBtn;
+            this.DarkBtn.Size = new System.Drawing.Size(20, 20);
+            this.DarkBtn.TabIndex = 29;
+            this.DarkBtn.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DarkBtn.UncheckedState.BorderThickness = 2;
+            this.DarkBtn.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.DarkBtn.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.DarkBtn.UncheckedState.Parent = this.DarkBtn;
+            this.DarkBtn.Visible = false;
+            this.DarkBtn.CheckedChanged += new System.EventHandler(this.DarkBtn_CheckedChanged);
+            // 
+            // LightBtn
+            // 
+            this.LightBtn.BackColor = System.Drawing.Color.Transparent;
+            this.LightBtn.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.LightBtn.CheckedState.BorderThickness = 0;
+            this.LightBtn.CheckedState.FillColor = System.Drawing.Color.Red;
+            this.LightBtn.CheckedState.InnerColor = System.Drawing.Color.Red;
+            this.LightBtn.CheckedState.Parent = this.LightBtn;
+            this.Animator.SetDecoration(this.LightBtn, BunifuAnimatorNS.DecorationType.None);
+            this.LightBtn.Location = new System.Drawing.Point(1687, 15);
+            this.LightBtn.Name = "LightBtn";
+            this.LightBtn.ShadowDecoration.Parent = this.LightBtn;
+            this.LightBtn.Size = new System.Drawing.Size(20, 20);
+            this.LightBtn.TabIndex = 30;
+            this.LightBtn.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.LightBtn.UncheckedState.BorderThickness = 2;
+            this.LightBtn.UncheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.LightBtn.UncheckedState.InnerColor = System.Drawing.Color.Transparent;
+            this.LightBtn.UncheckedState.Parent = this.LightBtn;
+            this.LightBtn.Visible = false;
+            this.LightBtn.CheckedChanged += new System.EventHandler(this.LightBtn_CheckedChanged);
+            // 
+            // guna2ImageButton3
+            // 
+            this.guna2ImageButton3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ImageButton3.CheckedState.Parent = this.guna2ImageButton3;
+            this.Animator.SetDecoration(this.guna2ImageButton3, BunifuAnimatorNS.DecorationType.None);
+            this.guna2ImageButton3.HoverState.Parent = this.guna2ImageButton3;
+            this.guna2ImageButton3.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton3.Image")));
+            this.guna2ImageButton3.Location = new System.Drawing.Point(1791, 9);
+            this.guna2ImageButton3.Name = "guna2ImageButton3";
+            this.guna2ImageButton3.PressedState.Parent = this.guna2ImageButton3;
+            this.guna2ImageButton3.Size = new System.Drawing.Size(45, 29);
+            this.guna2ImageButton3.TabIndex = 31;
+            this.guna2ImageButton3.Click += new System.EventHandler(this.guna2ImageButton3_Click);
+            this.guna2ImageButton3.MouseLeave += new System.EventHandler(this.guna2ImageButton3_MouseLeave);
+            this.guna2ImageButton3.MouseHover += new System.EventHandler(this.guna2ImageButton3_MouseHover);
+            // 
+            // DarkLbl
+            // 
+            this.DarkLbl.AutoSize = true;
+            this.DarkLbl.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.DarkLbl, BunifuAnimatorNS.DecorationType.None);
+            this.DarkLbl.Font = new System.Drawing.Font("HelveticaNeue", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DarkLbl.ForeColor = System.Drawing.Color.White;
+            this.DarkLbl.Location = new System.Drawing.Point(1625, 17);
+            this.DarkLbl.Name = "DarkLbl";
+            this.DarkLbl.Size = new System.Drawing.Size(43, 18);
+            this.DarkLbl.TabIndex = 32;
+            this.DarkLbl.Text = "Dark";
+            this.DarkLbl.Visible = false;
+            // 
+            // LightLbl
+            // 
+            this.LightLbl.AutoSize = true;
+            this.LightLbl.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.LightLbl, BunifuAnimatorNS.DecorationType.None);
+            this.LightLbl.Font = new System.Drawing.Font("HelveticaNeue", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LightLbl.ForeColor = System.Drawing.Color.White;
+            this.LightLbl.Location = new System.Drawing.Point(1713, 17);
+            this.LightLbl.Name = "LightLbl";
+            this.LightLbl.Size = new System.Drawing.Size(44, 18);
+            this.LightLbl.TabIndex = 33;
+            this.LightLbl.Text = "Light";
+            this.LightLbl.Visible = false;
+            // 
+            // Themelbl
+            // 
+            this.Themelbl.AutoSize = true;
+            this.Themelbl.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.Themelbl, BunifuAnimatorNS.DecorationType.None);
+            this.Themelbl.Font = new System.Drawing.Font("HelveticaNeue", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Themelbl.ForeColor = System.Drawing.Color.White;
+            this.Themelbl.Location = new System.Drawing.Point(1442, 17);
+            this.Themelbl.Name = "Themelbl";
+            this.Themelbl.Size = new System.Drawing.Size(143, 18);
+            this.Themelbl.TabIndex = 34;
+            this.Themelbl.Text = "Application theme:";
+            this.Themelbl.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
@@ -4848,6 +4963,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxMasina)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.Home.ResumeLayout(false);
+            this.Home.PerformLayout();
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -4931,9 +5047,9 @@
         private Guna.UI2.WinForms.Guna2TileButton guna2TileButton3;
         private Guna.UI2.WinForms.Guna2TileButton guna2TileButton2;
         private Guna.UI2.WinForms.Guna2TileButton guna2TileButton8;
-        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox4;
-        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox5;
-        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox6;
+        private Guna.UI2.WinForms.Guna2ControlBox Minimizebtn;
+        private Guna.UI2.WinForms.Guna2ControlBox Exitbtn;
+        private Guna.UI2.WinForms.Guna2ControlBox Maximizebtn;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl3;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
@@ -5160,6 +5276,12 @@
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox16;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox17;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox18;
+        private Guna.UI2.WinForms.Guna2CustomRadioButton LightBtn;
+        private Guna.UI2.WinForms.Guna2CustomRadioButton DarkBtn;
+        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton3;
+        private System.Windows.Forms.Label LightLbl;
+        private System.Windows.Forms.Label DarkLbl;
+        private System.Windows.Forms.Label Themelbl;
     }
 }
 
