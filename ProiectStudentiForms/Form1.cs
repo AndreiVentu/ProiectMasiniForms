@@ -25,7 +25,7 @@ namespace ProiectStudentiForms
         const long Aer_Conditionat_Doua_Zone_ = 750;
         static System.Windows.Forms.Timer myTimer = new Timer();
         string NumeImg_ = "2.png";
-        int Adaugat = 0;
+        int Adaugat1 = 0,Adaugat2 = 0;
         int cpt = 0, contor, ContorMeniu = 0;
         int IDm = 0;
         int xControl = 0, yControl = 47;
@@ -153,7 +153,7 @@ namespace ProiectStudentiForms
 
         }
 
-        private void Generare()
+        public void Generare()
         {
             while (panel2.Controls.Count > 1)
             {
@@ -557,7 +557,7 @@ namespace ProiectStudentiForms
         {
 
             
-            Generare();
+            // Generare();
             guna2DataGridView1.Rows.Add(5);          
             guna2DataGridView1.Rows[0].Cells[0].Value = Image.FromFile("D:/IconiteMasiniForms/2.png");
             guna2DataGridView1.Rows[1].Cells[0].Value = Image.FromFile("D:/IconiteMasiniForms/3.png");
@@ -764,7 +764,7 @@ namespace ProiectStudentiForms
 
         private void guna2TileButton1_Click(object sender, EventArgs e)
         {
-            tabControl1.SelectedIndex = 2;
+            tabControl1.SelectedIndex = 4;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -898,6 +898,8 @@ namespace ProiectStudentiForms
         private void guna2TileButton6_Click(object sender, EventArgs e)
         {
             tabControl1.SelectedIndex = 2;
+            Generare();
+           
         }
 
         private void guna2TileButton1_Click_1(object sender, EventArgs e)
@@ -1125,6 +1127,7 @@ namespace ProiectStudentiForms
         {
             Masina masina = new Masina(NumeMasina.Text,ModelMas.Text,Convert.ToInt64(PretMasina.Text),Convert.ToInt32(AnFMasina.Text),Convert.ToInt32(PutMasina.Text),CutieMasina.Text,NumeImg_);
             masina.Culoare = (Culori)Enum.Parse(typeof(Culori), CulMasina.Text,true);
+            masina.IDMAS++;
 
             if(bunifuCheckbox1.Checked == true)
             {          
@@ -1323,6 +1326,8 @@ namespace ProiectStudentiForms
             int _AnFabMax_ = 0;
             int _PutereMax_ = 0;
             int eroare = 1;
+            Culori cul;
+            
             ArrayList masini = AdminMasini.GetMasini();
             if(ModelM1.Text == string.Empty)
             {
@@ -1410,7 +1415,19 @@ namespace ProiectStudentiForms
                         _PutereMax_ = Convert.ToInt32(PutereMaxM1.Text);
                     }
 
-                    if (m.Marca == MarcaM1.Text && m.Model == ModelM1.Text && m.Pret>= _PretMin_ && m.Pret <= _PretMax_ && m.An_Fabricatie >= _AnFabMin_ && m.An_Fabricatie <= _AnFabMax_ && m.Putere <= _PutereMax_ && m.Culoare == (Culori)Enum.Parse(typeof(Culori), CuloareM1_.Text, true))
+                    Culori txt;
+                    bool verificat = Enum.TryParse(CuloareM1_.Text, out txt);
+                    if(verificat == true)
+                    {
+                        cul = (Culori)Enum.Parse(typeof(Culori), CuloareM1_.Text, true);
+                        label44.ForeColor = Color.White;
+                    }
+                    else
+                    {
+                        label44.ForeColor = Color.Red;
+                        cul = 0;
+                    }
+                    if (m.Marca == MarcaM1.Text && m.Model == ModelM1.Text && m.Pret>= _PretMin_ && m.Pret <= _PretMax_ && m.An_Fabricatie >= _AnFabMin_ && m.An_Fabricatie <= _AnFabMax_ && m.Putere <= _PutereMax_ && m.Culoare == cul)
                     {
                         m1 = m;                    
                         eroare = 0;
@@ -1441,12 +1458,13 @@ namespace ProiectStudentiForms
                 else
                 {
                     label1.Text = "MASINA ADAUGATA!";
-                    Adaugat++;
+                    Adaugat1 = 1;
                     PanouEroare1.BackColor = Color.Red;
-                    if (Adaugat == 2)
+                    if (Adaugat1 == 1 && Adaugat2 ==1)
                     {
                         CmpBtn.Enabled = true;
-                        Adaugat = 0;
+                        Adaugat1 = 0;
+                        Adaugat2 = 0;
                     }
                 }
                
@@ -1465,6 +1483,7 @@ namespace ProiectStudentiForms
             int _AnFabMax_ = 0;
             int _PutereMax_ = 0;
             int eroare = 1;
+            Culori cul;
             ArrayList masini = AdminMasini.GetMasini();
             if (ModelM2.Text == string.Empty)
             {
@@ -1552,7 +1571,20 @@ namespace ProiectStudentiForms
                         _PutereMax_ = Convert.ToInt32(PutereMaxM2.Text);
                     }
 
-                    if (m.Marca == MarcaM2.Text && m.Model == ModelM2.Text && m.Pret >= _PretMin_ && m.Pret <= _PretMax_ && m.An_Fabricatie >= _AnFabMin_ && m.An_Fabricatie <= _AnFabMax_ && m.Putere <= _PutereMax_ && m.Culoare == (Culori)Enum.Parse(typeof(Culori), CuloareM2_.Text, true))
+                    Culori txt;
+                    bool verificat = Enum.TryParse(CuloareM2_.Text, out txt);
+                    if (verificat == true)
+                    {
+                        cul = (Culori)Enum.Parse(typeof(Culori), CuloareM2_.Text, true);
+                        label62.ForeColor = Color.White;
+                    }
+                    else
+                    {
+                        label62.ForeColor = Color.Red;
+                        cul = 0;
+                    }
+
+                    if (m.Marca == MarcaM2.Text && m.Model == ModelM2.Text && m.Pret >= _PretMin_ && m.Pret <= _PretMax_ && m.An_Fabricatie >= _AnFabMin_ && m.An_Fabricatie <= _AnFabMax_ && m.Putere <= _PutereMax_ && m.Culoare == cul)
                     {
                         m2 = m;
                         eroare = 0;
@@ -1583,12 +1615,13 @@ namespace ProiectStudentiForms
                 else
                 {
                     label10.Text = "MASINA ADAUGATA!";
-                    Adaugat++;
+                    Adaugat2 = 1;
                     PanouEroare2.BackColor = Color.Red;
-                    if (Adaugat == 2)
+                    if (Adaugat1 == 1 && Adaugat2 == 1)
                     {
                         CmpBtn.Enabled = true;
-                        Adaugat = 0;
+                        Adaugat1 = 0;
+                        Adaugat2 = 0;
                     }
                 }
 
@@ -1621,6 +1654,7 @@ namespace ProiectStudentiForms
         private void guna2TileButton13_Click_1(object sender, EventArgs e)
         {
             tabControl1.SelectedIndex = 2;
+            Generare();
         }
 
         private void guna2ImageButton3_MouseHover(object sender, EventArgs e)
@@ -1685,6 +1719,17 @@ namespace ProiectStudentiForms
             Maximizebtn.IconColor = Color.Black;
             panel4.BackColor = Color.Red;
             
+        }
+
+        private void guna2TileButton3_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 4;
+        }
+
+        private void guna2TileButton2_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 2;
+            Generare();
         }
 
         private void Home_Click(object sender, EventArgs e)
@@ -1756,7 +1801,7 @@ namespace ProiectStudentiForms
             ModMasinaMarca.Visible = false;
             ModMasinaModel.Visible = false;
             ModMasinaPret.Visible = false;
-            ModImg.Image = Image.FromFile("D:/IconiteMasiniForms/car.png");
+            ModModel.Image = Image.FromFile("D:/IconiteMasiniForms/car.png");
             ModPanel.Visible = false;
             ModificaMarca.Text = string.Empty;
             ModificaModel.Text = string.Empty;
@@ -1776,22 +1821,30 @@ namespace ProiectStudentiForms
 
         private void guna2TileButton26_Click(object sender, EventArgs e)
         {
-            tabControl1.SelectedIndex = 5;
+            //tabControl1.SelectedIndex = 5;
+            Form2 modifica = new Form2();
+            modifica.Show();
         }
 
         private void guna2TileButton25_Click(object sender, EventArgs e)
         {
-            tabControl1.SelectedIndex = 5;
+            //tabControl1.SelectedIndex = 5;
+            Form2 modifica = new Form2();
+            modifica.Show();
         }
 
         private void guna2TileButton21_Click(object sender, EventArgs e)
         {
-            tabControl1.SelectedIndex = 5;
+            //tabControl1.SelectedIndex = 5;
+            Form2 modifica = new Form2();
+            modifica.Show();
         }
 
         private void guna2TileButton23_Click_1(object sender, EventArgs e)
         {
-            tabControl1.SelectedIndex = 5;
+            //tabControl1.SelectedIndex = 5;
+            Form2 modifica = new Form2();
+            modifica.Show();
         }
 
         private void guna2TileButton20_Click(object sender, EventArgs e)
@@ -1816,6 +1869,8 @@ namespace ProiectStudentiForms
 
         private void ModCauta_Click(object sender, EventArgs e)
         {
+            listBox1.Items.Clear();
+           
             ModPanel2.BackColor = Color.Black;
             label68.Visible = true;
             label69.Visible = true;
@@ -1833,17 +1888,18 @@ namespace ProiectStudentiForms
             int _AnFabMax_ = 0;
             int _PutereMax_ = 0;
             int eroare = 1;
+            Culori cul;
             ArrayList masini = AdminMasini.GetMasini();
-            if (ModModel.Text == string.Empty)
+            if (ModMdl.Text == string.Empty)
             {
-                ModModel.BorderColor = Color.Red;
-                ModModel.FocusedState.BorderColor = Color.Red;
+                ModMdl.BorderColor = Color.Red;
+                ModMdl.FocusedState.BorderColor = Color.Red;
                 ok = 0;
             }
             else
             {
-                ModModel.BorderColor = Color.FromArgb(213, 218, 223);
-                ModModel.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+                ModMdl.BorderColor = Color.FromArgb(213, 218, 223);
+                ModMdl.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             }
 
             if (ModMarca.Text == string.Empty)
@@ -1858,21 +1914,13 @@ namespace ProiectStudentiForms
                 ModMarca.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             }
 
-            if (ModCuloare.Text == string.Empty)
-            {
-                ModCuloare.BorderColor = Color.Red;
-                ModCuloare.FocusedState.BorderColor = Color.Red;
-                ok = 0;
-            }
-            else
-            {
-                ModCuloare.BorderColor = Color.FromArgb(213, 218, 223);
-                ModCuloare.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            }
+            
 
 
             if (ok != 0)
             {
+                var antetTabel = String.Format("{0,0}{1,35}{2,40}{3,43}\n", "Marca", "Model", "An fab", "Pret");
+                listBox1.Items.Add(antetTabel);
                 foreach (Masina m in masini)
                 {
                     IDm++;
@@ -1921,12 +1969,33 @@ namespace ProiectStudentiForms
                     {
                         _PutereMax_ = Convert.ToInt32(ModPut.Text);
                     }
+                    if (ModCuloare.Text == string.Empty)
+                    {
+                        cul = m.Culoare;
+                    }
+                    else
+                    {
+                        Culori txt;
+                        bool verificat = Enum.TryParse(ModCuloare.Text, out txt);
+                        if (verificat == true)
+                        {
+                            cul = (Culori)Enum.Parse(typeof(Culori), ModCuloare.Text, true);
+                            label38.ForeColor = Color.White;
+                        }
+                        else
+                        {
+                            label38.ForeColor = Color.Red;
+                            cul = 0;
+                        }
+                    }
 
-                    if (m.Marca == ModMarca.Text && m.Model == ModModel.Text && m.Pret >= _PretMin_ && m.Pret <= _PretMax_ && m.An_Fabricatie >= _AnFabMin_ && m.An_Fabricatie <= _AnFabMax_ && m.Putere <= _PutereMax_ && m.Culoare == (Culori)Enum.Parse(typeof(Culori), ModCuloare.Text, true))
+                   
+
+                    if (m.Marca == ModMarca.Text && m.Model == ModMdl.Text && m.Pret >= _PretMin_ && m.Pret <= _PretMax_ && m.An_Fabricatie >= _AnFabMin_ && m.An_Fabricatie <= _AnFabMax_ && m.Putere <= _PutereMax_ && m.Culoare == cul)
                     {
                         modificat = m;               
                         eroare = 0;
-                        ModImg.Image =  Image.FromFile("D:/IconiteMasiniForms/" + m.Nume_Img);
+                        ModModel.Image =  Image.FromFile("D:/IconiteMasiniForms/" + m.Nume_Img);
                         ModMasinaMarca.Text = m.Marca;
                         ModMasinaModel.Text = m.Model;
                         ModMasinaPret.Text =  Convert.ToString(m.Pret) + "€";
@@ -1938,7 +2007,9 @@ namespace ProiectStudentiForms
                         MasinaAn.Text = Convert.ToString(m.An_Fabricatie);
                         MasinaCul.Text = Convert.ToString(m.Culoare);
                         MasinaPutere.Text = Convert.ToString(m.Putere);
-                        MasinaCutie.Text = m.Cutie_Viteze;
+                        MasinaCutie.Text = m.Cutie_Viteze;                    
+                        var linieTabel = String.Format("{0,0}{1,37}{2,40}{3,44}\n", m.Marca, m.Model,m.An_Fabricatie,m.Pret);
+                        listBox1.Items.Add(linieTabel);
                     }
 
                 }
@@ -1953,9 +2024,9 @@ namespace ProiectStudentiForms
                 }
                 else
                 {
-                    ModText.Text = "MASINA ADAUGATA!";                  
+                    ModText.Text = "MASINA GASITA!";                  
                     ModPanel.BackColor = Color.Red;
-                    ModCauta.Enabled = false;
+               
 
                 }
 

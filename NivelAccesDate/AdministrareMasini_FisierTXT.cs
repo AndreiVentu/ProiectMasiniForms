@@ -134,9 +134,9 @@ namespace NivelAccesDate
                     foreach (Masina masina in masini)
                     {
                         IDm++;
-                        masina.ID = IDm;
+                        masina.IDMAS = IDm;
                         //informatiile despre studentul actualizat vor fi preluate din parametrul "studentActualizat"
-                        if (masina.ID != MasinaActualizat.ID)
+                        if (masina.IDMAS != MasinaActualizat.IDMAS)
                         {
                             swFisierText.WriteLine(masina.ConversieLaSirFisier());
                         }

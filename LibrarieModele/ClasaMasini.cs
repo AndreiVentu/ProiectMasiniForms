@@ -10,6 +10,7 @@ namespace LibrarieModele
     {
         public const int MINIM = 5;
 
+        const int IDD =  -1;
         const int MARC = 0;
         const int MOD  = 1;
         const int PRE  = 2;
@@ -48,6 +49,7 @@ namespace LibrarieModele
         public string Denumire_Masina { get; set; }
         public string Nume_Img { get; set; }
         public int ID { get; set; }
+        public int IDMAS { get; set; }
         public long  Pret_Lei
         {
             get { return Pret*5; }
@@ -111,15 +113,17 @@ namespace LibrarieModele
       
         public string ConversieLaSirFisier()
         {
-            return string.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8}", Marca, Model, Pret, An_Fabricatie,Putere,Cutie_Viteze,Nume_Img,Convert.ToInt32(Culoare), Convert.ToInt32(Optiune));
+            return string.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9}", IDMAS,Marca, Model, Pret, An_Fabricatie,Putere,Cutie_Viteze,Nume_Img,Convert.ToInt32(Culoare), Convert.ToInt32(Optiune));
         }
 
         public Masina(string text)
         {
-            int k = 0;
+            int k = -1;
             string[] cuvinte = text.Split(',');
             foreach (string cuv in cuvinte)
             {
+                if (k == IDD)
+                    IDMAS = Convert.ToInt32(cuv);
                 if (k == MARC)
                     Marca = cuv;
                 if (k == MOD)
