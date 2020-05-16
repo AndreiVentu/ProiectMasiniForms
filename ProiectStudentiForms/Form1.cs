@@ -40,6 +40,8 @@ namespace ProiectStudentiForms
         int ModelSizeX = 87, ModelSizeY = 30;
         int PretSizeXLei = 133, PretSizeYLei = 6;
         int ContorBgrnd = 0;
+        int copid, ValidareMin=0,ValidareMax=0;
+        int okk = 1;
         Masina m1, m2, modificat;
         Masina[] Masini = new Masina[200];
         ArrayList masini;
@@ -225,6 +227,7 @@ namespace ProiectStudentiForms
                         }
                     }
                }
+
                 panel2.Controls.Add(ctr);
                 /*Button but = new Button();
                 Panel panou = new Panel();
@@ -347,9 +350,9 @@ namespace ProiectStudentiForms
 
                 }
                 contor++;
-               
-
+                copid = m.IDMAS;
             }
+           
         }
 
         private void GenerareLei()
@@ -557,7 +560,7 @@ namespace ProiectStudentiForms
         {
 
             
-            // Generare();
+            Generare();
             guna2DataGridView1.Rows.Add(5);          
             guna2DataGridView1.Rows[0].Cells[0].Value = Image.FromFile("D:/IconiteMasiniForms/2.png");
             guna2DataGridView1.Rows[1].Cells[0].Value = Image.FromFile("D:/IconiteMasiniForms/3.png");
@@ -1127,7 +1130,8 @@ namespace ProiectStudentiForms
         {
             Masina masina = new Masina(NumeMasina.Text,ModelMas.Text,Convert.ToInt64(PretMasina.Text),Convert.ToInt32(AnFMasina.Text),Convert.ToInt32(PutMasina.Text),CutieMasina.Text,NumeImg_);
             masina.Culoare = (Culori)Enum.Parse(typeof(Culori), CulMasina.Text,true);
-            masina.IDMAS++;
+            masina.IDMAS = ++copid;
+            masina.dataActualizare = DateTime.Now;
 
             if(bunifuCheckbox1.Checked == true)
             {          
@@ -1730,6 +1734,204 @@ namespace ProiectStudentiForms
         {
             tabControl1.SelectedIndex = 2;
             Generare();
+        }
+
+        private void guna2TileButton27_Click(object sender, EventArgs e)
+        {
+            dataGridViewM.DataSource = null;
+            int ok = 1;
+            long _PretMin_ = 0;
+            long _PretMax_ = 0;
+            int _AnFabMin_ = 0;
+            int _AnFabMax_ = 0;
+            int _PutereMax_ = 0;
+            int eroare = 1;
+            Culori cul;
+            ArrayList masini = AdminMasini.GetMasini();
+            List<Masina> MSN = new List<Masina>();
+
+            if (ModMdl1.Text == string.Empty)
+            {
+                ModMdl1.BorderColor = Color.Red;
+                ModMdl1.FocusedState.BorderColor = Color.Red;
+                ok = 0;
+            }
+            else
+            {
+                ModMdl1.BorderColor = Color.FromArgb(213, 218, 223);
+                ModMdl1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            }
+
+            if (ModMarca1.Text == string.Empty)
+            {
+                ModMarca1.BorderColor = Color.Red;
+                ModMarca1.FocusedState.BorderColor = Color.Red;
+                ok = 0;
+            }
+            else
+            {
+                ModMarca1.BorderColor = Color.FromArgb(213, 218, 223);
+                ModMarca1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            }
+
+            if(ValidareMin == 0)
+            {
+                label84.ForeColor = Color.Red;    
+                ok = 0;   
+            }
+            else
+            {
+                label84.ForeColor = Color.White;                
+            }
+
+            if (ValidareMax == 0)
+            {              
+                label85.ForeColor = Color.Red;              
+                ok = 0;
+            }
+            else
+            {               
+                label85.ForeColor = Color.White;
+            }
+
+
+
+
+            if (ok != 0)
+            {
+
+
+                foreach (Masina m in masini)
+                {
+                    //IDm++;
+                    //m.ID = IDm;
+                    if (ModPMin1.Text == string.Empty)
+                    {
+                        _PretMin_ = m.Pret;
+                    }
+                    else
+                    {
+                        _PretMin_ = Convert.ToInt64(ModPMin1.Text);
+                    }
+
+                    if (ModPMax1.Text == string.Empty)
+                    {
+                        _PretMax_ = m.Pret;
+                    }
+                    else
+                    {
+                        _PretMax_ = Convert.ToInt64(ModPMax1.Text);
+                    }
+
+                    if (ModAnMin1.Text == string.Empty)
+                    {
+                        _AnFabMin_ = m.An_Fabricatie;
+                    }
+                    else
+                    {
+                        _AnFabMin_ = Convert.ToInt32(ModAnMin1.Text);
+                    }
+
+                    if (ModAnMax1.Text == string.Empty)
+                    {
+                        _AnFabMax_ = m.An_Fabricatie;
+                    }
+                    else
+                    {
+                        _AnFabMax_ = Convert.ToInt32(ModAnMax1.Text);
+                    }
+
+                    if (ModPut1.Text == string.Empty)
+                    {
+                        _PutereMax_ = m.Putere;
+                    }
+                    else
+                    {
+                        _PutereMax_ = Convert.ToInt32(ModPut1.Text);
+                    }
+                    if (ModCuloare1.Text == string.Empty)
+                    {
+                        cul = m.Culoare;
+                    }
+                    else
+                    {
+                        Culori txt;
+                        bool verificat = Enum.TryParse(ModCuloare1.Text, out txt);
+                        if (verificat == true)
+                        {
+                            cul = (Culori)Enum.Parse(typeof(Culori), ModCuloare1.Text, true);
+                            label79.ForeColor = Color.White;
+                        }
+                        else
+                        {
+                            label79.ForeColor = Color.Red;
+                            cul = 0;
+                        }
+                    }
+
+                 
+
+                    if (m.Marca == ModMarca1.Text && m.Model == ModMdl1.Text && m.Pret >= _PretMin_ && m.Pret <= _PretMax_ && m.An_Fabricatie >= _AnFabMin_ && m.An_Fabricatie <= _AnFabMax_ && m.Putere <= _PutereMax_ && m.Culoare == cul && m.dataActualizare>= ModDataMin.Value && m.dataActualizare <= ModDataMax.Value)
+                    {
+
+                        MSN.Add(m);
+                        eroare = 0;
+                                          
+                       
+                    }
+
+                }
+
+                ModPanel1.Visible = true;
+
+                if (eroare == 1)
+                {
+                    ModText1.Text = "EROARE CAUTARE!";
+                    ModPanel1.BackColor = Color.FromArgb(200, 10, 40, 20);
+                    
+                }
+                else
+                {
+                    ModText1.Text = "MASINA GASITA!";
+                    ModPanel1.BackColor = Color.Red;
+                    dataGridViewM.DataSource = MSN.Select(s => new { s.IDMAS, s.Marca, s.Model, s.Pret,s.An_Fabricatie,s.Culoare,s.dataActualizare }).ToList();
+                    dataGridViewM.ColumnHeadersDefaultCellStyle.Font = new Font("Microsoft Sans Serif", 9, FontStyle.Regular);
+                    dataGridViewM.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+                    dataGridViewM.Columns[1].Width = 120;
+                    dataGridViewM.Columns[2].Width = 120;
+                    dataGridViewM.Columns[6].Width = 150;
+                  
+                    if(okk == 1)
+                    { panel8.Location = new Point(panel8.Location.X - 420, panel8.Location.Y);
+                        okk++;
+                    }
+                   
+                }
+
+
+
+            }
+        }
+
+        private void guna2TileButton27_Click_1(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 2;
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectedIndex = 6;
+        }
+
+        private void ModDataMin_ValueChanged(object sender, EventArgs e)
+        {
+            ValidareMin = 1;
+            
+        }
+
+        private void ModDataMax_ValueChanged(object sender, EventArgs e)
+        {
+            ValidareMax = 1;
         }
 
         private void Home_Click(object sender, EventArgs e)

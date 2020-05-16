@@ -10,16 +10,17 @@ namespace LibrarieModele
     {
         public const int MINIM = 5;
 
-        const int IDD =  -1;
+        const int IDD = -1;
         const int MARC = 0;
-        const int MOD  = 1;
-        const int PRE  = 2;
-        const int ANF  = 3;
-        const int PUT  = 4;
-        const int CV   = 5;
-        const int NI   = 6;
-        const int CUL  = 7;
-        const int OP   = 8;
+        const int MOD = 1;
+        const int PRE = 2;
+        const int ANF = 3;
+        const int PUT = 4;
+        const int CV = 5;
+        const int NI = 6;
+        const int CUL = 7;
+        const int OP = 8;
+        const int DTACT = 9;
 
         public const string GOOD = "admis";
         public const string BAD = "respins";
@@ -38,18 +39,19 @@ namespace LibrarieModele
             set;
         }
 
-        public static  int IDultim { get; set; }
+        public static int IDultim { get; set; }
         public string Marca { get; set; }
         public string Model { get; set; }
         public long Pret { get; set; }
-        public int An_Fabricatie {get; set;}
-        public int Putere { get;set; }
+        public int An_Fabricatie { get; set; }
+        public int Putere { get; set; }
         public string Cutie_Viteze { get; set; }
         public string Status { get; set; }
         public string Denumire_Masina { get; set; }
         public string Nume_Img { get; set; }
         public int ID { get; set; }
         public int IDMAS { get; set; }
+        public DateTime dataActualizare {get; set;}
         public long  Pret_Lei
         {
             get { return Pret*5; }
@@ -113,7 +115,7 @@ namespace LibrarieModele
       
         public string ConversieLaSirFisier()
         {
-            return string.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9}", IDMAS,Marca, Model, Pret, An_Fabricatie,Putere,Cutie_Viteze,Nume_Img,Convert.ToInt32(Culoare), Convert.ToInt32(Optiune));
+            return string.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10}", IDMAS,Marca, Model, Pret, An_Fabricatie,Putere,Cutie_Viteze,Nume_Img,Convert.ToInt32(Culoare), Convert.ToInt32(Optiune),dataActualizare);
         }
 
         public Masina(string text)
@@ -139,9 +141,12 @@ namespace LibrarieModele
                 if (k == NI)
                     Nume_Img = cuv;
                 if (k == CUL)
-                    Culoare = (Culori)Convert.ToInt32(cuv);              
-                if (k >= OP)
+                    Culoare = (Culori)Convert.ToInt32(cuv);
+                if (k == DTACT)
+                    dataActualizare = Convert.ToDateTime(cuv);
+                if (k == OP)
                     Optiune = Optiune|(Optiuni)Convert.ToInt32(cuv);     
+             
                 k++;
             }
             if (Pret >= MINIM)

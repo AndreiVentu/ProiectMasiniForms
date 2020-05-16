@@ -21,6 +21,14 @@ namespace ProiectStudentiForms
         int IDm = 0;
         Masina m1, m2, modificat;
 
+        int ok = 1;
+        long _PretMin_ = 0;
+        long _PretMax_ = 0;
+        int _AnFabMin_ = 0;
+        int _AnFabMax_ = 0;
+        int _PutereMax_ = 0;
+        int eroare = 1;
+        Culori cul;
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -34,6 +42,9 @@ namespace ProiectStudentiForms
             MasinaPutere.Text = Convert.ToString(mas.Putere);
             MasinaAn.Text = Convert.ToString(mas.An_Fabricatie);
             MasinaCutie.Text = mas.Cutie_Viteze;
+            ModificaMarca.Text = mas.Marca;
+            ModificaModel.Text = mas.Model;
+            ModificaPret.Text = Convert.ToString(mas.Pret);
             ModModel.Image = Image.FromFile("D:/IconiteMasiniForms/" + mas.Nume_Img);
             ModMasinaMarca.Visible = true;
             ModMasinaModel.Visible = true;
@@ -77,14 +88,71 @@ namespace ProiectStudentiForms
             modificat.Marca = mrc;
             modificat.Model = mdl;
             modificat.Pret = prt;
+            modificat.dataActualizare = DateTime.Now;
             ModMasinaPret.Text = Convert.ToString(modificat.Pret) + "€";
             ModMasinaMarca.Text = modificat.Marca;
             ModMasinaModel.Text = modificat.Model;
             AdminMasini.UpdateMasini(modificat);
+            listBox1.Items.Clear();
+            ModCauta.PerformClick();
+            
+
             panel1.Visible = true;
             //this.Close();
            
             
+        }
+
+        private void guna2TileButton1_Click(object sender, EventArgs e)
+        {
+            ModCuloare.SelectedText = string.Empty;
+        }
+
+        private void ModCuloare_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (ModCuloare.Text == "Alb")
+            {
+                ModCuloare.FillColor = Color.White;
+                ModCuloare.ForeColor = Color.Black;
+            }
+            else
+            {
+                ModCuloare.ForeColor = Color.White;
+                if (ModCuloare.Text == "Rosu")
+                {
+                    ModCuloare.FillColor = Color.Red;
+                }
+                else 
+                {
+                    if (ModCuloare.Text == "Negru")
+                    {
+                        ModCuloare.FillColor = Color.Black;
+                    }
+                    else
+                    {
+                        if (ModCuloare.Text == "Albastru")
+                        {
+                            ModCuloare.FillColor = Color.Blue;
+                        }
+                        else
+                        {
+                            if (ModCuloare.Text == "Gri")
+                            {
+                                ModCuloare.FillColor = Color.Gray;
+                            }
+                            else
+                            {
+                                ModCuloare.FillColor = Color.FromArgb(29, 182, 97);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        private void panel7_Paint(object sender, PaintEventArgs e)
+        {
+
         }
 
         public Form2()
@@ -95,7 +163,13 @@ namespace ProiectStudentiForms
         private void ModCauta_Click(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
-
+             ok = 1;
+             _PretMin_ = 0;
+             _PretMax_ = 0;
+             _AnFabMin_ = 0;
+             _AnFabMax_ = 0;
+             _PutereMax_ = 0;
+            int eroare = 1;
             ModPanel2.BackColor = Color.Black;
             label68.Visible = true;
             label69.Visible = true;
@@ -106,15 +180,9 @@ namespace ProiectStudentiForms
             ModificaMarca.Visible = true;
             ModificaPret.Visible = true;
 
-            int ok = 1;
-            long _PretMin_ = 0;
-            long _PretMax_ = 0;
-            int _AnFabMin_ = 0;
-            int _AnFabMax_ = 0;
-            int _PutereMax_ = 0;
-            int eroare = 1;
-            Culori cul;
             ArrayList masini = AdminMasini.GetMasini();
+
+
             if (ModMdl.Text == string.Empty)
             {
                 ModMdl.BorderColor = Color.Red;
@@ -144,8 +212,8 @@ namespace ProiectStudentiForms
 
             if (ok != 0)
             {
-                var antetTabel = String.Format("{0,0}{1,35}{2,40}{3,43}\n", "Marca", "Model", "An fab", "Pret");
-                listBox1.Items.Add(antetTabel);
+               
+
                 foreach (Masina m in masini)
                 {
                     //IDm++;
@@ -183,7 +251,7 @@ namespace ProiectStudentiForms
                     }
                     else
                     {
-                        _AnFabMax_ = Convert.ToInt32(ModAnMin.Text);
+                        _AnFabMax_ = Convert.ToInt32(ModAnMax.Text);
                     }
 
                     if (ModPut.Text == string.Empty)
@@ -228,12 +296,12 @@ namespace ProiectStudentiForms
                         //ModMasinaModel.Visible = true;
                         //ModMasinaPret.Visible = true;
                         //ModPanel2.Visible = true;
-                        ModPanel3.Visible = true;
-                        MasinaAn.Text = Convert.ToString(m.An_Fabricatie);
-                        MasinaCul.Text = Convert.ToString(m.Culoare);
-                        MasinaPutere.Text = Convert.ToString(m.Putere);
-                        MasinaCutie.Text = m.Cutie_Viteze;
-                        var linieTabel = String.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9}",m.IDMAS, m.Marca, m.Model, m.Pret, m.An_Fabricatie, m.Putere, m.Cutie_Viteze, m.Nume_Img, Convert.ToInt32(m.Culoare), Convert.ToInt32(m.Optiune));
+                        //ModPanel3.Visible = true;
+                        //MasinaAn.Text = Convert.ToString(m.An_Fabricatie);
+                        //MasinaCul.Text = Convert.ToString(m.Culoare);
+                        //MasinaPutere.Text = Convert.ToString(m.Putere);
+                        //MasinaCutie.Text = m.Cutie_Viteze;
+                        var linieTabel = String.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10}",m.IDMAS, m.Marca, m.Model, m.Pret, m.An_Fabricatie, m.Putere, m.Cutie_Viteze, m.Nume_Img, Convert.ToInt32(m.Culoare), Convert.ToInt32(m.Optiune),m.dataActualizare);
                         listBox1.Items.Add(linieTabel);
                     }
 
@@ -251,8 +319,12 @@ namespace ProiectStudentiForms
                 {
                     ModText.Text = "MASINA GASITA!";
                     ModPanel.BackColor = Color.Red;
-
-
+                    listBox1.Visible = true;
+                    panel7.Location = new Point(112, 96);
+                    ModModel.Size = new Size(501, 428);
+                    ModModel.Location = new Point(930, 250);
+                    ModPanel2.Visible = true;
+                    ModPanel3.Visible = true;
                 }
 
 

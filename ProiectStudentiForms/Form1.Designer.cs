@@ -30,10 +30,15 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            BunifuAnimatorNS.Animation animation1 = new BunifuAnimatorNS.Animation();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle49 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle51 = new System.Windows.Forms.DataGridViewCellStyle();
+            BunifuAnimatorNS.Animation animation7 = new BunifuAnimatorNS.Animation();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle52 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle55 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle56 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.Shop = new System.Windows.Forms.TabPage();
             this.PanouMasinaCumparata = new System.Windows.Forms.Panel();
@@ -132,6 +137,7 @@
             this.guna2ControlBox9 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.label27 = new System.Windows.Forms.Label();
             this.gribox = new Bunifu.Framework.UI.BunifuCheckbox();
@@ -299,6 +305,33 @@
             this.guna2TileButton14 = new Guna.UI2.WinForms.Guna2TileButton();
             this.guna2TileButton15 = new Guna.UI2.WinForms.Guna2TileButton();
             this.guna2TileButton16 = new Guna.UI2.WinForms.Guna2TileButton();
+            this.CautaData = new System.Windows.Forms.TabPage();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.label85 = new System.Windows.Forms.Label();
+            this.label84 = new System.Windows.Forms.Label();
+            this.ModCuloare1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.ModMarca1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.ModPanel1 = new System.Windows.Forms.Panel();
+            this.ModText1 = new System.Windows.Forms.Label();
+            this.ModDataMax = new System.Windows.Forms.DateTimePicker();
+            this.ModPut1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.ModDataMin = new System.Windows.Forms.DateTimePicker();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label71 = new System.Windows.Forms.Label();
+            this.ModAnMax1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.ModAnMin1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label73 = new System.Windows.Forms.Label();
+            this.label75 = new System.Windows.Forms.Label();
+            this.ModPMax1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.ModMdl1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.ModPMin1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.label79 = new System.Windows.Forms.Label();
+            this.ModCauta1 = new Guna.UI2.WinForms.Guna2TileButton();
+            this.label80 = new System.Windows.Forms.Label();
+            this.label81 = new System.Windows.Forms.Label();
+            this.label82 = new System.Windows.Forms.Label();
+            this.label83 = new System.Windows.Forms.Label();
+            this.dataGridViewM = new System.Windows.Forms.DataGridView();
             this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2DragControl3 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2DragControl4 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
@@ -306,6 +339,13 @@
             this.guna2DragControl6 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2DragControl7 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2DragControl8 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.guna2ControlBox4 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox5 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox6 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2DragControl9 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.guna2TileButton27 = new Guna.UI2.WinForms.Guna2TileButton();
             this.Shop.SuspendLayout();
             this.PanouMasinaCumparata.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -350,6 +390,11 @@
             this.panel7.SuspendLayout();
             this.ModPanel.SuspendLayout();
             this.panel6.SuspendLayout();
+            this.CautaData.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.ModPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewM)).BeginInit();
+            this.panel9.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2DragControl1
@@ -1021,21 +1066,21 @@
             // 
             // guna2DataGridView1
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle49.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle49;
             this.guna2DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.guna2DataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.guna2DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.guna2DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.guna2DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle50.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle50.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle50.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle50.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle50.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle50.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle50;
             this.guna2DataGridView1.ColumnHeadersHeight = 27;
             this.guna2DataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -1048,14 +1093,14 @@
             this.Cutie,
             this.NumeImg});
             this.Animator.SetDecoration(this.guna2DataGridView1, BunifuAnimatorNS.DecorationType.None);
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle51.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle51.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle51.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle51.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle51.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle51.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle51.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle51;
             this.guna2DataGridView1.EnableHeadersVisualStyles = false;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView1.Location = new System.Drawing.Point(1886, 426);
@@ -1269,22 +1314,22 @@
             // 
             this.Animator.AnimationType = BunifuAnimatorNS.AnimationType.Transparent;
             this.Animator.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 1F;
-            this.Animator.DefaultAnimation = animation1;
+            animation7.AnimateOnlyDifferences = true;
+            animation7.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation7.BlindCoeff")));
+            animation7.LeafCoeff = 0F;
+            animation7.MaxTime = 1F;
+            animation7.MinTime = 0F;
+            animation7.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation7.MosaicCoeff")));
+            animation7.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation7.MosaicShift")));
+            animation7.MosaicSize = 0;
+            animation7.Padding = new System.Windows.Forms.Padding(0);
+            animation7.RotateCoeff = 0F;
+            animation7.RotateLimit = 0F;
+            animation7.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation7.ScaleCoeff")));
+            animation7.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation7.SlideCoeff")));
+            animation7.TimeCoeff = 0F;
+            animation7.TransparencyCoeff = 1F;
+            this.Animator.DefaultAnimation = animation7;
             this.Animator.Interval = 40;
             // 
             // tabControl1
@@ -1295,8 +1340,9 @@
             this.tabControl1.Controls.Add(this.Compare);
             this.tabControl1.Controls.Add(this.ComparaSelect);
             this.tabControl1.Controls.Add(this.Modifica);
+            this.tabControl1.Controls.Add(this.CautaData);
             this.Animator.SetDecoration(this.tabControl1, BunifuAnimatorNS.DecorationType.None);
-            this.tabControl1.Location = new System.Drawing.Point(-5, -28);
+            this.tabControl1.Location = new System.Drawing.Point(-5, -27);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(2062, 1104);
@@ -1885,6 +1931,7 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
+            this.panel5.Controls.Add(this.guna2Button3);
             this.panel5.Controls.Add(this.guna2Button2);
             this.panel5.Controls.Add(this.label27);
             this.panel5.Controls.Add(this.gribox);
@@ -1923,6 +1970,25 @@
             this.panel5.Size = new System.Drawing.Size(695, 308);
             this.panel5.TabIndex = 13;
             // 
+            // guna2Button3
+            // 
+            this.guna2Button3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.guna2Button3.CheckedState.Parent = this.guna2Button3;
+            this.guna2Button3.CustomImages.Parent = this.guna2Button3;
+            this.Animator.SetDecoration(this.guna2Button3, BunifuAnimatorNS.DecorationType.None);
+            this.guna2Button3.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button3.ForeColor = System.Drawing.Color.White;
+            this.guna2Button3.HoverState.Parent = this.guna2Button3;
+            this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
+            this.guna2Button3.ImageSize = new System.Drawing.Size(24, 24);
+            this.guna2Button3.Location = new System.Drawing.Point(420, 244);
+            this.guna2Button3.Name = "guna2Button3";
+            this.guna2Button3.ShadowDecoration.Parent = this.guna2Button3;
+            this.guna2Button3.Size = new System.Drawing.Size(45, 45);
+            this.guna2Button3.TabIndex = 38;
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
+            // 
             // guna2Button2
             // 
             this.guna2Button2.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -1949,7 +2015,7 @@
             this.Animator.SetDecoration(this.label27, BunifuAnimatorNS.DecorationType.None);
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label27.Location = new System.Drawing.Point(422, 259);
+            this.label27.Location = new System.Drawing.Point(379, 259);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(30, 17);
             this.label27.TabIndex = 36;
@@ -1963,7 +2029,7 @@
             this.gribox.CheckedOnColor = System.Drawing.Color.DimGray;
             this.Animator.SetDecoration(this.gribox, BunifuAnimatorNS.DecorationType.None);
             this.gribox.ForeColor = System.Drawing.Color.White;
-            this.gribox.Location = new System.Drawing.Point(395, 255);
+            this.gribox.Location = new System.Drawing.Point(352, 255);
             this.gribox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gribox.Name = "gribox";
             this.gribox.Size = new System.Drawing.Size(20, 20);
@@ -1977,7 +2043,7 @@
             this.Animator.SetDecoration(this.label26, BunifuAnimatorNS.DecorationType.None);
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label26.Location = new System.Drawing.Point(333, 259);
+            this.label26.Location = new System.Drawing.Point(299, 259);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(45, 17);
             this.label26.TabIndex = 34;
@@ -1991,7 +2057,7 @@
             this.rosubox.CheckedOnColor = System.Drawing.Color.Red;
             this.Animator.SetDecoration(this.rosubox, BunifuAnimatorNS.DecorationType.None);
             this.rosubox.ForeColor = System.Drawing.Color.White;
-            this.rosubox.Location = new System.Drawing.Point(306, 255);
+            this.rosubox.Location = new System.Drawing.Point(272, 255);
             this.rosubox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rosubox.Name = "rosubox";
             this.rosubox.Size = new System.Drawing.Size(20, 20);
@@ -2005,7 +2071,7 @@
             this.Animator.SetDecoration(this.label25, BunifuAnimatorNS.DecorationType.None);
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label25.Location = new System.Drawing.Point(221, 259);
+            this.label25.Location = new System.Drawing.Point(199, 259);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(68, 17);
             this.label25.TabIndex = 32;
@@ -2019,7 +2085,7 @@
             this.albastrubox.CheckedOnColor = System.Drawing.Color.RoyalBlue;
             this.Animator.SetDecoration(this.albastrubox, BunifuAnimatorNS.DecorationType.None);
             this.albastrubox.ForeColor = System.Drawing.Color.White;
-            this.albastrubox.Location = new System.Drawing.Point(194, 255);
+            this.albastrubox.Location = new System.Drawing.Point(172, 255);
             this.albastrubox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.albastrubox.Name = "albastrubox";
             this.albastrubox.Size = new System.Drawing.Size(20, 20);
@@ -2033,7 +2099,7 @@
             this.Animator.SetDecoration(this.label24, BunifuAnimatorNS.DecorationType.None);
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label24.Location = new System.Drawing.Point(142, 259);
+            this.label24.Location = new System.Drawing.Point(132, 259);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(31, 17);
             this.label24.TabIndex = 30;
@@ -2047,7 +2113,7 @@
             this.albbox.CheckedOnColor = System.Drawing.Color.White;
             this.Animator.SetDecoration(this.albbox, BunifuAnimatorNS.DecorationType.None);
             this.albbox.ForeColor = System.Drawing.Color.DimGray;
-            this.albbox.Location = new System.Drawing.Point(115, 255);
+            this.albbox.Location = new System.Drawing.Point(105, 255);
             this.albbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.albbox.Name = "albbox";
             this.albbox.Size = new System.Drawing.Size(20, 20);
@@ -4914,6 +4980,559 @@
             this.guna2TileButton16.TabIndex = 0;
             this.guna2TileButton16.Click += new System.EventHandler(this.guna2TileButton16_Click_2);
             // 
+            // CautaData
+            // 
+            this.CautaData.Controls.Add(this.panel10);
+            this.CautaData.Controls.Add(this.guna2ControlBox4);
+            this.CautaData.Controls.Add(this.guna2ControlBox5);
+            this.CautaData.Controls.Add(this.guna2ControlBox6);
+            this.CautaData.Controls.Add(this.panel8);
+            this.CautaData.Controls.Add(this.dataGridViewM);
+            this.CautaData.Controls.Add(this.panel9);
+            this.Animator.SetDecoration(this.CautaData, BunifuAnimatorNS.DecorationType.None);
+            this.CautaData.Location = new System.Drawing.Point(4, 25);
+            this.CautaData.Name = "CautaData";
+            this.CautaData.Padding = new System.Windows.Forms.Padding(3);
+            this.CautaData.Size = new System.Drawing.Size(2054, 1075);
+            this.CautaData.TabIndex = 6;
+            this.CautaData.Text = "CautaData";
+            this.CautaData.UseVisualStyleBackColor = true;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
+            this.panel8.Controls.Add(this.label85);
+            this.panel8.Controls.Add(this.label84);
+            this.panel8.Controls.Add(this.ModCuloare1);
+            this.panel8.Controls.Add(this.ModMarca1);
+            this.panel8.Controls.Add(this.ModPanel1);
+            this.panel8.Controls.Add(this.ModDataMax);
+            this.panel8.Controls.Add(this.ModPut1);
+            this.panel8.Controls.Add(this.ModDataMin);
+            this.panel8.Controls.Add(this.label37);
+            this.panel8.Controls.Add(this.label71);
+            this.panel8.Controls.Add(this.ModAnMax1);
+            this.panel8.Controls.Add(this.ModAnMin1);
+            this.panel8.Controls.Add(this.label73);
+            this.panel8.Controls.Add(this.label75);
+            this.panel8.Controls.Add(this.ModPMax1);
+            this.panel8.Controls.Add(this.ModMdl1);
+            this.panel8.Controls.Add(this.ModPMin1);
+            this.panel8.Controls.Add(this.label79);
+            this.panel8.Controls.Add(this.ModCauta1);
+            this.panel8.Controls.Add(this.label80);
+            this.panel8.Controls.Add(this.label81);
+            this.panel8.Controls.Add(this.label82);
+            this.panel8.Controls.Add(this.label83);
+            this.Animator.SetDecoration(this.panel8, BunifuAnimatorNS.DecorationType.None);
+            this.panel8.Location = new System.Drawing.Point(659, 177);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(773, 725);
+            this.panel8.TabIndex = 77;
+            // 
+            // label85
+            // 
+            this.label85.AutoSize = true;
+            this.label85.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.label85, BunifuAnimatorNS.DecorationType.None);
+            this.label85.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label85.ForeColor = System.Drawing.Color.White;
+            this.label85.Location = new System.Drawing.Point(145, 520);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(100, 24);
+            this.label85.TabIndex = 77;
+            this.label85.Text = "Data max";
+            // 
+            // label84
+            // 
+            this.label84.AutoSize = true;
+            this.label84.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.label84, BunifuAnimatorNS.DecorationType.None);
+            this.label84.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label84.ForeColor = System.Drawing.Color.White;
+            this.label84.Location = new System.Drawing.Point(145, 461);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(95, 24);
+            this.label84.TabIndex = 76;
+            this.label84.Text = "Data min";
+            // 
+            // ModCuloare1
+            // 
+            this.ModCuloare1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(84)))), ((int)(((byte)(69)))));
+            this.ModCuloare1.BorderRadius = 5;
+            this.ModCuloare1.BorderThickness = 2;
+            this.Animator.SetDecoration(this.ModCuloare1, BunifuAnimatorNS.DecorationType.None);
+            this.ModCuloare1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.ModCuloare1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ModCuloare1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(182)))), ((int)(((byte)(97)))));
+            this.ModCuloare1.FocusedColor = System.Drawing.Color.Empty;
+            this.ModCuloare1.FocusedState.Parent = this.ModCuloare1;
+            this.ModCuloare1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModCuloare1.ForeColor = System.Drawing.Color.White;
+            this.ModCuloare1.FormattingEnabled = true;
+            this.ModCuloare1.HoverState.Parent = this.ModCuloare1;
+            this.ModCuloare1.ItemHeight = 30;
+            this.ModCuloare1.Items.AddRange(new object[] {
+            "",
+            "Rosu",
+            "Albastru",
+            "Negru",
+            "Alb",
+            "Gri"});
+            this.ModCuloare1.ItemsAppearance.Parent = this.ModCuloare1;
+            this.ModCuloare1.Location = new System.Drawing.Point(140, 412);
+            this.ModCuloare1.Name = "ModCuloare1";
+            this.ModCuloare1.ShadowDecoration.Parent = this.ModCuloare1;
+            this.ModCuloare1.Size = new System.Drawing.Size(230, 36);
+            this.ModCuloare1.TabIndex = 56;
+            // 
+            // ModMarca1
+            // 
+            this.ModMarca1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(84)))), ((int)(((byte)(69)))));
+            this.ModMarca1.BorderRadius = 5;
+            this.ModMarca1.BorderThickness = 2;
+            this.ModMarca1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Animator.SetDecoration(this.ModMarca1, BunifuAnimatorNS.DecorationType.None);
+            this.ModMarca1.DefaultText = "";
+            this.ModMarca1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.ModMarca1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.ModMarca1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ModMarca1.DisabledState.Parent = this.ModMarca1;
+            this.ModMarca1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ModMarca1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(84)))), ((int)(((byte)(69)))));
+            this.ModMarca1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ModMarca1.FocusedState.Parent = this.ModMarca1;
+            this.ModMarca1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModMarca1.ForeColor = System.Drawing.Color.LightGray;
+            this.ModMarca1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ModMarca1.HoverState.Parent = this.ModMarca1;
+            this.ModMarca1.Location = new System.Drawing.Point(140, 107);
+            this.ModMarca1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.ModMarca1.Name = "ModMarca1";
+            this.ModMarca1.PasswordChar = '\0';
+            this.ModMarca1.PlaceholderText = "";
+            this.ModMarca1.SelectedText = "";
+            this.ModMarca1.ShadowDecoration.Parent = this.ModMarca1;
+            this.ModMarca1.Size = new System.Drawing.Size(482, 38);
+            this.ModMarca1.TabIndex = 57;
+            // 
+            // ModPanel1
+            // 
+            this.ModPanel1.Controls.Add(this.ModText1);
+            this.Animator.SetDecoration(this.ModPanel1, BunifuAnimatorNS.DecorationType.None);
+            this.ModPanel1.Location = new System.Drawing.Point(-6, 672);
+            this.ModPanel1.Name = "ModPanel1";
+            this.ModPanel1.Size = new System.Drawing.Size(780, 53);
+            this.ModPanel1.TabIndex = 41;
+            this.ModPanel1.Visible = false;
+            // 
+            // ModText1
+            // 
+            this.ModText1.AutoSize = true;
+            this.Animator.SetDecoration(this.ModText1, BunifuAnimatorNS.DecorationType.None);
+            this.ModText1.Font = new System.Drawing.Font("EA Font v1.5 by Ghettoshark", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModText1.ForeColor = System.Drawing.Color.White;
+            this.ModText1.Location = new System.Drawing.Point(310, 18);
+            this.ModText1.Name = "ModText1";
+            this.ModText1.Size = new System.Drawing.Size(142, 19);
+            this.ModText1.TabIndex = 0;
+            this.ModText1.Text = "Eroare  Cautare!";
+            // 
+            // ModDataMax
+            // 
+            this.Animator.SetDecoration(this.ModDataMax, BunifuAnimatorNS.DecorationType.None);
+            this.ModDataMax.Location = new System.Drawing.Point(140, 551);
+            this.ModDataMax.Name = "ModDataMax";
+            this.ModDataMax.Size = new System.Drawing.Size(482, 22);
+            this.ModDataMax.TabIndex = 75;
+            this.ModDataMax.ValueChanged += new System.EventHandler(this.ModDataMax_ValueChanged);
+            // 
+            // ModPut1
+            // 
+            this.ModPut1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(84)))), ((int)(((byte)(69)))));
+            this.ModPut1.BorderRadius = 5;
+            this.ModPut1.BorderThickness = 2;
+            this.ModPut1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Animator.SetDecoration(this.ModPut1, BunifuAnimatorNS.DecorationType.None);
+            this.ModPut1.DefaultText = "";
+            this.ModPut1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.ModPut1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.ModPut1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ModPut1.DisabledState.Parent = this.ModPut1;
+            this.ModPut1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ModPut1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(84)))), ((int)(((byte)(69)))));
+            this.ModPut1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ModPut1.FocusedState.Parent = this.ModPut1;
+            this.ModPut1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModPut1.ForeColor = System.Drawing.Color.LightGray;
+            this.ModPut1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ModPut1.HoverState.Parent = this.ModPut1;
+            this.ModPut1.Location = new System.Drawing.Point(392, 417);
+            this.ModPut1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.ModPut1.Name = "ModPut1";
+            this.ModPut1.PasswordChar = '\0';
+            this.ModPut1.PlaceholderText = "";
+            this.ModPut1.SelectedText = "";
+            this.ModPut1.ShadowDecoration.Parent = this.ModPut1;
+            this.ModPut1.Size = new System.Drawing.Size(230, 38);
+            this.ModPut1.TabIndex = 56;
+            // 
+            // ModDataMin
+            // 
+            this.ModDataMin.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
+            this.ModDataMin.CalendarTitleForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.Animator.SetDecoration(this.ModDataMin, BunifuAnimatorNS.DecorationType.None);
+            this.ModDataMin.Location = new System.Drawing.Point(140, 490);
+            this.ModDataMin.Name = "ModDataMin";
+            this.ModDataMin.Size = new System.Drawing.Size(482, 22);
+            this.ModDataMin.TabIndex = 74;
+            this.ModDataMin.ValueChanged += new System.EventHandler(this.ModDataMin_ValueChanged);
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.label37, BunifuAnimatorNS.DecorationType.None);
+            this.label37.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.ForeColor = System.Drawing.Color.White;
+            this.label37.Location = new System.Drawing.Point(395, 384);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(118, 24);
+            this.label37.TabIndex = 55;
+            this.label37.Text = "Putere max";
+            // 
+            // label71
+            // 
+            this.label71.AutoSize = true;
+            this.label71.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.label71, BunifuAnimatorNS.DecorationType.None);
+            this.label71.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label71.ForeColor = System.Drawing.Color.White;
+            this.label71.Location = new System.Drawing.Point(395, 306);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(176, 24);
+            this.label71.TabIndex = 54;
+            this.label71.Text = "An fabricatie max";
+            // 
+            // ModAnMax1
+            // 
+            this.ModAnMax1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(84)))), ((int)(((byte)(69)))));
+            this.ModAnMax1.BorderRadius = 5;
+            this.ModAnMax1.BorderThickness = 2;
+            this.ModAnMax1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Animator.SetDecoration(this.ModAnMax1, BunifuAnimatorNS.DecorationType.None);
+            this.ModAnMax1.DefaultText = "";
+            this.ModAnMax1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.ModAnMax1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.ModAnMax1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ModAnMax1.DisabledState.Parent = this.ModAnMax1;
+            this.ModAnMax1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ModAnMax1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(84)))), ((int)(((byte)(69)))));
+            this.ModAnMax1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ModAnMax1.FocusedState.Parent = this.ModAnMax1;
+            this.ModAnMax1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModAnMax1.ForeColor = System.Drawing.Color.LightGray;
+            this.ModAnMax1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ModAnMax1.HoverState.Parent = this.ModAnMax1;
+            this.ModAnMax1.Location = new System.Drawing.Point(392, 336);
+            this.ModAnMax1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.ModAnMax1.Name = "ModAnMax1";
+            this.ModAnMax1.PasswordChar = '\0';
+            this.ModAnMax1.PlaceholderText = "";
+            this.ModAnMax1.SelectedText = "";
+            this.ModAnMax1.ShadowDecoration.Parent = this.ModAnMax1;
+            this.ModAnMax1.Size = new System.Drawing.Size(230, 38);
+            this.ModAnMax1.TabIndex = 53;
+            // 
+            // ModAnMin1
+            // 
+            this.ModAnMin1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(84)))), ((int)(((byte)(69)))));
+            this.ModAnMin1.BorderRadius = 5;
+            this.ModAnMin1.BorderThickness = 2;
+            this.ModAnMin1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Animator.SetDecoration(this.ModAnMin1, BunifuAnimatorNS.DecorationType.None);
+            this.ModAnMin1.DefaultText = "";
+            this.ModAnMin1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.ModAnMin1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.ModAnMin1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ModAnMin1.DisabledState.Parent = this.ModAnMin1;
+            this.ModAnMin1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ModAnMin1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(84)))), ((int)(((byte)(69)))));
+            this.ModAnMin1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ModAnMin1.FocusedState.Parent = this.ModAnMin1;
+            this.ModAnMin1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModAnMin1.ForeColor = System.Drawing.Color.LightGray;
+            this.ModAnMin1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ModAnMin1.HoverState.Parent = this.ModAnMin1;
+            this.ModAnMin1.Location = new System.Drawing.Point(140, 336);
+            this.ModAnMin1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.ModAnMin1.Name = "ModAnMin1";
+            this.ModAnMin1.PasswordChar = '\0';
+            this.ModAnMin1.PlaceholderText = "";
+            this.ModAnMin1.SelectedText = "";
+            this.ModAnMin1.ShadowDecoration.Parent = this.ModAnMin1;
+            this.ModAnMin1.Size = new System.Drawing.Size(230, 38);
+            this.ModAnMin1.TabIndex = 52;
+            // 
+            // label73
+            // 
+            this.label73.AutoSize = true;
+            this.label73.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.label73, BunifuAnimatorNS.DecorationType.None);
+            this.label73.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label73.ForeColor = System.Drawing.Color.White;
+            this.label73.Location = new System.Drawing.Point(145, 306);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(171, 24);
+            this.label73.TabIndex = 51;
+            this.label73.Text = "An fabricatie min";
+            // 
+            // label75
+            // 
+            this.label75.AutoSize = true;
+            this.label75.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.label75, BunifuAnimatorNS.DecorationType.None);
+            this.label75.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label75.ForeColor = System.Drawing.Color.White;
+            this.label75.Location = new System.Drawing.Point(395, 229);
+            this.label75.Name = "label75";
+            this.label75.Size = new System.Drawing.Size(118, 24);
+            this.label75.TabIndex = 50;
+            this.label75.Text = "Pret maxim";
+            // 
+            // ModPMax1
+            // 
+            this.ModPMax1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(84)))), ((int)(((byte)(69)))));
+            this.ModPMax1.BorderRadius = 5;
+            this.ModPMax1.BorderThickness = 2;
+            this.ModPMax1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Animator.SetDecoration(this.ModPMax1, BunifuAnimatorNS.DecorationType.None);
+            this.ModPMax1.DefaultText = "";
+            this.ModPMax1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.ModPMax1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.ModPMax1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ModPMax1.DisabledState.Parent = this.ModPMax1;
+            this.ModPMax1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ModPMax1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(84)))), ((int)(((byte)(69)))));
+            this.ModPMax1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ModPMax1.FocusedState.Parent = this.ModPMax1;
+            this.ModPMax1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModPMax1.ForeColor = System.Drawing.Color.LightGray;
+            this.ModPMax1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ModPMax1.HoverState.Parent = this.ModPMax1;
+            this.ModPMax1.Location = new System.Drawing.Point(392, 259);
+            this.ModPMax1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.ModPMax1.Name = "ModPMax1";
+            this.ModPMax1.PasswordChar = '\0';
+            this.ModPMax1.PlaceholderText = "";
+            this.ModPMax1.SelectedText = "";
+            this.ModPMax1.ShadowDecoration.Parent = this.ModPMax1;
+            this.ModPMax1.Size = new System.Drawing.Size(230, 38);
+            this.ModPMax1.TabIndex = 49;
+            // 
+            // ModMdl1
+            // 
+            this.ModMdl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(84)))), ((int)(((byte)(69)))));
+            this.ModMdl1.BorderRadius = 5;
+            this.ModMdl1.BorderThickness = 2;
+            this.ModMdl1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Animator.SetDecoration(this.ModMdl1, BunifuAnimatorNS.DecorationType.None);
+            this.ModMdl1.DefaultText = "";
+            this.ModMdl1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.ModMdl1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.ModMdl1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ModMdl1.DisabledState.Parent = this.ModMdl1;
+            this.ModMdl1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ModMdl1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(84)))), ((int)(((byte)(69)))));
+            this.ModMdl1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ModMdl1.FocusedState.Parent = this.ModMdl1;
+            this.ModMdl1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModMdl1.ForeColor = System.Drawing.Color.LightGray;
+            this.ModMdl1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ModMdl1.HoverState.Parent = this.ModMdl1;
+            this.ModMdl1.Location = new System.Drawing.Point(140, 184);
+            this.ModMdl1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.ModMdl1.Name = "ModMdl1";
+            this.ModMdl1.PasswordChar = '\0';
+            this.ModMdl1.PlaceholderText = "";
+            this.ModMdl1.SelectedText = "";
+            this.ModMdl1.ShadowDecoration.Parent = this.ModMdl1;
+            this.ModMdl1.Size = new System.Drawing.Size(482, 38);
+            this.ModMdl1.TabIndex = 48;
+            // 
+            // ModPMin1
+            // 
+            this.ModPMin1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(84)))), ((int)(((byte)(69)))));
+            this.ModPMin1.BorderRadius = 5;
+            this.ModPMin1.BorderThickness = 2;
+            this.ModPMin1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.Animator.SetDecoration(this.ModPMin1, BunifuAnimatorNS.DecorationType.None);
+            this.ModPMin1.DefaultText = "";
+            this.ModPMin1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.ModPMin1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.ModPMin1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ModPMin1.DisabledState.Parent = this.ModPMin1;
+            this.ModPMin1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ModPMin1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(84)))), ((int)(((byte)(69)))));
+            this.ModPMin1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ModPMin1.FocusedState.Parent = this.ModPMin1;
+            this.ModPMin1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModPMin1.ForeColor = System.Drawing.Color.LightGray;
+            this.ModPMin1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ModPMin1.HoverState.Parent = this.ModPMin1;
+            this.ModPMin1.Location = new System.Drawing.Point(140, 259);
+            this.ModPMin1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.ModPMin1.Name = "ModPMin1";
+            this.ModPMin1.PasswordChar = '\0';
+            this.ModPMin1.PlaceholderText = "";
+            this.ModPMin1.SelectedText = "";
+            this.ModPMin1.ShadowDecoration.Parent = this.ModPMin1;
+            this.ModPMin1.Size = new System.Drawing.Size(230, 38);
+            this.ModPMin1.TabIndex = 47;
+            // 
+            // label79
+            // 
+            this.label79.AutoSize = true;
+            this.label79.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.label79, BunifuAnimatorNS.DecorationType.None);
+            this.label79.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label79.ForeColor = System.Drawing.Color.White;
+            this.label79.Location = new System.Drawing.Point(145, 384);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(84, 24);
+            this.label79.TabIndex = 28;
+            this.label79.Text = "Culoare";
+            // 
+            // ModCauta1
+            // 
+            this.ModCauta1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
+            this.ModCauta1.CheckedState.Parent = this.ModCauta1;
+            this.ModCauta1.CustomImages.Parent = this.ModCauta1;
+            this.Animator.SetDecoration(this.ModCauta1, BunifuAnimatorNS.DecorationType.None);
+            this.ModCauta1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(182)))), ((int)(((byte)(97)))));
+            this.ModCauta1.Font = new System.Drawing.Font("HelvLight", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModCauta1.ForeColor = System.Drawing.Color.White;
+            this.ModCauta1.HoverState.Parent = this.ModCauta1;
+            this.ModCauta1.ImageSize = new System.Drawing.Size(60, 60);
+            this.ModCauta1.Location = new System.Drawing.Point(140, 598);
+            this.ModCauta1.Name = "ModCauta1";
+            this.ModCauta1.ShadowDecoration.Parent = this.ModCauta1;
+            this.ModCauta1.Size = new System.Drawing.Size(482, 51);
+            this.ModCauta1.TabIndex = 26;
+            this.ModCauta1.Text = "Cauta Masina";
+            this.ModCauta1.Click += new System.EventHandler(this.guna2TileButton27_Click);
+            // 
+            // label80
+            // 
+            this.label80.AutoSize = true;
+            this.label80.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.label80, BunifuAnimatorNS.DecorationType.None);
+            this.label80.Font = new System.Drawing.Font("EA Font v1.5 by Ghettoshark", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label80.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label80.Location = new System.Drawing.Point(319, 20);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(128, 42);
+            this.label80.TabIndex = 40;
+            this.label80.Text = "CAUTA";
+            // 
+            // label81
+            // 
+            this.label81.AutoSize = true;
+            this.label81.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.label81, BunifuAnimatorNS.DecorationType.None);
+            this.label81.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label81.ForeColor = System.Drawing.Color.White;
+            this.label81.Location = new System.Drawing.Point(145, 229);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(113, 24);
+            this.label81.TabIndex = 24;
+            this.label81.Text = "Pret minim";
+            // 
+            // label82
+            // 
+            this.label82.AutoSize = true;
+            this.label82.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.label82, BunifuAnimatorNS.DecorationType.None);
+            this.label82.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label82.ForeColor = System.Drawing.Color.White;
+            this.label82.Location = new System.Drawing.Point(145, 153);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(68, 24);
+            this.label82.TabIndex = 23;
+            this.label82.Text = "Model";
+            // 
+            // label83
+            // 
+            this.label83.AutoSize = true;
+            this.label83.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.label83, BunifuAnimatorNS.DecorationType.None);
+            this.label83.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label83.ForeColor = System.Drawing.Color.White;
+            this.label83.Location = new System.Drawing.Point(145, 72);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(69, 24);
+            this.label83.TabIndex = 20;
+            this.label83.Text = "Marca";
+            // 
+            // dataGridViewM
+            // 
+            this.dataGridViewM.AllowUserToAddRows = false;
+            this.dataGridViewM.AllowUserToDeleteRows = false;
+            this.dataGridViewM.AllowUserToResizeColumns = false;
+            this.dataGridViewM.AllowUserToResizeRows = false;
+            dataGridViewCellStyle52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            dataGridViewCellStyle52.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            this.dataGridViewM.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle52;
+            this.dataGridViewM.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridViewM.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridViewM.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle53.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            dataGridViewCellStyle53.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle53.ForeColor = System.Drawing.SystemColors.MenuBar;
+            dataGridViewCellStyle53.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            dataGridViewCellStyle53.SelectionForeColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle53.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewM.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle53;
+            this.dataGridViewM.ColumnHeadersHeight = 25;
+            this.dataGridViewM.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dataGridViewM.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Animator.SetDecoration(this.dataGridViewM, BunifuAnimatorNS.DecorationType.None);
+            dataGridViewCellStyle54.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            dataGridViewCellStyle54.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle54.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle54.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            dataGridViewCellStyle54.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle54.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewM.DefaultCellStyle = dataGridViewCellStyle54;
+            this.dataGridViewM.GridColor = System.Drawing.Color.Black;
+            this.dataGridViewM.Location = new System.Drawing.Point(1011, 177);
+            this.dataGridViewM.Name = "dataGridViewM";
+            this.dataGridViewM.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle55.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            dataGridViewCellStyle55.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle55.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle55.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle55.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle55.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewM.RowHeadersDefaultCellStyle = dataGridViewCellStyle55;
+            this.dataGridViewM.RowHeadersVisible = false;
+            this.dataGridViewM.RowHeadersWidth = 100;
+            this.dataGridViewM.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            dataGridViewCellStyle56.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            this.dataGridViewM.RowsDefaultCellStyle = dataGridViewCellStyle56;
+            this.dataGridViewM.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewM.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(182)))), ((int)(((byte)(97)))));
+            this.dataGridViewM.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewM.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.White;
+            this.dataGridViewM.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            this.dataGridViewM.RowTemplate.Height = 35;
+            this.dataGridViewM.Size = new System.Drawing.Size(1007, 725);
+            this.dataGridViewM.TabIndex = 76;
+            // 
             // guna2DragControl2
             // 
             this.guna2DragControl2.TargetControl = this.PictureBoxMasina;
@@ -4941,6 +5560,93 @@
             // guna2DragControl8
             // 
             this.guna2DragControl8.TargetControl = this.Modifica;
+            // 
+            // guna2ControlBox4
+            // 
+            this.guna2ControlBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            this.guna2ControlBox4.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.Animator.SetDecoration(this.guna2ControlBox4, BunifuAnimatorNS.DecorationType.None);
+            this.guna2ControlBox4.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox4.HoverState.Parent = this.guna2ControlBox4;
+            this.guna2ControlBox4.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox4.Location = new System.Drawing.Point(1892, 6);
+            this.guna2ControlBox4.Name = "guna2ControlBox4";
+            this.guna2ControlBox4.ShadowDecoration.Parent = this.guna2ControlBox4;
+            this.guna2ControlBox4.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox4.TabIndex = 78;
+            // 
+            // guna2ControlBox5
+            // 
+            this.guna2ControlBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            this.Animator.SetDecoration(this.guna2ControlBox5, BunifuAnimatorNS.DecorationType.None);
+            this.guna2ControlBox5.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox5.HoverState.Parent = this.guna2ControlBox5;
+            this.guna2ControlBox5.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox5.Location = new System.Drawing.Point(1994, 6);
+            this.guna2ControlBox5.Name = "guna2ControlBox5";
+            this.guna2ControlBox5.ShadowDecoration.Parent = this.guna2ControlBox5;
+            this.guna2ControlBox5.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox5.TabIndex = 79;
+            // 
+            // guna2ControlBox6
+            // 
+            this.guna2ControlBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            this.guna2ControlBox6.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            this.Animator.SetDecoration(this.guna2ControlBox6, BunifuAnimatorNS.DecorationType.None);
+            this.guna2ControlBox6.Enabled = false;
+            this.guna2ControlBox6.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox6.HoverState.Parent = this.guna2ControlBox6;
+            this.guna2ControlBox6.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox6.Location = new System.Drawing.Point(1943, 6);
+            this.guna2ControlBox6.Name = "guna2ControlBox6";
+            this.guna2ControlBox6.ShadowDecoration.Parent = this.guna2ControlBox6;
+            this.guna2ControlBox6.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox6.TabIndex = 80;
+            // 
+            // guna2DragControl9
+            // 
+            this.guna2DragControl9.TargetControl = this.CautaData;
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
+            this.panel9.Controls.Add(this.guna2TileButton27);
+            this.Animator.SetDecoration(this.panel9, BunifuAnimatorNS.DecorationType.None);
+            this.panel9.Location = new System.Drawing.Point(-3, -1);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(2077, 55);
+            this.panel9.TabIndex = 81;
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
+            this.Animator.SetDecoration(this.panel10, BunifuAnimatorNS.DecorationType.None);
+            this.panel10.Location = new System.Drawing.Point(-4, 1017);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(2077, 55);
+            this.panel10.TabIndex = 69;
+            // 
+            // guna2TileButton27
+            // 
+            this.guna2TileButton27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            this.guna2TileButton27.CheckedState.Parent = this.guna2TileButton27;
+            this.guna2TileButton27.CustomImages.Parent = this.guna2TileButton27;
+            this.Animator.SetDecoration(this.guna2TileButton27, BunifuAnimatorNS.DecorationType.None);
+            this.guna2TileButton27.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            this.guna2TileButton27.Font = new System.Drawing.Font("HelvLight", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TileButton27.ForeColor = System.Drawing.Color.White;
+            this.guna2TileButton27.HoverState.Parent = this.guna2TileButton27;
+            this.guna2TileButton27.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton27.Image")));
+            this.guna2TileButton27.ImageSize = new System.Drawing.Size(28, 28);
+            this.guna2TileButton27.Location = new System.Drawing.Point(29, 5);
+            this.guna2TileButton27.Name = "guna2TileButton27";
+            this.guna2TileButton27.ShadowDecoration.Parent = this.guna2TileButton27;
+            this.guna2TileButton27.Size = new System.Drawing.Size(45, 45);
+            this.guna2TileButton27.TabIndex = 78;
+            this.guna2TileButton27.Click += new System.EventHandler(this.guna2TileButton27_Click_1);
             // 
             // Form1
             // 
@@ -5019,6 +5725,13 @@
             this.ModPanel.ResumeLayout(false);
             this.ModPanel.PerformLayout();
             this.panel6.ResumeLayout(false);
+            this.CautaData.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            this.ModPanel1.ResumeLayout(false);
+            this.ModPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewM)).EndInit();
+            this.panel9.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -5297,6 +6010,41 @@
         private System.Windows.Forms.Label Themelbl;
         private Guna.UI2.WinForms.Guna2ComboBox ModMdl;
         private System.Windows.Forms.ListBox listBox1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private System.Windows.Forms.TabPage CautaData;
+        private System.Windows.Forms.DataGridView dataGridViewM;
+        private System.Windows.Forms.DateTimePicker ModDataMax;
+        private System.Windows.Forms.DateTimePicker ModDataMin;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Label label85;
+        private System.Windows.Forms.Label label84;
+        private Guna.UI2.WinForms.Guna2ComboBox ModCuloare1;
+        private Guna.UI2.WinForms.Guna2TextBox ModMarca1;
+        private System.Windows.Forms.Panel ModPanel1;
+        private System.Windows.Forms.Label ModText1;
+        private Guna.UI2.WinForms.Guna2TextBox ModPut1;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label71;
+        private Guna.UI2.WinForms.Guna2TextBox ModAnMax1;
+        private Guna.UI2.WinForms.Guna2TextBox ModAnMin1;
+        private System.Windows.Forms.Label label73;
+        private System.Windows.Forms.Label label75;
+        private Guna.UI2.WinForms.Guna2TextBox ModPMax1;
+        private Guna.UI2.WinForms.Guna2TextBox ModMdl1;
+        private Guna.UI2.WinForms.Guna2TextBox ModPMin1;
+        private System.Windows.Forms.Label label79;
+        private Guna.UI2.WinForms.Guna2TileButton ModCauta1;
+        private System.Windows.Forms.Label label80;
+        private System.Windows.Forms.Label label81;
+        private System.Windows.Forms.Label label82;
+        private System.Windows.Forms.Label label83;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox4;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox5;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox6;
+        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl9;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Panel panel9;
+        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton27;
     }
 }
 

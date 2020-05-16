@@ -45,6 +45,8 @@
             this.MasinaCul = new System.Windows.Forms.Label();
             this.label78 = new System.Windows.Forms.Label();
             this.ModPanel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.ButonModifica = new Guna.UI2.WinForms.Guna2TileButton();
             this.ModificaPret = new Guna.UI2.WinForms.Guna2TextBox();
             this.label70 = new System.Windows.Forms.Label();
@@ -54,7 +56,7 @@
             this.label68 = new System.Windows.Forms.Label();
             this.ModModel = new System.Windows.Forms.PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.ModMdl = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.ModCuloare = new Guna.UI2.WinForms.Guna2ComboBox();
             this.ModMarca = new Guna.UI2.WinForms.Guna2TextBox();
             this.ModPut = new Guna.UI2.WinForms.Guna2TextBox();
             this.label33 = new System.Windows.Forms.Label();
@@ -64,7 +66,7 @@
             this.label35 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.ModPMax = new Guna.UI2.WinForms.Guna2TextBox();
-            this.ModCuloare = new Guna.UI2.WinForms.Guna2TextBox();
+            this.ModMdl = new Guna.UI2.WinForms.Guna2TextBox();
             this.ModPMin = new Guna.UI2.WinForms.Guna2TextBox();
             this.ModPanel = new System.Windows.Forms.Panel();
             this.ModText = new System.Windows.Forms.Label();
@@ -77,15 +79,14 @@
             this.guna2ControlBox16 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox17 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox18 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.ModPanel3.SuspendLayout();
             this.ModPanel2.SuspendLayout();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ModModel)).BeginInit();
             this.panel7.SuspendLayout();
             this.ModPanel.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2DragControl1
@@ -95,14 +96,16 @@
             // listBox1
             // 
             this.listBox1.BackColor = System.Drawing.Color.Black;
-            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.ForeColor = System.Drawing.Color.White;
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 20;
-            this.listBox1.Location = new System.Drawing.Point(1129, 96);
+            this.listBox1.ItemHeight = 25;
+            this.listBox1.Location = new System.Drawing.Point(1129, 119);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(773, 324);
+            this.listBox1.Size = new System.Drawing.Size(773, 275);
             this.listBox1.TabIndex = 64;
+            this.listBox1.Visible = false;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // ModMasinaPret
@@ -155,9 +158,9 @@
             this.ModPanel3.Controls.Add(this.label76);
             this.ModPanel3.Controls.Add(this.MasinaCul);
             this.ModPanel3.Controls.Add(this.label78);
-            this.ModPanel3.Location = new System.Drawing.Point(1129, 734);
+            this.ModPanel3.Location = new System.Drawing.Point(1129, 741);
             this.ModPanel3.Name = "ModPanel3";
-            this.ModPanel3.Size = new System.Drawing.Size(773, 211);
+            this.ModPanel3.Size = new System.Drawing.Size(773, 239);
             this.ModPanel3.TabIndex = 60;
             this.ModPanel3.Visible = false;
             // 
@@ -167,11 +170,11 @@
             this.MasinaCutie.BackColor = System.Drawing.Color.Transparent;
             this.MasinaCutie.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MasinaCutie.ForeColor = System.Drawing.Color.White;
-            this.MasinaCutie.Location = new System.Drawing.Point(568, 164);
+            this.MasinaCutie.Location = new System.Drawing.Point(568, 174);
             this.MasinaCutie.Name = "MasinaCutie";
-            this.MasinaCutie.Size = new System.Drawing.Size(123, 24);
+            this.MasinaCutie.Size = new System.Drawing.Size(18, 24);
             this.MasinaCutie.TabIndex = 53;
-            this.MasinaCutie.Text = "Cutie Viteze";
+            this.MasinaCutie.Text = "-";
             // 
             // label72
             // 
@@ -179,7 +182,7 @@
             this.label72.BackColor = System.Drawing.Color.Transparent;
             this.label72.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label72.ForeColor = System.Drawing.Color.White;
-            this.label72.Location = new System.Drawing.Point(30, 164);
+            this.label72.Location = new System.Drawing.Point(30, 174);
             this.label72.Name = "label72";
             this.label72.Size = new System.Drawing.Size(123, 24);
             this.label72.TabIndex = 49;
@@ -191,11 +194,11 @@
             this.MasinaPutere.BackColor = System.Drawing.Color.Transparent;
             this.MasinaPutere.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MasinaPutere.ForeColor = System.Drawing.Color.White;
-            this.MasinaPutere.Location = new System.Drawing.Point(568, 117);
+            this.MasinaPutere.Location = new System.Drawing.Point(568, 127);
             this.MasinaPutere.Name = "MasinaPutere";
-            this.MasinaPutere.Size = new System.Drawing.Size(72, 24);
+            this.MasinaPutere.Size = new System.Drawing.Size(18, 24);
             this.MasinaPutere.TabIndex = 52;
-            this.MasinaPutere.Text = "Putere";
+            this.MasinaPutere.Text = "-";
             // 
             // label74
             // 
@@ -203,7 +206,7 @@
             this.label74.BackColor = System.Drawing.Color.Transparent;
             this.label74.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label74.ForeColor = System.Drawing.Color.White;
-            this.label74.Location = new System.Drawing.Point(30, 22);
+            this.label74.Location = new System.Drawing.Point(30, 32);
             this.label74.Name = "label74";
             this.label74.Size = new System.Drawing.Size(84, 24);
             this.label74.TabIndex = 46;
@@ -215,11 +218,11 @@
             this.MasinaAn.BackColor = System.Drawing.Color.Transparent;
             this.MasinaAn.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MasinaAn.ForeColor = System.Drawing.Color.White;
-            this.MasinaAn.Location = new System.Drawing.Point(568, 70);
+            this.MasinaAn.Location = new System.Drawing.Point(568, 80);
             this.MasinaAn.Name = "MasinaAn";
-            this.MasinaAn.Size = new System.Drawing.Size(135, 24);
+            this.MasinaAn.Size = new System.Drawing.Size(18, 24);
             this.MasinaAn.TabIndex = 51;
-            this.MasinaAn.Text = "An Fabricatie";
+            this.MasinaAn.Text = "-";
             // 
             // label76
             // 
@@ -227,7 +230,7 @@
             this.label76.BackColor = System.Drawing.Color.Transparent;
             this.label76.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label76.ForeColor = System.Drawing.Color.White;
-            this.label76.Location = new System.Drawing.Point(30, 117);
+            this.label76.Location = new System.Drawing.Point(30, 127);
             this.label76.Name = "label76";
             this.label76.Size = new System.Drawing.Size(72, 24);
             this.label76.TabIndex = 48;
@@ -239,11 +242,11 @@
             this.MasinaCul.BackColor = System.Drawing.Color.Transparent;
             this.MasinaCul.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MasinaCul.ForeColor = System.Drawing.Color.White;
-            this.MasinaCul.Location = new System.Drawing.Point(568, 22);
+            this.MasinaCul.Location = new System.Drawing.Point(568, 32);
             this.MasinaCul.Name = "MasinaCul";
-            this.MasinaCul.Size = new System.Drawing.Size(84, 24);
+            this.MasinaCul.Size = new System.Drawing.Size(18, 24);
             this.MasinaCul.TabIndex = 50;
-            this.MasinaCul.Text = "Culoare";
+            this.MasinaCul.Text = "-";
             // 
             // label78
             // 
@@ -251,7 +254,7 @@
             this.label78.BackColor = System.Drawing.Color.Transparent;
             this.label78.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label78.ForeColor = System.Drawing.Color.White;
-            this.label78.Location = new System.Drawing.Point(30, 70);
+            this.label78.Location = new System.Drawing.Point(30, 80);
             this.label78.Name = "label78";
             this.label78.Size = new System.Drawing.Size(135, 24);
             this.label78.TabIndex = 47;
@@ -273,6 +276,27 @@
             this.ModPanel2.Size = new System.Drawing.Size(773, 245);
             this.ModPanel2.TabIndex = 59;
             this.ModPanel2.Visible = false;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Red;
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Location = new System.Drawing.Point(-6, 193);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(788, 53);
+            this.panel1.TabIndex = 42;
+            this.panel1.Visible = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("EA Font v1.5 by Ghettoshark", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(310, 18);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(144, 19);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "DATE MODIFICATE!";
             // 
             // ButonModifica
             // 
@@ -308,8 +332,8 @@
             this.ModificaPret.FillColor = System.Drawing.Color.Black;
             this.ModificaPret.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ModificaPret.FocusedState.Parent = this.ModificaPret;
-            this.ModificaPret.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ModificaPret.ForeColor = System.Drawing.Color.LightGray;
+            this.ModificaPret.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModificaPret.ForeColor = System.Drawing.Color.White;
             this.ModificaPret.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ModificaPret.HoverState.Parent = this.ModificaPret;
             this.ModificaPret.Location = new System.Drawing.Point(383, 55);
@@ -349,8 +373,8 @@
             this.ModificaMarca.FillColor = System.Drawing.Color.Black;
             this.ModificaMarca.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ModificaMarca.FocusedState.Parent = this.ModificaMarca;
-            this.ModificaMarca.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ModificaMarca.ForeColor = System.Drawing.Color.LightGray;
+            this.ModificaMarca.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModificaMarca.ForeColor = System.Drawing.Color.White;
             this.ModificaMarca.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ModificaMarca.HoverState.Parent = this.ModificaMarca;
             this.ModificaMarca.Location = new System.Drawing.Point(39, 55);
@@ -390,8 +414,8 @@
             this.ModificaModel.FillColor = System.Drawing.Color.Black;
             this.ModificaModel.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ModificaModel.FocusedState.Parent = this.ModificaModel;
-            this.ModificaModel.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ModificaModel.ForeColor = System.Drawing.Color.LightGray;
+            this.ModificaModel.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModificaModel.ForeColor = System.Drawing.Color.White;
             this.ModificaModel.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ModificaModel.HoverState.Parent = this.ModificaModel;
             this.ModificaModel.Location = new System.Drawing.Point(39, 136);
@@ -420,9 +444,9 @@
             // 
             this.ModModel.BackColor = System.Drawing.Color.Transparent;
             this.ModModel.Image = ((System.Drawing.Image)(resources.GetObject("ModModel.Image")));
-            this.ModModel.Location = new System.Drawing.Point(1259, 357);
+            this.ModModel.Location = new System.Drawing.Point(1128, 270);
             this.ModModel.Name = "ModModel";
-            this.ModModel.Size = new System.Drawing.Size(501, 428);
+            this.ModModel.Size = new System.Drawing.Size(822, 552);
             this.ModModel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ModModel.TabIndex = 58;
             this.ModModel.TabStop = false;
@@ -430,7 +454,7 @@
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
-            this.panel7.Controls.Add(this.ModMdl);
+            this.panel7.Controls.Add(this.ModCuloare);
             this.panel7.Controls.Add(this.ModMarca);
             this.panel7.Controls.Add(this.ModPut);
             this.panel7.Controls.Add(this.label33);
@@ -440,7 +464,7 @@
             this.panel7.Controls.Add(this.label35);
             this.panel7.Controls.Add(this.label36);
             this.panel7.Controls.Add(this.ModPMax);
-            this.panel7.Controls.Add(this.ModCuloare);
+            this.panel7.Controls.Add(this.ModMdl);
             this.panel7.Controls.Add(this.ModPMin);
             this.panel7.Controls.Add(this.ModPanel);
             this.panel7.Controls.Add(this.label38);
@@ -449,37 +473,41 @@
             this.panel7.Controls.Add(this.label40);
             this.panel7.Controls.Add(this.label66);
             this.panel7.Controls.Add(this.label67);
-            this.panel7.Location = new System.Drawing.Point(149, 96);
+            this.panel7.Location = new System.Drawing.Point(149, 270);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(773, 587);
             this.panel7.TabIndex = 57;
+            this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
             // 
-            // ModMdl
+            // ModCuloare
             // 
-            this.ModMdl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(84)))), ((int)(((byte)(69)))));
-            this.ModMdl.BorderRadius = 5;
-            this.ModMdl.BorderThickness = 2;
-            this.ModMdl.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.ModMdl.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ModMdl.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(182)))), ((int)(((byte)(97)))));
-            this.ModMdl.FocusedColor = System.Drawing.Color.Empty;
-            this.ModMdl.FocusedState.Parent = this.ModMdl;
-            this.ModMdl.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ModMdl.ForeColor = System.Drawing.Color.White;
-            this.ModMdl.FormattingEnabled = true;
-            this.ModMdl.HoverState.Parent = this.ModMdl;
-            this.ModMdl.ItemHeight = 30;
-            this.ModMdl.Items.AddRange(new object[] {
-            "RS 5",
-            "S5",
-            "SQ5",
-            "TT"});
-            this.ModMdl.ItemsAppearance.Parent = this.ModMdl;
-            this.ModMdl.Location = new System.Drawing.Point(140, 183);
-            this.ModMdl.Name = "ModMdl";
-            this.ModMdl.ShadowDecoration.Parent = this.ModMdl;
-            this.ModMdl.Size = new System.Drawing.Size(482, 36);
-            this.ModMdl.TabIndex = 56;
+            this.ModCuloare.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(84)))), ((int)(((byte)(69)))));
+            this.ModCuloare.BorderRadius = 5;
+            this.ModCuloare.BorderThickness = 2;
+            this.ModCuloare.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.ModCuloare.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ModCuloare.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(182)))), ((int)(((byte)(97)))));
+            this.ModCuloare.FocusedColor = System.Drawing.Color.Empty;
+            this.ModCuloare.FocusedState.Parent = this.ModCuloare;
+            this.ModCuloare.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModCuloare.ForeColor = System.Drawing.Color.White;
+            this.ModCuloare.FormattingEnabled = true;
+            this.ModCuloare.HoverState.Parent = this.ModCuloare;
+            this.ModCuloare.ItemHeight = 30;
+            this.ModCuloare.Items.AddRange(new object[] {
+            "",
+            "Rosu",
+            "Albastru",
+            "Negru",
+            "Alb",
+            "Gri"});
+            this.ModCuloare.ItemsAppearance.Parent = this.ModCuloare;
+            this.ModCuloare.Location = new System.Drawing.Point(140, 412);
+            this.ModCuloare.Name = "ModCuloare";
+            this.ModCuloare.ShadowDecoration.Parent = this.ModCuloare;
+            this.ModCuloare.Size = new System.Drawing.Size(230, 36);
+            this.ModCuloare.TabIndex = 56;
+            this.ModCuloare.SelectedIndexChanged += new System.EventHandler(this.ModCuloare_SelectedIndexChanged);
             // 
             // ModMarca
             // 
@@ -529,7 +557,7 @@
             this.ModPut.ForeColor = System.Drawing.Color.LightGray;
             this.ModPut.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ModPut.HoverState.Parent = this.ModPut;
-            this.ModPut.Location = new System.Drawing.Point(392, 412);
+            this.ModPut.Location = new System.Drawing.Point(392, 417);
             this.ModPut.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.ModPut.Name = "ModPut";
             this.ModPut.PasswordChar = '\0';
@@ -674,34 +702,34 @@
             this.ModPMax.Size = new System.Drawing.Size(230, 38);
             this.ModPMax.TabIndex = 49;
             // 
-            // ModCuloare
+            // ModMdl
             // 
-            this.ModCuloare.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(84)))), ((int)(((byte)(69)))));
-            this.ModCuloare.BorderRadius = 5;
-            this.ModCuloare.BorderThickness = 2;
-            this.ModCuloare.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.ModCuloare.DefaultText = "";
-            this.ModCuloare.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.ModCuloare.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.ModCuloare.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.ModCuloare.DisabledState.Parent = this.ModCuloare;
-            this.ModCuloare.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.ModCuloare.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(84)))), ((int)(((byte)(69)))));
-            this.ModCuloare.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.ModCuloare.FocusedState.Parent = this.ModCuloare;
-            this.ModCuloare.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ModCuloare.ForeColor = System.Drawing.Color.LightGray;
-            this.ModCuloare.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.ModCuloare.HoverState.Parent = this.ModCuloare;
-            this.ModCuloare.Location = new System.Drawing.Point(140, 412);
-            this.ModCuloare.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.ModCuloare.Name = "ModCuloare";
-            this.ModCuloare.PasswordChar = '\0';
-            this.ModCuloare.PlaceholderText = "";
-            this.ModCuloare.SelectedText = "";
-            this.ModCuloare.ShadowDecoration.Parent = this.ModCuloare;
-            this.ModCuloare.Size = new System.Drawing.Size(230, 38);
-            this.ModCuloare.TabIndex = 48;
+            this.ModMdl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(84)))), ((int)(((byte)(69)))));
+            this.ModMdl.BorderRadius = 5;
+            this.ModMdl.BorderThickness = 2;
+            this.ModMdl.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.ModMdl.DefaultText = "";
+            this.ModMdl.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.ModMdl.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.ModMdl.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ModMdl.DisabledState.Parent = this.ModMdl;
+            this.ModMdl.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ModMdl.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(84)))), ((int)(((byte)(69)))));
+            this.ModMdl.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ModMdl.FocusedState.Parent = this.ModMdl;
+            this.ModMdl.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModMdl.ForeColor = System.Drawing.Color.LightGray;
+            this.ModMdl.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ModMdl.HoverState.Parent = this.ModMdl;
+            this.ModMdl.Location = new System.Drawing.Point(140, 184);
+            this.ModMdl.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.ModMdl.Name = "ModMdl";
+            this.ModMdl.PasswordChar = '\0';
+            this.ModMdl.PlaceholderText = "";
+            this.ModMdl.SelectedText = "";
+            this.ModMdl.ShadowDecoration.Parent = this.ModMdl;
+            this.ModMdl.Size = new System.Drawing.Size(482, 38);
+            this.ModMdl.TabIndex = 48;
             // 
             // ModPMin
             // 
@@ -872,27 +900,6 @@
             this.guna2ControlBox18.Size = new System.Drawing.Size(45, 29);
             this.guna2ControlBox18.TabIndex = 67;
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Red;
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(-6, 193);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(788, 53);
-            this.panel1.TabIndex = 42;
-            this.panel1.Visible = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("EA Font v1.5 by Ghettoshark", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(310, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(144, 19);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "DATE MODIFICATE!";
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
@@ -901,6 +908,14 @@
             this.panel2.Size = new System.Drawing.Size(2077, 55);
             this.panel2.TabIndex = 68;
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
+            this.panel3.Location = new System.Drawing.Point(-9, 1020);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(2077, 55);
+            this.panel3.TabIndex = 69;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -908,6 +923,9 @@
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(2054, 1075);
             this.ControlBox = false;
+            this.Controls.Add(this.panel7);
+            this.Controls.Add(this.ModPanel2);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.guna2ControlBox16);
             this.Controls.Add(this.guna2ControlBox17);
             this.Controls.Add(this.guna2ControlBox18);
@@ -916,10 +934,8 @@
             this.Controls.Add(this.ModMasinaModel);
             this.Controls.Add(this.ModMasinaMarca);
             this.Controls.Add(this.ModPanel3);
-            this.Controls.Add(this.ModPanel2);
-            this.Controls.Add(this.ModModel);
-            this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel2);
+            this.Controls.Add(this.ModModel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form2";
             this.Text = "Form2";
@@ -927,13 +943,13 @@
             this.ModPanel3.PerformLayout();
             this.ModPanel2.ResumeLayout(false);
             this.ModPanel2.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ModModel)).EndInit();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             this.ModPanel.ResumeLayout(false);
             this.ModPanel.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -965,7 +981,7 @@
         private System.Windows.Forms.Label label68;
         private System.Windows.Forms.PictureBox ModModel;
         private System.Windows.Forms.Panel panel7;
-        private Guna.UI2.WinForms.Guna2ComboBox ModMdl;
+        private Guna.UI2.WinForms.Guna2ComboBox ModCuloare;
         private Guna.UI2.WinForms.Guna2TextBox ModMarca;
         private Guna.UI2.WinForms.Guna2TextBox ModPut;
         private System.Windows.Forms.Label label33;
@@ -975,7 +991,7 @@
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label36;
         private Guna.UI2.WinForms.Guna2TextBox ModPMax;
-        private Guna.UI2.WinForms.Guna2TextBox ModCuloare;
+        private Guna.UI2.WinForms.Guna2TextBox ModMdl;
         private Guna.UI2.WinForms.Guna2TextBox ModPMin;
         private System.Windows.Forms.Panel ModPanel;
         private System.Windows.Forms.Label ModText;
@@ -991,5 +1007,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
     }
 }
