@@ -1647,14 +1647,30 @@ namespace ProiectStudentiForms
             //Inventory
             PanouMeniuInventory.BackColor = Color.Black;
             MeniuInventory_Shop.Image = System.Drawing.Image.FromFile(Cale1 + "icons8_Race_Car_64.png");
+            MeniuInventory_Home.HoverState.FillColor = Color.Red;
+            MeniuInventory_Shop.HoverState.FillColor = Color.Red;
+            MeniuInventory_Edit.HoverState.FillColor = Color.Red;
+            MeniuInventory_Compare.HoverState.FillColor = Color.Red;
+            BtnLei.HoverState.FillColor = Color.Red;
+            BtnEuro.HoverState.FillColor = Color.Red;
+            MeniuInventory_Pdf.HoverState.FillColor = Color.Red;
 
             //compara
             PanouMeniuCompare.BackColor = Color.Black;
             MeniuCompare_Shop.Image = System.Drawing.Image.FromFile(Cale1 + "icons8_Race_Car_64.png");
+            MeniuCompare_Edit.HoverState.FillColor = Color.Red;
+            MeniuCompare_Home.HoverState.FillColor = Color.Red;
+            MeniuCompare_Inventory.HoverState.FillColor = Color.Red;
+            MeniuCompare_Shop.HoverState.FillColor = Color.Red;
+
 
             //modifica
             PanouMeniuEdit.BackColor = Color.Black;
             MeniuEdit_Shop.Image = System.Drawing.Image.FromFile(Cale1 + "icons8_Race_Car_64.png");
+            MeniuEdit_Compare.HoverState.FillColor = Color.Red;
+            MeniuEdit_Home.HoverState.FillColor = Color.Red;
+            MeniuEdit_Inventory.HoverState.FillColor = Color.Red;
+            MeniuEdit_Shop.HoverState.FillColor = Color.Red;
         }
 
         private void LightBtn_CheckedChanged(object sender, EventArgs e)
@@ -1674,14 +1690,31 @@ namespace ProiectStudentiForms
             //Inventory
             PanouMeniuInventory.BackColor = Color.Red;
             MeniuInventory_Shop.Image = System.Drawing.Image.FromFile(Cale1 + "icons8_Race_Alb.png");
+            MeniuInventory_Home.HoverState.FillColor = Color.Black;
+            MeniuInventory_Shop.HoverState.FillColor = Color.Black;
+            MeniuInventory_Edit.HoverState.FillColor = Color.Black;
+            MeniuInventory_Compare.HoverState.FillColor = Color.Black; 
+            BtnLei.HoverState.FillColor = Color.Black;
+            BtnEuro.HoverState.FillColor = Color.Black;
+            MeniuInventory_Pdf.HoverState.FillColor = Color.Black;
 
             //compara
             PanouMeniuCompare.BackColor = Color.Red;
             MeniuCompare_Shop.Image = System.Drawing.Image.FromFile(Cale1 + "icons8_Race_Alb.png");
+            MeniuCompare_Edit.HoverState.FillColor = Color.Black;
+            MeniuCompare_Home.HoverState.FillColor = Color.Black;
+            MeniuCompare_Inventory.HoverState.FillColor = Color.Black;
+            MeniuCompare_Shop.HoverState.FillColor = Color.Black; 
+           
 
             //modifica
             PanouMeniuEdit.BackColor = Color.Red;
             MeniuEdit_Shop.Image = System.Drawing.Image.FromFile(Cale1 + "icons8_Race_Alb.png");
+            MeniuEdit_Compare.HoverState.FillColor = Color.Black;
+            MeniuEdit_Home.HoverState.FillColor = Color.Black; 
+            MeniuEdit_Inventory.HoverState.FillColor = Color.Black;
+            MeniuEdit_Shop.HoverState.FillColor = Color.Black;
+           
 
 
 
@@ -2265,7 +2298,7 @@ namespace ProiectStudentiForms
        
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            EroareLabel.Text = "Date incorecte";
+            EroareLabel.Text = "Eroare Cautare";
             //ascundere MesahPanle//
             MesajPanel.Visible = false;
             //initializare date controlae//
@@ -2386,6 +2419,7 @@ namespace ProiectStudentiForms
             if (eroare == 1)
             {
                 MesajPanel.Visible = true;
+             
             }
             else
             {
@@ -2631,7 +2665,8 @@ namespace ProiectStudentiForms
                 }
                 if(eroare2 == 1)
                 {
-                    MesajPanel.Visible = true;                  
+                    MesajPanel.Visible = true;
+                  
                 }
             }
            

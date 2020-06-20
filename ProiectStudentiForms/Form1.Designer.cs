@@ -30,15 +30,15 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            BunifuAnimatorNS.Animation animation3 = new BunifuAnimatorNS.Animation();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            BunifuAnimatorNS.Animation animation1 = new BunifuAnimatorNS.Animation();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.DragControl_Shop = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.Shop = new System.Windows.Forms.TabPage();
             this.PanouMasinaCumparata = new System.Windows.Forms.Panel();
@@ -126,6 +126,7 @@
             this.EroareLabel = new System.Windows.Forms.Label();
             this.MesajPanel_Close = new Guna.UI2.WinForms.Guna2ImageButton();
             this.PanouMeniuInventory = new System.Windows.Forms.Panel();
+            this.MeniuInventory_Pdf = new Guna.UI2.WinForms.Guna2TileButton();
             this.MeniuInventory_Edit = new Guna.UI2.WinForms.Guna2TileButton();
             this.BtnEuro = new Guna.UI2.WinForms.Guna2TileButton();
             this.BtnLei = new Guna.UI2.WinForms.Guna2TileButton();
@@ -349,7 +350,6 @@
             this.DragControl_CmpSelect = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.DragControl_Modifica = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.DragControl_CautaData = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.guna2TileButton1 = new Guna.UI2.WinForms.Guna2TileButton();
             this.Shop.SuspendLayout();
             this.PanouMasinaCumparata.SuspendLayout();
             this.PanouMeniuShop.SuspendLayout();
@@ -1070,21 +1070,21 @@
             // 
             // guna2DataGridView1
             // 
-            dataGridViewCellStyle17.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.guna2DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.guna2DataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.guna2DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.guna2DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.guna2DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.guna2DataGridView1.ColumnHeadersHeight = 27;
             this.guna2DataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -1097,14 +1097,14 @@
             this.Cutie,
             this.NumeImg});
             this.Animator.SetDecoration(this.guna2DataGridView1, BunifuAnimatorNS.DecorationType.None);
-            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle19.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.guna2DataGridView1.EnableHeadersVisualStyles = false;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView1.Location = new System.Drawing.Point(1886, 426);
@@ -1318,22 +1318,22 @@
             // 
             this.Animator.AnimationType = BunifuAnimatorNS.AnimationType.Transparent;
             this.Animator.Cursor = null;
-            animation3.AnimateOnlyDifferences = true;
-            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
-            animation3.LeafCoeff = 0F;
-            animation3.MaxTime = 1F;
-            animation3.MinTime = 0F;
-            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
-            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
-            animation3.MosaicSize = 0;
-            animation3.Padding = new System.Windows.Forms.Padding(0);
-            animation3.RotateCoeff = 0F;
-            animation3.RotateLimit = 0F;
-            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
-            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
-            animation3.TimeCoeff = 0F;
-            animation3.TransparencyCoeff = 1F;
-            this.Animator.DefaultAnimation = animation3;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 1F;
+            this.Animator.DefaultAnimation = animation1;
             this.Animator.Interval = 40;
             // 
             // tabControl1
@@ -1731,9 +1731,9 @@
             this.EroareLabel.ForeColor = System.Drawing.Color.White;
             this.EroareLabel.Location = new System.Drawing.Point(179, 90);
             this.EroareLabel.Name = "EroareLabel";
-            this.EroareLabel.Size = new System.Drawing.Size(215, 31);
+            this.EroareLabel.Size = new System.Drawing.Size(225, 31);
             this.EroareLabel.TabIndex = 29;
-            this.EroareLabel.Text = "DATE INCORECTE";
+            this.EroareLabel.Text = "Eroare cautare";
             // 
             // MesajPanel_Close
             // 
@@ -1756,7 +1756,7 @@
             // PanouMeniuInventory
             // 
             this.PanouMeniuInventory.BackColor = System.Drawing.Color.Black;
-            this.PanouMeniuInventory.Controls.Add(this.guna2TileButton1);
+            this.PanouMeniuInventory.Controls.Add(this.MeniuInventory_Pdf);
             this.PanouMeniuInventory.Controls.Add(this.MeniuInventory_Edit);
             this.PanouMeniuInventory.Controls.Add(this.BtnEuro);
             this.PanouMeniuInventory.Controls.Add(this.BtnLei);
@@ -1769,6 +1769,26 @@
             this.PanouMeniuInventory.Size = new System.Drawing.Size(72, 1087);
             this.PanouMeniuInventory.TabIndex = 11;
             // 
+            // MeniuInventory_Pdf
+            // 
+            this.MeniuInventory_Pdf.BackColor = System.Drawing.Color.Transparent;
+            this.MeniuInventory_Pdf.CheckedState.Parent = this.MeniuInventory_Pdf;
+            this.MeniuInventory_Pdf.CustomImages.Parent = this.MeniuInventory_Pdf;
+            this.Animator.SetDecoration(this.MeniuInventory_Pdf, BunifuAnimatorNS.DecorationType.None);
+            this.MeniuInventory_Pdf.FillColor = System.Drawing.Color.Transparent;
+            this.MeniuInventory_Pdf.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MeniuInventory_Pdf.ForeColor = System.Drawing.Color.White;
+            this.MeniuInventory_Pdf.HoverState.FillColor = System.Drawing.Color.Red;
+            this.MeniuInventory_Pdf.HoverState.Parent = this.MeniuInventory_Pdf;
+            this.MeniuInventory_Pdf.Image = ((System.Drawing.Image)(resources.GetObject("MeniuInventory_Pdf.Image")));
+            this.MeniuInventory_Pdf.ImageSize = new System.Drawing.Size(30, 30);
+            this.MeniuInventory_Pdf.Location = new System.Drawing.Point(-1, 357);
+            this.MeniuInventory_Pdf.Name = "MeniuInventory_Pdf";
+            this.MeniuInventory_Pdf.ShadowDecoration.Parent = this.MeniuInventory_Pdf;
+            this.MeniuInventory_Pdf.Size = new System.Drawing.Size(73, 60);
+            this.MeniuInventory_Pdf.TabIndex = 7;
+            this.MeniuInventory_Pdf.Click += new System.EventHandler(this.guna2TileButton1_Click_2);
+            // 
             // MeniuInventory_Edit
             // 
             this.MeniuInventory_Edit.BackColor = System.Drawing.Color.Transparent;
@@ -1778,6 +1798,7 @@
             this.MeniuInventory_Edit.FillColor = System.Drawing.Color.Transparent;
             this.MeniuInventory_Edit.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.MeniuInventory_Edit.ForeColor = System.Drawing.Color.White;
+            this.MeniuInventory_Edit.HoverState.FillColor = System.Drawing.Color.Red;
             this.MeniuInventory_Edit.HoverState.Parent = this.MeniuInventory_Edit;
             this.MeniuInventory_Edit.Image = ((System.Drawing.Image)(resources.GetObject("MeniuInventory_Edit.Image")));
             this.MeniuInventory_Edit.ImageSize = new System.Drawing.Size(30, 30);
@@ -1797,6 +1818,7 @@
             this.BtnEuro.FillColor = System.Drawing.Color.Transparent;
             this.BtnEuro.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.BtnEuro.ForeColor = System.Drawing.Color.White;
+            this.BtnEuro.HoverState.FillColor = System.Drawing.Color.Red;
             this.BtnEuro.HoverState.Parent = this.BtnEuro;
             this.BtnEuro.Image = ((System.Drawing.Image)(resources.GetObject("BtnEuro.Image")));
             this.BtnEuro.ImageSize = new System.Drawing.Size(30, 30);
@@ -1816,6 +1838,7 @@
             this.BtnLei.FillColor = System.Drawing.Color.Transparent;
             this.BtnLei.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.BtnLei.ForeColor = System.Drawing.Color.White;
+            this.BtnLei.HoverState.FillColor = System.Drawing.Color.Red;
             this.BtnLei.HoverState.Parent = this.BtnLei;
             this.BtnLei.Image = ((System.Drawing.Image)(resources.GetObject("BtnLei.Image")));
             this.BtnLei.ImageSize = new System.Drawing.Size(30, 30);
@@ -1835,6 +1858,7 @@
             this.MeniuInventory_Home.FillColor = System.Drawing.Color.Transparent;
             this.MeniuInventory_Home.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.MeniuInventory_Home.ForeColor = System.Drawing.Color.White;
+            this.MeniuInventory_Home.HoverState.FillColor = System.Drawing.Color.Red;
             this.MeniuInventory_Home.HoverState.Parent = this.MeniuInventory_Home;
             this.MeniuInventory_Home.Image = ((System.Drawing.Image)(resources.GetObject("MeniuInventory_Home.Image")));
             this.MeniuInventory_Home.ImageSize = new System.Drawing.Size(30, 30);
@@ -1854,6 +1878,7 @@
             this.MeniuInventory_Compare.FillColor = System.Drawing.Color.Transparent;
             this.MeniuInventory_Compare.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.MeniuInventory_Compare.ForeColor = System.Drawing.Color.White;
+            this.MeniuInventory_Compare.HoverState.FillColor = System.Drawing.Color.Red;
             this.MeniuInventory_Compare.HoverState.Parent = this.MeniuInventory_Compare;
             this.MeniuInventory_Compare.Image = ((System.Drawing.Image)(resources.GetObject("MeniuInventory_Compare.Image")));
             this.MeniuInventory_Compare.ImageSize = new System.Drawing.Size(30, 30);
@@ -1873,6 +1898,7 @@
             this.MeniuInventory_Shop.FillColor = System.Drawing.Color.Transparent;
             this.MeniuInventory_Shop.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.MeniuInventory_Shop.ForeColor = System.Drawing.Color.White;
+            this.MeniuInventory_Shop.HoverState.FillColor = System.Drawing.Color.Red;
             this.MeniuInventory_Shop.HoverState.Parent = this.MeniuInventory_Shop;
             this.MeniuInventory_Shop.Image = ((System.Drawing.Image)(resources.GetObject("MeniuInventory_Shop.Image")));
             this.MeniuInventory_Shop.ImageSize = new System.Drawing.Size(30, 30);
@@ -3971,6 +3997,7 @@
             this.MeniuCompare_Edit.FillColor = System.Drawing.Color.Transparent;
             this.MeniuCompare_Edit.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.MeniuCompare_Edit.ForeColor = System.Drawing.Color.White;
+            this.MeniuCompare_Edit.HoverState.FillColor = System.Drawing.Color.Red;
             this.MeniuCompare_Edit.HoverState.Parent = this.MeniuCompare_Edit;
             this.MeniuCompare_Edit.Image = ((System.Drawing.Image)(resources.GetObject("MeniuCompare_Edit.Image")));
             this.MeniuCompare_Edit.ImageSize = new System.Drawing.Size(30, 30);
@@ -3990,6 +4017,7 @@
             this.MeniuCompare_Inventory.FillColor = System.Drawing.Color.Transparent;
             this.MeniuCompare_Inventory.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.MeniuCompare_Inventory.ForeColor = System.Drawing.Color.White;
+            this.MeniuCompare_Inventory.HoverState.FillColor = System.Drawing.Color.Red;
             this.MeniuCompare_Inventory.HoverState.Parent = this.MeniuCompare_Inventory;
             this.MeniuCompare_Inventory.Image = ((System.Drawing.Image)(resources.GetObject("MeniuCompare_Inventory.Image")));
             this.MeniuCompare_Inventory.ImageSize = new System.Drawing.Size(30, 30);
@@ -4009,6 +4037,7 @@
             this.MeniuCompare_Home.FillColor = System.Drawing.Color.Transparent;
             this.MeniuCompare_Home.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.MeniuCompare_Home.ForeColor = System.Drawing.Color.White;
+            this.MeniuCompare_Home.HoverState.FillColor = System.Drawing.Color.Red;
             this.MeniuCompare_Home.HoverState.Parent = this.MeniuCompare_Home;
             this.MeniuCompare_Home.Image = ((System.Drawing.Image)(resources.GetObject("MeniuCompare_Home.Image")));
             this.MeniuCompare_Home.ImageSize = new System.Drawing.Size(30, 30);
@@ -4028,6 +4057,7 @@
             this.MeniuCompare_Shop.FillColor = System.Drawing.Color.Transparent;
             this.MeniuCompare_Shop.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.MeniuCompare_Shop.ForeColor = System.Drawing.Color.White;
+            this.MeniuCompare_Shop.HoverState.FillColor = System.Drawing.Color.Red;
             this.MeniuCompare_Shop.HoverState.Parent = this.MeniuCompare_Shop;
             this.MeniuCompare_Shop.Image = ((System.Drawing.Image)(resources.GetObject("MeniuCompare_Shop.Image")));
             this.MeniuCompare_Shop.ImageSize = new System.Drawing.Size(30, 30);
@@ -4929,6 +4959,7 @@
             this.MeniuEdit_Compare.FillColor = System.Drawing.Color.Transparent;
             this.MeniuEdit_Compare.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.MeniuEdit_Compare.ForeColor = System.Drawing.Color.White;
+            this.MeniuEdit_Compare.HoverState.FillColor = System.Drawing.Color.Red;
             this.MeniuEdit_Compare.HoverState.Parent = this.MeniuEdit_Compare;
             this.MeniuEdit_Compare.Image = ((System.Drawing.Image)(resources.GetObject("MeniuEdit_Compare.Image")));
             this.MeniuEdit_Compare.ImageSize = new System.Drawing.Size(30, 30);
@@ -4948,6 +4979,7 @@
             this.MeniuEdit_Inventory.FillColor = System.Drawing.Color.Transparent;
             this.MeniuEdit_Inventory.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.MeniuEdit_Inventory.ForeColor = System.Drawing.Color.White;
+            this.MeniuEdit_Inventory.HoverState.FillColor = System.Drawing.Color.Red;
             this.MeniuEdit_Inventory.HoverState.Parent = this.MeniuEdit_Inventory;
             this.MeniuEdit_Inventory.Image = ((System.Drawing.Image)(resources.GetObject("MeniuEdit_Inventory.Image")));
             this.MeniuEdit_Inventory.ImageSize = new System.Drawing.Size(30, 30);
@@ -4967,6 +4999,7 @@
             this.MeniuEdit_Home.FillColor = System.Drawing.Color.Transparent;
             this.MeniuEdit_Home.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.MeniuEdit_Home.ForeColor = System.Drawing.Color.White;
+            this.MeniuEdit_Home.HoverState.FillColor = System.Drawing.Color.Red;
             this.MeniuEdit_Home.HoverState.Parent = this.MeniuEdit_Home;
             this.MeniuEdit_Home.Image = ((System.Drawing.Image)(resources.GetObject("MeniuEdit_Home.Image")));
             this.MeniuEdit_Home.ImageSize = new System.Drawing.Size(30, 30);
@@ -4986,6 +5019,7 @@
             this.MeniuEdit_Shop.FillColor = System.Drawing.Color.Transparent;
             this.MeniuEdit_Shop.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.MeniuEdit_Shop.ForeColor = System.Drawing.Color.White;
+            this.MeniuEdit_Shop.HoverState.FillColor = System.Drawing.Color.Red;
             this.MeniuEdit_Shop.HoverState.Parent = this.MeniuEdit_Shop;
             this.MeniuEdit_Shop.Image = ((System.Drawing.Image)(resources.GetObject("MeniuEdit_Shop.Image")));
             this.MeniuEdit_Shop.ImageSize = new System.Drawing.Size(30, 30);
@@ -5574,50 +5608,50 @@
             this.dataGridViewMasina.AllowUserToDeleteRows = false;
             this.dataGridViewMasina.AllowUserToResizeColumns = false;
             this.dataGridViewMasina.AllowUserToResizeRows = false;
-            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
-            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
-            this.dataGridViewMasina.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            this.dataGridViewMasina.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridViewMasina.BackgroundColor = System.Drawing.Color.White;
             this.dataGridViewMasina.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridViewMasina.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
-            dataGridViewCellStyle21.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle21.ForeColor = System.Drawing.SystemColors.MenuBar;
-            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
-            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewMasina.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle21;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.MenuBar;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewMasina.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridViewMasina.ColumnHeadersHeight = 25;
             this.dataGridViewMasina.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridViewMasina.Cursor = System.Windows.Forms.Cursors.Default;
             this.Animator.SetDecoration(this.dataGridViewMasina, BunifuAnimatorNS.DecorationType.None);
-            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
-            dataGridViewCellStyle22.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
-            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewMasina.DefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewMasina.DefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridViewMasina.GridColor = System.Drawing.Color.Black;
             this.dataGridViewMasina.Location = new System.Drawing.Point(945, 179);
             this.dataGridViewMasina.Name = "dataGridViewMasina";
             this.dataGridViewMasina.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle23.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewMasina.RowHeadersDefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewMasina.RowHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dataGridViewMasina.RowHeadersVisible = false;
             this.dataGridViewMasina.RowHeadersWidth = 100;
             this.dataGridViewMasina.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
-            this.dataGridViewMasina.RowsDefaultCellStyle = dataGridViewCellStyle24;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            this.dataGridViewMasina.RowsDefaultCellStyle = dataGridViewCellStyle8;
             this.dataGridViewMasina.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             this.dataGridViewMasina.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(182)))), ((int)(((byte)(97)))));
             this.dataGridViewMasina.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -5687,25 +5721,6 @@
             // DragControl_CautaData
             // 
             this.DragControl_CautaData.TargetControl = this.CautaData;
-            // 
-            // guna2TileButton1
-            // 
-            this.guna2TileButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton1.CheckedState.Parent = this.guna2TileButton1;
-            this.guna2TileButton1.CustomImages.Parent = this.guna2TileButton1;
-            this.Animator.SetDecoration(this.guna2TileButton1, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton1.HoverState.Parent = this.guna2TileButton1;
-            this.guna2TileButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton1.Image")));
-            this.guna2TileButton1.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton1.Location = new System.Drawing.Point(-1, 357);
-            this.guna2TileButton1.Name = "guna2TileButton1";
-            this.guna2TileButton1.ShadowDecoration.Parent = this.guna2TileButton1;
-            this.guna2TileButton1.Size = new System.Drawing.Size(73, 60);
-            this.guna2TileButton1.TabIndex = 7;
-            this.guna2TileButton1.Click += new System.EventHandler(this.guna2TileButton1_Click_2);
             // 
             // Form1
             // 
@@ -6107,7 +6122,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel4;
         private Guna.UI2.WinForms.Guna2Button ButonStergeM;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton1;
+        private Guna.UI2.WinForms.Guna2TileButton MeniuInventory_Pdf;
     }
 }
 
