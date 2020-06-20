@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Andrei Ventuneac 3121A
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -18,12 +19,8 @@ namespace NivelAccesDate
         public AdministrareStudenti_FisierTXT(string numefisier_)
         {
             NumeFisier = numefisier_;
-            //NumeFisier1 = numefisier1_;
             Stream FisierText = File.Open(numefisier_, FileMode.OpenOrCreate);
-             
-            //Stream FisierText2 = File.Open(numefisier1_, FileMode.OpenOrCreate, FileAccess.ReadWrite);
             FisierText.Close();
-            //FisierText2.Close();
 
         }
 
@@ -85,8 +82,7 @@ namespace NivelAccesDate
 
         public Masina[] GetMasini(Masina[] elev,out int nrStudenti,int nrstd)
         {
-           //elev = new Student[PASaloc];
-            
+         
            try
            {
                // instructiunea 'using' va apela sr.Close()
@@ -99,10 +95,7 @@ namespace NivelAccesDate
                    while ((line = sr.ReadLine()) != null)
                    {
                        elev[nrStudenti++] = new Masina(line);
-                       /*if (nrStudenti == PASaloc)
-                       {
-                            Array.Resize(ref elev, nrStudenti + PASaloc);
-                       }*/
+                       
                    }
                }
            }
@@ -160,6 +153,47 @@ namespace NivelAccesDate
             return actualizareCuSucces;
         }
 
+        public void StergeMasina(int id_m)
+        {
+            ArrayList masini = GetMasini();
+            int IDm = 0;
+            try
+            {
+                //instructiunea 'using' va apela la final swFisierText.Close();
+                //al doilea parametru setat la 'false' al constructorului StreamWriter indica modul 'overwrite' de deschidere al fisierului
+                using (StreamWriter swFisierText = new StreamWriter(NumeFisier, false))
+                {
+                    foreach (Masina masina in masini)
+                    {
+                        IDm++;
+                        masina.IDMAS = IDm;
+                        //informatiile despre studentul actualizat vor fi preluate din parametrul "studentActualizat"
+                        
 
+                        if (masina.IDMAS != id_m)
+                        {   
+                            if(masina.IDMAS>id_m)
+                            {
+                                masina.IDMAS--;
+                            }
+
+                            swFisierText.WriteLine(masina.ConversieLaSirFisier());
+                        }
+                        
+                    }
+                  
+                }
+            }
+            catch (IOException eIO)
+            {
+                throw new Exception("Eroare la deschiderea fisierului. Mesaj: " + eIO.Message);
+            }
+            catch (Exception eGen)
+            {
+                throw new Exception("Eroare generica. Mesaj: " + eGen.Message);
+            }
+
+           
+        }
     }
 }

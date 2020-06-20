@@ -1,17 +1,20 @@
-﻿using System;
+﻿// Andrei Ventuneac 3121A
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Reflection.Metadata;
 using System.Windows.Forms;
+using Guna.UI2.WinForms;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
 using LibrarieModele;
 using NivelAccesDate;
-using Teema1;
-//using System.Windows.Forms.Timers;
+
 
 namespace ProiectStudentiForms
 {
@@ -23,47 +26,56 @@ namespace ProiectStudentiForms
         const long Camera_Parcare_Spate_ = 400;
         const long Trapa_ = 600;
         const long Aer_Conditionat_Doua_Zone_ = 750;
+        const int numarMaxMasiniLinie = 3;
+        const int Val2 = 2;
+        const int cnc = 5;
+        const int xval_next = 290;
+        const int xval_reset = 45;
+        const int yval_reset = 272;
+        const int yval_next = 270;
+        const string Audi = "Audi";
+        const string RS_5 = "RS 5";
+        const string TT = "TT";
+        const string S5 = "S5";
+        const string SQ5 = "SQ5";
+        const string Man = "Manuala";
+        const string Aut = "Automata";
+        const string Cale1 = "D:/IconiteMasiniForms/";
+        const string Cale2 = "D:/IconiteMasiniForms//";
+
         static System.Windows.Forms.Timer myTimer = new Timer();
         string NumeImg_ = "2.png";
         int Adaugat1 = 0,Adaugat2 = 0;
         int cpt = 0, contor, ContorMeniu = 0;
         int IDm = 0;
-        int xControl = 0, yControl = 47;
-        int PanouSizeX = 266, PanouSizeY = 249;
-        int ImgSizeX = 266, ImgSizeY = 170;
-        int PanouPretSizeX = 266, PanouPretSizeY = 45;
-        int PretSizeX = 87, PretSizeY = 30;
-        int TipPretSizeX = 90, TipPretSizeY = 30;
-        int AnFabSizeX = 60, AnFabSizeY = 20;
-        int PutereSizeX = 60, PutereSizeY = 20;
-        int MarcaSizeX = 87, MarcaSizeY = 30;
-        int ModelSizeX = 87, ModelSizeY = 30;
         int PretSizeXLei = 133, PretSizeYLei = 6;
         int ContorBgrnd = 0;
         int copid, ValidareMin=0,ValidareMax=0;
         int okk = 1;
+        int contor_stergeM = 0;
         Masina m1, m2, modificat;
         Masina[] Masini = new Masina[200];
         ArrayList masini;
 
         IStocareData AdminMasini = StocareFactory.GetAdministratorStocare();
+
+        //initializare componente
         public Form1()
         {
             InitializeComponent();
             this.SetStyle(ControlStyles.DoubleBuffer | ControlStyles.UserPaint | ControlStyles.AllPaintingInWmPaint,true);
             this.UpdateStyles();
 
-        }
-
+        } 
         
-
+        //mecanism schimbare masini in fereastra shop (next)
         private void guna2CircleButton1_Click(object sender, EventArgs e)
         {
-            if (cpt < guna2DataGridView1.Rows.Count - 2)
+            if (cpt < guna2DataGridView1.Rows.Count - Val2)
             {
                 cpt++;
 
-                PictureBoxMasina.Image = (Image)guna2DataGridView1.Rows[cpt].Cells[0].Value;
+                PictureBoxMasina.Image = (System.Drawing.Image)guna2DataGridView1.Rows[cpt].Cells[0].Value;
                 NumeMasina.Text = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[1].Value);
                 ModelMas.Text = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[2].Value);
                 CulMasina.Text = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[7].Value);
@@ -72,11 +84,11 @@ namespace ProiectStudentiForms
                 PutMasina.Text = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[5].Value);
                 CutieMasina.Text = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[6].Value);
                 NumeImg_ = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[8].Value);
-                guna2PictureBoxCar1.Load("D:/IconiteMasiniForms//" + (cpt+2).ToString() + (cpt + 2).ToString() + ".png");
-                guna2PictureBoxCar2.Load("D:/IconiteMasiniForms//" + (cpt + 2).ToString() + (cpt + 2).ToString() + (cpt + 2).ToString() + ".png");
-                guna2PictureBoxCar3.Image = PictureBoxMasina.Image;
-                bunifuCheckbox1.Checked = false;
-                bunifuCheckbox2.Checked = false;
+                ImgCarLateral.Load(Cale2 + (cpt+Val2).ToString() + (cpt + Val2).ToString() + ".png");
+                ImgCarSpate.Load(Cale2 + (cpt + Val2).ToString() + (cpt + Val2).ToString() + (cpt + Val2).ToString() + ".png");
+                ImgCarFata.Image = PictureBoxMasina.Image;
+                checkbxInteriorPiele.Checked = false;
+                checkbxSuspensie.Checked = false;
                 bunifuCheckbox3.Checked = false;
                 bunifuCheckbox4.Checked = false;
                 bunifuCheckbox5.Checked = false;
@@ -86,7 +98,7 @@ namespace ProiectStudentiForms
             else
             {
                 cpt = 0;
-                PictureBoxMasina.Image = (Image)guna2DataGridView1.Rows[cpt].Cells[0].Value;
+                PictureBoxMasina.Image = (System.Drawing.Image)guna2DataGridView1.Rows[cpt].Cells[0].Value;
                 NumeMasina.Text = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[1].Value);
                 CutieMasina.Text = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[6].Value);
                 ModelMas.Text = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[2].Value);
@@ -96,11 +108,11 @@ namespace ProiectStudentiForms
                 PutMasina.Text = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[5].Value);
                 CutieMasina.Text = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[6].Value);
                 NumeImg_ = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[8].Value);
-                guna2PictureBoxCar1.Load("D:/IconiteMasiniForms//22b.png");
-                guna2PictureBoxCar2.Load("D:/IconiteMasiniForms//222b.png");
-                guna2PictureBoxCar3.Image = PictureBoxMasina.Image;
-                bunifuCheckbox1.Checked = false;
-                bunifuCheckbox2.Checked = false;
+                ImgCarLateral.Load(Cale2 + "22b.png");
+                ImgCarSpate.Load(Cale2 + "222b.png");
+                ImgCarFata.Image = PictureBoxMasina.Image;
+                checkbxInteriorPiele.Checked = false;
+                checkbxSuspensie.Checked = false;
                 bunifuCheckbox3.Checked = false;
                 bunifuCheckbox4.Checked = false;
                 bunifuCheckbox5.Checked = false;
@@ -109,7 +121,7 @@ namespace ProiectStudentiForms
             }
 
             //masini disable culori
-            if (cpt + 2 == 4)
+            if (cpt + Val2 == Val2+2)
             {
                 OptiuneAlb.Enabled = false;
                 OptiuneAlbastru.Enabled = false;
@@ -118,7 +130,7 @@ namespace ProiectStudentiForms
             }
             else
             {
-                if (cpt + 2 == 5)
+                if (cpt + Val2 == Val2+3)
                 {
                     OptiuneNegru.Enabled = false;
                     OptiuneAlbastru.Enabled = false;
@@ -128,7 +140,7 @@ namespace ProiectStudentiForms
                 }
                 else
                 {
-                    if(cpt +2 == 6)
+                    if(cpt + Val2 == Val2+4)
                     {
                         OptiuneNegru.Enabled = true;
                         OptiuneAlb.Enabled = false;
@@ -154,16 +166,17 @@ namespace ProiectStudentiForms
         {
 
         }
-
+     
+        //generare masini euro
         public void Generare()
         {
-            while (panel2.Controls.Count > 1)
+            while (PanouMasini.Controls.Count > 1)
             {
-                foreach (Control c in panel2.Controls)
+                foreach (Control c in PanouMasini.Controls)
                 {
-                    if (c != panel5)
+                    if (c != PanouCautareMasini)
                     {
-                        panel2.Controls.Remove(c);
+                        PanouMasini.Controls.Remove(c);
                     }
 
                 }
@@ -176,13 +189,13 @@ namespace ProiectStudentiForms
             foreach (Masina m in masini)
             {
                 MasinaControl ctr = new MasinaControl();
-                ctr.Location = new Point(x, y - 5);
+                ctr.Location = new Point(x, y - cnc);
                foreach(Control tip in ctr.Controls)
                {
                     if(tip is PictureBox)
                     {
                         PictureBox img = (PictureBox)tip;
-                        img.Image  = Image.FromFile("D:/IconiteMasiniForms/" + m.Nume_Img);
+                        img.Image = System.Drawing.Image.FromFile(Cale1 + m.Nume_Img);
                     }
                     if(tip is Label)
                     {
@@ -228,123 +241,24 @@ namespace ProiectStudentiForms
                     }
                }
 
-                panel2.Controls.Add(ctr);
-                /*Button but = new Button();
-                Panel panou = new Panel();
-                PictureBox img = new PictureBox();
-                Panel panoupret = new Panel();
-                Label pret = new Label();
-                Label tipvaluta = new Label();
-                Label anfab = new Label();
-                Label putere = new Label();
-                Label marca = new Label();
-                Label model = new Label();
-
-                //panou
-                panou.Location = new Point(x, y);
-                panou.BackColor = Color.Red;
-                panou.BackgroundImageLayout = ImageLayout.Stretch;
-                panou.BackColor = Color.WhiteSmoke;
-                panou.BackgroundImage = Image.FromFile("D:/IconiteMasiniForms/imgpanou7.gif");
-                panou.Size = new Size(PanouSizeX, PanouSizeY);
-
-
-                //img
-
-                img.Location = new Point(xControl,yControl);
-                img.Image = Image.FromFile("D:/IconiteMasiniForms/" + m.Nume_Img);
-                img.Size = new Size(ImgSizeX, ImgSizeY);
-                img.SizeMode = PictureBoxSizeMode.Zoom;
-                img.BackColor = Color.Transparent;
-
-                //panoupret
-                panoupret.Location = new Point(xControl, yControl + 157);
-                panoupret.BackColor = Color.FromArgb(160, 10, 40, 20);
-                panoupret.Size = new Size(PanouPretSizeX, PanouPretSizeY);
-
-                //pret
-                pret.Location = new Point(xControl + 143, yControl - 40);
-                pret.Size = new Size(PretSizeX, PretSizeY);
-                pret.BackColor = Color.Transparent;
-                pret.Text = Convert.ToString(m.Pret);
-                pret.ForeColor = Color.Red;
-                pret.Font = new Font("Montserrat", 16.0f);
-
-                //tippret
-                tipvaluta.Location = new Point(xControl + 222, yControl - 37);
-                tipvaluta.Size = new Size(TipPretSizeX, TipPretSizeY);
-                tipvaluta.BackColor = Color.Transparent;
-                tipvaluta.Text = "EUR";
-                tipvaluta.ForeColor = Color.White;
-                tipvaluta.Font = new Font("Montserrat", 10.0f);
-
-                //anfab
-                anfab.Location = new Point(xControl + 10, yControl - 29);
-                anfab.Size = new Size(AnFabSizeX, AnFabSizeY);
-                anfab.BackColor = Color.Transparent;
-                anfab.Text = Convert.ToString(m.An_Fabricatie);
-                anfab.ForeColor = Color.White;
-                anfab.Font = new Font("Roboto Black", 9.0f);
-
-                //putere
-                putere.Location = new Point(xControl + 43, yControl - 29);
-                putere.Size = new Size(PutereSizeX, PutereSizeY);
-                putere.BackColor = Color.Transparent;
-                putere.Text = Convert.ToString(m.Putere) + " CP";
-                putere.ForeColor = Color.White;
-                putere.Font = new Font("Roboto Black", 9.0f);
-
-                //marca
-                marca.Location = new Point(xControl + 15, yControl - 34);
-                marca.Size = new Size(MarcaSizeX, MarcaSizeY);
-                marca.BackColor = Color.Transparent;
-                marca.Text = m.Marca;
-                marca.ForeColor = Color.White;
-                marca.Font = new Font("Montserrat", 13.0f);
-
-                //model
-                model.Location = new Point(xControl + 15, yControl - 10);
-                model.Size = new Size(ModelSizeX, ModelSizeY);
-                model.BackColor = Color.Transparent;
-                model.Text = m.Model;
-                model.ForeColor = Color.DarkGray;
-                model.Font = new Font("Montserrat", 13.0f);
-
-                panel2.Controls.Add(panou);
-                panou.Controls.Add(img);
-                panou.Controls.Add(panoupret);
-                // panoupret.BringToFront();
-                // img.SendToBack();              
-                // pret.BringToFront();
-                // tipvaluta.BringToFront();
-                // putere.BringToFront();
-
-                img.SendToBack();
-                panoupret.Controls.Add(tipvaluta);
-                panoupret.Controls.Add(pret);
-                panoupret.Controls.Add(putere);
-                panoupret.Controls.Add(anfab);
-                panou.Controls.Add(marca);
-                panou.Controls.Add(model);
-                model.BringToFront();
-
-     */
-                if (contor < 3)
+                PanouMasini.Controls.Add(ctr);
+               
+                if (contor < numarMaxMasiniLinie)
                 {
-                    x = x + 290;
+                    x = x + xval_next;
                 }
-                if (contor == 3)
+                if (contor == numarMaxMasiniLinie)
                 {
-                    x = 45;
-                    y = 272;
+                    x = xval_reset;
+                    y = yval_reset;
                 }
-                if (contor > 3)
+                if (contor > numarMaxMasiniLinie)
                 {
-                    x = x + 290;
-                    if (contorlinie % 5 == 0)
+                    x = x + xval_next;
+                    if (contorlinie % cnc == 0)
                     {
-                        y = y + 270;
-                        x = 45;
+                        y = y + yval_next;
+                        x = xval_reset;
                     }
                     contorlinie++;
 
@@ -355,15 +269,133 @@ namespace ProiectStudentiForms
            
         }
 
+        //generare cu buton stergere
+        public void GenerareShow()
+        {
+            while (PanouMasini.Controls.Count > 1)
+            {
+                foreach (Control c in PanouMasini.Controls)
+                {
+                    if (c != PanouCautareMasini)
+                    {
+                        PanouMasini.Controls.Remove(c);
+                    }
+
+                }
+            }
+
+            int x = 625, y = 2, contorlinie = 1;
+            contor = 1;
+            masini = AdminMasini.GetMasini();
+
+            foreach (Masina m in masini)
+            {
+                int id_m = 1;
+                MasinaControl ctr = new MasinaControl();
+                ctr.Location = new Point(x, y - cnc);
+                foreach (Control tip in ctr.Controls)
+                {
+                    if(tip is Guna2Button)
+                    {
+                        Guna2Button btn = (Guna2Button)tip;
+                        btn.Visible = true;                     
+                        btn.Click += (s, e) => { StergeMasini(s, e, m.IDMAS);};
+                       
+                    }
+                    if (tip is PictureBox)
+                    {
+                        PictureBox img = (PictureBox)tip;
+                        img.Image = System.Drawing.Image.FromFile(Cale1 + m.Nume_Img);
+                    }
+                    if (tip is Label)
+                    {
+                        Label txt = (Label)tip;
+                        if (txt.Name == "Marca")
+                        {
+                            txt.Text = m.Marca;
+                        }
+                        if (txt.Name == "Model")
+                        {
+                            txt.Text = m.Model;
+                        }
+
+                    }
+                    if (tip is Panel)
+                    {
+                        Panel pnl = (Panel)tip;
+                        foreach (Control cntr in pnl.Controls)
+                        {
+                            if (cntr is Label)
+                            {
+                                Label lbl = (Label)cntr;
+
+                                if (lbl.Name == "An")
+                                {
+                                    lbl.Text = Convert.ToString(m.An_Fabricatie);
+                                }
+                                if (lbl.Name == "Putere")
+                                {
+                                    lbl.Text = Convert.ToString(m.Putere) + " CP";
+                                }
+                                if (lbl.Name == "Pret")
+                                {
+                                    lbl.Text = Convert.ToString(m.Pret);
+                                }
+                                if (lbl.Name == "TipPret")
+                                {
+                                    lbl.Text = "EUR";
+                                }
+                            }
+
+                        }
+                    }
+                }
+
+                PanouMasini.Controls.Add(ctr);
+
+                if (contor < numarMaxMasiniLinie)
+                {
+                    x = x + xval_next;
+                }
+                if (contor == numarMaxMasiniLinie)
+                {
+                    x = xval_reset;
+                    y = yval_reset;
+                }
+                if (contor > numarMaxMasiniLinie)
+                {
+                    x = x + xval_next;
+                    if (contorlinie % cnc == 0)
+                    {
+                        y = y + yval_next;
+                        x = xval_reset;
+                    }
+                    contorlinie++;
+
+                }
+                contor++;
+                copid = m.IDMAS;
+                id_m++;
+            }
+
+        }
+
+        private  void StergeMasini(object sender,EventArgs e,int id_m)
+        {
+            AdminMasini.StergeMasina(id_m);
+            GenerareShow();
+        }
+
+        //generare masini lei
         private void GenerareLei()
         {
-            while (panel2.Controls.Count > 1)
+            while (PanouMasini.Controls.Count > 1)
             {
-                foreach (Control c in panel2.Controls)
+                foreach (Control c in PanouMasini.Controls)
                 {
-                    if (c != panel5)
+                    if (c != PanouCautareMasini)
                     {
-                        panel2.Controls.Remove(c);
+                        PanouMasini.Controls.Remove(c);
                     }
 
                 }
@@ -376,13 +408,13 @@ namespace ProiectStudentiForms
             foreach (Masina m in masini)
             {
                 MasinaControl ctr = new MasinaControl();
-                ctr.Location = new Point(x, y - 5);
+                ctr.Location = new Point(x, y - cnc);
                 foreach (Control tip in ctr.Controls)
                 {
                     if (tip is PictureBox)
                     {
                         PictureBox img = (PictureBox)tip;
-                        img.Image = Image.FromFile("D:/IconiteMasiniForms/" + m.Nume_Img);
+                        img.Image = System.Drawing.Image.FromFile(Cale1 + m.Nume_Img);
                     }
                     if (tip is Label)
                     {
@@ -429,124 +461,24 @@ namespace ProiectStudentiForms
                         }
                     }
                 }
-                panel2.Controls.Add(ctr);
+                PanouMasini.Controls.Add(ctr);
 
-                /*Button but = new Button();
-                Panel panou = new Panel();
-                PictureBox img = new PictureBox();
-                Panel panoupret = new Panel();
-                Label pret = new Label();
-                Label tipvaluta = new Label();
-                Label anfab = new Label();
-                Label putere = new Label();
-                Label marca = new Label();
-                Label model = new Label();
-
-                //panou
-                panou.Location = new Point(x, y);
-                panou.BackColor = Color.Red;
-                panou.BackgroundImageLayout = ImageLayout.Stretch;
-                panou.BackColor = Color.WhiteSmoke;
-                panou.BackgroundImage = Image.FromFile("D:/IconiteMasiniForms/imgpanou3.gif");
-                panou.Size = new Size(PanouSizeX, PanouSizeY);
-
-
-                //img
-
-                img.Location = new Point(xControl, yControl);
-                img.Image = Image.FromFile("D:/IconiteMasiniForms/" + m.Nume_Img);
-                img.Size = new Size(ImgSizeX, ImgSizeY);
-                img.SizeMode = PictureBoxSizeMode.Zoom;
-                img.BackColor = Color.Transparent;
-
-                //panoupret
-                panoupret.Location = new Point(xControl, yControl + 157);
-                panoupret.BackColor = Color.FromArgb(160, 10, 40, 20);
-                panoupret.Size = new Size(PanouPretSizeX, PanouPretSizeY);
-
-                //pret
-                pret.Location = new Point(xControl + 133, yControl - 40);
-                pret.Size = new Size(PretSizeX + 10, PretSizeY);
-                pret.BackColor = Color.Transparent;
-                pret.Text = Convert.ToString(m.Pret_Lei);
-                pret.ForeColor = Color.Red;
-                pret.Font = new Font("Montserrat", 16.0f);
-
-                //tippret
-                tipvaluta.Location = new Point(xControl + 222, yControl - 37);
-                tipvaluta.Size = new Size(TipPretSizeX, TipPretSizeY);
-                tipvaluta.BackColor = Color.Transparent;
-                tipvaluta.Text = "RON";
-                tipvaluta.ForeColor = Color.White;
-                tipvaluta.Font = new Font("Montserrat", 10.0f);
-
-                //anfab
-                anfab.Location = new Point(xControl + 10, yControl - 29);
-                anfab.Size = new Size(AnFabSizeX, AnFabSizeY);
-                anfab.BackColor = Color.Transparent;
-                anfab.Text = Convert.ToString(m.An_Fabricatie);
-                anfab.ForeColor = Color.White;
-                anfab.Font = new Font("Roboto Black", 9.0f);
-
-                //putere
-                putere.Location = new Point(xControl + 43, yControl - 29);
-                putere.Size = new Size(PutereSizeX, PutereSizeY);
-                putere.BackColor = Color.Transparent;
-                putere.Text = Convert.ToString(m.Putere) + " CP";
-                putere.ForeColor = Color.White;
-                putere.Font = new Font("Roboto Black", 9.0f);
-
-                //marca
-                marca.Location = new Point(xControl + 15, yControl - 34);
-                marca.Size = new Size(MarcaSizeX, MarcaSizeY);
-                marca.BackColor = Color.Transparent;
-                marca.Text = m.Marca;
-                marca.ForeColor = Color.White;
-                marca.Font = new Font("Montserrat", 13.0f);
-
-                //model
-                model.Location = new Point(xControl + 15, yControl - 10);
-                model.Size = new Size(ModelSizeX, ModelSizeY);
-                model.BackColor = Color.Transparent;
-                model.Text = m.Model;
-                model.ForeColor = Color.DarkGray;
-                model.Font = new Font("Montserrat", 13.0f);
-
-                panel2.Controls.Add(panou);
-                panou.Controls.Add(img);
-                panou.Controls.Add(panoupret);
-                // panoupret.BringToFront();
-                // img.SendToBack();              
-                // pret.BringToFront();
-                // tipvaluta.BringToFront();
-                // putere.BringToFront();
-
-                img.SendToBack();
-                panoupret.Controls.Add(tipvaluta);
-                panoupret.Controls.Add(pret);
-                panoupret.Controls.Add(putere);
-                panoupret.Controls.Add(anfab);
-                panou.Controls.Add(marca);
-                panou.Controls.Add(model);
-                model.BringToFront();
-                */
-
-                if (contor < 3)
+                if (contor < numarMaxMasiniLinie)
                 {
-                    x = x + 290;
+                    x = x + xval_next;
                 }
-                if (contor == 3)
+                if (contor == numarMaxMasiniLinie)
                 {
-                    x = 45;
-                    y = 272;
+                    x = xval_reset;
+                    y = yval_reset;
                 }
-                if (contor > 3)
+                if (contor > numarMaxMasiniLinie)
                 {
-                    x = x + 290;
-                    if (contorlinie % 5 == 0)
+                    x = x + xval_next;
+                    if (contorlinie % cnc == 0)
                     {
-                        y = y + 270;
-                        x = 45;
+                        y = y + yval_next;
+                        x = xval_reset;
                     }
                     contorlinie++;
 
@@ -556,29 +488,29 @@ namespace ProiectStudentiForms
             }
         }
 
+        //incarcare date masini din dataGridView
         private void Form1_Load(object sender, EventArgs e)
         {
-
-            
+           
             Generare();
             guna2DataGridView1.Rows.Add(5);          
-            guna2DataGridView1.Rows[0].Cells[0].Value = Image.FromFile("D:/IconiteMasiniForms/2.png");
-            guna2DataGridView1.Rows[1].Cells[0].Value = Image.FromFile("D:/IconiteMasiniForms/3.png");
-            guna2DataGridView1.Rows[2].Cells[0].Value = Image.FromFile("D:/IconiteMasiniForms/4.png");
-            guna2DataGridView1.Rows[3].Cells[0].Value = Image.FromFile("D:/IconiteMasiniForms/5.png");
-            guna2DataGridView1.Rows[4].Cells[0].Value = Image.FromFile("D:/IconiteMasiniForms/6.png");
+            guna2DataGridView1.Rows[0].Cells[0].Value = System.Drawing.Image.FromFile(Cale1 + "2.png");
+            guna2DataGridView1.Rows[1].Cells[0].Value = System.Drawing.Image.FromFile(Cale1 + "3.png");
+            guna2DataGridView1.Rows[2].Cells[0].Value = System.Drawing.Image.FromFile(Cale1 + "4.png");
+            guna2DataGridView1.Rows[3].Cells[0].Value = System.Drawing.Image.FromFile(Cale1 + "5.png");
+            guna2DataGridView1.Rows[4].Cells[0].Value = System.Drawing.Image.FromFile(Cale1 + "6.png");
 
-            guna2DataGridView1.Rows[0].Cells[1].Value = "Audi";
-            guna2DataGridView1.Rows[1].Cells[1].Value = "Audi";
-            guna2DataGridView1.Rows[2].Cells[1].Value = "Audi"; 
-            guna2DataGridView1.Rows[3].Cells[1].Value = "Audi";
-            guna2DataGridView1.Rows[4].Cells[1].Value = "Audi";
+            guna2DataGridView1.Rows[0].Cells[1].Value = Audi;
+            guna2DataGridView1.Rows[1].Cells[1].Value = Audi;
+            guna2DataGridView1.Rows[2].Cells[1].Value = Audi; 
+            guna2DataGridView1.Rows[3].Cells[1].Value = Audi;
+            guna2DataGridView1.Rows[4].Cells[1].Value = Audi;
 
-            guna2DataGridView1.Rows[0].Cells[2].Value = "RS 5";
-            guna2DataGridView1.Rows[1].Cells[2].Value = "RS 5";
-            guna2DataGridView1.Rows[2].Cells[2].Value = "TT";
-            guna2DataGridView1.Rows[3].Cells[2].Value = "S5";
-            guna2DataGridView1.Rows[4].Cells[2].Value = "SQ5";
+            guna2DataGridView1.Rows[0].Cells[2].Value = RS_5;
+            guna2DataGridView1.Rows[1].Cells[2].Value = RS_5;
+            guna2DataGridView1.Rows[2].Cells[2].Value = TT;
+            guna2DataGridView1.Rows[3].Cells[2].Value = S5;
+            guna2DataGridView1.Rows[4].Cells[2].Value = SQ5;
 
             guna2DataGridView1.Rows[0].Cells[3].Value = "55000";
             guna2DataGridView1.Rows[1].Cells[3].Value = "60000";
@@ -598,11 +530,11 @@ namespace ProiectStudentiForms
             guna2DataGridView1.Rows[3].Cells[5].Value = "354";
             guna2DataGridView1.Rows[4].Cells[5].Value = "347";
 
-            guna2DataGridView1.Rows[0].Cells[6].Value = "Automata";
-            guna2DataGridView1.Rows[1].Cells[6].Value = "Automata";
-            guna2DataGridView1.Rows[2].Cells[6].Value = "Automata";
-            guna2DataGridView1.Rows[3].Cells[6].Value = "Manuala";
-            guna2DataGridView1.Rows[4].Cells[6].Value = "Automata";
+            guna2DataGridView1.Rows[0].Cells[6].Value = Aut;
+            guna2DataGridView1.Rows[1].Cells[6].Value = Aut;
+            guna2DataGridView1.Rows[2].Cells[6].Value = Aut;
+            guna2DataGridView1.Rows[3].Cells[6].Value = Man;
+            guna2DataGridView1.Rows[4].Cells[6].Value = Aut;
 
             guna2DataGridView1.Rows[0].Cells[7].Value = "Alb";
             guna2DataGridView1.Rows[1].Cells[7].Value = "Rosu";
@@ -618,12 +550,14 @@ namespace ProiectStudentiForms
 
         }
 
+
+        //mecanism schimbare masini fereastra shop (back)
         private void guna2CircleButton2_Click(object sender, EventArgs e)
         {
             if (cpt > 1)
             {
                 cpt--;
-                PictureBoxMasina.Image = (Image)guna2DataGridView1.Rows[cpt].Cells[0].Value;
+                PictureBoxMasina.Image = (System.Drawing.Image)guna2DataGridView1.Rows[cpt].Cells[0].Value;
                 NumeMasina.Text = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[1].Value);
                 ModelMas.Text = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[2].Value);
                 CulMasina.Text =  Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[7].Value);
@@ -632,11 +566,11 @@ namespace ProiectStudentiForms
                 PutMasina.Text = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[5].Value);
                 CutieMasina.Text = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[6].Value);
                 NumeImg_ = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[8].Value);
-                guna2PictureBoxCar1.Load("D:/IconiteMasiniForms//" + (cpt + 2).ToString() + (cpt + 2).ToString() + ".png");
-                guna2PictureBoxCar2.Load("D:/IconiteMasiniForms//" + (cpt + 2).ToString() + (cpt + 2).ToString() + (cpt + 2).ToString() + ".png");
-                guna2PictureBoxCar3.Image = PictureBoxMasina.Image;
-                bunifuCheckbox1.Checked = false;
-                bunifuCheckbox2.Checked = false;
+                ImgCarLateral.Load(Cale2 + (cpt + 2).ToString() + (cpt + 2).ToString() + ".png");
+                ImgCarSpate.Load(Cale2 + (cpt + 2).ToString() + (cpt + 2).ToString() + (cpt + 2).ToString() + ".png");
+                ImgCarFata.Image = PictureBoxMasina.Image;
+                checkbxInteriorPiele.Checked = false;
+                checkbxSuspensie.Checked = false;
                 bunifuCheckbox3.Checked = false;
                 bunifuCheckbox4.Checked = false;
                 bunifuCheckbox5.Checked = false;
@@ -646,7 +580,7 @@ namespace ProiectStudentiForms
             else
             {
                 cpt = 0;
-                PictureBoxMasina.Image = (Image)guna2DataGridView1.Rows[cpt].Cells[0].Value;
+                PictureBoxMasina.Image = (System.Drawing.Image)guna2DataGridView1.Rows[cpt].Cells[0].Value;
                 NumeMasina.Text = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[1].Value);
                 ModelMas.Text = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[2].Value);
                 CulMasina.Text = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[7].Value);
@@ -655,11 +589,11 @@ namespace ProiectStudentiForms
                 PutMasina.Text = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[5].Value);
                 CutieMasina.Text = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[6].Value);
                 NumeImg_ = Convert.ToString(guna2DataGridView1.Rows[cpt].Cells[8].Value);
-                guna2PictureBoxCar1.Load("D:/IconiteMasiniForms//22b.png");
-                guna2PictureBoxCar2.Load("D:/IconiteMasiniForms//222b.png");
-                guna2PictureBoxCar3.Image = PictureBoxMasina.Image;
-                bunifuCheckbox1.Checked = false;
-                bunifuCheckbox2.Checked = false;
+                ImgCarLateral.Load(Cale2 + "22b.png");
+                ImgCarSpate.Load(Cale2 + "222b.png");
+                ImgCarFata.Image = PictureBoxMasina.Image;
+                checkbxInteriorPiele.Checked = false;
+                checkbxSuspensie.Checked = false;
                 bunifuCheckbox3.Checked = false;
                 bunifuCheckbox4.Checked = false;
                 bunifuCheckbox5.Checked = false;
@@ -667,7 +601,7 @@ namespace ProiectStudentiForms
             }
 
             //masini disable culori
-            if (cpt + 2 == 4)
+            if (cpt + Val2 == Val2+2)
             {
                 OptiuneAlb.Enabled = false;
                 OptiuneAlbastru.Enabled = false;
@@ -676,7 +610,7 @@ namespace ProiectStudentiForms
             }
             else
             {
-                if (cpt + 2 == 5)
+                if (cpt + Val2 == cnc)
                 {
                     OptiuneNegru.Enabled = false;
                     OptiuneAlbastru.Enabled = false;
@@ -697,67 +631,67 @@ namespace ProiectStudentiForms
 
         private void guna2PictureBoxCar1_Click(object sender, EventArgs e)
         {
-            PictureBoxMasina.Image = guna2PictureBoxCar1.Image;
+            PictureBoxMasina.Image = ImgCarLateral.Image;
         }
 
         private void guna2PictureBoxCar2_Click(object sender, EventArgs e)
         {
-            PictureBoxMasina.Image = guna2PictureBoxCar2.Image;
+            PictureBoxMasina.Image = ImgCarSpate.Image;
         }
 
         private void guna2PictureBoxCar3_Click(object sender, EventArgs e)
         {
-            PictureBoxMasina.Image = guna2PictureBoxCar3.Image;
+            PictureBoxMasina.Image = ImgCarFata.Image;
         }
 
         private void guna2CirclePictureBox1_Click(object sender, EventArgs e)
         {
             CulMasina.Text = "Negru";
-            NumeImg_ = (cpt + 2).ToString() + "n.png";
-            PictureBoxMasina.Load("D:/IconiteMasiniForms//" +    (cpt+  2).ToString() + "n.png");
-            guna2PictureBoxCar1.Load("D:/IconiteMasiniForms//" + (cpt + 2).ToString() + (cpt + 2).ToString() + "n.png");
-            guna2PictureBoxCar2.Load("D:/IconiteMasiniForms//" + (cpt + 2).ToString() + (cpt + 2).ToString() + (cpt + 2).ToString() + "n.png");
-            guna2PictureBoxCar3.Load("D:/IconiteMasiniForms//" + (cpt + 2).ToString() + "n.png");
+            NumeImg_ = (cpt + Val2).ToString() + "n.png";
+            PictureBoxMasina.Load(Cale2 +    (cpt+  Val2).ToString() + "n.png");
+            ImgCarLateral.Load(Cale2 + (cpt + Val2).ToString() + (cpt + Val2).ToString() + "n.png");
+            ImgCarSpate.Load(Cale2 + (cpt + Val2).ToString() + (cpt + Val2).ToString() + (cpt + Val2).ToString() + "n.png");
+            ImgCarFata.Load(Cale2 + (cpt + Val2).ToString() + "n.png");
         }
 
         private void guna2CirclePictureBox2_Click(object sender, EventArgs e)
         {
             CulMasina.Text = "Alb";
-            NumeImg_ = (cpt + 2).ToString() + "b.png";
-            PictureBoxMasina.Load("D:/IconiteMasiniForms//" +    (cpt + 2).ToString() + "b.png");
-            guna2PictureBoxCar1.Load("D:/IconiteMasiniForms//" + (cpt + 2).ToString() + (cpt + 2).ToString() + "b.png");
-            guna2PictureBoxCar2.Load("D:/IconiteMasiniForms//" + (cpt + 2).ToString() + (cpt + 2).ToString() + (cpt + 2).ToString() + "b.png");
-            guna2PictureBoxCar3.Load("D:/IconiteMasiniForms//" + (cpt + 2).ToString() + "b.png");
+            NumeImg_ = (cpt + Val2).ToString() + "b.png";
+            PictureBoxMasina.Load(Cale2 +    (cpt + Val2).ToString() + "b.png");
+            ImgCarLateral.Load(Cale2 + (cpt + Val2).ToString() + (cpt + Val2).ToString() + "b.png");
+            ImgCarSpate.Load(Cale2 + (cpt + Val2).ToString() + (cpt + Val2).ToString() + (cpt + Val2).ToString() + "b.png");
+            ImgCarFata.Load(Cale2 + (cpt + Val2).ToString() + "b.png");
         }
 
         private void guna2CirclePictureBox3_Click(object sender, EventArgs e)
         {
             CulMasina.Text = "Albastru";
-            NumeImg_ = (cpt + 2).ToString() + "bl.png";
-            PictureBoxMasina.Load("D:/IconiteMasiniForms//" +    (cpt + 2).ToString() + "bl.png");
-            guna2PictureBoxCar1.Load("D:/IconiteMasiniForms//" + (cpt + 2).ToString() + (cpt + 2).ToString() + "bl.png");
-            guna2PictureBoxCar2.Load("D:/IconiteMasiniForms//" + (cpt + 2).ToString() + (cpt + 2).ToString() + (cpt + 2).ToString() + "bl.png");
-            guna2PictureBoxCar3.Load("D:/IconiteMasiniForms//" + (cpt + 2).ToString() + "bl.png");
+            NumeImg_ = (cpt + Val2).ToString() + "bl.png";
+            PictureBoxMasina.Load(Cale2 +  (cpt + Val2).ToString() + "bl.png");
+            ImgCarLateral.Load(Cale2 + (cpt + Val2).ToString() + (cpt + Val2).ToString() + "bl.png");
+            ImgCarSpate.Load(Cale2 + (cpt + Val2).ToString() + (cpt + Val2).ToString() + (cpt + Val2).ToString() + "bl.png");
+            ImgCarFata.Load(Cale2 + (cpt + Val2).ToString() + "bl.png");
         }
 
         private void guna2CirclePictureBox4_Click(object sender, EventArgs e)
         {
             CulMasina.Text = "Rosu";
-            NumeImg_ = (cpt + 2).ToString() + "r.png";
-            PictureBoxMasina.Load("D:/IconiteMasiniForms//" +    (cpt + 2).ToString() + "r.png");
-            guna2PictureBoxCar1.Load("D:/IconiteMasiniForms//" + (cpt + 2).ToString() + (cpt + 2).ToString() + "r.png");
-            guna2PictureBoxCar2.Load("D:/IconiteMasiniForms//" + (cpt + 2).ToString() + (cpt + 2).ToString() + (cpt + 2).ToString() + "r.png");
-            guna2PictureBoxCar3.Load("D:/IconiteMasiniForms//" + (cpt + 2).ToString() + "r.png");
+            NumeImg_ = (cpt + Val2).ToString() + "r.png";
+            PictureBoxMasina.Load(Cale2 +    (cpt + Val2).ToString() + "r.png");
+            ImgCarLateral.Load(Cale2 + (cpt + Val2).ToString() + (cpt + Val2).ToString() + "r.png");
+            ImgCarSpate.Load(Cale2 + (cpt + Val2).ToString() + (cpt + Val2).ToString() + (cpt + Val2).ToString() + "r.png");
+            ImgCarFata.Load(Cale2 + (cpt + Val2).ToString() + "r.png");
         }
 
         private void guna2CirclePictureBox5_Click(object sender, EventArgs e)
         {
             CulMasina.Text = "Gri";
-            NumeImg_ = (cpt + 2).ToString() + "g.png";
-            PictureBoxMasina.Load("D:/IconiteMasiniForms//" +    (cpt + 2).ToString() + "g.png");
-            guna2PictureBoxCar1.Load("D:/IconiteMasiniForms//" + (cpt + 2).ToString() + (cpt + 2).ToString() + "g.png");
-            guna2PictureBoxCar2.Load("D:/IconiteMasiniForms//" + (cpt + 2).ToString() + (cpt + 2).ToString() + (cpt + 2).ToString() + "g.png");
-            guna2PictureBoxCar3.Load("D:/IconiteMasiniForms//" + (cpt + 2).ToString() + "g.png");
+            NumeImg_ = (cpt + Val2).ToString() + "g.png";
+            PictureBoxMasina.Load(Cale2 +    (cpt + Val2).ToString() + "g.png");
+            ImgCarLateral.Load(Cale2 + (cpt + Val2).ToString() + (cpt + Val2).ToString() + "g.png");
+            ImgCarSpate.Load(Cale2 + (cpt + Val2).ToString() + (cpt + Val2).ToString() + (cpt + Val2).ToString() + "g.png");
+            ImgCarFata.Load(Cale2 + (cpt + Val2).ToString() + "g.png");
         }
 
         private void label9_Click(object sender, EventArgs e)
@@ -782,31 +716,31 @@ namespace ProiectStudentiForms
 
         private void pictureBox3_MouseHover(object sender, EventArgs e)
         {
-            pictureBox3.Image = Image.FromFile("D:/IconiteMasiniForms/albrosu.png");
+            masinaMijloc.Image = System.Drawing.Image.FromFile(Cale1 + "albrosu.png");
             
         }
 
         private void pictureBox1_MouseHover(object sender, EventArgs e)
         {
-            pictureBox1.Image = Image.FromFile("D:/IconiteMasiniForms/trerosu.png");
+            masinaStanga.Image = System.Drawing.Image.FromFile(Cale1 + "trerosu.png");
             
         }
 
         private void pictureBox3_MouseLeave(object sender, EventArgs e)
         {
-            pictureBox3.Image = Image.FromFile("D:/IconiteMasiniForms/alb.png");
+            masinaMijloc.Image = System.Drawing.Image.FromFile(Cale1 + "alb.png");
             
         }
 
         private void pictureBox1_MouseLeave(object sender, EventArgs e)
         {
-            pictureBox1.Image = Image.FromFile("D:/IconiteMasiniForms/tre.png");
+            masinaStanga.Image = System.Drawing.Image.FromFile(Cale1 + "tre.png");
             
         }
 
         private void pictureBox2_MouseHover(object sender, EventArgs e)
         {
-            pictureBox2.Image = Image.FromFile("D:/IconiteMasiniForms/tredrosu.png");
+            masinaDreapta.Image = System.Drawing.Image.FromFile(Cale1 + "tredrosu.png");
             
         }
 
@@ -817,7 +751,7 @@ namespace ProiectStudentiForms
 
         private void pictureBox2_MouseLeave(object sender, EventArgs e)
         {
-            pictureBox2.Image = Image.FromFile("D:/IconiteMasiniForms/tredr.png");
+            masinaDreapta.Image = System.Drawing.Image.FromFile(Cale1 + "tredr.png");
             
         }
 
@@ -885,12 +819,12 @@ namespace ProiectStudentiForms
 
         private void guna2ImageButton1_MouseHover(object sender, EventArgs e)
         {
-            guna2ImageButton1.BackColor = Color.Red;
+            guna2MeniuBtn.BackColor = Color.Red;
         }
 
         private void guna2ImageButton1_MouseLeave(object sender, EventArgs e)
         {
-            guna2ImageButton1.BackColor = Color.Transparent;
+            guna2MeniuBtn.BackColor = Color.Transparent;
         }
 
         private void guna2TileButton9_Click(object sender, EventArgs e)
@@ -1133,12 +1067,12 @@ namespace ProiectStudentiForms
             masina.IDMAS = ++copid;
             masina.dataActualizare = DateTime.Now;
 
-            if(bunifuCheckbox1.Checked == true)
+            if(checkbxInteriorPiele.Checked == true)
             {          
                 masina.Optiune = masina.Optiune | (Optiuni)1;
             }
 
-            if (bunifuCheckbox2.Checked == true)
+            if (checkbxSuspensie.Checked == true)
             {
                 masina.Optiune = masina.Optiune | (Optiuni)4;
             }
@@ -1176,9 +1110,10 @@ namespace ProiectStudentiForms
         {
             PanouMasinaCumparata.Visible = false;
         }
+
         private void bunifuCheckbox1_OnChange(object sender, EventArgs e)
         {
-            if(bunifuCheckbox1.Checked == true)
+            if(checkbxInteriorPiele.Checked == true)
             {
                 PretMasina.Text = Convert.ToString(Convert.ToInt64(PretMasina.Text) + Interior_Piele_);
             }
@@ -1202,7 +1137,7 @@ namespace ProiectStudentiForms
 
         private void bunifuCheckbox2_OnChange(object sender, EventArgs e)
         {
-            if (bunifuCheckbox2.Checked == true)
+            if (checkbxSuspensie.Checked == true)
             {
                 PretMasina.Text = Convert.ToString(Convert.ToInt64(PretMasina.Text) + Suspensie_Sport_);
             }
@@ -1424,11 +1359,11 @@ namespace ProiectStudentiForms
                     if(verificat == true)
                     {
                         cul = (Culori)Enum.Parse(typeof(Culori), CuloareM1_.Text, true);
-                        label44.ForeColor = Color.White;
+                        PanouMasina1_Culoare.ForeColor = Color.White;
                     }
                     else
                     {
-                        label44.ForeColor = Color.Red;
+                        PanouMasina1_Culoare.ForeColor = Color.Red;
                         cul = 0;
                     }
                     if (m.Marca == MarcaM1.Text && m.Model == ModelM1.Text && m.Pret>= _PretMin_ && m.Pret <= _PretMax_ && m.An_Fabricatie >= _AnFabMin_ && m.An_Fabricatie <= _AnFabMax_ && m.Putere <= _PutereMax_ && m.Culoare == cul)
@@ -1442,7 +1377,7 @@ namespace ProiectStudentiForms
                         PretM1_.Visible = true;
                         Marca_.Text = m.Marca;
                         Model_.Text = m.Model;
-                        ImgM1.Image = Image.FromFile("D:/IconiteMasiniForms/" + m.Nume_Img);
+                        ImgM1.Image = System.Drawing.Image.FromFile(Cale1 + m.Nume_Img);
                         CuloareM1.Text = Enum.GetName(typeof(Culori), m.Culoare);
                         PutereM1.Text = Convert.ToString(m.Putere);
                         AnFM1.Text = Convert.ToString(m.An_Fabricatie);
@@ -1580,11 +1515,11 @@ namespace ProiectStudentiForms
                     if (verificat == true)
                     {
                         cul = (Culori)Enum.Parse(typeof(Culori), CuloareM2_.Text, true);
-                        label62.ForeColor = Color.White;
+                        PanouMasina2_Cul.ForeColor = Color.White;
                     }
                     else
                     {
-                        label62.ForeColor = Color.Red;
+                        PanouMasina2_Cul.ForeColor = Color.Red;
                         cul = 0;
                     }
 
@@ -1599,7 +1534,7 @@ namespace ProiectStudentiForms
                         PretM2_.Visible = true;
                         Marca2_.Text = m.Marca;
                         Model2_.Text = m.Model;
-                        ImgM2.Image = Image.FromFile("D:/IconiteMasiniForms/" + m.Nume_Img);
+                        ImgM2.Image = System.Drawing.Image.FromFile(Cale1 + m.Nume_Img);
                         CuloareM2.Text = Enum.GetName(typeof(Culori), m.Culoare);
                         PutereM2.Text = Convert.ToString(m.Putere);
                         AnFM2.Text = Convert.ToString(m.An_Fabricatie);
@@ -1663,12 +1598,12 @@ namespace ProiectStudentiForms
 
         private void guna2ImageButton3_MouseHover(object sender, EventArgs e)
         {
-            guna2ImageButton3.BackColor = Color.Red;
+            guna2SetariBtn.BackColor = Color.Red;
         }
 
         private void guna2ImageButton3_MouseLeave(object sender, EventArgs e)
         {
-            guna2ImageButton3.BackColor = Color.Transparent;
+            guna2SetariBtn.BackColor = Color.Transparent;
         }
 
         private void guna2ImageButton3_Click(object sender, EventArgs e)
@@ -1697,32 +1632,59 @@ namespace ProiectStudentiForms
 
         private void DarkBtn_CheckedChanged(object sender, EventArgs e)
         {
-            Home.BackgroundImage = Image.FromFile("D:/IconiteMasiniForms/background6.gif");
+            //home
+            Home.BackgroundImage = System.Drawing.Image.FromFile(Cale1 + "background6.gif");
             Themelbl.ForeColor = Color.White;
             DarkLbl.ForeColor = Color.White;
             LightLbl.ForeColor = Color.White;
-            guna2ImageButton3.Image = Image.FromFile("D:/IconiteMasiniForms/icons8_Settings_64.png");
-            guna2ImageButton1.Image = Image.FromFile("D:/IconiteMasiniForms/icons8_Menu_64.png");
+            guna2SetariBtn.Image = System.Drawing.Image.FromFile(Cale1 + "icons8_Settings_64.png");
+            guna2MeniuBtn.Image = System.Drawing.Image.FromFile(Cale1 + "icons8_Menu_64.png");
             Minimizebtn.IconColor = Color.White;
             Exitbtn.IconColor = Color.White;
             Maximizebtn.IconColor = Color.White;
-            panel4.BackColor = Color.FromArgb(140, 248, 9, 72);
-           
+            MeniuHome.BackColor = Color.FromArgb(140, 248, 9, 72);
+
+            //Inventory
+            PanouMeniuInventory.BackColor = Color.Black;
+            MeniuInventory_Shop.Image = System.Drawing.Image.FromFile(Cale1 + "icons8_Race_Car_64.png");
+
+            //compara
+            PanouMeniuCompare.BackColor = Color.Black;
+            MeniuCompare_Shop.Image = System.Drawing.Image.FromFile(Cale1 + "icons8_Race_Car_64.png");
+
+            //modifica
+            PanouMeniuEdit.BackColor = Color.Black;
+            MeniuEdit_Shop.Image = System.Drawing.Image.FromFile(Cale1 + "icons8_Race_Car_64.png");
         }
 
         private void LightBtn_CheckedChanged(object sender, EventArgs e)
         {
-            Home.BackgroundImage = Image.FromFile("D:/IconiteMasiniForms/Backgrounddd.gif");
+            //home
+            Home.BackgroundImage = System.Drawing.Image.FromFile(Cale1 + "Backgrounddd.gif");
             Themelbl.ForeColor = Color.Black;
             DarkLbl.ForeColor = Color.Black;
             LightLbl.ForeColor = Color.Black ;
-            guna2ImageButton3.Image = Image.FromFile("D:/IconiteMasiniForms/1ngr_64.png");
-            guna2ImageButton1.Image = Image.FromFile("D:/IconiteMasiniForms/2ngr_64.png");
+            guna2SetariBtn.Image = System.Drawing.Image.FromFile(Cale1 + "1ngr_64.png");
+            guna2MeniuBtn.Image = System.Drawing.Image.FromFile(Cale1 + "2ngr_64.png");
             Minimizebtn.IconColor = Color.Black;
             Exitbtn.IconColor = Color.Black;
             Maximizebtn.IconColor = Color.Black;
-            panel4.BackColor = Color.Red;
-            
+            MeniuHome.BackColor = Color.Red;
+
+            //Inventory
+            PanouMeniuInventory.BackColor = Color.Red;
+            MeniuInventory_Shop.Image = System.Drawing.Image.FromFile(Cale1 + "icons8_Race_Alb.png");
+
+            //compara
+            PanouMeniuCompare.BackColor = Color.Red;
+            MeniuCompare_Shop.Image = System.Drawing.Image.FromFile(Cale1 + "icons8_Race_Alb.png");
+
+            //modifica
+            PanouMeniuEdit.BackColor = Color.Red;
+            MeniuEdit_Shop.Image = System.Drawing.Image.FromFile(Cale1 + "icons8_Race_Alb.png");
+
+
+
         }
 
         private void guna2TileButton3_Click(object sender, EventArgs e)
@@ -1738,7 +1700,7 @@ namespace ProiectStudentiForms
 
         private void guna2TileButton27_Click(object sender, EventArgs e)
         {
-            dataGridViewM.DataSource = null;
+            dataGridViewMasina.DataSource = null;
             int ok = 1;
             long _PretMin_ = 0;
             long _PretMax_ = 0;
@@ -1776,22 +1738,22 @@ namespace ProiectStudentiForms
 
             if(ValidareMin == 0)
             {
-                label84.ForeColor = Color.Red;    
+                CautaDateTime_DataModmin.ForeColor = Color.Red;    
                 ok = 0;   
             }
             else
             {
-                label84.ForeColor = Color.White;                
+                CautaDateTime_DataModmin.ForeColor = Color.White;                
             }
 
             if (ValidareMax == 0)
             {              
-                label85.ForeColor = Color.Red;              
+                CautaDateTime_DataModmax.ForeColor = Color.Red;              
                 ok = 0;
             }
             else
             {               
-                label85.ForeColor = Color.White;
+                CautaDateTime_DataModmax.ForeColor = Color.White;
             }
 
 
@@ -1803,8 +1765,7 @@ namespace ProiectStudentiForms
 
                 foreach (Masina m in masini)
                 {
-                    //IDm++;
-                    //m.ID = IDm;
+                    
                     if (ModPMin1.Text == string.Empty)
                     {
                         _PretMin_ = m.Pret;
@@ -1860,11 +1821,11 @@ namespace ProiectStudentiForms
                         if (verificat == true)
                         {
                             cul = (Culori)Enum.Parse(typeof(Culori), ModCuloare1.Text, true);
-                            label79.ForeColor = Color.White;
+                            CautaDateTime_Culoare.ForeColor = Color.White;
                         }
                         else
                         {
-                            label79.ForeColor = Color.Red;
+                            CautaDateTime_Culoare.ForeColor = Color.Red;
                             cul = 0;
                         }
                     }
@@ -1894,15 +1855,15 @@ namespace ProiectStudentiForms
                 {
                     ModText1.Text = "MASINA GASITA!";
                     ModPanel1.BackColor = Color.Red;
-                    dataGridViewM.DataSource = MSN.Select(s => new { s.IDMAS, s.Marca, s.Model, s.Pret,s.An_Fabricatie,s.Culoare,s.dataActualizare }).ToList();
-                    dataGridViewM.ColumnHeadersDefaultCellStyle.Font = new Font("Microsoft Sans Serif", 9, FontStyle.Regular);
-                    dataGridViewM.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-                    dataGridViewM.Columns[1].Width = 120;
-                    dataGridViewM.Columns[2].Width = 120;
-                    dataGridViewM.Columns[6].Width = 150;
+                    dataGridViewMasina.DataSource = MSN.Select(s => new { s.IDMAS, s.Marca, s.Model, s.Pret,s.An_Fabricatie,s.Culoare,s.dataActualizare }).ToList();
+                    dataGridViewMasina.ColumnHeadersDefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9, FontStyle.Regular);
+                    dataGridViewMasina.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+                    dataGridViewMasina.Columns[1].Width = 120;
+                    dataGridViewMasina.Columns[2].Width = 120;
+                    dataGridViewMasina.Columns[6].Width = 150;
                   
                     if(okk == 1)
-                    { panel8.Location = new Point(panel8.Location.X - 420, panel8.Location.Y);
+                    { PanelCautaDateTime.Location = new Point(PanelCautaDateTime.Location.X - 420, PanelCautaDateTime.Location.Y);
                         okk++;
                     }
                    
@@ -1921,6 +1882,11 @@ namespace ProiectStudentiForms
         private void guna2Button3_Click(object sender, EventArgs e)
         {
             tabControl1.SelectedIndex = 6;
+        }
+
+        private void guna2ImageButton1_Click_1(object sender, EventArgs e)
+        {
+
         }
 
         private void ModDataMin_ValueChanged(object sender, EventArgs e)
@@ -1984,9 +1950,9 @@ namespace ProiectStudentiForms
             ModMasinaModel.Text = modificat.Model;
             AdminMasini.UpdateMasini(modificat);
             ModPanel2.BackColor = Color.FromArgb(63, 86, 71);
-            label68.Visible = false;
-            label69.Visible = false;
-            label70.Visible = false;
+            ModPanel2_model.Visible = false;
+            ModPanel2_Marca.Visible = false;
+            ModPanel2_pret.Visible = false;
             ButonModifica.Visible = false;
             ButonModifica.Enabled = false;
             ModificaModel.Visible = false;
@@ -2003,7 +1969,7 @@ namespace ProiectStudentiForms
             ModMasinaMarca.Visible = false;
             ModMasinaModel.Visible = false;
             ModMasinaPret.Visible = false;
-            ModModel.Image = Image.FromFile("D:/IconiteMasiniForms/car.png");
+            ModModel.Image = System.Drawing.Image.FromFile(Cale1 + "car.png");
             ModPanel.Visible = false;
             ModificaMarca.Text = string.Empty;
             ModificaModel.Text = string.Empty;
@@ -2023,30 +1989,70 @@ namespace ProiectStudentiForms
 
         private void guna2TileButton26_Click(object sender, EventArgs e)
         {
-            //tabControl1.SelectedIndex = 5;
+           
             Form2 modifica = new Form2();
             modifica.Show();
         }
 
         private void guna2TileButton25_Click(object sender, EventArgs e)
         {
-            //tabControl1.SelectedIndex = 5;
+        
             Form2 modifica = new Form2();
             modifica.Show();
         }
 
         private void guna2TileButton21_Click(object sender, EventArgs e)
         {
-            //tabControl1.SelectedIndex = 5;
+     
             Form2 modifica = new Form2();
             modifica.Show();
         }
 
         private void guna2TileButton23_Click_1(object sender, EventArgs e)
         {
-            //tabControl1.SelectedIndex = 5;
+           
             Form2 modifica = new Form2();
             modifica.Show();
+        }
+
+        private void guna2Button1_Click_1(object sender, EventArgs e)
+        {
+            contor_stergeM++;
+            if(contor_stergeM % Val2 ==0)
+            {
+                Generare();
+                ButonStergeM.BackColor = Color.Black;
+            }
+            else
+            {
+                GenerareShow();
+                ButonStergeM.BackColor = Color.Red;
+            }
+            
+        }
+
+        private void guna2TileButton1_Click_2(object sender, EventArgs e)
+        {
+            string FileName = ConfigurationManager.AppSettings["NumeFisier"] + ".txt";
+            string Output = FileName.Replace(".txt", ".pdf");
+           
+            SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+            saveFileDialog1.Filter = "Pdf Files|*.pdf";
+          
+
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {                              
+                    StreamReader rdr = new StreamReader(FileName);
+                    iTextSharp.text.Document doc = new iTextSharp.text.Document();             
+                    PdfWriter.GetInstance(doc, new FileStream(saveFileDialog1.FileName, FileMode.OpenOrCreate));             
+                    doc.Open();
+                    doc.Add(new Paragraph(rdr.ReadToEnd()));
+                    doc.Close();               
+                    System.Diagnostics.Process.Start(saveFileDialog1.FileName);
+                    MesajPanel.Visible = true;
+                    EroareLabel.Text = "Salvare reusita!";
+            }
+            
         }
 
         private void guna2TileButton20_Click(object sender, EventArgs e)
@@ -2071,12 +2077,12 @@ namespace ProiectStudentiForms
 
         private void ModCauta_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Clear();
+            ListBoxMasini.Items.Clear();
            
             ModPanel2.BackColor = Color.Black;
-            label68.Visible = true;
-            label69.Visible = true;
-            label70.Visible = true;
+            ModPanel2_model.Visible = true;
+            ModPanel2_Marca.Visible = true;
+            ModPanel2_pret.Visible = true;
             ButonModifica.Visible = true;
             ButonModifica.Enabled = true;
             ModificaModel.Visible = true;
@@ -2122,7 +2128,7 @@ namespace ProiectStudentiForms
             if (ok != 0)
             {
                 var antetTabel = String.Format("{0,0}{1,35}{2,40}{3,43}\n", "Marca", "Model", "An fab", "Pret");
-                listBox1.Items.Add(antetTabel);
+                ListBoxMasini.Items.Add(antetTabel);
                 foreach (Masina m in masini)
                 {
                     IDm++;
@@ -2182,11 +2188,11 @@ namespace ProiectStudentiForms
                         if (verificat == true)
                         {
                             cul = (Culori)Enum.Parse(typeof(Culori), ModCuloare.Text, true);
-                            label38.ForeColor = Color.White;
+                            PanouMasinaEdit_Culoare.ForeColor = Color.White;
                         }
                         else
                         {
-                            label38.ForeColor = Color.Red;
+                            PanouMasinaEdit_Culoare.ForeColor = Color.Red;
                             cul = 0;
                         }
                     }
@@ -2197,7 +2203,7 @@ namespace ProiectStudentiForms
                     {
                         modificat = m;               
                         eroare = 0;
-                        ModModel.Image =  Image.FromFile("D:/IconiteMasiniForms/" + m.Nume_Img);
+                        ModModel.Image = System.Drawing.Image.FromFile(Cale1 + m.Nume_Img);
                         ModMasinaMarca.Text = m.Marca;
                         ModMasinaModel.Text = m.Model;
                         ModMasinaPret.Text =  Convert.ToString(m.Pret) + "€";
@@ -2211,7 +2217,7 @@ namespace ProiectStudentiForms
                         MasinaPutere.Text = Convert.ToString(m.Putere);
                         MasinaCutie.Text = m.Cutie_Viteze;                    
                         var linieTabel = String.Format("{0,0}{1,37}{2,40}{3,44}\n", m.Marca, m.Model,m.An_Fabricatie,m.Pret);
-                        listBox1.Items.Add(linieTabel);
+                        ListBoxMasini.Items.Add(linieTabel);
                     }
 
                 }
@@ -2247,11 +2253,11 @@ namespace ProiectStudentiForms
             if (ContorMeniu % 2 == 0)
             {
 
-                panel4.Visible = true;
+                MeniuHome.Visible = true;
             }
             else
             {
-                panel4.Visible = false;
+                MeniuHome.Visible = false;
             }
             ContorMeniu++;
         }
@@ -2259,6 +2265,7 @@ namespace ProiectStudentiForms
        
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+            EroareLabel.Text = "Date incorecte";
             //ascundere MesahPanle//
             MesajPanel.Visible = false;
             //initializare date controlae//
@@ -2383,13 +2390,13 @@ namespace ProiectStudentiForms
             else
             {
 
-                while (panel2.Controls.Count > 1)
+                while (PanouMasini.Controls.Count > 1)
                 {
-                    foreach (Control c in panel2.Controls)
+                    foreach (Control c in PanouMasini.Controls)
                     {
-                        if (c != panel5)
+                        if (c != PanouCautareMasini)
                         {
-                            panel2.Controls.Remove(c);
+                            PanouMasini.Controls.Remove(c);
                         }
 
                     }
@@ -2521,13 +2528,13 @@ namespace ProiectStudentiForms
                         panou.BackColor = Color.Red;
                         panou.BackgroundImageLayout = ImageLayout.Stretch;
                         panou.BackColor = Color.WhiteSmoke;
-                        panou.BackgroundImage = Image.FromFile("D:/IconiteMasiniForms/imgpanou3.gif");
+                        panou.BackgroundImage = System.Drawing.Image.FromFile(Cale1 + "imgpanou3.gif");
                         panou.Size = new Size(266, 249);
 
                         //img
 
                         img.Location = new Point(0, 47);
-                        img.Image = Image.FromFile("D:/IconiteMasiniForms/" + m.Nume_Img);
+                        img.Image = System.Drawing.Image.FromFile(Cale1 + m.Nume_Img);
                         img.Size = new Size(266, 170);
                         img.SizeMode = PictureBoxSizeMode.Zoom;
                         img.BackColor = Color.Transparent;
@@ -2543,7 +2550,7 @@ namespace ProiectStudentiForms
                         pret.BackColor = Color.Transparent;
                         pret.Text = Convert.ToString(m.Pret);
                         pret.ForeColor = Color.Red;
-                        pret.Font = new Font("Montserrat", 16.0f);
+                        pret.Font = new System.Drawing.Font("Montserrat", 16.0f);
 
                         //tippret
                         tipvaluta.Location = new Point(222, 10);
@@ -2551,7 +2558,7 @@ namespace ProiectStudentiForms
                         tipvaluta.BackColor = Color.Transparent;
                         tipvaluta.Text = "EUR";
                         tipvaluta.ForeColor = Color.White;
-                        tipvaluta.Font = new Font("Montserrat", 10.0f);
+                        tipvaluta.Font = new System.Drawing.Font("Montserrat", 10.0f);
 
                         //anfab
                         anfab.Location = new Point(10, 18);
@@ -2559,7 +2566,7 @@ namespace ProiectStudentiForms
                         anfab.BackColor = Color.Transparent;
                         anfab.Text = Convert.ToString(m.An_Fabricatie);
                         anfab.ForeColor = Color.White;
-                        anfab.Font = new Font("Roboto Black", 9.0f);
+                        anfab.Font = new System.Drawing.Font("Roboto Black", 9.0f);
 
                         //putere
                         putere.Location = new Point(43, 18);
@@ -2567,7 +2574,7 @@ namespace ProiectStudentiForms
                         putere.BackColor = Color.Transparent;
                         putere.Text = Convert.ToString(m.Putere) + " CP";
                         putere.ForeColor = Color.White;
-                        putere.Font = new Font("Roboto Black", 9.0f);
+                        putere.Font = new System.Drawing.Font("Roboto Black", 9.0f);
 
                         //marca
                         marca.Location = new Point(15, 13);
@@ -2575,7 +2582,7 @@ namespace ProiectStudentiForms
                         marca.BackColor = Color.Transparent;
                         marca.Text = m.Marca;
                         marca.ForeColor = Color.White;
-                        marca.Font = new Font("Montserrat", 13.0f);
+                        marca.Font = new System.Drawing.Font("Montserrat", 13.0f);
 
                         //model
                         model.Location = new Point(15, 37);
@@ -2583,9 +2590,9 @@ namespace ProiectStudentiForms
                         model.BackColor = Color.Transparent;
                         model.Text = m.Model;
                         model.ForeColor = Color.DarkGray;
-                        model.Font = new Font("Montserrat", 13.0f);
+                        model.Font = new System.Drawing.Font("Montserrat", 13.0f);
 
-                        panel2.Controls.Add(panou);
+                        PanouMasini.Controls.Add(panou);
                         panou.Controls.Add(img);
                         panou.Controls.Add(panoupret);                       
                         img.SendToBack();

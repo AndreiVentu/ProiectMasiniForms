@@ -1,4 +1,5 @@
-﻿using LibrarieModele;
+﻿// Andrei Ventuneac 3121A
+using LibrarieModele;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -40,6 +41,11 @@ namespace NivelAccesDate
         }
 
         public ArrayList GetMasini2()
+        {
+            throw new Exception("Optiunea nu este implementata");
+        }
+
+        public void StergeMasina(int id_m)
         {
             throw new Exception("Optiunea nu este implementata");
         }

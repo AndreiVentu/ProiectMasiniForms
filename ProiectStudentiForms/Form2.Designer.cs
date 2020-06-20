@@ -31,21 +31,21 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listBoxModifica = new System.Windows.Forms.ListBox();
             this.ModMasinaPret = new System.Windows.Forms.Label();
             this.ModMasinaModel = new System.Windows.Forms.Label();
             this.ModMasinaMarca = new System.Windows.Forms.Label();
             this.ModPanel3 = new System.Windows.Forms.Panel();
             this.MasinaCutie = new System.Windows.Forms.Label();
-            this.label72 = new System.Windows.Forms.Label();
+            this.ModPanel3_CutieV = new System.Windows.Forms.Label();
             this.MasinaPutere = new System.Windows.Forms.Label();
-            this.label74 = new System.Windows.Forms.Label();
+            this.ModPanel3_Culoare = new System.Windows.Forms.Label();
             this.MasinaAn = new System.Windows.Forms.Label();
-            this.label76 = new System.Windows.Forms.Label();
+            this.ModPanel3_Putere = new System.Windows.Forms.Label();
             this.MasinaCul = new System.Windows.Forms.Label();
-            this.label78 = new System.Windows.Forms.Label();
+            this.ModPanel3_AnF = new System.Windows.Forms.Label();
             this.ModPanel2 = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.PanouInfo = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.ButonModifica = new Guna.UI2.WinForms.Guna2TileButton();
             this.ModificaPret = new Guna.UI2.WinForms.Guna2TextBox();
@@ -53,39 +53,41 @@
             this.ModificaMarca = new Guna.UI2.WinForms.Guna2TextBox();
             this.label69 = new System.Windows.Forms.Label();
             this.ModificaModel = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label68 = new System.Windows.Forms.Label();
+            this.ModPanel2_Model = new System.Windows.Forms.Label();
             this.ModModel = new System.Windows.Forms.PictureBox();
-            this.panel7 = new System.Windows.Forms.Panel();
+            this.PanouModifica = new System.Windows.Forms.Panel();
             this.ModCuloare = new Guna.UI2.WinForms.Guna2ComboBox();
             this.ModMarca = new Guna.UI2.WinForms.Guna2TextBox();
             this.ModPut = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
+            this.PanouModifica_PutereMx = new System.Windows.Forms.Label();
+            this.PanouModifica_AnFMax = new System.Windows.Forms.Label();
             this.ModAnMax = new Guna.UI2.WinForms.Guna2TextBox();
             this.ModAnMin = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
+            this.PanouModifica_AnFMin = new System.Windows.Forms.Label();
+            this.PanouModifica_PretMax = new System.Windows.Forms.Label();
             this.ModPMax = new Guna.UI2.WinForms.Guna2TextBox();
             this.ModMdl = new Guna.UI2.WinForms.Guna2TextBox();
             this.ModPMin = new Guna.UI2.WinForms.Guna2TextBox();
             this.ModPanel = new System.Windows.Forms.Panel();
             this.ModText = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
+            this.PanouModifica_Culoare = new System.Windows.Forms.Label();
             this.ModCauta = new Guna.UI2.WinForms.Guna2TileButton();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label66 = new System.Windows.Forms.Label();
-            this.label67 = new System.Windows.Forms.Label();
+            this.PanouModifica_lbl = new System.Windows.Forms.Label();
+            this.PanouModifica_Pmin = new System.Windows.Forms.Label();
+            this.PanouModifica_Model = new System.Windows.Forms.Label();
+            this.PanouModifica_marca = new System.Windows.Forms.Label();
             this.guna2ControlBox16 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox17 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox18 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.ModPanel3.SuspendLayout();
             this.ModPanel2.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.PanouInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ModModel)).BeginInit();
-            this.panel7.SuspendLayout();
+            this.PanouModifica.SuspendLayout();
             this.ModPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -93,20 +95,20 @@
             // 
             this.guna2DragControl1.TargetControl = this;
             // 
-            // listBox1
+            // listBoxModifica
             // 
-            this.listBox1.BackColor = System.Drawing.Color.Black;
-            this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listBox1.ForeColor = System.Drawing.Color.White;
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 25;
-            this.listBox1.Location = new System.Drawing.Point(1129, 119);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(773, 275);
-            this.listBox1.TabIndex = 64;
-            this.listBox1.Visible = false;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.listBoxModifica.BackColor = System.Drawing.Color.Black;
+            this.listBoxModifica.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listBoxModifica.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBoxModifica.ForeColor = System.Drawing.Color.White;
+            this.listBoxModifica.FormattingEnabled = true;
+            this.listBoxModifica.ItemHeight = 25;
+            this.listBoxModifica.Location = new System.Drawing.Point(1129, 119);
+            this.listBoxModifica.Name = "listBoxModifica";
+            this.listBoxModifica.Size = new System.Drawing.Size(773, 275);
+            this.listBoxModifica.TabIndex = 64;
+            this.listBoxModifica.Visible = false;
+            this.listBoxModifica.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // ModMasinaPret
             // 
@@ -151,13 +153,13 @@
             // 
             this.ModPanel3.BackColor = System.Drawing.Color.Black;
             this.ModPanel3.Controls.Add(this.MasinaCutie);
-            this.ModPanel3.Controls.Add(this.label72);
+            this.ModPanel3.Controls.Add(this.ModPanel3_CutieV);
             this.ModPanel3.Controls.Add(this.MasinaPutere);
-            this.ModPanel3.Controls.Add(this.label74);
+            this.ModPanel3.Controls.Add(this.ModPanel3_Culoare);
             this.ModPanel3.Controls.Add(this.MasinaAn);
-            this.ModPanel3.Controls.Add(this.label76);
+            this.ModPanel3.Controls.Add(this.ModPanel3_Putere);
             this.ModPanel3.Controls.Add(this.MasinaCul);
-            this.ModPanel3.Controls.Add(this.label78);
+            this.ModPanel3.Controls.Add(this.ModPanel3_AnF);
             this.ModPanel3.Location = new System.Drawing.Point(1129, 741);
             this.ModPanel3.Name = "ModPanel3";
             this.ModPanel3.Size = new System.Drawing.Size(773, 239);
@@ -176,17 +178,17 @@
             this.MasinaCutie.TabIndex = 53;
             this.MasinaCutie.Text = "-";
             // 
-            // label72
+            // ModPanel3_CutieV
             // 
-            this.label72.AutoSize = true;
-            this.label72.BackColor = System.Drawing.Color.Transparent;
-            this.label72.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label72.ForeColor = System.Drawing.Color.White;
-            this.label72.Location = new System.Drawing.Point(30, 174);
-            this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(123, 24);
-            this.label72.TabIndex = 49;
-            this.label72.Text = "Cutie Viteze";
+            this.ModPanel3_CutieV.AutoSize = true;
+            this.ModPanel3_CutieV.BackColor = System.Drawing.Color.Transparent;
+            this.ModPanel3_CutieV.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModPanel3_CutieV.ForeColor = System.Drawing.Color.White;
+            this.ModPanel3_CutieV.Location = new System.Drawing.Point(30, 174);
+            this.ModPanel3_CutieV.Name = "ModPanel3_CutieV";
+            this.ModPanel3_CutieV.Size = new System.Drawing.Size(123, 24);
+            this.ModPanel3_CutieV.TabIndex = 49;
+            this.ModPanel3_CutieV.Text = "Cutie Viteze";
             // 
             // MasinaPutere
             // 
@@ -200,17 +202,17 @@
             this.MasinaPutere.TabIndex = 52;
             this.MasinaPutere.Text = "-";
             // 
-            // label74
+            // ModPanel3_Culoare
             // 
-            this.label74.AutoSize = true;
-            this.label74.BackColor = System.Drawing.Color.Transparent;
-            this.label74.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label74.ForeColor = System.Drawing.Color.White;
-            this.label74.Location = new System.Drawing.Point(30, 32);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(84, 24);
-            this.label74.TabIndex = 46;
-            this.label74.Text = "Culoare";
+            this.ModPanel3_Culoare.AutoSize = true;
+            this.ModPanel3_Culoare.BackColor = System.Drawing.Color.Transparent;
+            this.ModPanel3_Culoare.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModPanel3_Culoare.ForeColor = System.Drawing.Color.White;
+            this.ModPanel3_Culoare.Location = new System.Drawing.Point(30, 32);
+            this.ModPanel3_Culoare.Name = "ModPanel3_Culoare";
+            this.ModPanel3_Culoare.Size = new System.Drawing.Size(84, 24);
+            this.ModPanel3_Culoare.TabIndex = 46;
+            this.ModPanel3_Culoare.Text = "Culoare";
             // 
             // MasinaAn
             // 
@@ -224,17 +226,17 @@
             this.MasinaAn.TabIndex = 51;
             this.MasinaAn.Text = "-";
             // 
-            // label76
+            // ModPanel3_Putere
             // 
-            this.label76.AutoSize = true;
-            this.label76.BackColor = System.Drawing.Color.Transparent;
-            this.label76.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label76.ForeColor = System.Drawing.Color.White;
-            this.label76.Location = new System.Drawing.Point(30, 127);
-            this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(72, 24);
-            this.label76.TabIndex = 48;
-            this.label76.Text = "Putere";
+            this.ModPanel3_Putere.AutoSize = true;
+            this.ModPanel3_Putere.BackColor = System.Drawing.Color.Transparent;
+            this.ModPanel3_Putere.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModPanel3_Putere.ForeColor = System.Drawing.Color.White;
+            this.ModPanel3_Putere.Location = new System.Drawing.Point(30, 127);
+            this.ModPanel3_Putere.Name = "ModPanel3_Putere";
+            this.ModPanel3_Putere.Size = new System.Drawing.Size(72, 24);
+            this.ModPanel3_Putere.TabIndex = 48;
+            this.ModPanel3_Putere.Text = "Putere";
             // 
             // MasinaCul
             // 
@@ -248,44 +250,44 @@
             this.MasinaCul.TabIndex = 50;
             this.MasinaCul.Text = "-";
             // 
-            // label78
+            // ModPanel3_AnF
             // 
-            this.label78.AutoSize = true;
-            this.label78.BackColor = System.Drawing.Color.Transparent;
-            this.label78.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label78.ForeColor = System.Drawing.Color.White;
-            this.label78.Location = new System.Drawing.Point(30, 80);
-            this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(135, 24);
-            this.label78.TabIndex = 47;
-            this.label78.Text = "An Fabricatie";
+            this.ModPanel3_AnF.AutoSize = true;
+            this.ModPanel3_AnF.BackColor = System.Drawing.Color.Transparent;
+            this.ModPanel3_AnF.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModPanel3_AnF.ForeColor = System.Drawing.Color.White;
+            this.ModPanel3_AnF.Location = new System.Drawing.Point(30, 80);
+            this.ModPanel3_AnF.Name = "ModPanel3_AnF";
+            this.ModPanel3_AnF.Size = new System.Drawing.Size(135, 24);
+            this.ModPanel3_AnF.TabIndex = 47;
+            this.ModPanel3_AnF.Text = "An Fabricatie";
             // 
             // ModPanel2
             // 
             this.ModPanel2.BackColor = System.Drawing.Color.Black;
-            this.ModPanel2.Controls.Add(this.panel1);
+            this.ModPanel2.Controls.Add(this.PanouInfo);
             this.ModPanel2.Controls.Add(this.ButonModifica);
             this.ModPanel2.Controls.Add(this.ModificaPret);
             this.ModPanel2.Controls.Add(this.label70);
             this.ModPanel2.Controls.Add(this.ModificaMarca);
             this.ModPanel2.Controls.Add(this.label69);
             this.ModPanel2.Controls.Add(this.ModificaModel);
-            this.ModPanel2.Controls.Add(this.label68);
+            this.ModPanel2.Controls.Add(this.ModPanel2_Model);
             this.ModPanel2.Location = new System.Drawing.Point(149, 734);
             this.ModPanel2.Name = "ModPanel2";
             this.ModPanel2.Size = new System.Drawing.Size(773, 245);
             this.ModPanel2.TabIndex = 59;
             this.ModPanel2.Visible = false;
             // 
-            // panel1
+            // PanouInfo
             // 
-            this.panel1.BackColor = System.Drawing.Color.Red;
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(-6, 193);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(788, 53);
-            this.panel1.TabIndex = 42;
-            this.panel1.Visible = false;
+            this.PanouInfo.BackColor = System.Drawing.Color.Red;
+            this.PanouInfo.Controls.Add(this.label1);
+            this.PanouInfo.Location = new System.Drawing.Point(-6, 193);
+            this.PanouInfo.Name = "PanouInfo";
+            this.PanouInfo.Size = new System.Drawing.Size(788, 53);
+            this.PanouInfo.TabIndex = 42;
+            this.PanouInfo.Visible = false;
             // 
             // label1
             // 
@@ -428,17 +430,17 @@
             this.ModificaModel.Size = new System.Drawing.Size(277, 38);
             this.ModificaModel.TabIndex = 60;
             // 
-            // label68
+            // ModPanel2_Model
             // 
-            this.label68.AutoSize = true;
-            this.label68.BackColor = System.Drawing.Color.Transparent;
-            this.label68.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label68.ForeColor = System.Drawing.Color.White;
-            this.label68.Location = new System.Drawing.Point(44, 108);
-            this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(68, 24);
-            this.label68.TabIndex = 59;
-            this.label68.Text = "Model";
+            this.ModPanel2_Model.AutoSize = true;
+            this.ModPanel2_Model.BackColor = System.Drawing.Color.Transparent;
+            this.ModPanel2_Model.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModPanel2_Model.ForeColor = System.Drawing.Color.White;
+            this.ModPanel2_Model.Location = new System.Drawing.Point(44, 108);
+            this.ModPanel2_Model.Name = "ModPanel2_Model";
+            this.ModPanel2_Model.Size = new System.Drawing.Size(68, 24);
+            this.ModPanel2_Model.TabIndex = 59;
+            this.ModPanel2_Model.Text = "Model";
             // 
             // ModModel
             // 
@@ -451,33 +453,33 @@
             this.ModModel.TabIndex = 58;
             this.ModModel.TabStop = false;
             // 
-            // panel7
+            // PanouModifica
             // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
-            this.panel7.Controls.Add(this.ModCuloare);
-            this.panel7.Controls.Add(this.ModMarca);
-            this.panel7.Controls.Add(this.ModPut);
-            this.panel7.Controls.Add(this.label33);
-            this.panel7.Controls.Add(this.label34);
-            this.panel7.Controls.Add(this.ModAnMax);
-            this.panel7.Controls.Add(this.ModAnMin);
-            this.panel7.Controls.Add(this.label35);
-            this.panel7.Controls.Add(this.label36);
-            this.panel7.Controls.Add(this.ModPMax);
-            this.panel7.Controls.Add(this.ModMdl);
-            this.panel7.Controls.Add(this.ModPMin);
-            this.panel7.Controls.Add(this.ModPanel);
-            this.panel7.Controls.Add(this.label38);
-            this.panel7.Controls.Add(this.ModCauta);
-            this.panel7.Controls.Add(this.label39);
-            this.panel7.Controls.Add(this.label40);
-            this.panel7.Controls.Add(this.label66);
-            this.panel7.Controls.Add(this.label67);
-            this.panel7.Location = new System.Drawing.Point(149, 270);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(773, 587);
-            this.panel7.TabIndex = 57;
-            this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
+            this.PanouModifica.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
+            this.PanouModifica.Controls.Add(this.ModCuloare);
+            this.PanouModifica.Controls.Add(this.ModMarca);
+            this.PanouModifica.Controls.Add(this.ModPut);
+            this.PanouModifica.Controls.Add(this.PanouModifica_PutereMx);
+            this.PanouModifica.Controls.Add(this.PanouModifica_AnFMax);
+            this.PanouModifica.Controls.Add(this.ModAnMax);
+            this.PanouModifica.Controls.Add(this.ModAnMin);
+            this.PanouModifica.Controls.Add(this.PanouModifica_AnFMin);
+            this.PanouModifica.Controls.Add(this.PanouModifica_PretMax);
+            this.PanouModifica.Controls.Add(this.ModPMax);
+            this.PanouModifica.Controls.Add(this.ModMdl);
+            this.PanouModifica.Controls.Add(this.ModPMin);
+            this.PanouModifica.Controls.Add(this.ModPanel);
+            this.PanouModifica.Controls.Add(this.PanouModifica_Culoare);
+            this.PanouModifica.Controls.Add(this.ModCauta);
+            this.PanouModifica.Controls.Add(this.PanouModifica_lbl);
+            this.PanouModifica.Controls.Add(this.PanouModifica_Pmin);
+            this.PanouModifica.Controls.Add(this.PanouModifica_Model);
+            this.PanouModifica.Controls.Add(this.PanouModifica_marca);
+            this.PanouModifica.Location = new System.Drawing.Point(149, 270);
+            this.PanouModifica.Name = "PanouModifica";
+            this.PanouModifica.Size = new System.Drawing.Size(773, 587);
+            this.PanouModifica.TabIndex = 57;
+            this.PanouModifica.Paint += new System.Windows.Forms.PaintEventHandler(this.panel7_Paint);
             // 
             // ModCuloare
             // 
@@ -567,29 +569,29 @@
             this.ModPut.Size = new System.Drawing.Size(230, 38);
             this.ModPut.TabIndex = 56;
             // 
-            // label33
+            // PanouModifica_PutereMx
             // 
-            this.label33.AutoSize = true;
-            this.label33.BackColor = System.Drawing.Color.Transparent;
-            this.label33.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.ForeColor = System.Drawing.Color.White;
-            this.label33.Location = new System.Drawing.Point(395, 384);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(118, 24);
-            this.label33.TabIndex = 55;
-            this.label33.Text = "Putere max";
+            this.PanouModifica_PutereMx.AutoSize = true;
+            this.PanouModifica_PutereMx.BackColor = System.Drawing.Color.Transparent;
+            this.PanouModifica_PutereMx.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouModifica_PutereMx.ForeColor = System.Drawing.Color.White;
+            this.PanouModifica_PutereMx.Location = new System.Drawing.Point(395, 384);
+            this.PanouModifica_PutereMx.Name = "PanouModifica_PutereMx";
+            this.PanouModifica_PutereMx.Size = new System.Drawing.Size(118, 24);
+            this.PanouModifica_PutereMx.TabIndex = 55;
+            this.PanouModifica_PutereMx.Text = "Putere max";
             // 
-            // label34
+            // PanouModifica_AnFMax
             // 
-            this.label34.AutoSize = true;
-            this.label34.BackColor = System.Drawing.Color.Transparent;
-            this.label34.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.ForeColor = System.Drawing.Color.White;
-            this.label34.Location = new System.Drawing.Point(395, 306);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(176, 24);
-            this.label34.TabIndex = 54;
-            this.label34.Text = "An fabricatie max";
+            this.PanouModifica_AnFMax.AutoSize = true;
+            this.PanouModifica_AnFMax.BackColor = System.Drawing.Color.Transparent;
+            this.PanouModifica_AnFMax.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouModifica_AnFMax.ForeColor = System.Drawing.Color.White;
+            this.PanouModifica_AnFMax.Location = new System.Drawing.Point(395, 306);
+            this.PanouModifica_AnFMax.Name = "PanouModifica_AnFMax";
+            this.PanouModifica_AnFMax.Size = new System.Drawing.Size(176, 24);
+            this.PanouModifica_AnFMax.TabIndex = 54;
+            this.PanouModifica_AnFMax.Text = "An fabricatie max";
             // 
             // ModAnMax
             // 
@@ -649,29 +651,29 @@
             this.ModAnMin.Size = new System.Drawing.Size(230, 38);
             this.ModAnMin.TabIndex = 52;
             // 
-            // label35
+            // PanouModifica_AnFMin
             // 
-            this.label35.AutoSize = true;
-            this.label35.BackColor = System.Drawing.Color.Transparent;
-            this.label35.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.ForeColor = System.Drawing.Color.White;
-            this.label35.Location = new System.Drawing.Point(145, 306);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(171, 24);
-            this.label35.TabIndex = 51;
-            this.label35.Text = "An fabricatie min";
+            this.PanouModifica_AnFMin.AutoSize = true;
+            this.PanouModifica_AnFMin.BackColor = System.Drawing.Color.Transparent;
+            this.PanouModifica_AnFMin.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouModifica_AnFMin.ForeColor = System.Drawing.Color.White;
+            this.PanouModifica_AnFMin.Location = new System.Drawing.Point(145, 306);
+            this.PanouModifica_AnFMin.Name = "PanouModifica_AnFMin";
+            this.PanouModifica_AnFMin.Size = new System.Drawing.Size(171, 24);
+            this.PanouModifica_AnFMin.TabIndex = 51;
+            this.PanouModifica_AnFMin.Text = "An fabricatie min";
             // 
-            // label36
+            // PanouModifica_PretMax
             // 
-            this.label36.AutoSize = true;
-            this.label36.BackColor = System.Drawing.Color.Transparent;
-            this.label36.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.ForeColor = System.Drawing.Color.White;
-            this.label36.Location = new System.Drawing.Point(395, 229);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(118, 24);
-            this.label36.TabIndex = 50;
-            this.label36.Text = "Pret maxim";
+            this.PanouModifica_PretMax.AutoSize = true;
+            this.PanouModifica_PretMax.BackColor = System.Drawing.Color.Transparent;
+            this.PanouModifica_PretMax.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouModifica_PretMax.ForeColor = System.Drawing.Color.White;
+            this.PanouModifica_PretMax.Location = new System.Drawing.Point(395, 229);
+            this.PanouModifica_PretMax.Name = "PanouModifica_PretMax";
+            this.PanouModifica_PretMax.Size = new System.Drawing.Size(118, 24);
+            this.PanouModifica_PretMax.TabIndex = 50;
+            this.PanouModifica_PretMax.Text = "Pret maxim";
             // 
             // ModPMax
             // 
@@ -780,17 +782,17 @@
             this.ModText.TabIndex = 0;
             this.ModText.Text = "Eroare  Cautare!";
             // 
-            // label38
+            // PanouModifica_Culoare
             // 
-            this.label38.AutoSize = true;
-            this.label38.BackColor = System.Drawing.Color.Transparent;
-            this.label38.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.ForeColor = System.Drawing.Color.White;
-            this.label38.Location = new System.Drawing.Point(145, 384);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(84, 24);
-            this.label38.TabIndex = 28;
-            this.label38.Text = "Culoare";
+            this.PanouModifica_Culoare.AutoSize = true;
+            this.PanouModifica_Culoare.BackColor = System.Drawing.Color.Transparent;
+            this.PanouModifica_Culoare.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouModifica_Culoare.ForeColor = System.Drawing.Color.White;
+            this.PanouModifica_Culoare.Location = new System.Drawing.Point(145, 384);
+            this.PanouModifica_Culoare.Name = "PanouModifica_Culoare";
+            this.PanouModifica_Culoare.Size = new System.Drawing.Size(84, 24);
+            this.PanouModifica_Culoare.TabIndex = 28;
+            this.PanouModifica_Culoare.Text = "Culoare";
             // 
             // ModCauta
             // 
@@ -810,53 +812,53 @@
             this.ModCauta.Text = "Cauta Masina";
             this.ModCauta.Click += new System.EventHandler(this.ModCauta_Click);
             // 
-            // label39
+            // PanouModifica_lbl
             // 
-            this.label39.AutoSize = true;
-            this.label39.BackColor = System.Drawing.Color.Transparent;
-            this.label39.Font = new System.Drawing.Font("EA Font v1.5 by Ghettoshark", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label39.Location = new System.Drawing.Point(300, 19);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(175, 42);
-            this.label39.TabIndex = 40;
-            this.label39.Text = "Modifica";
+            this.PanouModifica_lbl.AutoSize = true;
+            this.PanouModifica_lbl.BackColor = System.Drawing.Color.Transparent;
+            this.PanouModifica_lbl.Font = new System.Drawing.Font("EA Font v1.5 by Ghettoshark", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouModifica_lbl.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.PanouModifica_lbl.Location = new System.Drawing.Point(300, 19);
+            this.PanouModifica_lbl.Name = "PanouModifica_lbl";
+            this.PanouModifica_lbl.Size = new System.Drawing.Size(175, 42);
+            this.PanouModifica_lbl.TabIndex = 40;
+            this.PanouModifica_lbl.Text = "Modifica";
             // 
-            // label40
+            // PanouModifica_Pmin
             // 
-            this.label40.AutoSize = true;
-            this.label40.BackColor = System.Drawing.Color.Transparent;
-            this.label40.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.ForeColor = System.Drawing.Color.White;
-            this.label40.Location = new System.Drawing.Point(145, 229);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(113, 24);
-            this.label40.TabIndex = 24;
-            this.label40.Text = "Pret minim";
+            this.PanouModifica_Pmin.AutoSize = true;
+            this.PanouModifica_Pmin.BackColor = System.Drawing.Color.Transparent;
+            this.PanouModifica_Pmin.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouModifica_Pmin.ForeColor = System.Drawing.Color.White;
+            this.PanouModifica_Pmin.Location = new System.Drawing.Point(145, 229);
+            this.PanouModifica_Pmin.Name = "PanouModifica_Pmin";
+            this.PanouModifica_Pmin.Size = new System.Drawing.Size(113, 24);
+            this.PanouModifica_Pmin.TabIndex = 24;
+            this.PanouModifica_Pmin.Text = "Pret minim";
             // 
-            // label66
+            // PanouModifica_Model
             // 
-            this.label66.AutoSize = true;
-            this.label66.BackColor = System.Drawing.Color.Transparent;
-            this.label66.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label66.ForeColor = System.Drawing.Color.White;
-            this.label66.Location = new System.Drawing.Point(145, 153);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(68, 24);
-            this.label66.TabIndex = 23;
-            this.label66.Text = "Model";
+            this.PanouModifica_Model.AutoSize = true;
+            this.PanouModifica_Model.BackColor = System.Drawing.Color.Transparent;
+            this.PanouModifica_Model.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouModifica_Model.ForeColor = System.Drawing.Color.White;
+            this.PanouModifica_Model.Location = new System.Drawing.Point(145, 153);
+            this.PanouModifica_Model.Name = "PanouModifica_Model";
+            this.PanouModifica_Model.Size = new System.Drawing.Size(68, 24);
+            this.PanouModifica_Model.TabIndex = 23;
+            this.PanouModifica_Model.Text = "Model";
             // 
-            // label67
+            // PanouModifica_marca
             // 
-            this.label67.AutoSize = true;
-            this.label67.BackColor = System.Drawing.Color.Transparent;
-            this.label67.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label67.ForeColor = System.Drawing.Color.White;
-            this.label67.Location = new System.Drawing.Point(145, 72);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(69, 24);
-            this.label67.TabIndex = 20;
-            this.label67.Text = "Marca";
+            this.PanouModifica_marca.AutoSize = true;
+            this.PanouModifica_marca.BackColor = System.Drawing.Color.Transparent;
+            this.PanouModifica_marca.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouModifica_marca.ForeColor = System.Drawing.Color.White;
+            this.PanouModifica_marca.Location = new System.Drawing.Point(145, 72);
+            this.PanouModifica_marca.Name = "PanouModifica_marca";
+            this.PanouModifica_marca.Size = new System.Drawing.Size(69, 24);
+            this.PanouModifica_marca.TabIndex = 20;
+            this.PanouModifica_marca.Text = "Marca";
             // 
             // guna2ControlBox16
             // 
@@ -916,6 +918,22 @@
             this.panel3.Size = new System.Drawing.Size(2077, 55);
             this.panel3.TabIndex = 69;
             // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(30)))));
+            this.panel4.Location = new System.Drawing.Point(-1, 51);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(72, 970);
+            this.panel4.TabIndex = 70;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(30)))));
+            this.panel5.Location = new System.Drawing.Point(1983, 51);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(72, 970);
+            this.panel5.TabIndex = 71;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -923,13 +941,15 @@
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(2054, 1075);
             this.ControlBox = false;
-            this.Controls.Add(this.panel7);
+            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.PanouModifica);
             this.Controls.Add(this.ModPanel2);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.guna2ControlBox16);
             this.Controls.Add(this.guna2ControlBox17);
             this.Controls.Add(this.guna2ControlBox18);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.listBoxModifica);
             this.Controls.Add(this.ModMasinaPret);
             this.Controls.Add(this.ModMasinaModel);
             this.Controls.Add(this.ModMasinaMarca);
@@ -943,11 +963,11 @@
             this.ModPanel3.PerformLayout();
             this.ModPanel2.ResumeLayout(false);
             this.ModPanel2.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.PanouInfo.ResumeLayout(false);
+            this.PanouInfo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ModModel)).EndInit();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
+            this.PanouModifica.ResumeLayout(false);
+            this.PanouModifica.PerformLayout();
             this.ModPanel.ResumeLayout(false);
             this.ModPanel.PerformLayout();
             this.ResumeLayout(false);
@@ -958,19 +978,19 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox listBoxModifica;
         private System.Windows.Forms.Label ModMasinaPret;
         private System.Windows.Forms.Label ModMasinaModel;
         private System.Windows.Forms.Label ModMasinaMarca;
         private System.Windows.Forms.Panel ModPanel3;
         private System.Windows.Forms.Label MasinaCutie;
-        private System.Windows.Forms.Label label72;
+        private System.Windows.Forms.Label ModPanel3_CutieV;
         private System.Windows.Forms.Label MasinaPutere;
-        private System.Windows.Forms.Label label74;
+        private System.Windows.Forms.Label ModPanel3_Culoare;
         private System.Windows.Forms.Label MasinaAn;
-        private System.Windows.Forms.Label label76;
+        private System.Windows.Forms.Label ModPanel3_Putere;
         private System.Windows.Forms.Label MasinaCul;
-        private System.Windows.Forms.Label label78;
+        private System.Windows.Forms.Label ModPanel3_AnF;
         private System.Windows.Forms.Panel ModPanel2;
         private Guna.UI2.WinForms.Guna2TileButton ButonModifica;
         private Guna.UI2.WinForms.Guna2TextBox ModificaPret;
@@ -978,35 +998,37 @@
         private Guna.UI2.WinForms.Guna2TextBox ModificaMarca;
         private System.Windows.Forms.Label label69;
         private Guna.UI2.WinForms.Guna2TextBox ModificaModel;
-        private System.Windows.Forms.Label label68;
+        private System.Windows.Forms.Label ModPanel2_Model;
         private System.Windows.Forms.PictureBox ModModel;
-        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel PanouModifica;
         private Guna.UI2.WinForms.Guna2ComboBox ModCuloare;
         private Guna.UI2.WinForms.Guna2TextBox ModMarca;
         private Guna.UI2.WinForms.Guna2TextBox ModPut;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label PanouModifica_PutereMx;
+        private System.Windows.Forms.Label PanouModifica_AnFMax;
         private Guna.UI2.WinForms.Guna2TextBox ModAnMax;
         private Guna.UI2.WinForms.Guna2TextBox ModAnMin;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label PanouModifica_AnFMin;
+        private System.Windows.Forms.Label PanouModifica_PretMax;
         private Guna.UI2.WinForms.Guna2TextBox ModPMax;
         private Guna.UI2.WinForms.Guna2TextBox ModMdl;
         private Guna.UI2.WinForms.Guna2TextBox ModPMin;
         private System.Windows.Forms.Panel ModPanel;
         private System.Windows.Forms.Label ModText;
-        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label PanouModifica_Culoare;
         private Guna.UI2.WinForms.Guna2TileButton ModCauta;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label66;
-        private System.Windows.Forms.Label label67;
+        private System.Windows.Forms.Label PanouModifica_lbl;
+        private System.Windows.Forms.Label PanouModifica_Pmin;
+        private System.Windows.Forms.Label PanouModifica_Model;
+        private System.Windows.Forms.Label PanouModifica_marca;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox16;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox17;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox18;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel PanouInfo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel4;
     }
 }

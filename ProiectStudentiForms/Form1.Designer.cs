@@ -30,58 +30,58 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle49 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle51 = new System.Windows.Forms.DataGridViewCellStyle();
-            BunifuAnimatorNS.Animation animation7 = new BunifuAnimatorNS.Animation();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle52 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle53 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle54 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle55 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle56 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
+            BunifuAnimatorNS.Animation animation3 = new BunifuAnimatorNS.Animation();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.DragControl_Shop = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.Shop = new System.Windows.Forms.TabPage();
             this.PanouMasinaCumparata = new System.Windows.Forms.Panel();
             this.label32 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.guna2TileButton25 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2TileButton8 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2TileButton3 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2TileButton2 = new Guna.UI2.WinForms.Guna2TileButton();
+            this.PanouMeniuShop = new System.Windows.Forms.Panel();
+            this.PanouMeniuShop_Edit = new Guna.UI2.WinForms.Guna2TileButton();
+            this.PanouMeniuShop_Home = new Guna.UI2.WinForms.Guna2TileButton();
+            this.PanouMeniuShop_Compare = new Guna.UI2.WinForms.Guna2TileButton();
+            this.PanouMeniuShop_Inventory = new Guna.UI2.WinForms.Guna2TileButton();
             this.ModelMas = new System.Windows.Forms.Label();
             this.NumeMasina = new System.Windows.Forms.Label();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.label31 = new System.Windows.Forms.Label();
             this.bunifuCheckbox6 = new Bunifu.Framework.UI.BunifuCheckbox();
-            this.label29 = new System.Windows.Forms.Label();
+            this.checkbxAerCond = new System.Windows.Forms.Label();
             this.bunifuCheckbox5 = new Bunifu.Framework.UI.BunifuCheckbox();
             this.bunifuCheckbox4 = new Bunifu.Framework.UI.BunifuCheckbox();
             this.bunifuCheckbox3 = new Bunifu.Framework.UI.BunifuCheckbox();
-            this.bunifuCheckbox2 = new Bunifu.Framework.UI.BunifuCheckbox();
-            this.bunifuCheckbox1 = new Bunifu.Framework.UI.BunifuCheckbox();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.guna2TileButton10 = new Guna.UI2.WinForms.Guna2TileButton();
+            this.checkbxSuspensie = new Bunifu.Framework.UI.BunifuCheckbox();
+            this.checkbxInteriorPiele = new Bunifu.Framework.UI.BunifuCheckbox();
+            this.checkbxTrapa = new System.Windows.Forms.Label();
+            this.checkbxCameraP = new System.Windows.Forms.Label();
+            this.lblsuspensieSport = new System.Windows.Forms.Label();
+            this.checkbxSistemAudio = new System.Windows.Forms.Label();
+            this.lblinteriorPiele = new System.Windows.Forms.Label();
+            this.CumparaBtn = new Guna.UI2.WinForms.Guna2TileButton();
             this.CutieMasina = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
+            this.LabelCutieVPanou = new System.Windows.Forms.Label();
             this.PretMasina = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.LabelPretPanou = new System.Windows.Forms.Label();
+            this.LabelAnFabPanou = new System.Windows.Forms.Label();
+            this.LabelPuterePanou = new System.Windows.Forms.Label();
+            this.LabelCuloarePanou = new System.Windows.Forms.Label();
             this.AnFMasina = new System.Windows.Forms.Label();
             this.PutMasina = new System.Windows.Forms.Label();
             this.CulMasina = new System.Windows.Forms.Label();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.panouCulori = new Guna.UI2.WinForms.Guna2Panel();
             this.OptiuneGri = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.OptiuneRosu = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.OptiuneAlb = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.OptiuneNegru = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.OptiuneAlbastru = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CircleButton2 = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.ChangeCarBack = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -95,10 +95,10 @@
             this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2CircleButton1 = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.guna2PictureBoxCar3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBoxCar2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBoxCar1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.ChangeCarNext = new Guna.UI2.WinForms.Guna2CircleButton();
+            this.ImgCarFata = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.ImgCarSpate = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.ImgCarLateral = new Guna.UI2.WinForms.Guna2PictureBox();
             this.PictureBoxMasina = new Guna.UI2.WinForms.Guna2PictureBox();
             this.Animator = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.tabControl1 = new System.Windows.Forms.TabControl();
@@ -106,48 +106,49 @@
             this.Themelbl = new System.Windows.Forms.Label();
             this.LightLbl = new System.Windows.Forms.Label();
             this.DarkLbl = new System.Windows.Forms.Label();
-            this.guna2ImageButton3 = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.guna2SetariBtn = new Guna.UI2.WinForms.Guna2ImageButton();
             this.LightBtn = new Guna.UI2.WinForms.Guna2CustomRadioButton();
             this.DarkBtn = new Guna.UI2.WinForms.Guna2CustomRadioButton();
-            this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.guna2TileButton26 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2TileButton9 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2TileButton1 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2TileButton6 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.guna2MeniuBtn = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.MeniuHome = new System.Windows.Forms.Panel();
+            this.MeniuHome_Edit = new Guna.UI2.WinForms.Guna2TileButton();
+            this.MeniuHome_Shop = new Guna.UI2.WinForms.Guna2TileButton();
+            this.MeniuHome_Compare = new Guna.UI2.WinForms.Guna2TileButton();
+            this.MeniuHome_Inventory = new Guna.UI2.WinForms.Guna2TileButton();
+            this.masinaMijloc = new System.Windows.Forms.PictureBox();
+            this.masinaDreapta = new System.Windows.Forms.PictureBox();
+            this.masinaStanga = new System.Windows.Forms.PictureBox();
             this.Minimizebtn = new Guna.UI2.WinForms.Guna2ControlBox();
             this.Exitbtn = new Guna.UI2.WinForms.Guna2ControlBox();
             this.Maximizebtn = new Guna.UI2.WinForms.Guna2ControlBox();
             this.Inventory = new System.Windows.Forms.TabPage();
             this.MesajPanel = new System.Windows.Forms.Panel();
             this.EroareLabel = new System.Windows.Forms.Label();
-            this.guna2ImageButton2 = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.guna2TileButton21 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2TileButton17 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2TileButton12 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2TileButton4 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2TileButton5 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2TileButton7 = new Guna.UI2.WinForms.Guna2TileButton();
+            this.MesajPanel_Close = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.PanouMeniuInventory = new System.Windows.Forms.Panel();
+            this.MeniuInventory_Edit = new Guna.UI2.WinForms.Guna2TileButton();
+            this.BtnEuro = new Guna.UI2.WinForms.Guna2TileButton();
+            this.BtnLei = new Guna.UI2.WinForms.Guna2TileButton();
+            this.MeniuInventory_Home = new Guna.UI2.WinForms.Guna2TileButton();
+            this.MeniuInventory_Compare = new Guna.UI2.WinForms.Guna2TileButton();
+            this.MeniuInventory_Shop = new Guna.UI2.WinForms.Guna2TileButton();
             this.guna2ControlBox7 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox8 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox9 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.label27 = new System.Windows.Forms.Label();
+            this.PanouMasini = new System.Windows.Forms.Panel();
+            this.PanouCautareMasini = new System.Windows.Forms.Panel();
+            this.ButonStergeM = new Guna.UI2.WinForms.Guna2Button();
+            this.BtnCautaDateTime = new Guna.UI2.WinForms.Guna2Button();
+            this.BtnClearData = new Guna.UI2.WinForms.Guna2Button();
+            this.grilbl = new System.Windows.Forms.Label();
             this.gribox = new Bunifu.Framework.UI.BunifuCheckbox();
-            this.label26 = new System.Windows.Forms.Label();
+            this.rosulbl = new System.Windows.Forms.Label();
             this.rosubox = new Bunifu.Framework.UI.BunifuCheckbox();
-            this.label25 = new System.Windows.Forms.Label();
+            this.albastrulbl = new System.Windows.Forms.Label();
             this.albastrubox = new Bunifu.Framework.UI.BunifuCheckbox();
-            this.label24 = new System.Windows.Forms.Label();
+            this.alblbl = new System.Windows.Forms.Label();
             this.albbox = new Bunifu.Framework.UI.BunifuCheckbox();
-            this.label23 = new System.Windows.Forms.Label();
+            this.negrulbl = new System.Windows.Forms.Label();
             this.negrubox = new Bunifu.Framework.UI.BunifuCheckbox();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
@@ -156,22 +157,22 @@
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.PretMin = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.BtnCautaMasina = new Guna.UI2.WinForms.Guna2Button();
             this.PretMax = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label16 = new System.Windows.Forms.Label();
+            this.PanouCautareMasini_Pret = new System.Windows.Forms.Label();
             this.PutereMax = new Guna.UI2.WinForms.Guna2TextBox();
             this.PutereMin = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label15 = new System.Windows.Forms.Label();
+            this.PanouCautareMasini_Putere = new System.Windows.Forms.Label();
             this.AnFabMax = new Guna.UI2.WinForms.Guna2TextBox();
             this.AnFabMin = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label14 = new System.Windows.Forms.Label();
+            this.PanouCautareMasini_AnFab = new System.Windows.Forms.Label();
             this.ModelMasina = new Guna.UI2.WinForms.Guna2TextBox();
             this.MarcaMasina = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.PanouCautareMasini_Model = new System.Windows.Forms.Label();
+            this.PanouCautareMasini_Marca = new System.Windows.Forms.Label();
             this.Compare = new System.Windows.Forms.TabPage();
             this.PretM2_ = new System.Windows.Forms.Label();
-            this.guna2TileButton11 = new Guna.UI2.WinForms.Guna2TileButton();
+            this.CompareBack = new Guna.UI2.WinForms.Guna2TileButton();
             this.PretM1_ = new System.Windows.Forms.Label();
             this.DataPanelM2 = new System.Windows.Forms.Panel();
             this.CutieM2 = new System.Windows.Forms.Label();
@@ -205,55 +206,55 @@
             this.guna2ControlBox13 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox14 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox15 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.ComparaBtn = new System.Windows.Forms.Panel();
-            this.guna2TileButton18 = new Guna.UI2.WinForms.Guna2TileButton();
+            this.PanouMasina2 = new System.Windows.Forms.Panel();
+            this.btnCautaMasina2 = new Guna.UI2.WinForms.Guna2TileButton();
             this.MarcaM2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.PutereMaxM2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.PanouEroare2 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label56 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
+            this.PanouMasina2_PutMx = new System.Windows.Forms.Label();
+            this.lblMasina2 = new System.Windows.Forms.Label();
+            this.PanouMasina2_AnFMx = new System.Windows.Forms.Label();
             this.AnFMaxM2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.AnFMinM2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label65 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label63 = new System.Windows.Forms.Label();
+            this.PanouMasina2_Marca = new System.Windows.Forms.Label();
+            this.PanouMasina2_AnFMn = new System.Windows.Forms.Label();
+            this.PanouMasina2_Model = new System.Windows.Forms.Label();
+            this.PanouMasina2_PretMx = new System.Windows.Forms.Label();
+            this.PanouMasina2_PretMinim = new System.Windows.Forms.Label();
             this.PretMaxM2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label62 = new System.Windows.Forms.Label();
+            this.PanouMasina2_Cul = new System.Windows.Forms.Label();
             this.CuloareM2_ = new Guna.UI2.WinForms.Guna2TextBox();
             this.ModelM2 = new Guna.UI2.WinForms.Guna2TextBox();
             this.PretMinM2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.panel14 = new System.Windows.Forms.Panel();
+            this.PanouMasina1 = new System.Windows.Forms.Panel();
             this.MarcaM1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.PutereMaxM1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label61 = new System.Windows.Forms.Label();
-            this.label59 = new System.Windows.Forms.Label();
+            this.PanouMasina1_PutereMax = new System.Windows.Forms.Label();
+            this.PanouMasina1_AnFabMx = new System.Windows.Forms.Label();
             this.AnFMaxM1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.AnFMinM1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label60 = new System.Windows.Forms.Label();
-            this.label58 = new System.Windows.Forms.Label();
+            this.PanouMasina1_AnFabMn = new System.Windows.Forms.Label();
+            this.PanouMasina1_PretMx = new System.Windows.Forms.Label();
             this.PretMaxM1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.CuloareM1_ = new Guna.UI2.WinForms.Guna2TextBox();
             this.PretMinM1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.ModelM1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.PanouEroare1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.guna2TileButton19 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
-            this.label55 = new System.Windows.Forms.Label();
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.guna2TileButton23 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2TileButton13 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2TileButton22 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2TileButton24 = new Guna.UI2.WinForms.Guna2TileButton();
+            this.PanouMasina1_Culoare = new System.Windows.Forms.Label();
+            this.btnCautaMasina1 = new Guna.UI2.WinForms.Guna2TileButton();
+            this.lblMasina1 = new System.Windows.Forms.Label();
+            this.PanouMasina1_PretMn = new System.Windows.Forms.Label();
+            this.PanouMasina1_Model = new System.Windows.Forms.Label();
+            this.PanouMasina1_Marca = new System.Windows.Forms.Label();
+            this.PanouMeniuCompare = new System.Windows.Forms.Panel();
+            this.MeniuCompare_Edit = new Guna.UI2.WinForms.Guna2TileButton();
+            this.MeniuCompare_Inventory = new Guna.UI2.WinForms.Guna2TileButton();
+            this.MeniuCompare_Home = new Guna.UI2.WinForms.Guna2TileButton();
+            this.MeniuCompare_Shop = new Guna.UI2.WinForms.Guna2TileButton();
             this.Modifica = new System.Windows.Forms.TabPage();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.ListBoxMasini = new System.Windows.Forms.ListBox();
             this.guna2ControlBox16 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox17 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox18 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -262,53 +263,59 @@
             this.ModMasinaMarca = new System.Windows.Forms.Label();
             this.ModPanel3 = new System.Windows.Forms.Panel();
             this.MasinaCutie = new System.Windows.Forms.Label();
-            this.label72 = new System.Windows.Forms.Label();
+            this.ModPanel3_CutieV = new System.Windows.Forms.Label();
             this.MasinaPutere = new System.Windows.Forms.Label();
-            this.label74 = new System.Windows.Forms.Label();
+            this.ModPanel3_Culoare = new System.Windows.Forms.Label();
             this.MasinaAn = new System.Windows.Forms.Label();
-            this.label76 = new System.Windows.Forms.Label();
+            this.ModPanel3_Putere = new System.Windows.Forms.Label();
             this.MasinaCul = new System.Windows.Forms.Label();
-            this.label78 = new System.Windows.Forms.Label();
+            this.ModPanel3_AnFb = new System.Windows.Forms.Label();
             this.ModPanel2 = new System.Windows.Forms.Panel();
             this.restartBtn = new Guna.UI2.WinForms.Guna2TileButton();
             this.ButonModifica = new Guna.UI2.WinForms.Guna2TileButton();
             this.ModificaPret = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label70 = new System.Windows.Forms.Label();
+            this.ModPanel2_pret = new System.Windows.Forms.Label();
             this.ModificaMarca = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label69 = new System.Windows.Forms.Label();
+            this.ModPanel2_Marca = new System.Windows.Forms.Label();
             this.ModificaModel = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label68 = new System.Windows.Forms.Label();
+            this.ModPanel2_model = new System.Windows.Forms.Label();
             this.ModModel = new System.Windows.Forms.PictureBox();
-            this.panel7 = new System.Windows.Forms.Panel();
+            this.PanouMasinaEdit = new System.Windows.Forms.Panel();
             this.ModMdl = new Guna.UI2.WinForms.Guna2ComboBox();
             this.ModMarca = new Guna.UI2.WinForms.Guna2TextBox();
             this.ModPut = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
+            this.PanouMasinaEdit_PutereMx = new System.Windows.Forms.Label();
+            this.PanouMasinaEdit_AnFMx = new System.Windows.Forms.Label();
             this.ModAnMax = new Guna.UI2.WinForms.Guna2TextBox();
             this.ModAnMin = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
+            this.PanouMasinaEdit_AnFabMn = new System.Windows.Forms.Label();
+            this.PanouMasinaEdit_PretMx = new System.Windows.Forms.Label();
             this.ModPMax = new Guna.UI2.WinForms.Guna2TextBox();
             this.ModCuloare = new Guna.UI2.WinForms.Guna2TextBox();
             this.ModPMin = new Guna.UI2.WinForms.Guna2TextBox();
             this.ModPanel = new System.Windows.Forms.Panel();
             this.ModText = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
+            this.PanouMasinaEdit_Culoare = new System.Windows.Forms.Label();
             this.ModCauta = new Guna.UI2.WinForms.Guna2TileButton();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label66 = new System.Windows.Forms.Label();
-            this.label67 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.guna2TileButton20 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2TileButton14 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2TileButton15 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.guna2TileButton16 = new Guna.UI2.WinForms.Guna2TileButton();
+            this.PanouMasinaEdit_lbl = new System.Windows.Forms.Label();
+            this.PanouMasinaEdit_PretMn = new System.Windows.Forms.Label();
+            this.PanouMasinaEdit_Model = new System.Windows.Forms.Label();
+            this.PanouMasinaEdit_Marca = new System.Windows.Forms.Label();
+            this.PanouMeniuEdit = new System.Windows.Forms.Panel();
+            this.MeniuEdit_Compare = new Guna.UI2.WinForms.Guna2TileButton();
+            this.MeniuEdit_Inventory = new Guna.UI2.WinForms.Guna2TileButton();
+            this.MeniuEdit_Home = new Guna.UI2.WinForms.Guna2TileButton();
+            this.MeniuEdit_Shop = new Guna.UI2.WinForms.Guna2TileButton();
             this.CautaData = new System.Windows.Forms.TabPage();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.label85 = new System.Windows.Forms.Label();
-            this.label84 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.guna2ControlBox4 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox5 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.guna2ControlBox6 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.PanelCautaDateTime = new System.Windows.Forms.Panel();
+            this.CautaDateTime_DataModmax = new System.Windows.Forms.Label();
+            this.CautaDateTime_DataModmin = new System.Windows.Forms.Label();
             this.ModCuloare1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.ModMarca1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.ModPanel1 = new System.Windows.Forms.Panel();
@@ -316,90 +323,87 @@
             this.ModDataMax = new System.Windows.Forms.DateTimePicker();
             this.ModPut1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.ModDataMin = new System.Windows.Forms.DateTimePicker();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label71 = new System.Windows.Forms.Label();
+            this.CautaDateTime_PutMx = new System.Windows.Forms.Label();
+            this.CautaDateTime_AnFMx = new System.Windows.Forms.Label();
             this.ModAnMax1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.ModAnMin1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label73 = new System.Windows.Forms.Label();
-            this.label75 = new System.Windows.Forms.Label();
+            this.CautaDateTime_AnMn = new System.Windows.Forms.Label();
+            this.CautaDateTime_PretMx = new System.Windows.Forms.Label();
             this.ModPMax1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.ModMdl1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.ModPMin1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label79 = new System.Windows.Forms.Label();
+            this.CautaDateTime_Culoare = new System.Windows.Forms.Label();
             this.ModCauta1 = new Guna.UI2.WinForms.Guna2TileButton();
-            this.label80 = new System.Windows.Forms.Label();
-            this.label81 = new System.Windows.Forms.Label();
-            this.label82 = new System.Windows.Forms.Label();
-            this.label83 = new System.Windows.Forms.Label();
-            this.dataGridViewM = new System.Windows.Forms.DataGridView();
-            this.guna2DragControl2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.guna2DragControl3 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.guna2DragControl4 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.guna2DragControl5 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.guna2DragControl6 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.guna2DragControl7 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.guna2DragControl8 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
-            this.guna2ControlBox4 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2ControlBox5 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2ControlBox6 = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.guna2DragControl9 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.CautaDateTime_lbl = new System.Windows.Forms.Label();
+            this.CautaDateTime_PretMN = new System.Windows.Forms.Label();
+            this.CautaDateTime_Model = new System.Windows.Forms.Label();
+            this.CautaDateTime_Marca = new System.Windows.Forms.Label();
+            this.dataGridViewMasina = new System.Windows.Forms.DataGridView();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
             this.guna2TileButton27 = new Guna.UI2.WinForms.Guna2TileButton();
+            this.DragContro_PictureBMasina = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.DragControl_Home = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.DragControl_Inventory = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.DragControl_PanouMasini = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.DragControl_Compare = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.DragControl_CmpSelect = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.DragControl_Modifica = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.DragControl_CautaData = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.guna2TileButton1 = new Guna.UI2.WinForms.Guna2TileButton();
             this.Shop.SuspendLayout();
             this.PanouMasinaCumparata.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.PanouMeniuShop.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
-            this.guna2Panel1.SuspendLayout();
+            this.panouCulori.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.OptiuneGri)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.OptiuneRosu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.OptiuneAlb)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.OptiuneNegru)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.OptiuneAlbastru)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBoxCar3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBoxCar2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBoxCar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgCarFata)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgCarSpate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgCarLateral)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxMasina)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.Home.SuspendLayout();
-            this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.MeniuHome.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.masinaMijloc)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.masinaDreapta)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.masinaStanga)).BeginInit();
             this.Inventory.SuspendLayout();
             this.MesajPanel.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel5.SuspendLayout();
+            this.PanouMeniuInventory.SuspendLayout();
+            this.PanouMasini.SuspendLayout();
+            this.PanouCautareMasini.SuspendLayout();
             this.Compare.SuspendLayout();
             this.DataPanelM2.SuspendLayout();
             this.DataPanelM1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ImgM2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgM1)).BeginInit();
             this.ComparaSelect.SuspendLayout();
-            this.ComparaBtn.SuspendLayout();
+            this.PanouMasina2.SuspendLayout();
             this.PanouEroare2.SuspendLayout();
-            this.panel14.SuspendLayout();
+            this.PanouMasina1.SuspendLayout();
             this.PanouEroare1.SuspendLayout();
-            this.panel15.SuspendLayout();
+            this.PanouMeniuCompare.SuspendLayout();
             this.Modifica.SuspendLayout();
             this.ModPanel3.SuspendLayout();
             this.ModPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ModModel)).BeginInit();
-            this.panel7.SuspendLayout();
+            this.PanouMasinaEdit.SuspendLayout();
             this.ModPanel.SuspendLayout();
-            this.panel6.SuspendLayout();
+            this.PanouMeniuEdit.SuspendLayout();
             this.CautaData.SuspendLayout();
-            this.panel8.SuspendLayout();
+            this.PanelCautaDateTime.SuspendLayout();
             this.ModPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewM)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMasina)).BeginInit();
             this.panel9.SuspendLayout();
             this.SuspendLayout();
             // 
-            // guna2DragControl1
+            // DragControl_Shop
             // 
-            this.guna2DragControl1.TargetControl = this.Shop;
+            this.DragControl_Shop.TargetControl = this.Shop;
             // 
             // Shop
             // 
@@ -407,20 +411,20 @@
             this.Shop.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Shop.BackgroundImage")));
             this.Shop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Shop.Controls.Add(this.PanouMasinaCumparata);
-            this.Shop.Controls.Add(this.panel1);
+            this.Shop.Controls.Add(this.PanouMeniuShop);
             this.Shop.Controls.Add(this.ModelMas);
             this.Shop.Controls.Add(this.NumeMasina);
             this.Shop.Controls.Add(this.guna2Panel2);
-            this.Shop.Controls.Add(this.guna2Panel1);
-            this.Shop.Controls.Add(this.guna2CircleButton2);
+            this.Shop.Controls.Add(this.panouCulori);
+            this.Shop.Controls.Add(this.ChangeCarBack);
             this.Shop.Controls.Add(this.guna2DataGridView1);
             this.Shop.Controls.Add(this.guna2ControlBox3);
             this.Shop.Controls.Add(this.guna2ControlBox1);
             this.Shop.Controls.Add(this.guna2ControlBox2);
-            this.Shop.Controls.Add(this.guna2CircleButton1);
-            this.Shop.Controls.Add(this.guna2PictureBoxCar3);
-            this.Shop.Controls.Add(this.guna2PictureBoxCar2);
-            this.Shop.Controls.Add(this.guna2PictureBoxCar1);
+            this.Shop.Controls.Add(this.ChangeCarNext);
+            this.Shop.Controls.Add(this.ImgCarFata);
+            this.Shop.Controls.Add(this.ImgCarSpate);
+            this.Shop.Controls.Add(this.ImgCarLateral);
             this.Shop.Controls.Add(this.PictureBoxMasina);
             this.Animator.SetDecoration(this.Shop, BunifuAnimatorNS.DecorationType.None);
             this.Shop.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -456,95 +460,95 @@
             this.label32.TabIndex = 29;
             this.label32.Text = "Masina Cumparata!";
             // 
-            // panel1
+            // PanouMeniuShop
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(15)))), ((int)(((byte)(45)))), ((int)(((byte)(50)))));
-            this.panel1.Controls.Add(this.guna2TileButton25);
-            this.panel1.Controls.Add(this.guna2TileButton8);
-            this.panel1.Controls.Add(this.guna2TileButton3);
-            this.panel1.Controls.Add(this.guna2TileButton2);
-            this.Animator.SetDecoration(this.panel1, BunifuAnimatorNS.DecorationType.None);
-            this.panel1.Location = new System.Drawing.Point(-4, -25);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(75, 335);
-            this.panel1.TabIndex = 10;
+            this.PanouMeniuShop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(15)))), ((int)(((byte)(45)))), ((int)(((byte)(50)))));
+            this.PanouMeniuShop.Controls.Add(this.PanouMeniuShop_Edit);
+            this.PanouMeniuShop.Controls.Add(this.PanouMeniuShop_Home);
+            this.PanouMeniuShop.Controls.Add(this.PanouMeniuShop_Compare);
+            this.PanouMeniuShop.Controls.Add(this.PanouMeniuShop_Inventory);
+            this.Animator.SetDecoration(this.PanouMeniuShop, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMeniuShop.Location = new System.Drawing.Point(-4, -25);
+            this.PanouMeniuShop.Name = "PanouMeniuShop";
+            this.PanouMeniuShop.Size = new System.Drawing.Size(75, 335);
+            this.PanouMeniuShop.TabIndex = 10;
             // 
-            // guna2TileButton25
+            // PanouMeniuShop_Edit
             // 
-            this.guna2TileButton25.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton25.CheckedState.Parent = this.guna2TileButton25;
-            this.guna2TileButton25.CustomImages.Parent = this.guna2TileButton25;
-            this.Animator.SetDecoration(this.guna2TileButton25, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton25.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton25.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton25.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton25.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2TileButton25.HoverState.Parent = this.guna2TileButton25;
-            this.guna2TileButton25.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton25.Image")));
-            this.guna2TileButton25.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton25.Location = new System.Drawing.Point(5, 268);
-            this.guna2TileButton25.Name = "guna2TileButton25";
-            this.guna2TileButton25.ShadowDecoration.Parent = this.guna2TileButton25;
-            this.guna2TileButton25.Size = new System.Drawing.Size(70, 60);
-            this.guna2TileButton25.TabIndex = 7;
-            this.guna2TileButton25.Click += new System.EventHandler(this.guna2TileButton25_Click);
+            this.PanouMeniuShop_Edit.BackColor = System.Drawing.Color.Transparent;
+            this.PanouMeniuShop_Edit.CheckedState.Parent = this.PanouMeniuShop_Edit;
+            this.PanouMeniuShop_Edit.CustomImages.Parent = this.PanouMeniuShop_Edit;
+            this.Animator.SetDecoration(this.PanouMeniuShop_Edit, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMeniuShop_Edit.FillColor = System.Drawing.Color.Transparent;
+            this.PanouMeniuShop_Edit.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.PanouMeniuShop_Edit.ForeColor = System.Drawing.Color.White;
+            this.PanouMeniuShop_Edit.HoverState.FillColor = System.Drawing.Color.Red;
+            this.PanouMeniuShop_Edit.HoverState.Parent = this.PanouMeniuShop_Edit;
+            this.PanouMeniuShop_Edit.Image = ((System.Drawing.Image)(resources.GetObject("PanouMeniuShop_Edit.Image")));
+            this.PanouMeniuShop_Edit.ImageSize = new System.Drawing.Size(30, 30);
+            this.PanouMeniuShop_Edit.Location = new System.Drawing.Point(5, 268);
+            this.PanouMeniuShop_Edit.Name = "PanouMeniuShop_Edit";
+            this.PanouMeniuShop_Edit.ShadowDecoration.Parent = this.PanouMeniuShop_Edit;
+            this.PanouMeniuShop_Edit.Size = new System.Drawing.Size(70, 60);
+            this.PanouMeniuShop_Edit.TabIndex = 7;
+            this.PanouMeniuShop_Edit.Click += new System.EventHandler(this.guna2TileButton25_Click);
             // 
-            // guna2TileButton8
+            // PanouMeniuShop_Home
             // 
-            this.guna2TileButton8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton8.CheckedState.Parent = this.guna2TileButton8;
-            this.guna2TileButton8.CustomImages.Parent = this.guna2TileButton8;
-            this.Animator.SetDecoration(this.guna2TileButton8, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton8.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton8.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton8.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton8.HoverState.Parent = this.guna2TileButton8;
-            this.guna2TileButton8.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton8.Image")));
-            this.guna2TileButton8.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton8.Location = new System.Drawing.Point(5, 46);
-            this.guna2TileButton8.Name = "guna2TileButton8";
-            this.guna2TileButton8.ShadowDecoration.Parent = this.guna2TileButton8;
-            this.guna2TileButton8.Size = new System.Drawing.Size(70, 60);
-            this.guna2TileButton8.TabIndex = 2;
-            this.guna2TileButton8.Click += new System.EventHandler(this.guna2TileButton8_Click);
+            this.PanouMeniuShop_Home.BackColor = System.Drawing.Color.Transparent;
+            this.PanouMeniuShop_Home.CheckedState.Parent = this.PanouMeniuShop_Home;
+            this.PanouMeniuShop_Home.CustomImages.Parent = this.PanouMeniuShop_Home;
+            this.Animator.SetDecoration(this.PanouMeniuShop_Home, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMeniuShop_Home.FillColor = System.Drawing.Color.Transparent;
+            this.PanouMeniuShop_Home.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.PanouMeniuShop_Home.ForeColor = System.Drawing.Color.White;
+            this.PanouMeniuShop_Home.HoverState.Parent = this.PanouMeniuShop_Home;
+            this.PanouMeniuShop_Home.Image = ((System.Drawing.Image)(resources.GetObject("PanouMeniuShop_Home.Image")));
+            this.PanouMeniuShop_Home.ImageSize = new System.Drawing.Size(30, 30);
+            this.PanouMeniuShop_Home.Location = new System.Drawing.Point(5, 46);
+            this.PanouMeniuShop_Home.Name = "PanouMeniuShop_Home";
+            this.PanouMeniuShop_Home.ShadowDecoration.Parent = this.PanouMeniuShop_Home;
+            this.PanouMeniuShop_Home.Size = new System.Drawing.Size(70, 60);
+            this.PanouMeniuShop_Home.TabIndex = 2;
+            this.PanouMeniuShop_Home.Click += new System.EventHandler(this.guna2TileButton8_Click);
             // 
-            // guna2TileButton3
+            // PanouMeniuShop_Compare
             // 
-            this.guna2TileButton3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton3.CheckedState.Parent = this.guna2TileButton3;
-            this.guna2TileButton3.CustomImages.Parent = this.guna2TileButton3;
-            this.Animator.SetDecoration(this.guna2TileButton3, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton3.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton3.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton3.HoverState.Parent = this.guna2TileButton3;
-            this.guna2TileButton3.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton3.Image")));
-            this.guna2TileButton3.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton3.Location = new System.Drawing.Point(5, 196);
-            this.guna2TileButton3.Name = "guna2TileButton3";
-            this.guna2TileButton3.ShadowDecoration.Parent = this.guna2TileButton3;
-            this.guna2TileButton3.Size = new System.Drawing.Size(70, 60);
-            this.guna2TileButton3.TabIndex = 0;
-            this.guna2TileButton3.Click += new System.EventHandler(this.guna2TileButton3_Click);
+            this.PanouMeniuShop_Compare.BackColor = System.Drawing.Color.Transparent;
+            this.PanouMeniuShop_Compare.CheckedState.Parent = this.PanouMeniuShop_Compare;
+            this.PanouMeniuShop_Compare.CustomImages.Parent = this.PanouMeniuShop_Compare;
+            this.Animator.SetDecoration(this.PanouMeniuShop_Compare, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMeniuShop_Compare.FillColor = System.Drawing.Color.Transparent;
+            this.PanouMeniuShop_Compare.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.PanouMeniuShop_Compare.ForeColor = System.Drawing.Color.White;
+            this.PanouMeniuShop_Compare.HoverState.Parent = this.PanouMeniuShop_Compare;
+            this.PanouMeniuShop_Compare.Image = ((System.Drawing.Image)(resources.GetObject("PanouMeniuShop_Compare.Image")));
+            this.PanouMeniuShop_Compare.ImageSize = new System.Drawing.Size(30, 30);
+            this.PanouMeniuShop_Compare.Location = new System.Drawing.Point(5, 196);
+            this.PanouMeniuShop_Compare.Name = "PanouMeniuShop_Compare";
+            this.PanouMeniuShop_Compare.ShadowDecoration.Parent = this.PanouMeniuShop_Compare;
+            this.PanouMeniuShop_Compare.Size = new System.Drawing.Size(70, 60);
+            this.PanouMeniuShop_Compare.TabIndex = 0;
+            this.PanouMeniuShop_Compare.Click += new System.EventHandler(this.guna2TileButton3_Click);
             // 
-            // guna2TileButton2
+            // PanouMeniuShop_Inventory
             // 
-            this.guna2TileButton2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton2.CheckedState.Parent = this.guna2TileButton2;
-            this.guna2TileButton2.CustomImages.Parent = this.guna2TileButton2;
-            this.Animator.SetDecoration(this.guna2TileButton2, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton2.HoverState.Parent = this.guna2TileButton2;
-            this.guna2TileButton2.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton2.Image")));
-            this.guna2TileButton2.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton2.Location = new System.Drawing.Point(5, 121);
-            this.guna2TileButton2.Name = "guna2TileButton2";
-            this.guna2TileButton2.ShadowDecoration.Parent = this.guna2TileButton2;
-            this.guna2TileButton2.Size = new System.Drawing.Size(70, 60);
-            this.guna2TileButton2.TabIndex = 0;
-            this.guna2TileButton2.Click += new System.EventHandler(this.guna2TileButton2_Click);
+            this.PanouMeniuShop_Inventory.BackColor = System.Drawing.Color.Transparent;
+            this.PanouMeniuShop_Inventory.CheckedState.Parent = this.PanouMeniuShop_Inventory;
+            this.PanouMeniuShop_Inventory.CustomImages.Parent = this.PanouMeniuShop_Inventory;
+            this.Animator.SetDecoration(this.PanouMeniuShop_Inventory, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMeniuShop_Inventory.FillColor = System.Drawing.Color.Transparent;
+            this.PanouMeniuShop_Inventory.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.PanouMeniuShop_Inventory.ForeColor = System.Drawing.Color.White;
+            this.PanouMeniuShop_Inventory.HoverState.Parent = this.PanouMeniuShop_Inventory;
+            this.PanouMeniuShop_Inventory.Image = ((System.Drawing.Image)(resources.GetObject("PanouMeniuShop_Inventory.Image")));
+            this.PanouMeniuShop_Inventory.ImageSize = new System.Drawing.Size(30, 30);
+            this.PanouMeniuShop_Inventory.Location = new System.Drawing.Point(5, 121);
+            this.PanouMeniuShop_Inventory.Name = "PanouMeniuShop_Inventory";
+            this.PanouMeniuShop_Inventory.ShadowDecoration.Parent = this.PanouMeniuShop_Inventory;
+            this.PanouMeniuShop_Inventory.Size = new System.Drawing.Size(70, 60);
+            this.PanouMeniuShop_Inventory.TabIndex = 0;
+            this.PanouMeniuShop_Inventory.Click += new System.EventHandler(this.guna2TileButton2_Click);
             // 
             // ModelMas
             // 
@@ -577,25 +581,25 @@
             this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(10)))), ((int)(((byte)(70)))), ((int)(((byte)(50)))));
             this.guna2Panel2.Controls.Add(this.label31);
             this.guna2Panel2.Controls.Add(this.bunifuCheckbox6);
-            this.guna2Panel2.Controls.Add(this.label29);
+            this.guna2Panel2.Controls.Add(this.checkbxAerCond);
             this.guna2Panel2.Controls.Add(this.bunifuCheckbox5);
             this.guna2Panel2.Controls.Add(this.bunifuCheckbox4);
             this.guna2Panel2.Controls.Add(this.bunifuCheckbox3);
-            this.guna2Panel2.Controls.Add(this.bunifuCheckbox2);
-            this.guna2Panel2.Controls.Add(this.bunifuCheckbox1);
-            this.guna2Panel2.Controls.Add(this.label28);
-            this.guna2Panel2.Controls.Add(this.label5);
-            this.guna2Panel2.Controls.Add(this.label4);
-            this.guna2Panel2.Controls.Add(this.label3);
-            this.guna2Panel2.Controls.Add(this.label2);
-            this.guna2Panel2.Controls.Add(this.guna2TileButton10);
+            this.guna2Panel2.Controls.Add(this.checkbxSuspensie);
+            this.guna2Panel2.Controls.Add(this.checkbxInteriorPiele);
+            this.guna2Panel2.Controls.Add(this.checkbxTrapa);
+            this.guna2Panel2.Controls.Add(this.checkbxCameraP);
+            this.guna2Panel2.Controls.Add(this.lblsuspensieSport);
+            this.guna2Panel2.Controls.Add(this.checkbxSistemAudio);
+            this.guna2Panel2.Controls.Add(this.lblinteriorPiele);
+            this.guna2Panel2.Controls.Add(this.CumparaBtn);
             this.guna2Panel2.Controls.Add(this.CutieMasina);
-            this.guna2Panel2.Controls.Add(this.label30);
+            this.guna2Panel2.Controls.Add(this.LabelCutieVPanou);
             this.guna2Panel2.Controls.Add(this.PretMasina);
-            this.guna2Panel2.Controls.Add(this.label9);
-            this.guna2Panel2.Controls.Add(this.label8);
-            this.guna2Panel2.Controls.Add(this.label7);
-            this.guna2Panel2.Controls.Add(this.label6);
+            this.guna2Panel2.Controls.Add(this.LabelPretPanou);
+            this.guna2Panel2.Controls.Add(this.LabelAnFabPanou);
+            this.guna2Panel2.Controls.Add(this.LabelPuterePanou);
+            this.guna2Panel2.Controls.Add(this.LabelCuloarePanou);
             this.guna2Panel2.Controls.Add(this.AnFMasina);
             this.guna2Panel2.Controls.Add(this.PutMasina);
             this.guna2Panel2.Controls.Add(this.CulMasina);
@@ -634,18 +638,18 @@
             this.bunifuCheckbox6.TabIndex = 34;
             this.bunifuCheckbox6.OnChange += new System.EventHandler(this.bunifuCheckbox6_OnChange);
             // 
-            // label29
+            // checkbxAerCond
             // 
-            this.label29.AutoSize = true;
-            this.label29.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label29, BunifuAnimatorNS.DecorationType.None);
-            this.label29.Font = new System.Drawing.Font("Bahnschrift", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.White;
-            this.label29.Location = new System.Drawing.Point(1241, 112);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(149, 23);
-            this.label29.TabIndex = 33;
-            this.label29.Text = "Aer c. doua zone";
+            this.checkbxAerCond.AutoSize = true;
+            this.checkbxAerCond.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.checkbxAerCond, BunifuAnimatorNS.DecorationType.None);
+            this.checkbxAerCond.Font = new System.Drawing.Font("Bahnschrift", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkbxAerCond.ForeColor = System.Drawing.Color.White;
+            this.checkbxAerCond.Location = new System.Drawing.Point(1241, 112);
+            this.checkbxAerCond.Name = "checkbxAerCond";
+            this.checkbxAerCond.Size = new System.Drawing.Size(149, 23);
+            this.checkbxAerCond.TabIndex = 33;
+            this.checkbxAerCond.Text = "Aer c. doua zone";
             // 
             // bunifuCheckbox5
             // 
@@ -692,119 +696,119 @@
             this.bunifuCheckbox3.TabIndex = 30;
             this.bunifuCheckbox3.OnChange += new System.EventHandler(this.bunifuCheckbox3_OnChange);
             // 
-            // bunifuCheckbox2
+            // checkbxSuspensie
             // 
-            this.bunifuCheckbox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(135)))), ((int)(((byte)(140)))));
-            this.bunifuCheckbox2.ChechedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(135)))), ((int)(((byte)(140)))));
-            this.bunifuCheckbox2.Checked = false;
-            this.bunifuCheckbox2.CheckedOnColor = System.Drawing.Color.Red;
-            this.Animator.SetDecoration(this.bunifuCheckbox2, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCheckbox2.ForeColor = System.Drawing.Color.White;
-            this.bunifuCheckbox2.Location = new System.Drawing.Point(1031, 79);
-            this.bunifuCheckbox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.bunifuCheckbox2.Name = "bunifuCheckbox2";
-            this.bunifuCheckbox2.Size = new System.Drawing.Size(20, 20);
-            this.bunifuCheckbox2.TabIndex = 29;
-            this.bunifuCheckbox2.OnChange += new System.EventHandler(this.bunifuCheckbox2_OnChange);
+            this.checkbxSuspensie.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(135)))), ((int)(((byte)(140)))));
+            this.checkbxSuspensie.ChechedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(135)))), ((int)(((byte)(140)))));
+            this.checkbxSuspensie.Checked = false;
+            this.checkbxSuspensie.CheckedOnColor = System.Drawing.Color.Red;
+            this.Animator.SetDecoration(this.checkbxSuspensie, BunifuAnimatorNS.DecorationType.None);
+            this.checkbxSuspensie.ForeColor = System.Drawing.Color.White;
+            this.checkbxSuspensie.Location = new System.Drawing.Point(1031, 79);
+            this.checkbxSuspensie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkbxSuspensie.Name = "checkbxSuspensie";
+            this.checkbxSuspensie.Size = new System.Drawing.Size(20, 20);
+            this.checkbxSuspensie.TabIndex = 29;
+            this.checkbxSuspensie.OnChange += new System.EventHandler(this.bunifuCheckbox2_OnChange);
             // 
-            // bunifuCheckbox1
+            // checkbxInteriorPiele
             // 
-            this.bunifuCheckbox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(135)))), ((int)(((byte)(140)))));
-            this.bunifuCheckbox1.ChechedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(135)))), ((int)(((byte)(140)))));
-            this.bunifuCheckbox1.Checked = false;
-            this.bunifuCheckbox1.CheckedOnColor = System.Drawing.Color.Red;
-            this.Animator.SetDecoration(this.bunifuCheckbox1, BunifuAnimatorNS.DecorationType.None);
-            this.bunifuCheckbox1.ForeColor = System.Drawing.Color.White;
-            this.bunifuCheckbox1.Location = new System.Drawing.Point(1031, 43);
-            this.bunifuCheckbox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.bunifuCheckbox1.Name = "bunifuCheckbox1";
-            this.bunifuCheckbox1.Size = new System.Drawing.Size(20, 20);
-            this.bunifuCheckbox1.TabIndex = 28;
-            this.bunifuCheckbox1.OnChange += new System.EventHandler(this.bunifuCheckbox1_OnChange);
+            this.checkbxInteriorPiele.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(135)))), ((int)(((byte)(140)))));
+            this.checkbxInteriorPiele.ChechedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(135)))), ((int)(((byte)(140)))));
+            this.checkbxInteriorPiele.Checked = false;
+            this.checkbxInteriorPiele.CheckedOnColor = System.Drawing.Color.Red;
+            this.Animator.SetDecoration(this.checkbxInteriorPiele, BunifuAnimatorNS.DecorationType.None);
+            this.checkbxInteriorPiele.ForeColor = System.Drawing.Color.White;
+            this.checkbxInteriorPiele.Location = new System.Drawing.Point(1031, 43);
+            this.checkbxInteriorPiele.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkbxInteriorPiele.Name = "checkbxInteriorPiele";
+            this.checkbxInteriorPiele.Size = new System.Drawing.Size(20, 20);
+            this.checkbxInteriorPiele.TabIndex = 28;
+            this.checkbxInteriorPiele.OnChange += new System.EventHandler(this.bunifuCheckbox1_OnChange);
             // 
-            // label28
+            // checkbxTrapa
             // 
-            this.label28.AutoSize = true;
-            this.label28.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label28, BunifuAnimatorNS.DecorationType.None);
-            this.label28.Font = new System.Drawing.Font("Bahnschrift", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.ForeColor = System.Drawing.Color.White;
-            this.label28.Location = new System.Drawing.Point(1058, 113);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(56, 23);
-            this.label28.TabIndex = 27;
-            this.label28.Text = "Trapa";
+            this.checkbxTrapa.AutoSize = true;
+            this.checkbxTrapa.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.checkbxTrapa, BunifuAnimatorNS.DecorationType.None);
+            this.checkbxTrapa.Font = new System.Drawing.Font("Bahnschrift", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkbxTrapa.ForeColor = System.Drawing.Color.White;
+            this.checkbxTrapa.Location = new System.Drawing.Point(1058, 113);
+            this.checkbxTrapa.Name = "checkbxTrapa";
+            this.checkbxTrapa.Size = new System.Drawing.Size(56, 23);
+            this.checkbxTrapa.TabIndex = 27;
+            this.checkbxTrapa.Text = "Trapa";
             // 
-            // label5
+            // checkbxCameraP
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label5, BunifuAnimatorNS.DecorationType.None);
-            this.label5.Font = new System.Drawing.Font("Bahnschrift", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(1241, 78);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(146, 23);
-            this.label5.TabIndex = 26;
-            this.label5.Text = "Camera parcare";
+            this.checkbxCameraP.AutoSize = true;
+            this.checkbxCameraP.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.checkbxCameraP, BunifuAnimatorNS.DecorationType.None);
+            this.checkbxCameraP.Font = new System.Drawing.Font("Bahnschrift", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkbxCameraP.ForeColor = System.Drawing.Color.White;
+            this.checkbxCameraP.Location = new System.Drawing.Point(1241, 78);
+            this.checkbxCameraP.Name = "checkbxCameraP";
+            this.checkbxCameraP.Size = new System.Drawing.Size(146, 23);
+            this.checkbxCameraP.TabIndex = 26;
+            this.checkbxCameraP.Text = "Camera parcare";
             // 
-            // label4
+            // lblsuspensieSport
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label4, BunifuAnimatorNS.DecorationType.None);
-            this.label4.Font = new System.Drawing.Font("Bahnschrift", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(1058, 78);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(150, 23);
-            this.label4.TabIndex = 25;
-            this.label4.Text = "Suspensie Sport";
+            this.lblsuspensieSport.AutoSize = true;
+            this.lblsuspensieSport.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.lblsuspensieSport, BunifuAnimatorNS.DecorationType.None);
+            this.lblsuspensieSport.Font = new System.Drawing.Font("Bahnschrift", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblsuspensieSport.ForeColor = System.Drawing.Color.White;
+            this.lblsuspensieSport.Location = new System.Drawing.Point(1058, 78);
+            this.lblsuspensieSport.Name = "lblsuspensieSport";
+            this.lblsuspensieSport.Size = new System.Drawing.Size(150, 23);
+            this.lblsuspensieSport.TabIndex = 25;
+            this.lblsuspensieSport.Text = "Suspensie Sport";
             // 
-            // label3
+            // checkbxSistemAudio
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label3, BunifuAnimatorNS.DecorationType.None);
-            this.label3.Font = new System.Drawing.Font("Bahnschrift", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(1241, 41);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(154, 23);
-            this.label3.TabIndex = 24;
-            this.label3.Text = "Sistem Audio B.O";
+            this.checkbxSistemAudio.AutoSize = true;
+            this.checkbxSistemAudio.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.checkbxSistemAudio, BunifuAnimatorNS.DecorationType.None);
+            this.checkbxSistemAudio.Font = new System.Drawing.Font("Bahnschrift", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkbxSistemAudio.ForeColor = System.Drawing.Color.White;
+            this.checkbxSistemAudio.Location = new System.Drawing.Point(1241, 41);
+            this.checkbxSistemAudio.Name = "checkbxSistemAudio";
+            this.checkbxSistemAudio.Size = new System.Drawing.Size(154, 23);
+            this.checkbxSistemAudio.TabIndex = 24;
+            this.checkbxSistemAudio.Text = "Sistem Audio B.O";
             // 
-            // label2
+            // lblinteriorPiele
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label2, BunifuAnimatorNS.DecorationType.None);
-            this.label2.Font = new System.Drawing.Font("Bahnschrift", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(1058, 40);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 23);
-            this.label2.TabIndex = 23;
-            this.label2.Text = "Interior Piele";
+            this.lblinteriorPiele.AutoSize = true;
+            this.lblinteriorPiele.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.lblinteriorPiele, BunifuAnimatorNS.DecorationType.None);
+            this.lblinteriorPiele.Font = new System.Drawing.Font("Bahnschrift", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblinteriorPiele.ForeColor = System.Drawing.Color.White;
+            this.lblinteriorPiele.Location = new System.Drawing.Point(1058, 40);
+            this.lblinteriorPiele.Name = "lblinteriorPiele";
+            this.lblinteriorPiele.Size = new System.Drawing.Size(121, 23);
+            this.lblinteriorPiele.TabIndex = 23;
+            this.lblinteriorPiele.Text = "Interior Piele";
             // 
-            // guna2TileButton10
+            // CumparaBtn
             // 
-            this.guna2TileButton10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(250)))), ((int)(((byte)(5)))), ((int)(((byte)(10)))));
-            this.guna2TileButton10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2TileButton10.BackgroundImage")));
-            this.guna2TileButton10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.guna2TileButton10.CheckedState.Parent = this.guna2TileButton10;
-            this.guna2TileButton10.CustomImages.Parent = this.guna2TileButton10;
-            this.Animator.SetDecoration(this.guna2TileButton10, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton10.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton10.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton10.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton10.HoverState.Parent = this.guna2TileButton10;
-            this.guna2TileButton10.Location = new System.Drawing.Point(1587, 29);
-            this.guna2TileButton10.Name = "guna2TileButton10";
-            this.guna2TileButton10.ShadowDecoration.Parent = this.guna2TileButton10;
-            this.guna2TileButton10.Size = new System.Drawing.Size(115, 110);
-            this.guna2TileButton10.TabIndex = 22;
-            this.guna2TileButton10.Click += new System.EventHandler(this.guna2TileButton10_Click);
+            this.CumparaBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(250)))), ((int)(((byte)(5)))), ((int)(((byte)(10)))));
+            this.CumparaBtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("CumparaBtn.BackgroundImage")));
+            this.CumparaBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.CumparaBtn.CheckedState.Parent = this.CumparaBtn;
+            this.CumparaBtn.CustomImages.Parent = this.CumparaBtn;
+            this.Animator.SetDecoration(this.CumparaBtn, BunifuAnimatorNS.DecorationType.None);
+            this.CumparaBtn.FillColor = System.Drawing.Color.Transparent;
+            this.CumparaBtn.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.CumparaBtn.ForeColor = System.Drawing.Color.White;
+            this.CumparaBtn.HoverState.Parent = this.CumparaBtn;
+            this.CumparaBtn.Location = new System.Drawing.Point(1587, 29);
+            this.CumparaBtn.Name = "CumparaBtn";
+            this.CumparaBtn.ShadowDecoration.Parent = this.CumparaBtn;
+            this.CumparaBtn.Size = new System.Drawing.Size(115, 110);
+            this.CumparaBtn.TabIndex = 22;
+            this.CumparaBtn.Click += new System.EventHandler(this.guna2TileButton10_Click);
             // 
             // CutieMasina
             // 
@@ -819,18 +823,18 @@
             this.CutieMasina.TabIndex = 20;
             this.CutieMasina.Text = "Automata";
             // 
-            // label30
+            // LabelCutieVPanou
             // 
-            this.label30.AutoSize = true;
-            this.label30.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label30, BunifuAnimatorNS.DecorationType.None);
-            this.label30.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.ForeColor = System.Drawing.Color.White;
-            this.label30.Location = new System.Drawing.Point(789, 39);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(152, 24);
-            this.label30.TabIndex = 19;
-            this.label30.Text = "Cutie de Viteze";
+            this.LabelCutieVPanou.AutoSize = true;
+            this.LabelCutieVPanou.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.LabelCutieVPanou, BunifuAnimatorNS.DecorationType.None);
+            this.LabelCutieVPanou.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelCutieVPanou.ForeColor = System.Drawing.Color.White;
+            this.LabelCutieVPanou.Location = new System.Drawing.Point(789, 39);
+            this.LabelCutieVPanou.Name = "LabelCutieVPanou";
+            this.LabelCutieVPanou.Size = new System.Drawing.Size(152, 24);
+            this.LabelCutieVPanou.TabIndex = 19;
+            this.LabelCutieVPanou.Text = "Cutie de Viteze";
             // 
             // PretMasina
             // 
@@ -845,58 +849,58 @@
             this.PretMasina.TabIndex = 18;
             this.PretMasina.Text = "55000";
             // 
-            // label9
+            // LabelPretPanou
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label9, BunifuAnimatorNS.DecorationType.None);
-            this.label9.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(1457, 39);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(49, 24);
-            this.label9.TabIndex = 16;
-            this.label9.Text = "Pret";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
+            this.LabelPretPanou.AutoSize = true;
+            this.LabelPretPanou.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.LabelPretPanou, BunifuAnimatorNS.DecorationType.None);
+            this.LabelPretPanou.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelPretPanou.ForeColor = System.Drawing.Color.White;
+            this.LabelPretPanou.Location = new System.Drawing.Point(1457, 39);
+            this.LabelPretPanou.Name = "LabelPretPanou";
+            this.LabelPretPanou.Size = new System.Drawing.Size(49, 24);
+            this.LabelPretPanou.TabIndex = 16;
+            this.LabelPretPanou.Text = "Pret";
+            this.LabelPretPanou.Click += new System.EventHandler(this.label9_Click);
             // 
-            // label8
+            // LabelAnFabPanou
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label8, BunifuAnimatorNS.DecorationType.None);
-            this.label8.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(521, 39);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(152, 24);
-            this.label8.TabIndex = 15;
-            this.label8.Text = "Anul fabricatiei";
+            this.LabelAnFabPanou.AutoSize = true;
+            this.LabelAnFabPanou.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.LabelAnFabPanou, BunifuAnimatorNS.DecorationType.None);
+            this.LabelAnFabPanou.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelAnFabPanou.ForeColor = System.Drawing.Color.White;
+            this.LabelAnFabPanou.Location = new System.Drawing.Point(521, 39);
+            this.LabelAnFabPanou.Name = "LabelAnFabPanou";
+            this.LabelAnFabPanou.Size = new System.Drawing.Size(152, 24);
+            this.LabelAnFabPanou.TabIndex = 15;
+            this.LabelAnFabPanou.Text = "Anul fabricatiei";
             // 
-            // label7
+            // LabelPuterePanou
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label7, BunifuAnimatorNS.DecorationType.None);
-            this.label7.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(308, 39);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(72, 24);
-            this.label7.TabIndex = 14;
-            this.label7.Text = "Putere";
+            this.LabelPuterePanou.AutoSize = true;
+            this.LabelPuterePanou.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.LabelPuterePanou, BunifuAnimatorNS.DecorationType.None);
+            this.LabelPuterePanou.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelPuterePanou.ForeColor = System.Drawing.Color.White;
+            this.LabelPuterePanou.Location = new System.Drawing.Point(308, 39);
+            this.LabelPuterePanou.Name = "LabelPuterePanou";
+            this.LabelPuterePanou.Size = new System.Drawing.Size(72, 24);
+            this.LabelPuterePanou.TabIndex = 14;
+            this.LabelPuterePanou.Text = "Putere";
             // 
-            // label6
+            // LabelCuloarePanou
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label6, BunifuAnimatorNS.DecorationType.None);
-            this.label6.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(66, 39);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(84, 24);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "Culoare";
+            this.LabelCuloarePanou.AutoSize = true;
+            this.LabelCuloarePanou.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.LabelCuloarePanou, BunifuAnimatorNS.DecorationType.None);
+            this.LabelCuloarePanou.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelCuloarePanou.ForeColor = System.Drawing.Color.White;
+            this.LabelCuloarePanou.Location = new System.Drawing.Point(66, 39);
+            this.LabelCuloarePanou.Name = "LabelCuloarePanou";
+            this.LabelCuloarePanou.Size = new System.Drawing.Size(84, 24);
+            this.LabelCuloarePanou.TabIndex = 13;
+            this.LabelCuloarePanou.Text = "Culoare";
             // 
             // AnFMasina
             // 
@@ -937,20 +941,20 @@
             this.CulMasina.TabIndex = 10;
             this.CulMasina.Text = "Alb";
             // 
-            // guna2Panel1
+            // panouCulori
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
-            this.guna2Panel1.Controls.Add(this.OptiuneGri);
-            this.guna2Panel1.Controls.Add(this.OptiuneRosu);
-            this.guna2Panel1.Controls.Add(this.OptiuneAlb);
-            this.guna2Panel1.Controls.Add(this.OptiuneNegru);
-            this.guna2Panel1.Controls.Add(this.OptiuneAlbastru);
-            this.Animator.SetDecoration(this.guna2Panel1, BunifuAnimatorNS.DecorationType.None);
-            this.guna2Panel1.Location = new System.Drawing.Point(380, 731);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(307, 63);
-            this.guna2Panel1.TabIndex = 7;
+            this.panouCulori.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(100)))));
+            this.panouCulori.Controls.Add(this.OptiuneGri);
+            this.panouCulori.Controls.Add(this.OptiuneRosu);
+            this.panouCulori.Controls.Add(this.OptiuneAlb);
+            this.panouCulori.Controls.Add(this.OptiuneNegru);
+            this.panouCulori.Controls.Add(this.OptiuneAlbastru);
+            this.Animator.SetDecoration(this.panouCulori, BunifuAnimatorNS.DecorationType.None);
+            this.panouCulori.Location = new System.Drawing.Point(380, 731);
+            this.panouCulori.Name = "panouCulori";
+            this.panouCulori.ShadowDecoration.Parent = this.panouCulori;
+            this.panouCulori.Size = new System.Drawing.Size(307, 63);
+            this.panouCulori.TabIndex = 7;
             // 
             // OptiuneGri
             // 
@@ -1044,43 +1048,43 @@
             this.OptiuneAlbastru.MouseLeave += new System.EventHandler(this.OptiuneAlbastru_MouseLeave);
             this.OptiuneAlbastru.MouseHover += new System.EventHandler(this.OptiuneAlbastru_MouseHover);
             // 
-            // guna2CircleButton2
+            // ChangeCarBack
             // 
-            this.guna2CircleButton2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton2.CheckedState.Parent = this.guna2CircleButton2;
-            this.guna2CircleButton2.CustomImages.Parent = this.guna2CircleButton2;
-            this.Animator.SetDecoration(this.guna2CircleButton2, BunifuAnimatorNS.DecorationType.None);
-            this.guna2CircleButton2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton2.HoverState.Parent = this.guna2CircleButton2;
-            this.guna2CircleButton2.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton2.Image")));
-            this.guna2CircleButton2.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2CircleButton2.Location = new System.Drawing.Point(278, 525);
-            this.guna2CircleButton2.Name = "guna2CircleButton2";
-            this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton2.ShadowDecoration.Parent = this.guna2CircleButton2;
-            this.guna2CircleButton2.Size = new System.Drawing.Size(60, 60);
-            this.guna2CircleButton2.TabIndex = 6;
-            this.guna2CircleButton2.Click += new System.EventHandler(this.guna2CircleButton2_Click);
+            this.ChangeCarBack.BackColor = System.Drawing.Color.Transparent;
+            this.ChangeCarBack.CheckedState.Parent = this.ChangeCarBack;
+            this.ChangeCarBack.CustomImages.Parent = this.ChangeCarBack;
+            this.Animator.SetDecoration(this.ChangeCarBack, BunifuAnimatorNS.DecorationType.None);
+            this.ChangeCarBack.FillColor = System.Drawing.Color.Transparent;
+            this.ChangeCarBack.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ChangeCarBack.ForeColor = System.Drawing.Color.White;
+            this.ChangeCarBack.HoverState.Parent = this.ChangeCarBack;
+            this.ChangeCarBack.Image = ((System.Drawing.Image)(resources.GetObject("ChangeCarBack.Image")));
+            this.ChangeCarBack.ImageSize = new System.Drawing.Size(40, 40);
+            this.ChangeCarBack.Location = new System.Drawing.Point(278, 525);
+            this.ChangeCarBack.Name = "ChangeCarBack";
+            this.ChangeCarBack.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.ChangeCarBack.ShadowDecoration.Parent = this.ChangeCarBack;
+            this.ChangeCarBack.Size = new System.Drawing.Size(60, 60);
+            this.ChangeCarBack.TabIndex = 6;
+            this.ChangeCarBack.Click += new System.EventHandler(this.guna2CircleButton2_Click);
             // 
             // guna2DataGridView1
             // 
-            dataGridViewCellStyle49.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle49;
+            dataGridViewCellStyle17.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle17;
             this.guna2DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.guna2DataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.guna2DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.guna2DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.guna2DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle50.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle50.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle50.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle50.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle50.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle50.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle50;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle18.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle18.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle18;
             this.guna2DataGridView1.ColumnHeadersHeight = 27;
             this.guna2DataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -1093,14 +1097,14 @@
             this.Cutie,
             this.NumeImg});
             this.Animator.SetDecoration(this.guna2DataGridView1, BunifuAnimatorNS.DecorationType.None);
-            dataGridViewCellStyle51.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle51.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle51.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle51.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle51.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle51.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle51.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle51;
+            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle19.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle19.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle19.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle19.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle19.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle19;
             this.guna2DataGridView1.EnableHeadersVisualStyles = false;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView1.Location = new System.Drawing.Point(1886, 426);
@@ -1235,67 +1239,67 @@
             this.guna2ControlBox2.Size = new System.Drawing.Size(45, 29);
             this.guna2ControlBox2.TabIndex = 1;
             // 
-            // guna2CircleButton1
+            // ChangeCarNext
             // 
-            this.guna2CircleButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton1.CheckedState.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.CustomImages.Parent = this.guna2CircleButton1;
-            this.Animator.SetDecoration(this.guna2CircleButton1, BunifuAnimatorNS.DecorationType.None);
-            this.guna2CircleButton1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton1.HoverState.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CircleButton1.Image")));
-            this.guna2CircleButton1.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2CircleButton1.Location = new System.Drawing.Point(1778, 525);
-            this.guna2CircleButton1.Name = "guna2CircleButton1";
-            this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleButton1.ShadowDecoration.Parent = this.guna2CircleButton1;
-            this.guna2CircleButton1.Size = new System.Drawing.Size(60, 60);
-            this.guna2CircleButton1.TabIndex = 4;
-            this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
+            this.ChangeCarNext.BackColor = System.Drawing.Color.Transparent;
+            this.ChangeCarNext.CheckedState.Parent = this.ChangeCarNext;
+            this.ChangeCarNext.CustomImages.Parent = this.ChangeCarNext;
+            this.Animator.SetDecoration(this.ChangeCarNext, BunifuAnimatorNS.DecorationType.None);
+            this.ChangeCarNext.FillColor = System.Drawing.Color.Transparent;
+            this.ChangeCarNext.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ChangeCarNext.ForeColor = System.Drawing.Color.White;
+            this.ChangeCarNext.HoverState.Parent = this.ChangeCarNext;
+            this.ChangeCarNext.Image = ((System.Drawing.Image)(resources.GetObject("ChangeCarNext.Image")));
+            this.ChangeCarNext.ImageSize = new System.Drawing.Size(40, 40);
+            this.ChangeCarNext.Location = new System.Drawing.Point(1778, 525);
+            this.ChangeCarNext.Name = "ChangeCarNext";
+            this.ChangeCarNext.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.ChangeCarNext.ShadowDecoration.Parent = this.ChangeCarNext;
+            this.ChangeCarNext.Size = new System.Drawing.Size(60, 60);
+            this.ChangeCarNext.TabIndex = 4;
+            this.ChangeCarNext.Click += new System.EventHandler(this.guna2CircleButton1_Click);
             // 
-            // guna2PictureBoxCar3
+            // ImgCarFata
             // 
-            this.guna2PictureBoxCar3.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.guna2PictureBoxCar3, BunifuAnimatorNS.DecorationType.None);
-            this.guna2PictureBoxCar3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBoxCar3.Image")));
-            this.guna2PictureBoxCar3.Location = new System.Drawing.Point(1495, 694);
-            this.guna2PictureBoxCar3.Name = "guna2PictureBoxCar3";
-            this.guna2PictureBoxCar3.ShadowDecoration.Parent = this.guna2PictureBoxCar3;
-            this.guna2PictureBoxCar3.Size = new System.Drawing.Size(88, 82);
-            this.guna2PictureBoxCar3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBoxCar3.TabIndex = 3;
-            this.guna2PictureBoxCar3.TabStop = false;
-            this.guna2PictureBoxCar3.Click += new System.EventHandler(this.guna2PictureBoxCar3_Click);
+            this.ImgCarFata.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.ImgCarFata, BunifuAnimatorNS.DecorationType.None);
+            this.ImgCarFata.Image = ((System.Drawing.Image)(resources.GetObject("ImgCarFata.Image")));
+            this.ImgCarFata.Location = new System.Drawing.Point(1495, 694);
+            this.ImgCarFata.Name = "ImgCarFata";
+            this.ImgCarFata.ShadowDecoration.Parent = this.ImgCarFata;
+            this.ImgCarFata.Size = new System.Drawing.Size(88, 82);
+            this.ImgCarFata.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ImgCarFata.TabIndex = 3;
+            this.ImgCarFata.TabStop = false;
+            this.ImgCarFata.Click += new System.EventHandler(this.guna2PictureBoxCar3_Click);
             // 
-            // guna2PictureBoxCar2
+            // ImgCarSpate
             // 
-            this.guna2PictureBoxCar2.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.guna2PictureBoxCar2, BunifuAnimatorNS.DecorationType.None);
-            this.guna2PictureBoxCar2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBoxCar2.Image")));
-            this.guna2PictureBoxCar2.Location = new System.Drawing.Point(1495, 630);
-            this.guna2PictureBoxCar2.Name = "guna2PictureBoxCar2";
-            this.guna2PictureBoxCar2.ShadowDecoration.Parent = this.guna2PictureBoxCar2;
-            this.guna2PictureBoxCar2.Size = new System.Drawing.Size(88, 82);
-            this.guna2PictureBoxCar2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBoxCar2.TabIndex = 3;
-            this.guna2PictureBoxCar2.TabStop = false;
-            this.guna2PictureBoxCar2.Click += new System.EventHandler(this.guna2PictureBoxCar2_Click);
+            this.ImgCarSpate.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.ImgCarSpate, BunifuAnimatorNS.DecorationType.None);
+            this.ImgCarSpate.Image = ((System.Drawing.Image)(resources.GetObject("ImgCarSpate.Image")));
+            this.ImgCarSpate.Location = new System.Drawing.Point(1495, 630);
+            this.ImgCarSpate.Name = "ImgCarSpate";
+            this.ImgCarSpate.ShadowDecoration.Parent = this.ImgCarSpate;
+            this.ImgCarSpate.Size = new System.Drawing.Size(88, 82);
+            this.ImgCarSpate.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ImgCarSpate.TabIndex = 3;
+            this.ImgCarSpate.TabStop = false;
+            this.ImgCarSpate.Click += new System.EventHandler(this.guna2PictureBoxCar2_Click);
             // 
-            // guna2PictureBoxCar1
+            // ImgCarLateral
             // 
-            this.guna2PictureBoxCar1.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.guna2PictureBoxCar1, BunifuAnimatorNS.DecorationType.None);
-            this.guna2PictureBoxCar1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBoxCar1.Image")));
-            this.guna2PictureBoxCar1.Location = new System.Drawing.Point(1495, 571);
-            this.guna2PictureBoxCar1.Name = "guna2PictureBoxCar1";
-            this.guna2PictureBoxCar1.ShadowDecoration.Parent = this.guna2PictureBoxCar1;
-            this.guna2PictureBoxCar1.Size = new System.Drawing.Size(88, 82);
-            this.guna2PictureBoxCar1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBoxCar1.TabIndex = 3;
-            this.guna2PictureBoxCar1.TabStop = false;
-            this.guna2PictureBoxCar1.Click += new System.EventHandler(this.guna2PictureBoxCar1_Click);
+            this.ImgCarLateral.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.ImgCarLateral, BunifuAnimatorNS.DecorationType.None);
+            this.ImgCarLateral.Image = ((System.Drawing.Image)(resources.GetObject("ImgCarLateral.Image")));
+            this.ImgCarLateral.Location = new System.Drawing.Point(1495, 571);
+            this.ImgCarLateral.Name = "ImgCarLateral";
+            this.ImgCarLateral.ShadowDecoration.Parent = this.ImgCarLateral;
+            this.ImgCarLateral.Size = new System.Drawing.Size(88, 82);
+            this.ImgCarLateral.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ImgCarLateral.TabIndex = 3;
+            this.ImgCarLateral.TabStop = false;
+            this.ImgCarLateral.Click += new System.EventHandler(this.guna2PictureBoxCar1_Click);
             // 
             // PictureBoxMasina
             // 
@@ -1314,22 +1318,22 @@
             // 
             this.Animator.AnimationType = BunifuAnimatorNS.AnimationType.Transparent;
             this.Animator.Cursor = null;
-            animation7.AnimateOnlyDifferences = true;
-            animation7.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation7.BlindCoeff")));
-            animation7.LeafCoeff = 0F;
-            animation7.MaxTime = 1F;
-            animation7.MinTime = 0F;
-            animation7.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation7.MosaicCoeff")));
-            animation7.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation7.MosaicShift")));
-            animation7.MosaicSize = 0;
-            animation7.Padding = new System.Windows.Forms.Padding(0);
-            animation7.RotateCoeff = 0F;
-            animation7.RotateLimit = 0F;
-            animation7.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation7.ScaleCoeff")));
-            animation7.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation7.SlideCoeff")));
-            animation7.TimeCoeff = 0F;
-            animation7.TransparencyCoeff = 1F;
-            this.Animator.DefaultAnimation = animation7;
+            animation3.AnimateOnlyDifferences = true;
+            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
+            animation3.LeafCoeff = 0F;
+            animation3.MaxTime = 1F;
+            animation3.MinTime = 0F;
+            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
+            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
+            animation3.MosaicSize = 0;
+            animation3.Padding = new System.Windows.Forms.Padding(0);
+            animation3.RotateCoeff = 0F;
+            animation3.RotateLimit = 0F;
+            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
+            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
+            animation3.TimeCoeff = 0F;
+            animation3.TransparencyCoeff = 1F;
+            this.Animator.DefaultAnimation = animation3;
             this.Animator.Interval = 40;
             // 
             // tabControl1
@@ -1342,7 +1346,7 @@
             this.tabControl1.Controls.Add(this.Modifica);
             this.tabControl1.Controls.Add(this.CautaData);
             this.Animator.SetDecoration(this.tabControl1, BunifuAnimatorNS.DecorationType.None);
-            this.tabControl1.Location = new System.Drawing.Point(-5, -27);
+            this.tabControl1.Location = new System.Drawing.Point(-5, -11);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(2062, 1104);
@@ -1356,14 +1360,14 @@
             this.Home.Controls.Add(this.Themelbl);
             this.Home.Controls.Add(this.LightLbl);
             this.Home.Controls.Add(this.DarkLbl);
-            this.Home.Controls.Add(this.guna2ImageButton3);
+            this.Home.Controls.Add(this.guna2SetariBtn);
             this.Home.Controls.Add(this.LightBtn);
             this.Home.Controls.Add(this.DarkBtn);
-            this.Home.Controls.Add(this.guna2ImageButton1);
-            this.Home.Controls.Add(this.panel4);
-            this.Home.Controls.Add(this.pictureBox3);
-            this.Home.Controls.Add(this.pictureBox2);
-            this.Home.Controls.Add(this.pictureBox1);
+            this.Home.Controls.Add(this.guna2MeniuBtn);
+            this.Home.Controls.Add(this.MeniuHome);
+            this.Home.Controls.Add(this.masinaMijloc);
+            this.Home.Controls.Add(this.masinaDreapta);
+            this.Home.Controls.Add(this.masinaStanga);
             this.Home.Controls.Add(this.Minimizebtn);
             this.Home.Controls.Add(this.Exitbtn);
             this.Home.Controls.Add(this.Maximizebtn);
@@ -1418,21 +1422,26 @@
             this.DarkLbl.Text = "Dark";
             this.DarkLbl.Visible = false;
             // 
-            // guna2ImageButton3
+            // guna2SetariBtn
             // 
-            this.guna2ImageButton3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ImageButton3.CheckedState.Parent = this.guna2ImageButton3;
-            this.Animator.SetDecoration(this.guna2ImageButton3, BunifuAnimatorNS.DecorationType.None);
-            this.guna2ImageButton3.HoverState.Parent = this.guna2ImageButton3;
-            this.guna2ImageButton3.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton3.Image")));
-            this.guna2ImageButton3.Location = new System.Drawing.Point(1791, 9);
-            this.guna2ImageButton3.Name = "guna2ImageButton3";
-            this.guna2ImageButton3.PressedState.Parent = this.guna2ImageButton3;
-            this.guna2ImageButton3.Size = new System.Drawing.Size(45, 29);
-            this.guna2ImageButton3.TabIndex = 31;
-            this.guna2ImageButton3.Click += new System.EventHandler(this.guna2ImageButton3_Click);
-            this.guna2ImageButton3.MouseLeave += new System.EventHandler(this.guna2ImageButton3_MouseLeave);
-            this.guna2ImageButton3.MouseHover += new System.EventHandler(this.guna2ImageButton3_MouseHover);
+            this.guna2SetariBtn.BackColor = System.Drawing.Color.Transparent;
+            this.guna2SetariBtn.CheckedState.Parent = this.guna2SetariBtn;
+            this.Animator.SetDecoration(this.guna2SetariBtn, BunifuAnimatorNS.DecorationType.None);
+            this.guna2SetariBtn.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("guna2SetariBtn.HoverState.Image")));
+            this.guna2SetariBtn.HoverState.ImageSize = new System.Drawing.Size(19, 19);
+            this.guna2SetariBtn.HoverState.Parent = this.guna2SetariBtn;
+            this.guna2SetariBtn.Image = ((System.Drawing.Image)(resources.GetObject("guna2SetariBtn.Image")));
+            this.guna2SetariBtn.ImageRotate = 0F;
+            this.guna2SetariBtn.ImageSize = new System.Drawing.Size(20, 20);
+            this.guna2SetariBtn.Location = new System.Drawing.Point(1791, 9);
+            this.guna2SetariBtn.Name = "guna2SetariBtn";
+            this.guna2SetariBtn.PressedState.ImageSize = new System.Drawing.Size(15, 15);
+            this.guna2SetariBtn.PressedState.Parent = this.guna2SetariBtn;
+            this.guna2SetariBtn.Size = new System.Drawing.Size(45, 29);
+            this.guna2SetariBtn.TabIndex = 31;
+            this.guna2SetariBtn.Click += new System.EventHandler(this.guna2ImageButton3_Click);
+            this.guna2SetariBtn.MouseLeave += new System.EventHandler(this.guna2ImageButton3_MouseLeave);
+            this.guna2SetariBtn.MouseHover += new System.EventHandler(this.guna2ImageButton3_MouseHover);
             // 
             // LightBtn
             // 
@@ -1479,157 +1488,161 @@
             this.DarkBtn.Visible = false;
             this.DarkBtn.CheckedChanged += new System.EventHandler(this.DarkBtn_CheckedChanged);
             // 
-            // guna2ImageButton1
+            // guna2MeniuBtn
             // 
-            this.guna2ImageButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ImageButton1.CheckedState.Parent = this.guna2ImageButton1;
-            this.Animator.SetDecoration(this.guna2ImageButton1, BunifuAnimatorNS.DecorationType.None);
-            this.guna2ImageButton1.HoverState.Parent = this.guna2ImageButton1;
-            this.guna2ImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton1.Image")));
-            this.guna2ImageButton1.Location = new System.Drawing.Point(1842, 9);
-            this.guna2ImageButton1.Name = "guna2ImageButton1";
-            this.guna2ImageButton1.PressedState.Parent = this.guna2ImageButton1;
-            this.guna2ImageButton1.Size = new System.Drawing.Size(45, 29);
-            this.guna2ImageButton1.TabIndex = 27;
-            this.guna2ImageButton1.Click += new System.EventHandler(this.guna2ImageButton1_Click);
-            this.guna2ImageButton1.MouseLeave += new System.EventHandler(this.guna2ImageButton1_MouseLeave);
-            this.guna2ImageButton1.MouseHover += new System.EventHandler(this.guna2ImageButton1_MouseHover);
+            this.guna2MeniuBtn.BackColor = System.Drawing.Color.Transparent;
+            this.guna2MeniuBtn.CheckedState.Parent = this.guna2MeniuBtn;
+            this.Animator.SetDecoration(this.guna2MeniuBtn, BunifuAnimatorNS.DecorationType.None);
+            this.guna2MeniuBtn.HoverState.ImageSize = new System.Drawing.Size(19, 19);
+            this.guna2MeniuBtn.HoverState.Parent = this.guna2MeniuBtn;
+            this.guna2MeniuBtn.Image = ((System.Drawing.Image)(resources.GetObject("guna2MeniuBtn.Image")));
+            this.guna2MeniuBtn.ImageRotate = 0F;
+            this.guna2MeniuBtn.ImageSize = new System.Drawing.Size(20, 20);
+            this.guna2MeniuBtn.Location = new System.Drawing.Point(1842, 9);
+            this.guna2MeniuBtn.Name = "guna2MeniuBtn";
+            this.guna2MeniuBtn.PressedState.ImageSize = new System.Drawing.Size(15, 15);
+            this.guna2MeniuBtn.PressedState.Parent = this.guna2MeniuBtn;
+            this.guna2MeniuBtn.Size = new System.Drawing.Size(45, 29);
+            this.guna2MeniuBtn.TabIndex = 27;
+            this.guna2MeniuBtn.Click += new System.EventHandler(this.guna2ImageButton1_Click);
+            this.guna2MeniuBtn.MouseLeave += new System.EventHandler(this.guna2ImageButton1_MouseLeave);
+            this.guna2MeniuBtn.MouseHover += new System.EventHandler(this.guna2ImageButton1_MouseHover);
             // 
-            // panel4
+            // MeniuHome
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(248)))), ((int)(((byte)(9)))), ((int)(((byte)(72)))));
-            this.panel4.Controls.Add(this.guna2TileButton26);
-            this.panel4.Controls.Add(this.guna2TileButton9);
-            this.panel4.Controls.Add(this.guna2TileButton1);
-            this.panel4.Controls.Add(this.guna2TileButton6);
-            this.Animator.SetDecoration(this.panel4, BunifuAnimatorNS.DecorationType.None);
-            this.panel4.Location = new System.Drawing.Point(-1, -2);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(72, 1079);
-            this.panel4.TabIndex = 25;
-            this.panel4.Visible = false;
+            this.MeniuHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(248)))), ((int)(((byte)(9)))), ((int)(((byte)(72)))));
+            this.MeniuHome.Controls.Add(this.MeniuHome_Edit);
+            this.MeniuHome.Controls.Add(this.MeniuHome_Shop);
+            this.MeniuHome.Controls.Add(this.MeniuHome_Compare);
+            this.MeniuHome.Controls.Add(this.MeniuHome_Inventory);
+            this.Animator.SetDecoration(this.MeniuHome, BunifuAnimatorNS.DecorationType.None);
+            this.MeniuHome.Location = new System.Drawing.Point(-1, -2);
+            this.MeniuHome.Name = "MeniuHome";
+            this.MeniuHome.Size = new System.Drawing.Size(72, 1079);
+            this.MeniuHome.TabIndex = 25;
+            this.MeniuHome.Visible = false;
             // 
-            // guna2TileButton26
+            // MeniuHome_Edit
             // 
-            this.guna2TileButton26.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton26.CheckedState.Parent = this.guna2TileButton26;
-            this.guna2TileButton26.CustomImages.Parent = this.guna2TileButton26;
-            this.Animator.SetDecoration(this.guna2TileButton26, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton26.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton26.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton26.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton26.HoverState.Parent = this.guna2TileButton26;
-            this.guna2TileButton26.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton26.Image")));
-            this.guna2TileButton26.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton26.Location = new System.Drawing.Point(1, 268);
-            this.guna2TileButton26.Name = "guna2TileButton26";
-            this.guna2TileButton26.ShadowDecoration.Parent = this.guna2TileButton26;
-            this.guna2TileButton26.Size = new System.Drawing.Size(73, 60);
-            this.guna2TileButton26.TabIndex = 7;
-            this.guna2TileButton26.Click += new System.EventHandler(this.guna2TileButton26_Click);
+            this.MeniuHome_Edit.BackColor = System.Drawing.Color.Transparent;
+            this.MeniuHome_Edit.CheckedState.Parent = this.MeniuHome_Edit;
+            this.MeniuHome_Edit.CustomImages.Parent = this.MeniuHome_Edit;
+            this.Animator.SetDecoration(this.MeniuHome_Edit, BunifuAnimatorNS.DecorationType.None);
+            this.MeniuHome_Edit.FillColor = System.Drawing.Color.Transparent;
+            this.MeniuHome_Edit.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MeniuHome_Edit.ForeColor = System.Drawing.Color.White;
+            this.MeniuHome_Edit.HoverState.Parent = this.MeniuHome_Edit;
+            this.MeniuHome_Edit.Image = ((System.Drawing.Image)(resources.GetObject("MeniuHome_Edit.Image")));
+            this.MeniuHome_Edit.ImageSize = new System.Drawing.Size(30, 30);
+            this.MeniuHome_Edit.Location = new System.Drawing.Point(1, 268);
+            this.MeniuHome_Edit.Name = "MeniuHome_Edit";
+            this.MeniuHome_Edit.ShadowDecoration.Parent = this.MeniuHome_Edit;
+            this.MeniuHome_Edit.Size = new System.Drawing.Size(73, 60);
+            this.MeniuHome_Edit.TabIndex = 7;
+            this.MeniuHome_Edit.Click += new System.EventHandler(this.guna2TileButton26_Click);
             // 
-            // guna2TileButton9
+            // MeniuHome_Shop
             // 
-            this.guna2TileButton9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton9.CheckedState.Parent = this.guna2TileButton9;
-            this.guna2TileButton9.CustomImages.Parent = this.guna2TileButton9;
-            this.Animator.SetDecoration(this.guna2TileButton9, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton9.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton9.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton9.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton9.HoverState.Parent = this.guna2TileButton9;
-            this.guna2TileButton9.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton9.Image")));
-            this.guna2TileButton9.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton9.Location = new System.Drawing.Point(1, 30);
-            this.guna2TileButton9.Name = "guna2TileButton9";
-            this.guna2TileButton9.ShadowDecoration.Parent = this.guna2TileButton9;
-            this.guna2TileButton9.Size = new System.Drawing.Size(75, 60);
-            this.guna2TileButton9.TabIndex = 3;
-            this.guna2TileButton9.Click += new System.EventHandler(this.guna2TileButton9_Click);
+            this.MeniuHome_Shop.BackColor = System.Drawing.Color.Transparent;
+            this.MeniuHome_Shop.CheckedState.Parent = this.MeniuHome_Shop;
+            this.MeniuHome_Shop.CustomImages.Parent = this.MeniuHome_Shop;
+            this.Animator.SetDecoration(this.MeniuHome_Shop, BunifuAnimatorNS.DecorationType.None);
+            this.MeniuHome_Shop.FillColor = System.Drawing.Color.Transparent;
+            this.MeniuHome_Shop.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MeniuHome_Shop.ForeColor = System.Drawing.Color.White;
+            this.MeniuHome_Shop.HoverState.Parent = this.MeniuHome_Shop;
+            this.MeniuHome_Shop.Image = ((System.Drawing.Image)(resources.GetObject("MeniuHome_Shop.Image")));
+            this.MeniuHome_Shop.ImageSize = new System.Drawing.Size(30, 30);
+            this.MeniuHome_Shop.Location = new System.Drawing.Point(1, 30);
+            this.MeniuHome_Shop.Name = "MeniuHome_Shop";
+            this.MeniuHome_Shop.ShadowDecoration.Parent = this.MeniuHome_Shop;
+            this.MeniuHome_Shop.Size = new System.Drawing.Size(75, 60);
+            this.MeniuHome_Shop.TabIndex = 3;
+            this.MeniuHome_Shop.Click += new System.EventHandler(this.guna2TileButton9_Click);
             // 
-            // guna2TileButton1
+            // MeniuHome_Compare
             // 
-            this.guna2TileButton1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton1.CheckedState.Parent = this.guna2TileButton1;
-            this.guna2TileButton1.CustomImages.Parent = this.guna2TileButton1;
-            this.Animator.SetDecoration(this.guna2TileButton1, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton1.HoverState.Parent = this.guna2TileButton1;
-            this.guna2TileButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton1.Image")));
-            this.guna2TileButton1.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton1.Location = new System.Drawing.Point(-1, 185);
-            this.guna2TileButton1.Name = "guna2TileButton1";
-            this.guna2TileButton1.ShadowDecoration.Parent = this.guna2TileButton1;
-            this.guna2TileButton1.Size = new System.Drawing.Size(75, 60);
-            this.guna2TileButton1.TabIndex = 1;
-            this.guna2TileButton1.Click += new System.EventHandler(this.guna2TileButton1_Click_1);
+            this.MeniuHome_Compare.BackColor = System.Drawing.Color.Transparent;
+            this.MeniuHome_Compare.CheckedState.Parent = this.MeniuHome_Compare;
+            this.MeniuHome_Compare.CustomImages.Parent = this.MeniuHome_Compare;
+            this.Animator.SetDecoration(this.MeniuHome_Compare, BunifuAnimatorNS.DecorationType.None);
+            this.MeniuHome_Compare.FillColor = System.Drawing.Color.Transparent;
+            this.MeniuHome_Compare.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MeniuHome_Compare.ForeColor = System.Drawing.Color.White;
+            this.MeniuHome_Compare.HoverState.Parent = this.MeniuHome_Compare;
+            this.MeniuHome_Compare.Image = ((System.Drawing.Image)(resources.GetObject("MeniuHome_Compare.Image")));
+            this.MeniuHome_Compare.ImageSize = new System.Drawing.Size(30, 30);
+            this.MeniuHome_Compare.Location = new System.Drawing.Point(-1, 185);
+            this.MeniuHome_Compare.Name = "MeniuHome_Compare";
+            this.MeniuHome_Compare.ShadowDecoration.Parent = this.MeniuHome_Compare;
+            this.MeniuHome_Compare.Size = new System.Drawing.Size(75, 60);
+            this.MeniuHome_Compare.TabIndex = 1;
+            this.MeniuHome_Compare.Click += new System.EventHandler(this.guna2TileButton1_Click_1);
             // 
-            // guna2TileButton6
+            // MeniuHome_Inventory
             // 
-            this.guna2TileButton6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton6.CheckedState.Parent = this.guna2TileButton6;
-            this.guna2TileButton6.CustomImages.Parent = this.guna2TileButton6;
-            this.Animator.SetDecoration(this.guna2TileButton6, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton6.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton6.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton6.HoverState.Parent = this.guna2TileButton6;
-            this.guna2TileButton6.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton6.Image")));
-            this.guna2TileButton6.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton6.Location = new System.Drawing.Point(-1, 107);
-            this.guna2TileButton6.Name = "guna2TileButton6";
-            this.guna2TileButton6.ShadowDecoration.Parent = this.guna2TileButton6;
-            this.guna2TileButton6.Size = new System.Drawing.Size(75, 60);
-            this.guna2TileButton6.TabIndex = 2;
-            this.guna2TileButton6.Click += new System.EventHandler(this.guna2TileButton6_Click);
+            this.MeniuHome_Inventory.BackColor = System.Drawing.Color.Transparent;
+            this.MeniuHome_Inventory.CheckedState.Parent = this.MeniuHome_Inventory;
+            this.MeniuHome_Inventory.CustomImages.Parent = this.MeniuHome_Inventory;
+            this.Animator.SetDecoration(this.MeniuHome_Inventory, BunifuAnimatorNS.DecorationType.None);
+            this.MeniuHome_Inventory.FillColor = System.Drawing.Color.Transparent;
+            this.MeniuHome_Inventory.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MeniuHome_Inventory.ForeColor = System.Drawing.Color.White;
+            this.MeniuHome_Inventory.HoverState.Parent = this.MeniuHome_Inventory;
+            this.MeniuHome_Inventory.Image = ((System.Drawing.Image)(resources.GetObject("MeniuHome_Inventory.Image")));
+            this.MeniuHome_Inventory.ImageSize = new System.Drawing.Size(30, 30);
+            this.MeniuHome_Inventory.Location = new System.Drawing.Point(-1, 107);
+            this.MeniuHome_Inventory.Name = "MeniuHome_Inventory";
+            this.MeniuHome_Inventory.ShadowDecoration.Parent = this.MeniuHome_Inventory;
+            this.MeniuHome_Inventory.Size = new System.Drawing.Size(75, 60);
+            this.MeniuHome_Inventory.TabIndex = 2;
+            this.MeniuHome_Inventory.Click += new System.EventHandler(this.guna2TileButton6_Click);
             // 
-            // pictureBox3
+            // masinaMijloc
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.pictureBox3, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(913, 552);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(536, 298);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 21;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            this.pictureBox3.MouseLeave += new System.EventHandler(this.pictureBox3_MouseLeave);
-            this.pictureBox3.MouseHover += new System.EventHandler(this.pictureBox3_MouseHover);
+            this.masinaMijloc.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.masinaMijloc, BunifuAnimatorNS.DecorationType.None);
+            this.masinaMijloc.Image = ((System.Drawing.Image)(resources.GetObject("masinaMijloc.Image")));
+            this.masinaMijloc.Location = new System.Drawing.Point(913, 552);
+            this.masinaMijloc.Name = "masinaMijloc";
+            this.masinaMijloc.Size = new System.Drawing.Size(536, 298);
+            this.masinaMijloc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.masinaMijloc.TabIndex = 21;
+            this.masinaMijloc.TabStop = false;
+            this.masinaMijloc.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.masinaMijloc.MouseLeave += new System.EventHandler(this.pictureBox3_MouseLeave);
+            this.masinaMijloc.MouseHover += new System.EventHandler(this.pictureBox3_MouseHover);
             // 
-            // pictureBox2
+            // masinaDreapta
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.pictureBox2, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(1516, 510);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(590, 352);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 21;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            this.pictureBox2.DragLeave += new System.EventHandler(this.pictureBox2_DragLeave);
-            this.pictureBox2.MouseLeave += new System.EventHandler(this.pictureBox2_MouseLeave);
-            this.pictureBox2.MouseHover += new System.EventHandler(this.pictureBox2_MouseHover);
+            this.masinaDreapta.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.masinaDreapta, BunifuAnimatorNS.DecorationType.None);
+            this.masinaDreapta.Image = ((System.Drawing.Image)(resources.GetObject("masinaDreapta.Image")));
+            this.masinaDreapta.Location = new System.Drawing.Point(1516, 510);
+            this.masinaDreapta.Name = "masinaDreapta";
+            this.masinaDreapta.Size = new System.Drawing.Size(590, 352);
+            this.masinaDreapta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.masinaDreapta.TabIndex = 21;
+            this.masinaDreapta.TabStop = false;
+            this.masinaDreapta.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.masinaDreapta.DragLeave += new System.EventHandler(this.pictureBox2_DragLeave);
+            this.masinaDreapta.MouseLeave += new System.EventHandler(this.pictureBox2_MouseLeave);
+            this.masinaDreapta.MouseHover += new System.EventHandler(this.pictureBox2_MouseHover);
             // 
-            // pictureBox1
+            // masinaStanga
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.pictureBox1, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(273, 510);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(624, 343);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 21;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
-            this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
-            this.pictureBox1.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
+            this.masinaStanga.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.masinaStanga, BunifuAnimatorNS.DecorationType.None);
+            this.masinaStanga.Image = ((System.Drawing.Image)(resources.GetObject("masinaStanga.Image")));
+            this.masinaStanga.Location = new System.Drawing.Point(273, 510);
+            this.masinaStanga.Name = "masinaStanga";
+            this.masinaStanga.Size = new System.Drawing.Size(624, 343);
+            this.masinaStanga.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.masinaStanga.TabIndex = 21;
+            this.masinaStanga.TabStop = false;
+            this.masinaStanga.Click += new System.EventHandler(this.pictureBox1_Click_1);
+            this.masinaStanga.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
+            this.masinaStanga.MouseHover += new System.EventHandler(this.pictureBox1_MouseHover);
             // 
             // Minimizebtn
             // 
@@ -1684,11 +1697,11 @@
             this.Inventory.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Inventory.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Inventory.Controls.Add(this.MesajPanel);
-            this.Inventory.Controls.Add(this.panel3);
+            this.Inventory.Controls.Add(this.PanouMeniuInventory);
             this.Inventory.Controls.Add(this.guna2ControlBox7);
             this.Inventory.Controls.Add(this.guna2ControlBox8);
             this.Inventory.Controls.Add(this.guna2ControlBox9);
-            this.Inventory.Controls.Add(this.panel2);
+            this.Inventory.Controls.Add(this.PanouMasini);
             this.Animator.SetDecoration(this.Inventory, BunifuAnimatorNS.DecorationType.None);
             this.Inventory.Location = new System.Drawing.Point(4, 25);
             this.Inventory.Name = "Inventory";
@@ -1702,7 +1715,7 @@
             this.MesajPanel.BackColor = System.Drawing.Color.Red;
             this.MesajPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.MesajPanel.Controls.Add(this.EroareLabel);
-            this.MesajPanel.Controls.Add(this.guna2ImageButton2);
+            this.MesajPanel.Controls.Add(this.MesajPanel_Close);
             this.Animator.SetDecoration(this.MesajPanel, BunifuAnimatorNS.DecorationType.None);
             this.MesajPanel.Location = new System.Drawing.Point(1397, 867);
             this.MesajPanel.Name = "MesajPanel";
@@ -1722,154 +1735,153 @@
             this.EroareLabel.TabIndex = 29;
             this.EroareLabel.Text = "DATE INCORECTE";
             // 
-            // guna2ImageButton2
+            // MesajPanel_Close
             // 
-            this.guna2ImageButton2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ImageButton2.CheckedState.Parent = this.guna2ImageButton2;
-            this.Animator.SetDecoration(this.guna2ImageButton2, BunifuAnimatorNS.DecorationType.None);
-            this.guna2ImageButton2.HoverState.Parent = this.guna2ImageButton2;
-            this.guna2ImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("guna2ImageButton2.Image")));
-            this.guna2ImageButton2.Location = new System.Drawing.Point(523, 10);
-            this.guna2ImageButton2.Name = "guna2ImageButton2";
-            this.guna2ImageButton2.PressedState.Parent = this.guna2ImageButton2;
-            this.guna2ImageButton2.Size = new System.Drawing.Size(45, 29);
-            this.guna2ImageButton2.TabIndex = 28;
-            this.guna2ImageButton2.Click += new System.EventHandler(this.guna2ImageButton2_Click);
+            this.MesajPanel_Close.BackColor = System.Drawing.Color.Transparent;
+            this.MesajPanel_Close.CheckedState.Parent = this.MesajPanel_Close;
+            this.Animator.SetDecoration(this.MesajPanel_Close, BunifuAnimatorNS.DecorationType.None);
+            this.MesajPanel_Close.HoverState.ImageSize = new System.Drawing.Size(19, 19);
+            this.MesajPanel_Close.HoverState.Parent = this.MesajPanel_Close;
+            this.MesajPanel_Close.Image = ((System.Drawing.Image)(resources.GetObject("MesajPanel_Close.Image")));
+            this.MesajPanel_Close.ImageRotate = 0F;
+            this.MesajPanel_Close.ImageSize = new System.Drawing.Size(25, 25);
+            this.MesajPanel_Close.Location = new System.Drawing.Point(523, 10);
+            this.MesajPanel_Close.Name = "MesajPanel_Close";
+            this.MesajPanel_Close.PressedState.ImageSize = new System.Drawing.Size(19, 19);
+            this.MesajPanel_Close.PressedState.Parent = this.MesajPanel_Close;
+            this.MesajPanel_Close.Size = new System.Drawing.Size(45, 29);
+            this.MesajPanel_Close.TabIndex = 28;
+            this.MesajPanel_Close.Click += new System.EventHandler(this.guna2ImageButton2_Click);
             // 
-            // panel3
+            // PanouMeniuInventory
             // 
-            this.panel3.BackColor = System.Drawing.Color.Black;
-            this.panel3.Controls.Add(this.guna2TileButton21);
-            this.panel3.Controls.Add(this.guna2TileButton17);
-            this.panel3.Controls.Add(this.guna2TileButton12);
-            this.panel3.Controls.Add(this.guna2TileButton4);
-            this.panel3.Controls.Add(this.guna2TileButton5);
-            this.panel3.Controls.Add(this.guna2TileButton7);
-            this.Animator.SetDecoration(this.panel3, BunifuAnimatorNS.DecorationType.None);
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(72, 1087);
-            this.panel3.TabIndex = 11;
+            this.PanouMeniuInventory.BackColor = System.Drawing.Color.Black;
+            this.PanouMeniuInventory.Controls.Add(this.guna2TileButton1);
+            this.PanouMeniuInventory.Controls.Add(this.MeniuInventory_Edit);
+            this.PanouMeniuInventory.Controls.Add(this.BtnEuro);
+            this.PanouMeniuInventory.Controls.Add(this.BtnLei);
+            this.PanouMeniuInventory.Controls.Add(this.MeniuInventory_Home);
+            this.PanouMeniuInventory.Controls.Add(this.MeniuInventory_Compare);
+            this.PanouMeniuInventory.Controls.Add(this.MeniuInventory_Shop);
+            this.Animator.SetDecoration(this.PanouMeniuInventory, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMeniuInventory.Location = new System.Drawing.Point(0, 0);
+            this.PanouMeniuInventory.Name = "PanouMeniuInventory";
+            this.PanouMeniuInventory.Size = new System.Drawing.Size(72, 1087);
+            this.PanouMeniuInventory.TabIndex = 11;
             // 
-            // guna2TileButton21
+            // MeniuInventory_Edit
             // 
-            this.guna2TileButton21.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton21.CheckedState.Parent = this.guna2TileButton21;
-            this.guna2TileButton21.CustomImages.Parent = this.guna2TileButton21;
-            this.Animator.SetDecoration(this.guna2TileButton21, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton21.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton21.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton21.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton21.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2TileButton21.HoverState.Parent = this.guna2TileButton21;
-            this.guna2TileButton21.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton21.Image")));
-            this.guna2TileButton21.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton21.Location = new System.Drawing.Point(0, 270);
-            this.guna2TileButton21.Name = "guna2TileButton21";
-            this.guna2TileButton21.ShadowDecoration.Parent = this.guna2TileButton21;
-            this.guna2TileButton21.Size = new System.Drawing.Size(73, 60);
-            this.guna2TileButton21.TabIndex = 6;
-            this.guna2TileButton21.Click += new System.EventHandler(this.guna2TileButton21_Click);
+            this.MeniuInventory_Edit.BackColor = System.Drawing.Color.Transparent;
+            this.MeniuInventory_Edit.CheckedState.Parent = this.MeniuInventory_Edit;
+            this.MeniuInventory_Edit.CustomImages.Parent = this.MeniuInventory_Edit;
+            this.Animator.SetDecoration(this.MeniuInventory_Edit, BunifuAnimatorNS.DecorationType.None);
+            this.MeniuInventory_Edit.FillColor = System.Drawing.Color.Transparent;
+            this.MeniuInventory_Edit.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MeniuInventory_Edit.ForeColor = System.Drawing.Color.White;
+            this.MeniuInventory_Edit.HoverState.Parent = this.MeniuInventory_Edit;
+            this.MeniuInventory_Edit.Image = ((System.Drawing.Image)(resources.GetObject("MeniuInventory_Edit.Image")));
+            this.MeniuInventory_Edit.ImageSize = new System.Drawing.Size(30, 30);
+            this.MeniuInventory_Edit.Location = new System.Drawing.Point(0, 270);
+            this.MeniuInventory_Edit.Name = "MeniuInventory_Edit";
+            this.MeniuInventory_Edit.ShadowDecoration.Parent = this.MeniuInventory_Edit;
+            this.MeniuInventory_Edit.Size = new System.Drawing.Size(73, 60);
+            this.MeniuInventory_Edit.TabIndex = 6;
+            this.MeniuInventory_Edit.Click += new System.EventHandler(this.guna2TileButton21_Click);
             // 
-            // guna2TileButton17
+            // BtnEuro
             // 
-            this.guna2TileButton17.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton17.CheckedState.Parent = this.guna2TileButton17;
-            this.guna2TileButton17.CustomImages.Parent = this.guna2TileButton17;
-            this.Animator.SetDecoration(this.guna2TileButton17, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton17.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton17.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton17.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton17.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2TileButton17.HoverState.Parent = this.guna2TileButton17;
-            this.guna2TileButton17.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton17.Image")));
-            this.guna2TileButton17.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton17.Location = new System.Drawing.Point(0, 928);
-            this.guna2TileButton17.Name = "guna2TileButton17";
-            this.guna2TileButton17.ShadowDecoration.Parent = this.guna2TileButton17;
-            this.guna2TileButton17.Size = new System.Drawing.Size(73, 60);
-            this.guna2TileButton17.TabIndex = 4;
-            this.guna2TileButton17.Click += new System.EventHandler(this.guna2TileButton17_Click);
+            this.BtnEuro.BackColor = System.Drawing.Color.Transparent;
+            this.BtnEuro.CheckedState.Parent = this.BtnEuro;
+            this.BtnEuro.CustomImages.Parent = this.BtnEuro;
+            this.Animator.SetDecoration(this.BtnEuro, BunifuAnimatorNS.DecorationType.None);
+            this.BtnEuro.FillColor = System.Drawing.Color.Transparent;
+            this.BtnEuro.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.BtnEuro.ForeColor = System.Drawing.Color.White;
+            this.BtnEuro.HoverState.Parent = this.BtnEuro;
+            this.BtnEuro.Image = ((System.Drawing.Image)(resources.GetObject("BtnEuro.Image")));
+            this.BtnEuro.ImageSize = new System.Drawing.Size(30, 30);
+            this.BtnEuro.Location = new System.Drawing.Point(0, 928);
+            this.BtnEuro.Name = "BtnEuro";
+            this.BtnEuro.ShadowDecoration.Parent = this.BtnEuro;
+            this.BtnEuro.Size = new System.Drawing.Size(73, 60);
+            this.BtnEuro.TabIndex = 4;
+            this.BtnEuro.Click += new System.EventHandler(this.guna2TileButton17_Click);
             // 
-            // guna2TileButton12
+            // BtnLei
             // 
-            this.guna2TileButton12.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton12.CheckedState.Parent = this.guna2TileButton12;
-            this.guna2TileButton12.CustomImages.Parent = this.guna2TileButton12;
-            this.Animator.SetDecoration(this.guna2TileButton12, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton12.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton12.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton12.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton12.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2TileButton12.HoverState.Parent = this.guna2TileButton12;
-            this.guna2TileButton12.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton12.Image")));
-            this.guna2TileButton12.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton12.Location = new System.Drawing.Point(0, 859);
-            this.guna2TileButton12.Name = "guna2TileButton12";
-            this.guna2TileButton12.ShadowDecoration.Parent = this.guna2TileButton12;
-            this.guna2TileButton12.Size = new System.Drawing.Size(73, 60);
-            this.guna2TileButton12.TabIndex = 3;
-            this.guna2TileButton12.Click += new System.EventHandler(this.guna2TileButton12_Click);
+            this.BtnLei.BackColor = System.Drawing.Color.Transparent;
+            this.BtnLei.CheckedState.Parent = this.BtnLei;
+            this.BtnLei.CustomImages.Parent = this.BtnLei;
+            this.Animator.SetDecoration(this.BtnLei, BunifuAnimatorNS.DecorationType.None);
+            this.BtnLei.FillColor = System.Drawing.Color.Transparent;
+            this.BtnLei.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.BtnLei.ForeColor = System.Drawing.Color.White;
+            this.BtnLei.HoverState.Parent = this.BtnLei;
+            this.BtnLei.Image = ((System.Drawing.Image)(resources.GetObject("BtnLei.Image")));
+            this.BtnLei.ImageSize = new System.Drawing.Size(30, 30);
+            this.BtnLei.Location = new System.Drawing.Point(0, 859);
+            this.BtnLei.Name = "BtnLei";
+            this.BtnLei.ShadowDecoration.Parent = this.BtnLei;
+            this.BtnLei.Size = new System.Drawing.Size(73, 60);
+            this.BtnLei.TabIndex = 3;
+            this.BtnLei.Click += new System.EventHandler(this.guna2TileButton12_Click);
             // 
-            // guna2TileButton4
+            // MeniuInventory_Home
             // 
-            this.guna2TileButton4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton4.CheckedState.Parent = this.guna2TileButton4;
-            this.guna2TileButton4.CustomImages.Parent = this.guna2TileButton4;
-            this.Animator.SetDecoration(this.guna2TileButton4, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton4.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton4.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton4.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2TileButton4.HoverState.Parent = this.guna2TileButton4;
-            this.guna2TileButton4.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton4.Image")));
-            this.guna2TileButton4.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton4.Location = new System.Drawing.Point(0, 26);
-            this.guna2TileButton4.Name = "guna2TileButton4";
-            this.guna2TileButton4.ShadowDecoration.Parent = this.guna2TileButton4;
-            this.guna2TileButton4.Size = new System.Drawing.Size(73, 60);
-            this.guna2TileButton4.TabIndex = 2;
-            this.guna2TileButton4.Click += new System.EventHandler(this.guna2TileButton4_Click);
+            this.MeniuInventory_Home.BackColor = System.Drawing.Color.Transparent;
+            this.MeniuInventory_Home.CheckedState.Parent = this.MeniuInventory_Home;
+            this.MeniuInventory_Home.CustomImages.Parent = this.MeniuInventory_Home;
+            this.Animator.SetDecoration(this.MeniuInventory_Home, BunifuAnimatorNS.DecorationType.None);
+            this.MeniuInventory_Home.FillColor = System.Drawing.Color.Transparent;
+            this.MeniuInventory_Home.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MeniuInventory_Home.ForeColor = System.Drawing.Color.White;
+            this.MeniuInventory_Home.HoverState.Parent = this.MeniuInventory_Home;
+            this.MeniuInventory_Home.Image = ((System.Drawing.Image)(resources.GetObject("MeniuInventory_Home.Image")));
+            this.MeniuInventory_Home.ImageSize = new System.Drawing.Size(30, 30);
+            this.MeniuInventory_Home.Location = new System.Drawing.Point(0, 26);
+            this.MeniuInventory_Home.Name = "MeniuInventory_Home";
+            this.MeniuInventory_Home.ShadowDecoration.Parent = this.MeniuInventory_Home;
+            this.MeniuInventory_Home.Size = new System.Drawing.Size(73, 60);
+            this.MeniuInventory_Home.TabIndex = 2;
+            this.MeniuInventory_Home.Click += new System.EventHandler(this.guna2TileButton4_Click);
             // 
-            // guna2TileButton5
+            // MeniuInventory_Compare
             // 
-            this.guna2TileButton5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton5.CheckedState.Parent = this.guna2TileButton5;
-            this.guna2TileButton5.CustomImages.Parent = this.guna2TileButton5;
-            this.Animator.SetDecoration(this.guna2TileButton5, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton5.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton5.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton5.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2TileButton5.HoverState.Parent = this.guna2TileButton5;
-            this.guna2TileButton5.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton5.Image")));
-            this.guna2TileButton5.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton5.Location = new System.Drawing.Point(0, 185);
-            this.guna2TileButton5.Name = "guna2TileButton5";
-            this.guna2TileButton5.ShadowDecoration.Parent = this.guna2TileButton5;
-            this.guna2TileButton5.Size = new System.Drawing.Size(73, 60);
-            this.guna2TileButton5.TabIndex = 0;
-            this.guna2TileButton5.Click += new System.EventHandler(this.guna2TileButton5_Click);
+            this.MeniuInventory_Compare.BackColor = System.Drawing.Color.Transparent;
+            this.MeniuInventory_Compare.CheckedState.Parent = this.MeniuInventory_Compare;
+            this.MeniuInventory_Compare.CustomImages.Parent = this.MeniuInventory_Compare;
+            this.Animator.SetDecoration(this.MeniuInventory_Compare, BunifuAnimatorNS.DecorationType.None);
+            this.MeniuInventory_Compare.FillColor = System.Drawing.Color.Transparent;
+            this.MeniuInventory_Compare.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MeniuInventory_Compare.ForeColor = System.Drawing.Color.White;
+            this.MeniuInventory_Compare.HoverState.Parent = this.MeniuInventory_Compare;
+            this.MeniuInventory_Compare.Image = ((System.Drawing.Image)(resources.GetObject("MeniuInventory_Compare.Image")));
+            this.MeniuInventory_Compare.ImageSize = new System.Drawing.Size(30, 30);
+            this.MeniuInventory_Compare.Location = new System.Drawing.Point(0, 185);
+            this.MeniuInventory_Compare.Name = "MeniuInventory_Compare";
+            this.MeniuInventory_Compare.ShadowDecoration.Parent = this.MeniuInventory_Compare;
+            this.MeniuInventory_Compare.Size = new System.Drawing.Size(73, 60);
+            this.MeniuInventory_Compare.TabIndex = 0;
+            this.MeniuInventory_Compare.Click += new System.EventHandler(this.guna2TileButton5_Click);
             // 
-            // guna2TileButton7
+            // MeniuInventory_Shop
             // 
-            this.guna2TileButton7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton7.CheckedState.Parent = this.guna2TileButton7;
-            this.guna2TileButton7.CustomImages.Parent = this.guna2TileButton7;
-            this.Animator.SetDecoration(this.guna2TileButton7, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton7.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton7.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton7.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2TileButton7.HoverState.Parent = this.guna2TileButton7;
-            this.guna2TileButton7.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton7.Image")));
-            this.guna2TileButton7.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton7.Location = new System.Drawing.Point(0, 102);
-            this.guna2TileButton7.Name = "guna2TileButton7";
-            this.guna2TileButton7.ShadowDecoration.Parent = this.guna2TileButton7;
-            this.guna2TileButton7.Size = new System.Drawing.Size(73, 60);
-            this.guna2TileButton7.TabIndex = 0;
-            this.guna2TileButton7.Click += new System.EventHandler(this.guna2TileButton7_Click);
+            this.MeniuInventory_Shop.BackColor = System.Drawing.Color.Transparent;
+            this.MeniuInventory_Shop.CheckedState.Parent = this.MeniuInventory_Shop;
+            this.MeniuInventory_Shop.CustomImages.Parent = this.MeniuInventory_Shop;
+            this.Animator.SetDecoration(this.MeniuInventory_Shop, BunifuAnimatorNS.DecorationType.None);
+            this.MeniuInventory_Shop.FillColor = System.Drawing.Color.Transparent;
+            this.MeniuInventory_Shop.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MeniuInventory_Shop.ForeColor = System.Drawing.Color.White;
+            this.MeniuInventory_Shop.HoverState.Parent = this.MeniuInventory_Shop;
+            this.MeniuInventory_Shop.Image = ((System.Drawing.Image)(resources.GetObject("MeniuInventory_Shop.Image")));
+            this.MeniuInventory_Shop.ImageSize = new System.Drawing.Size(30, 30);
+            this.MeniuInventory_Shop.Location = new System.Drawing.Point(0, 102);
+            this.MeniuInventory_Shop.Name = "MeniuInventory_Shop";
+            this.MeniuInventory_Shop.ShadowDecoration.Parent = this.MeniuInventory_Shop;
+            this.MeniuInventory_Shop.Size = new System.Drawing.Size(73, 60);
+            this.MeniuInventory_Shop.TabIndex = 0;
+            this.MeniuInventory_Shop.Click += new System.EventHandler(this.guna2TileButton7_Click);
             // 
             // guna2ControlBox7
             // 
@@ -1916,110 +1928,130 @@
             this.guna2ControlBox9.Size = new System.Drawing.Size(45, 29);
             this.guna2ControlBox9.TabIndex = 20;
             // 
-            // panel2
+            // PanouMasini
             // 
-            this.panel2.AutoScroll = true;
-            this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel2.Controls.Add(this.panel5);
-            this.Animator.SetDecoration(this.panel2, BunifuAnimatorNS.DecorationType.None);
-            this.panel2.Location = new System.Drawing.Point(102, 44);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1946, 1001);
-            this.panel2.TabIndex = 14;
+            this.PanouMasini.AutoScroll = true;
+            this.PanouMasini.BackColor = System.Drawing.Color.Transparent;
+            this.PanouMasini.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.PanouMasini.Controls.Add(this.PanouCautareMasini);
+            this.Animator.SetDecoration(this.PanouMasini, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasini.Location = new System.Drawing.Point(102, 44);
+            this.PanouMasini.Name = "PanouMasini";
+            this.PanouMasini.Size = new System.Drawing.Size(1946, 1001);
+            this.PanouMasini.TabIndex = 14;
             // 
-            // panel5
+            // PanouCautareMasini
             // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
-            this.panel5.Controls.Add(this.guna2Button3);
-            this.panel5.Controls.Add(this.guna2Button2);
-            this.panel5.Controls.Add(this.label27);
-            this.panel5.Controls.Add(this.gribox);
-            this.panel5.Controls.Add(this.label26);
-            this.panel5.Controls.Add(this.rosubox);
-            this.panel5.Controls.Add(this.label25);
-            this.panel5.Controls.Add(this.albastrubox);
-            this.panel5.Controls.Add(this.label24);
-            this.panel5.Controls.Add(this.albbox);
-            this.panel5.Controls.Add(this.label23);
-            this.panel5.Controls.Add(this.negrubox);
-            this.panel5.Controls.Add(this.label21);
-            this.panel5.Controls.Add(this.label22);
-            this.panel5.Controls.Add(this.label19);
-            this.panel5.Controls.Add(this.label20);
-            this.panel5.Controls.Add(this.label18);
-            this.panel5.Controls.Add(this.label17);
-            this.panel5.Controls.Add(this.PretMin);
-            this.panel5.Controls.Add(this.guna2Button1);
-            this.panel5.Controls.Add(this.PretMax);
-            this.panel5.Controls.Add(this.label16);
-            this.panel5.Controls.Add(this.PutereMax);
-            this.panel5.Controls.Add(this.PutereMin);
-            this.panel5.Controls.Add(this.label15);
-            this.panel5.Controls.Add(this.AnFabMax);
-            this.panel5.Controls.Add(this.AnFabMin);
-            this.panel5.Controls.Add(this.label14);
-            this.panel5.Controls.Add(this.ModelMasina);
-            this.panel5.Controls.Add(this.MarcaMasina);
-            this.panel5.Controls.Add(this.label13);
-            this.panel5.Controls.Add(this.label12);
-            this.Animator.SetDecoration(this.panel5, BunifuAnimatorNS.DecorationType.None);
-            this.panel5.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panel5.Location = new System.Drawing.Point(56, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(695, 308);
-            this.panel5.TabIndex = 13;
+            this.PanouCautareMasini.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
+            this.PanouCautareMasini.Controls.Add(this.ButonStergeM);
+            this.PanouCautareMasini.Controls.Add(this.BtnCautaDateTime);
+            this.PanouCautareMasini.Controls.Add(this.BtnClearData);
+            this.PanouCautareMasini.Controls.Add(this.grilbl);
+            this.PanouCautareMasini.Controls.Add(this.gribox);
+            this.PanouCautareMasini.Controls.Add(this.rosulbl);
+            this.PanouCautareMasini.Controls.Add(this.rosubox);
+            this.PanouCautareMasini.Controls.Add(this.albastrulbl);
+            this.PanouCautareMasini.Controls.Add(this.albastrubox);
+            this.PanouCautareMasini.Controls.Add(this.alblbl);
+            this.PanouCautareMasini.Controls.Add(this.albbox);
+            this.PanouCautareMasini.Controls.Add(this.negrulbl);
+            this.PanouCautareMasini.Controls.Add(this.negrubox);
+            this.PanouCautareMasini.Controls.Add(this.label21);
+            this.PanouCautareMasini.Controls.Add(this.label22);
+            this.PanouCautareMasini.Controls.Add(this.label19);
+            this.PanouCautareMasini.Controls.Add(this.label20);
+            this.PanouCautareMasini.Controls.Add(this.label18);
+            this.PanouCautareMasini.Controls.Add(this.label17);
+            this.PanouCautareMasini.Controls.Add(this.PretMin);
+            this.PanouCautareMasini.Controls.Add(this.BtnCautaMasina);
+            this.PanouCautareMasini.Controls.Add(this.PretMax);
+            this.PanouCautareMasini.Controls.Add(this.PanouCautareMasini_Pret);
+            this.PanouCautareMasini.Controls.Add(this.PutereMax);
+            this.PanouCautareMasini.Controls.Add(this.PutereMin);
+            this.PanouCautareMasini.Controls.Add(this.PanouCautareMasini_Putere);
+            this.PanouCautareMasini.Controls.Add(this.AnFabMax);
+            this.PanouCautareMasini.Controls.Add(this.AnFabMin);
+            this.PanouCautareMasini.Controls.Add(this.PanouCautareMasini_AnFab);
+            this.PanouCautareMasini.Controls.Add(this.ModelMasina);
+            this.PanouCautareMasini.Controls.Add(this.MarcaMasina);
+            this.PanouCautareMasini.Controls.Add(this.PanouCautareMasini_Model);
+            this.PanouCautareMasini.Controls.Add(this.PanouCautareMasini_Marca);
+            this.Animator.SetDecoration(this.PanouCautareMasini, BunifuAnimatorNS.DecorationType.None);
+            this.PanouCautareMasini.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.PanouCautareMasini.Location = new System.Drawing.Point(56, 0);
+            this.PanouCautareMasini.Name = "PanouCautareMasini";
+            this.PanouCautareMasini.Size = new System.Drawing.Size(695, 308);
+            this.PanouCautareMasini.TabIndex = 13;
             // 
-            // guna2Button3
+            // ButonStergeM
             // 
-            this.guna2Button3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2Button3.CheckedState.Parent = this.guna2Button3;
-            this.guna2Button3.CustomImages.Parent = this.guna2Button3;
-            this.Animator.SetDecoration(this.guna2Button3, BunifuAnimatorNS.DecorationType.None);
-            this.guna2Button3.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.HoverState.Parent = this.guna2Button3;
-            this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
-            this.guna2Button3.ImageSize = new System.Drawing.Size(24, 24);
-            this.guna2Button3.Location = new System.Drawing.Point(420, 244);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.ShadowDecoration.Parent = this.guna2Button3;
-            this.guna2Button3.Size = new System.Drawing.Size(45, 45);
-            this.guna2Button3.TabIndex = 38;
-            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
+            this.ButonStergeM.BackColor = System.Drawing.Color.Black;
+            this.ButonStergeM.CheckedState.Parent = this.ButonStergeM;
+            this.ButonStergeM.CustomImages.Parent = this.ButonStergeM;
+            this.Animator.SetDecoration(this.ButonStergeM, BunifuAnimatorNS.DecorationType.None);
+            this.ButonStergeM.FillColor = System.Drawing.Color.Transparent;
+            this.ButonStergeM.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ButonStergeM.ForeColor = System.Drawing.Color.White;
+            this.ButonStergeM.HoverState.Parent = this.ButonStergeM;
+            this.ButonStergeM.Image = ((System.Drawing.Image)(resources.GetObject("ButonStergeM.Image")));
+            this.ButonStergeM.ImageSize = new System.Drawing.Size(22, 22);
+            this.ButonStergeM.Location = new System.Drawing.Point(522, 244);
+            this.ButonStergeM.Name = "ButonStergeM";
+            this.ButonStergeM.ShadowDecoration.Parent = this.ButonStergeM;
+            this.ButonStergeM.Size = new System.Drawing.Size(45, 45);
+            this.ButonStergeM.TabIndex = 39;
+            this.ButonStergeM.Click += new System.EventHandler(this.guna2Button1_Click_1);
             // 
-            // guna2Button2
+            // BtnCautaDateTime
             // 
-            this.guna2Button2.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2Button2.CheckedState.Parent = this.guna2Button2;
-            this.guna2Button2.CustomImages.Parent = this.guna2Button2;
-            this.Animator.SetDecoration(this.guna2Button2, BunifuAnimatorNS.DecorationType.None);
-            this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.HoverState.Parent = this.guna2Button2;
-            this.guna2Button2.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.Image")));
-            this.guna2Button2.ImageSize = new System.Drawing.Size(22, 22);
-            this.guna2Button2.Location = new System.Drawing.Point(471, 244);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
-            this.guna2Button2.Size = new System.Drawing.Size(45, 45);
-            this.guna2Button2.TabIndex = 37;
-            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
+            this.BtnCautaDateTime.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnCautaDateTime.CheckedState.Parent = this.BtnCautaDateTime;
+            this.BtnCautaDateTime.CustomImages.Parent = this.BtnCautaDateTime;
+            this.Animator.SetDecoration(this.BtnCautaDateTime, BunifuAnimatorNS.DecorationType.None);
+            this.BtnCautaDateTime.FillColor = System.Drawing.Color.Transparent;
+            this.BtnCautaDateTime.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCautaDateTime.ForeColor = System.Drawing.Color.White;
+            this.BtnCautaDateTime.HoverState.Parent = this.BtnCautaDateTime;
+            this.BtnCautaDateTime.Image = ((System.Drawing.Image)(resources.GetObject("BtnCautaDateTime.Image")));
+            this.BtnCautaDateTime.ImageSize = new System.Drawing.Size(24, 24);
+            this.BtnCautaDateTime.Location = new System.Drawing.Point(420, 244);
+            this.BtnCautaDateTime.Name = "BtnCautaDateTime";
+            this.BtnCautaDateTime.ShadowDecoration.Parent = this.BtnCautaDateTime;
+            this.BtnCautaDateTime.Size = new System.Drawing.Size(45, 45);
+            this.BtnCautaDateTime.TabIndex = 38;
+            this.BtnCautaDateTime.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
-            // label27
+            // BtnClearData
             // 
-            this.label27.AutoSize = true;
-            this.label27.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label27, BunifuAnimatorNS.DecorationType.None);
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label27.Location = new System.Drawing.Point(379, 259);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(30, 17);
-            this.label27.TabIndex = 36;
-            this.label27.Text = "Gri";
+            this.BtnClearData.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BtnClearData.CheckedState.Parent = this.BtnClearData;
+            this.BtnClearData.CustomImages.Parent = this.BtnClearData;
+            this.Animator.SetDecoration(this.BtnClearData, BunifuAnimatorNS.DecorationType.None);
+            this.BtnClearData.FillColor = System.Drawing.Color.Transparent;
+            this.BtnClearData.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnClearData.ForeColor = System.Drawing.Color.White;
+            this.BtnClearData.HoverState.Parent = this.BtnClearData;
+            this.BtnClearData.Image = ((System.Drawing.Image)(resources.GetObject("BtnClearData.Image")));
+            this.BtnClearData.ImageSize = new System.Drawing.Size(22, 22);
+            this.BtnClearData.Location = new System.Drawing.Point(471, 244);
+            this.BtnClearData.Name = "BtnClearData";
+            this.BtnClearData.ShadowDecoration.Parent = this.BtnClearData;
+            this.BtnClearData.Size = new System.Drawing.Size(45, 45);
+            this.BtnClearData.TabIndex = 37;
+            this.BtnClearData.Click += new System.EventHandler(this.guna2Button2_Click);
+            // 
+            // grilbl
+            // 
+            this.grilbl.AutoSize = true;
+            this.grilbl.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.grilbl, BunifuAnimatorNS.DecorationType.None);
+            this.grilbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grilbl.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.grilbl.Location = new System.Drawing.Point(379, 259);
+            this.grilbl.Name = "grilbl";
+            this.grilbl.Size = new System.Drawing.Size(30, 17);
+            this.grilbl.TabIndex = 36;
+            this.grilbl.Text = "Gri";
             // 
             // gribox
             // 
@@ -2036,18 +2068,18 @@
             this.gribox.TabIndex = 35;
             this.gribox.OnChange += new System.EventHandler(this.gribox_OnChange);
             // 
-            // label26
+            // rosulbl
             // 
-            this.label26.AutoSize = true;
-            this.label26.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label26, BunifuAnimatorNS.DecorationType.None);
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label26.Location = new System.Drawing.Point(299, 259);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(45, 17);
-            this.label26.TabIndex = 34;
-            this.label26.Text = "Rosu";
+            this.rosulbl.AutoSize = true;
+            this.rosulbl.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.rosulbl, BunifuAnimatorNS.DecorationType.None);
+            this.rosulbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rosulbl.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.rosulbl.Location = new System.Drawing.Point(299, 259);
+            this.rosulbl.Name = "rosulbl";
+            this.rosulbl.Size = new System.Drawing.Size(45, 17);
+            this.rosulbl.TabIndex = 34;
+            this.rosulbl.Text = "Rosu";
             // 
             // rosubox
             // 
@@ -2064,18 +2096,18 @@
             this.rosubox.TabIndex = 33;
             this.rosubox.OnChange += new System.EventHandler(this.rosubox_OnChange);
             // 
-            // label25
+            // albastrulbl
             // 
-            this.label25.AutoSize = true;
-            this.label25.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label25, BunifuAnimatorNS.DecorationType.None);
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label25.Location = new System.Drawing.Point(199, 259);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(68, 17);
-            this.label25.TabIndex = 32;
-            this.label25.Text = "Albastru";
+            this.albastrulbl.AutoSize = true;
+            this.albastrulbl.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.albastrulbl, BunifuAnimatorNS.DecorationType.None);
+            this.albastrulbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.albastrulbl.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.albastrulbl.Location = new System.Drawing.Point(199, 259);
+            this.albastrulbl.Name = "albastrulbl";
+            this.albastrulbl.Size = new System.Drawing.Size(68, 17);
+            this.albastrulbl.TabIndex = 32;
+            this.albastrulbl.Text = "Albastru";
             // 
             // albastrubox
             // 
@@ -2092,18 +2124,18 @@
             this.albastrubox.TabIndex = 31;
             this.albastrubox.OnChange += new System.EventHandler(this.albastrubox_OnChange);
             // 
-            // label24
+            // alblbl
             // 
-            this.label24.AutoSize = true;
-            this.label24.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label24, BunifuAnimatorNS.DecorationType.None);
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label24.Location = new System.Drawing.Point(132, 259);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(31, 17);
-            this.label24.TabIndex = 30;
-            this.label24.Text = "Alb";
+            this.alblbl.AutoSize = true;
+            this.alblbl.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.alblbl, BunifuAnimatorNS.DecorationType.None);
+            this.alblbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.alblbl.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.alblbl.Location = new System.Drawing.Point(132, 259);
+            this.alblbl.Name = "alblbl";
+            this.alblbl.Size = new System.Drawing.Size(31, 17);
+            this.alblbl.TabIndex = 30;
+            this.alblbl.Text = "Alb";
             // 
             // albbox
             // 
@@ -2120,18 +2152,18 @@
             this.albbox.TabIndex = 29;
             this.albbox.OnChange += new System.EventHandler(this.albbox_OnChange);
             // 
-            // label23
+            // negrulbl
             // 
-            this.label23.AutoSize = true;
-            this.label23.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label23, BunifuAnimatorNS.DecorationType.None);
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label23.Location = new System.Drawing.Point(45, 259);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(52, 17);
-            this.label23.TabIndex = 28;
-            this.label23.Text = "Negru";
+            this.negrulbl.AutoSize = true;
+            this.negrulbl.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.negrulbl, BunifuAnimatorNS.DecorationType.None);
+            this.negrulbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.negrulbl.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.negrulbl.Location = new System.Drawing.Point(45, 259);
+            this.negrulbl.Name = "negrulbl";
+            this.negrulbl.Size = new System.Drawing.Size(52, 17);
+            this.negrulbl.TabIndex = 28;
+            this.negrulbl.Text = "Negru";
             // 
             // negrubox
             // 
@@ -2245,7 +2277,6 @@
             this.PretMin.HoverState.Parent = this.PretMin;
             this.PretMin.Location = new System.Drawing.Point(449, 169);
             this.PretMin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.PretMin.MaxLength = 8;
             this.PretMin.Name = "PretMin";
             this.PretMin.PasswordChar = '\0';
             this.PretMin.PlaceholderText = "";
@@ -2256,22 +2287,22 @@
             this.PretMin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.PretMin.TextChanged += new System.EventHandler(this.PretMin_TextChanged);
             // 
-            // guna2Button1
+            // BtnCautaMasina
             // 
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.Animator.SetDecoration(this.guna2Button1, BunifuAnimatorNS.DecorationType.None);
-            this.guna2Button1.FillColor = System.Drawing.Color.Red;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(522, 244);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(159, 45);
-            this.guna2Button1.TabIndex = 15;
-            this.guna2Button1.Text = "Cauta";
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            this.BtnCautaMasina.CheckedState.Parent = this.BtnCautaMasina;
+            this.BtnCautaMasina.CustomImages.Parent = this.BtnCautaMasina;
+            this.Animator.SetDecoration(this.BtnCautaMasina, BunifuAnimatorNS.DecorationType.None);
+            this.BtnCautaMasina.FillColor = System.Drawing.Color.Red;
+            this.BtnCautaMasina.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCautaMasina.ForeColor = System.Drawing.Color.White;
+            this.BtnCautaMasina.HoverState.Parent = this.BtnCautaMasina;
+            this.BtnCautaMasina.Location = new System.Drawing.Point(573, 244);
+            this.BtnCautaMasina.Name = "BtnCautaMasina";
+            this.BtnCautaMasina.ShadowDecoration.Parent = this.BtnCautaMasina;
+            this.BtnCautaMasina.Size = new System.Drawing.Size(108, 45);
+            this.BtnCautaMasina.TabIndex = 15;
+            this.BtnCautaMasina.Text = "Cauta";
+            this.BtnCautaMasina.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // PretMax
             // 
@@ -2292,7 +2323,6 @@
             this.PretMax.HoverState.Parent = this.PretMax;
             this.PretMax.Location = new System.Drawing.Point(582, 169);
             this.PretMax.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.PretMax.MaxLength = 8;
             this.PretMax.Name = "PretMax";
             this.PretMax.PasswordChar = '\0';
             this.PretMax.PlaceholderText = "";
@@ -2303,18 +2333,18 @@
             this.PretMax.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.PretMax.TextChanged += new System.EventHandler(this.PretMax_TextChanged);
             // 
-            // label16
+            // PanouCautareMasini_Pret
             // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label16, BunifuAnimatorNS.DecorationType.None);
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label16.Location = new System.Drawing.Point(446, 131);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(38, 17);
-            this.label16.TabIndex = 10;
-            this.label16.Text = "Pret";
+            this.PanouCautareMasini_Pret.AutoSize = true;
+            this.PanouCautareMasini_Pret.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouCautareMasini_Pret, BunifuAnimatorNS.DecorationType.None);
+            this.PanouCautareMasini_Pret.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouCautareMasini_Pret.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.PanouCautareMasini_Pret.Location = new System.Drawing.Point(446, 131);
+            this.PanouCautareMasini_Pret.Name = "PanouCautareMasini_Pret";
+            this.PanouCautareMasini_Pret.Size = new System.Drawing.Size(38, 17);
+            this.PanouCautareMasini_Pret.TabIndex = 10;
+            this.PanouCautareMasini_Pret.Text = "Pret";
             // 
             // PutereMax
             // 
@@ -2335,7 +2365,6 @@
             this.PutereMax.HoverState.Parent = this.PutereMax;
             this.PutereMax.Location = new System.Drawing.Point(236, 169);
             this.PutereMax.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.PutereMax.MaxLength = 16;
             this.PutereMax.Name = "PutereMax";
             this.PutereMax.PasswordChar = '\0';
             this.PutereMax.PlaceholderText = "";
@@ -2365,7 +2394,6 @@
             this.PutereMin.HoverState.Parent = this.PutereMin;
             this.PutereMin.Location = new System.Drawing.Point(18, 169);
             this.PutereMin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.PutereMin.MaxLength = 16;
             this.PutereMin.Name = "PutereMin";
             this.PutereMin.PasswordChar = '\0';
             this.PutereMin.PlaceholderText = "";
@@ -2376,18 +2404,18 @@
             this.PutereMin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.PutereMin.TextChanged += new System.EventHandler(this.PutereMin_TextChanged);
             // 
-            // label15
+            // PanouCautareMasini_Putere
             // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label15, BunifuAnimatorNS.DecorationType.None);
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label15.Location = new System.Drawing.Point(15, 131);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(56, 17);
-            this.label15.TabIndex = 7;
-            this.label15.Text = "Putere";
+            this.PanouCautareMasini_Putere.AutoSize = true;
+            this.PanouCautareMasini_Putere.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouCautareMasini_Putere, BunifuAnimatorNS.DecorationType.None);
+            this.PanouCautareMasini_Putere.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouCautareMasini_Putere.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.PanouCautareMasini_Putere.Location = new System.Drawing.Point(15, 131);
+            this.PanouCautareMasini_Putere.Name = "PanouCautareMasini_Putere";
+            this.PanouCautareMasini_Putere.Size = new System.Drawing.Size(56, 17);
+            this.PanouCautareMasini_Putere.TabIndex = 7;
+            this.PanouCautareMasini_Putere.Text = "Putere";
             // 
             // AnFabMax
             // 
@@ -2408,7 +2436,6 @@
             this.AnFabMax.HoverState.Parent = this.AnFabMax;
             this.AnFabMax.Location = new System.Drawing.Point(582, 72);
             this.AnFabMax.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.AnFabMax.MaxLength = 8;
             this.AnFabMax.Name = "AnFabMax";
             this.AnFabMax.PasswordChar = '\0';
             this.AnFabMax.PlaceholderText = "";
@@ -2438,7 +2465,6 @@
             this.AnFabMin.HoverState.Parent = this.AnFabMin;
             this.AnFabMin.Location = new System.Drawing.Point(449, 72);
             this.AnFabMin.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.AnFabMin.MaxLength = 8;
             this.AnFabMin.Name = "AnFabMin";
             this.AnFabMin.PasswordChar = '\0';
             this.AnFabMin.PlaceholderText = "";
@@ -2449,18 +2475,18 @@
             this.AnFabMin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.AnFabMin.TextChanged += new System.EventHandler(this.AnFabMin_TextChanged);
             // 
-            // label14
+            // PanouCautareMasini_AnFab
             // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label14, BunifuAnimatorNS.DecorationType.None);
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label14.Location = new System.Drawing.Point(446, 35);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(117, 17);
-            this.label14.TabIndex = 4;
-            this.label14.Text = "Anul fabricatiei";
+            this.PanouCautareMasini_AnFab.AutoSize = true;
+            this.PanouCautareMasini_AnFab.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouCautareMasini_AnFab, BunifuAnimatorNS.DecorationType.None);
+            this.PanouCautareMasini_AnFab.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouCautareMasini_AnFab.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.PanouCautareMasini_AnFab.Location = new System.Drawing.Point(446, 35);
+            this.PanouCautareMasini_AnFab.Name = "PanouCautareMasini_AnFab";
+            this.PanouCautareMasini_AnFab.Size = new System.Drawing.Size(117, 17);
+            this.PanouCautareMasini_AnFab.TabIndex = 4;
+            this.PanouCautareMasini_AnFab.Text = "Anul fabricatiei";
             // 
             // ModelMasina
             // 
@@ -2480,7 +2506,6 @@
             this.ModelMasina.HoverState.Parent = this.ModelMasina;
             this.ModelMasina.Location = new System.Drawing.Point(236, 72);
             this.ModelMasina.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.ModelMasina.MaxLength = 16;
             this.ModelMasina.Name = "ModelMasina";
             this.ModelMasina.PasswordChar = '\0';
             this.ModelMasina.PlaceholderText = "";
@@ -2509,7 +2534,6 @@
             this.MarcaMasina.HoverState.Parent = this.MarcaMasina;
             this.MarcaMasina.Location = new System.Drawing.Point(18, 72);
             this.MarcaMasina.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.MarcaMasina.MaxLength = 16;
             this.MarcaMasina.Name = "MarcaMasina";
             this.MarcaMasina.PasswordChar = '\0';
             this.MarcaMasina.PlaceholderText = "";
@@ -2519,38 +2543,38 @@
             this.MarcaMasina.TabIndex = 2;
             this.MarcaMasina.TextChanged += new System.EventHandler(this.MarcaMasina_TextChanged);
             // 
-            // label13
+            // PanouCautareMasini_Model
             // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label13, BunifuAnimatorNS.DecorationType.None);
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label13.Location = new System.Drawing.Point(232, 35);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(51, 17);
-            this.label13.TabIndex = 1;
-            this.label13.Text = "Model";
+            this.PanouCautareMasini_Model.AutoSize = true;
+            this.PanouCautareMasini_Model.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouCautareMasini_Model, BunifuAnimatorNS.DecorationType.None);
+            this.PanouCautareMasini_Model.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouCautareMasini_Model.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.PanouCautareMasini_Model.Location = new System.Drawing.Point(232, 35);
+            this.PanouCautareMasini_Model.Name = "PanouCautareMasini_Model";
+            this.PanouCautareMasini_Model.Size = new System.Drawing.Size(51, 17);
+            this.PanouCautareMasini_Model.TabIndex = 1;
+            this.PanouCautareMasini_Model.Text = "Model";
             // 
-            // label12
+            // PanouCautareMasini_Marca
             // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label12, BunifuAnimatorNS.DecorationType.None);
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label12.Location = new System.Drawing.Point(14, 36);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(52, 17);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "Marca";
+            this.PanouCautareMasini_Marca.AutoSize = true;
+            this.PanouCautareMasini_Marca.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouCautareMasini_Marca, BunifuAnimatorNS.DecorationType.None);
+            this.PanouCautareMasini_Marca.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouCautareMasini_Marca.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.PanouCautareMasini_Marca.Location = new System.Drawing.Point(14, 36);
+            this.PanouCautareMasini_Marca.Name = "PanouCautareMasini_Marca";
+            this.PanouCautareMasini_Marca.Size = new System.Drawing.Size(52, 17);
+            this.PanouCautareMasini_Marca.TabIndex = 0;
+            this.PanouCautareMasini_Marca.Text = "Marca";
             // 
             // Compare
             // 
             this.Compare.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Compare.BackgroundImage")));
             this.Compare.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Compare.Controls.Add(this.PretM2_);
-            this.Compare.Controls.Add(this.guna2TileButton11);
+            this.Compare.Controls.Add(this.CompareBack);
             this.Compare.Controls.Add(this.PretM1_);
             this.Compare.Controls.Add(this.DataPanelM2);
             this.Compare.Controls.Add(this.DataPanelM1);
@@ -2585,24 +2609,24 @@
             this.PretM2_.Text = "20000 €";
             this.PretM2_.Visible = false;
             // 
-            // guna2TileButton11
+            // CompareBack
             // 
-            this.guna2TileButton11.CheckedState.Parent = this.guna2TileButton11;
-            this.guna2TileButton11.CustomImages.Parent = this.guna2TileButton11;
-            this.Animator.SetDecoration(this.guna2TileButton11, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton11.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton11.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton11.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton11.HoverState.FillColor = System.Drawing.Color.Gray;
-            this.guna2TileButton11.HoverState.Parent = this.guna2TileButton11;
-            this.guna2TileButton11.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton11.Image")));
-            this.guna2TileButton11.ImageSize = new System.Drawing.Size(31, 30);
-            this.guna2TileButton11.Location = new System.Drawing.Point(54, 96);
-            this.guna2TileButton11.Name = "guna2TileButton11";
-            this.guna2TileButton11.ShadowDecoration.Parent = this.guna2TileButton11;
-            this.guna2TileButton11.Size = new System.Drawing.Size(70, 60);
-            this.guna2TileButton11.TabIndex = 2;
-            this.guna2TileButton11.Click += new System.EventHandler(this.guna2TileButton11_Click);
+            this.CompareBack.CheckedState.Parent = this.CompareBack;
+            this.CompareBack.CustomImages.Parent = this.CompareBack;
+            this.Animator.SetDecoration(this.CompareBack, BunifuAnimatorNS.DecorationType.None);
+            this.CompareBack.FillColor = System.Drawing.Color.Transparent;
+            this.CompareBack.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.CompareBack.ForeColor = System.Drawing.Color.White;
+            this.CompareBack.HoverState.FillColor = System.Drawing.Color.Gray;
+            this.CompareBack.HoverState.Parent = this.CompareBack;
+            this.CompareBack.Image = ((System.Drawing.Image)(resources.GetObject("CompareBack.Image")));
+            this.CompareBack.ImageSize = new System.Drawing.Size(31, 30);
+            this.CompareBack.Location = new System.Drawing.Point(54, 96);
+            this.CompareBack.Name = "CompareBack";
+            this.CompareBack.ShadowDecoration.Parent = this.CompareBack;
+            this.CompareBack.Size = new System.Drawing.Size(70, 60);
+            this.CompareBack.TabIndex = 2;
+            this.CompareBack.Click += new System.EventHandler(this.guna2TileButton11_Click);
             // 
             // PretM1_
             // 
@@ -2995,9 +3019,9 @@
             this.ComparaSelect.Controls.Add(this.guna2ControlBox13);
             this.ComparaSelect.Controls.Add(this.guna2ControlBox14);
             this.ComparaSelect.Controls.Add(this.guna2ControlBox15);
-            this.ComparaSelect.Controls.Add(this.ComparaBtn);
-            this.ComparaSelect.Controls.Add(this.panel14);
-            this.ComparaSelect.Controls.Add(this.panel15);
+            this.ComparaSelect.Controls.Add(this.PanouMasina2);
+            this.ComparaSelect.Controls.Add(this.PanouMasina1);
+            this.ComparaSelect.Controls.Add(this.PanouMeniuCompare);
             this.Animator.SetDecoration(this.ComparaSelect, BunifuAnimatorNS.DecorationType.None);
             this.ComparaSelect.Location = new System.Drawing.Point(4, 25);
             this.ComparaSelect.Name = "ComparaSelect";
@@ -3073,52 +3097,52 @@
             this.guna2ControlBox15.Size = new System.Drawing.Size(45, 29);
             this.guna2ControlBox15.TabIndex = 47;
             // 
-            // ComparaBtn
+            // PanouMasina2
             // 
-            this.ComparaBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
-            this.ComparaBtn.Controls.Add(this.guna2TileButton18);
-            this.ComparaBtn.Controls.Add(this.MarcaM2);
-            this.ComparaBtn.Controls.Add(this.PutereMaxM2);
-            this.ComparaBtn.Controls.Add(this.PanouEroare2);
-            this.ComparaBtn.Controls.Add(this.label11);
-            this.ComparaBtn.Controls.Add(this.label56);
-            this.ComparaBtn.Controls.Add(this.label41);
-            this.ComparaBtn.Controls.Add(this.AnFMaxM2);
-            this.ComparaBtn.Controls.Add(this.AnFMinM2);
-            this.ComparaBtn.Controls.Add(this.label65);
-            this.ComparaBtn.Controls.Add(this.label42);
-            this.ComparaBtn.Controls.Add(this.label64);
-            this.ComparaBtn.Controls.Add(this.label43);
-            this.ComparaBtn.Controls.Add(this.label63);
-            this.ComparaBtn.Controls.Add(this.PretMaxM2);
-            this.ComparaBtn.Controls.Add(this.label62);
-            this.ComparaBtn.Controls.Add(this.CuloareM2_);
-            this.ComparaBtn.Controls.Add(this.ModelM2);
-            this.ComparaBtn.Controls.Add(this.PretMinM2);
-            this.Animator.SetDecoration(this.ComparaBtn, BunifuAnimatorNS.DecorationType.None);
-            this.ComparaBtn.Location = new System.Drawing.Point(1166, 218);
-            this.ComparaBtn.Name = "ComparaBtn";
-            this.ComparaBtn.Size = new System.Drawing.Size(773, 589);
-            this.ComparaBtn.TabIndex = 27;
+            this.PanouMasina2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
+            this.PanouMasina2.Controls.Add(this.btnCautaMasina2);
+            this.PanouMasina2.Controls.Add(this.MarcaM2);
+            this.PanouMasina2.Controls.Add(this.PutereMaxM2);
+            this.PanouMasina2.Controls.Add(this.PanouEroare2);
+            this.PanouMasina2.Controls.Add(this.PanouMasina2_PutMx);
+            this.PanouMasina2.Controls.Add(this.lblMasina2);
+            this.PanouMasina2.Controls.Add(this.PanouMasina2_AnFMx);
+            this.PanouMasina2.Controls.Add(this.AnFMaxM2);
+            this.PanouMasina2.Controls.Add(this.AnFMinM2);
+            this.PanouMasina2.Controls.Add(this.PanouMasina2_Marca);
+            this.PanouMasina2.Controls.Add(this.PanouMasina2_AnFMn);
+            this.PanouMasina2.Controls.Add(this.PanouMasina2_Model);
+            this.PanouMasina2.Controls.Add(this.PanouMasina2_PretMx);
+            this.PanouMasina2.Controls.Add(this.PanouMasina2_PretMinim);
+            this.PanouMasina2.Controls.Add(this.PretMaxM2);
+            this.PanouMasina2.Controls.Add(this.PanouMasina2_Cul);
+            this.PanouMasina2.Controls.Add(this.CuloareM2_);
+            this.PanouMasina2.Controls.Add(this.ModelM2);
+            this.PanouMasina2.Controls.Add(this.PretMinM2);
+            this.Animator.SetDecoration(this.PanouMasina2, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasina2.Location = new System.Drawing.Point(1166, 218);
+            this.PanouMasina2.Name = "PanouMasina2";
+            this.PanouMasina2.Size = new System.Drawing.Size(773, 589);
+            this.PanouMasina2.TabIndex = 27;
             // 
-            // guna2TileButton18
+            // btnCautaMasina2
             // 
-            this.guna2TileButton18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
-            this.guna2TileButton18.CheckedState.Parent = this.guna2TileButton18;
-            this.guna2TileButton18.CustomImages.Parent = this.guna2TileButton18;
-            this.Animator.SetDecoration(this.guna2TileButton18, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(182)))), ((int)(((byte)(97)))));
-            this.guna2TileButton18.Font = new System.Drawing.Font("HelvLight", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TileButton18.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton18.HoverState.Parent = this.guna2TileButton18;
-            this.guna2TileButton18.ImageSize = new System.Drawing.Size(60, 60);
-            this.guna2TileButton18.Location = new System.Drawing.Point(143, 471);
-            this.guna2TileButton18.Name = "guna2TileButton18";
-            this.guna2TileButton18.ShadowDecoration.Parent = this.guna2TileButton18;
-            this.guna2TileButton18.Size = new System.Drawing.Size(482, 51);
-            this.guna2TileButton18.TabIndex = 58;
-            this.guna2TileButton18.Text = "Cauta Masina";
-            this.guna2TileButton18.Click += new System.EventHandler(this.guna2TileButton18_Click);
+            this.btnCautaMasina2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
+            this.btnCautaMasina2.CheckedState.Parent = this.btnCautaMasina2;
+            this.btnCautaMasina2.CustomImages.Parent = this.btnCautaMasina2;
+            this.Animator.SetDecoration(this.btnCautaMasina2, BunifuAnimatorNS.DecorationType.None);
+            this.btnCautaMasina2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(182)))), ((int)(((byte)(97)))));
+            this.btnCautaMasina2.Font = new System.Drawing.Font("HelvLight", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCautaMasina2.ForeColor = System.Drawing.Color.White;
+            this.btnCautaMasina2.HoverState.Parent = this.btnCautaMasina2;
+            this.btnCautaMasina2.ImageSize = new System.Drawing.Size(60, 60);
+            this.btnCautaMasina2.Location = new System.Drawing.Point(143, 471);
+            this.btnCautaMasina2.Name = "btnCautaMasina2";
+            this.btnCautaMasina2.ShadowDecoration.Parent = this.btnCautaMasina2;
+            this.btnCautaMasina2.Size = new System.Drawing.Size(482, 51);
+            this.btnCautaMasina2.TabIndex = 58;
+            this.btnCautaMasina2.Text = "Cauta Masina";
+            this.btnCautaMasina2.Click += new System.EventHandler(this.guna2TileButton18_Click);
             // 
             // MarcaM2
             // 
@@ -3202,44 +3226,44 @@
             this.label10.TabIndex = 1;
             this.label10.Text = "Eroare  Cautare!";
             // 
-            // label11
+            // PanouMasina2_PutMx
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label11, BunifuAnimatorNS.DecorationType.None);
-            this.label11.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(398, 384);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(118, 24);
-            this.label11.TabIndex = 71;
-            this.label11.Text = "Putere max";
+            this.PanouMasina2_PutMx.AutoSize = true;
+            this.PanouMasina2_PutMx.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasina2_PutMx, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasina2_PutMx.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasina2_PutMx.ForeColor = System.Drawing.Color.White;
+            this.PanouMasina2_PutMx.Location = new System.Drawing.Point(398, 384);
+            this.PanouMasina2_PutMx.Name = "PanouMasina2_PutMx";
+            this.PanouMasina2_PutMx.Size = new System.Drawing.Size(118, 24);
+            this.PanouMasina2_PutMx.TabIndex = 71;
+            this.PanouMasina2_PutMx.Text = "Putere max";
             // 
-            // label56
+            // lblMasina2
             // 
-            this.label56.AutoSize = true;
-            this.label56.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label56, BunifuAnimatorNS.DecorationType.None);
-            this.label56.Font = new System.Drawing.Font("EA Font v1.5 by Ghettoshark", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label56.Location = new System.Drawing.Point(303, 19);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(173, 42);
-            this.label56.TabIndex = 41;
-            this.label56.Text = "Masina2";
+            this.lblMasina2.AutoSize = true;
+            this.lblMasina2.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.lblMasina2, BunifuAnimatorNS.DecorationType.None);
+            this.lblMasina2.Font = new System.Drawing.Font("EA Font v1.5 by Ghettoshark", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMasina2.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblMasina2.Location = new System.Drawing.Point(303, 19);
+            this.lblMasina2.Name = "lblMasina2";
+            this.lblMasina2.Size = new System.Drawing.Size(173, 42);
+            this.lblMasina2.TabIndex = 41;
+            this.lblMasina2.Text = "Masina2";
             // 
-            // label41
+            // PanouMasina2_AnFMx
             // 
-            this.label41.AutoSize = true;
-            this.label41.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label41, BunifuAnimatorNS.DecorationType.None);
-            this.label41.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label41.ForeColor = System.Drawing.Color.White;
-            this.label41.Location = new System.Drawing.Point(398, 306);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(176, 24);
-            this.label41.TabIndex = 70;
-            this.label41.Text = "An fabricatie max";
+            this.PanouMasina2_AnFMx.AutoSize = true;
+            this.PanouMasina2_AnFMx.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasina2_AnFMx, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasina2_AnFMx.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasina2_AnFMx.ForeColor = System.Drawing.Color.White;
+            this.PanouMasina2_AnFMx.Location = new System.Drawing.Point(398, 306);
+            this.PanouMasina2_AnFMx.Name = "PanouMasina2_AnFMx";
+            this.PanouMasina2_AnFMx.Size = new System.Drawing.Size(176, 24);
+            this.PanouMasina2_AnFMx.TabIndex = 70;
+            this.PanouMasina2_AnFMx.Text = "An fabricatie max";
             // 
             // AnFMaxM2
             // 
@@ -3301,70 +3325,70 @@
             this.AnFMinM2.Size = new System.Drawing.Size(230, 38);
             this.AnFMinM2.TabIndex = 68;
             // 
-            // label65
+            // PanouMasina2_Marca
             // 
-            this.label65.AutoSize = true;
-            this.label65.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label65, BunifuAnimatorNS.DecorationType.None);
-            this.label65.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label65.ForeColor = System.Drawing.Color.White;
-            this.label65.Location = new System.Drawing.Point(148, 72);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(69, 24);
-            this.label65.TabIndex = 58;
-            this.label65.Text = "Marca";
+            this.PanouMasina2_Marca.AutoSize = true;
+            this.PanouMasina2_Marca.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasina2_Marca, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasina2_Marca.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasina2_Marca.ForeColor = System.Drawing.Color.White;
+            this.PanouMasina2_Marca.Location = new System.Drawing.Point(148, 72);
+            this.PanouMasina2_Marca.Name = "PanouMasina2_Marca";
+            this.PanouMasina2_Marca.Size = new System.Drawing.Size(69, 24);
+            this.PanouMasina2_Marca.TabIndex = 58;
+            this.PanouMasina2_Marca.Text = "Marca";
             // 
-            // label42
+            // PanouMasina2_AnFMn
             // 
-            this.label42.AutoSize = true;
-            this.label42.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label42, BunifuAnimatorNS.DecorationType.None);
-            this.label42.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.ForeColor = System.Drawing.Color.White;
-            this.label42.Location = new System.Drawing.Point(148, 306);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(171, 24);
-            this.label42.TabIndex = 67;
-            this.label42.Text = "An fabricatie min";
+            this.PanouMasina2_AnFMn.AutoSize = true;
+            this.PanouMasina2_AnFMn.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasina2_AnFMn, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasina2_AnFMn.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasina2_AnFMn.ForeColor = System.Drawing.Color.White;
+            this.PanouMasina2_AnFMn.Location = new System.Drawing.Point(148, 306);
+            this.PanouMasina2_AnFMn.Name = "PanouMasina2_AnFMn";
+            this.PanouMasina2_AnFMn.Size = new System.Drawing.Size(171, 24);
+            this.PanouMasina2_AnFMn.TabIndex = 67;
+            this.PanouMasina2_AnFMn.Text = "An fabricatie min";
             // 
-            // label64
+            // PanouMasina2_Model
             // 
-            this.label64.AutoSize = true;
-            this.label64.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label64, BunifuAnimatorNS.DecorationType.None);
-            this.label64.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label64.ForeColor = System.Drawing.Color.White;
-            this.label64.Location = new System.Drawing.Point(148, 153);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(68, 24);
-            this.label64.TabIndex = 59;
-            this.label64.Text = "Model";
+            this.PanouMasina2_Model.AutoSize = true;
+            this.PanouMasina2_Model.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasina2_Model, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasina2_Model.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasina2_Model.ForeColor = System.Drawing.Color.White;
+            this.PanouMasina2_Model.Location = new System.Drawing.Point(148, 153);
+            this.PanouMasina2_Model.Name = "PanouMasina2_Model";
+            this.PanouMasina2_Model.Size = new System.Drawing.Size(68, 24);
+            this.PanouMasina2_Model.TabIndex = 59;
+            this.PanouMasina2_Model.Text = "Model";
             // 
-            // label43
+            // PanouMasina2_PretMx
             // 
-            this.label43.AutoSize = true;
-            this.label43.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label43, BunifuAnimatorNS.DecorationType.None);
-            this.label43.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.ForeColor = System.Drawing.Color.White;
-            this.label43.Location = new System.Drawing.Point(398, 229);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(118, 24);
-            this.label43.TabIndex = 66;
-            this.label43.Text = "Pret maxim";
+            this.PanouMasina2_PretMx.AutoSize = true;
+            this.PanouMasina2_PretMx.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasina2_PretMx, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasina2_PretMx.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasina2_PretMx.ForeColor = System.Drawing.Color.White;
+            this.PanouMasina2_PretMx.Location = new System.Drawing.Point(398, 229);
+            this.PanouMasina2_PretMx.Name = "PanouMasina2_PretMx";
+            this.PanouMasina2_PretMx.Size = new System.Drawing.Size(118, 24);
+            this.PanouMasina2_PretMx.TabIndex = 66;
+            this.PanouMasina2_PretMx.Text = "Pret maxim";
             // 
-            // label63
+            // PanouMasina2_PretMinim
             // 
-            this.label63.AutoSize = true;
-            this.label63.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label63, BunifuAnimatorNS.DecorationType.None);
-            this.label63.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label63.ForeColor = System.Drawing.Color.White;
-            this.label63.Location = new System.Drawing.Point(148, 229);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(113, 24);
-            this.label63.TabIndex = 60;
-            this.label63.Text = "Pret minim";
+            this.PanouMasina2_PretMinim.AutoSize = true;
+            this.PanouMasina2_PretMinim.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasina2_PretMinim, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasina2_PretMinim.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasina2_PretMinim.ForeColor = System.Drawing.Color.White;
+            this.PanouMasina2_PretMinim.Location = new System.Drawing.Point(148, 229);
+            this.PanouMasina2_PretMinim.Name = "PanouMasina2_PretMinim";
+            this.PanouMasina2_PretMinim.Size = new System.Drawing.Size(113, 24);
+            this.PanouMasina2_PretMinim.TabIndex = 60;
+            this.PanouMasina2_PretMinim.Text = "Pret minim";
             // 
             // PretMaxM2
             // 
@@ -3396,18 +3420,18 @@
             this.PretMaxM2.Size = new System.Drawing.Size(230, 38);
             this.PretMaxM2.TabIndex = 65;
             // 
-            // label62
+            // PanouMasina2_Cul
             // 
-            this.label62.AutoSize = true;
-            this.label62.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label62, BunifuAnimatorNS.DecorationType.None);
-            this.label62.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.ForeColor = System.Drawing.Color.White;
-            this.label62.Location = new System.Drawing.Point(148, 384);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(84, 24);
-            this.label62.TabIndex = 61;
-            this.label62.Text = "Culoare";
+            this.PanouMasina2_Cul.AutoSize = true;
+            this.PanouMasina2_Cul.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasina2_Cul, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasina2_Cul.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasina2_Cul.ForeColor = System.Drawing.Color.White;
+            this.PanouMasina2_Cul.Location = new System.Drawing.Point(148, 384);
+            this.PanouMasina2_Cul.Name = "PanouMasina2_Cul";
+            this.PanouMasina2_Cul.Size = new System.Drawing.Size(84, 24);
+            this.PanouMasina2_Cul.TabIndex = 61;
+            this.PanouMasina2_Cul.Text = "Culoare";
             // 
             // CuloareM2_
             // 
@@ -3499,33 +3523,33 @@
             this.PretMinM2.Size = new System.Drawing.Size(230, 38);
             this.PretMinM2.TabIndex = 63;
             // 
-            // panel14
+            // PanouMasina1
             // 
-            this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
-            this.panel14.Controls.Add(this.MarcaM1);
-            this.panel14.Controls.Add(this.PutereMaxM1);
-            this.panel14.Controls.Add(this.label61);
-            this.panel14.Controls.Add(this.label59);
-            this.panel14.Controls.Add(this.AnFMaxM1);
-            this.panel14.Controls.Add(this.AnFMinM1);
-            this.panel14.Controls.Add(this.label60);
-            this.panel14.Controls.Add(this.label58);
-            this.panel14.Controls.Add(this.PretMaxM1);
-            this.panel14.Controls.Add(this.CuloareM1_);
-            this.panel14.Controls.Add(this.PretMinM1);
-            this.panel14.Controls.Add(this.ModelM1);
-            this.panel14.Controls.Add(this.PanouEroare1);
-            this.panel14.Controls.Add(this.label44);
-            this.panel14.Controls.Add(this.guna2TileButton19);
-            this.panel14.Controls.Add(this.label57);
-            this.panel14.Controls.Add(this.label53);
-            this.panel14.Controls.Add(this.label54);
-            this.panel14.Controls.Add(this.label55);
-            this.Animator.SetDecoration(this.panel14, BunifuAnimatorNS.DecorationType.None);
-            this.panel14.Location = new System.Drawing.Point(186, 218);
-            this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(773, 587);
-            this.panel14.TabIndex = 18;
+            this.PanouMasina1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
+            this.PanouMasina1.Controls.Add(this.MarcaM1);
+            this.PanouMasina1.Controls.Add(this.PutereMaxM1);
+            this.PanouMasina1.Controls.Add(this.PanouMasina1_PutereMax);
+            this.PanouMasina1.Controls.Add(this.PanouMasina1_AnFabMx);
+            this.PanouMasina1.Controls.Add(this.AnFMaxM1);
+            this.PanouMasina1.Controls.Add(this.AnFMinM1);
+            this.PanouMasina1.Controls.Add(this.PanouMasina1_AnFabMn);
+            this.PanouMasina1.Controls.Add(this.PanouMasina1_PretMx);
+            this.PanouMasina1.Controls.Add(this.PretMaxM1);
+            this.PanouMasina1.Controls.Add(this.CuloareM1_);
+            this.PanouMasina1.Controls.Add(this.PretMinM1);
+            this.PanouMasina1.Controls.Add(this.ModelM1);
+            this.PanouMasina1.Controls.Add(this.PanouEroare1);
+            this.PanouMasina1.Controls.Add(this.PanouMasina1_Culoare);
+            this.PanouMasina1.Controls.Add(this.btnCautaMasina1);
+            this.PanouMasina1.Controls.Add(this.lblMasina1);
+            this.PanouMasina1.Controls.Add(this.PanouMasina1_PretMn);
+            this.PanouMasina1.Controls.Add(this.PanouMasina1_Model);
+            this.PanouMasina1.Controls.Add(this.PanouMasina1_Marca);
+            this.Animator.SetDecoration(this.PanouMasina1, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasina1.Location = new System.Drawing.Point(186, 218);
+            this.PanouMasina1.Name = "PanouMasina1";
+            this.PanouMasina1.Size = new System.Drawing.Size(773, 587);
+            this.PanouMasina1.TabIndex = 18;
             // 
             // MarcaM1
             // 
@@ -3587,31 +3611,31 @@
             this.PutereMaxM1.Size = new System.Drawing.Size(230, 38);
             this.PutereMaxM1.TabIndex = 56;
             // 
-            // label61
+            // PanouMasina1_PutereMax
             // 
-            this.label61.AutoSize = true;
-            this.label61.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label61, BunifuAnimatorNS.DecorationType.None);
-            this.label61.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.ForeColor = System.Drawing.Color.White;
-            this.label61.Location = new System.Drawing.Point(395, 384);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(118, 24);
-            this.label61.TabIndex = 55;
-            this.label61.Text = "Putere max";
+            this.PanouMasina1_PutereMax.AutoSize = true;
+            this.PanouMasina1_PutereMax.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasina1_PutereMax, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasina1_PutereMax.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasina1_PutereMax.ForeColor = System.Drawing.Color.White;
+            this.PanouMasina1_PutereMax.Location = new System.Drawing.Point(395, 384);
+            this.PanouMasina1_PutereMax.Name = "PanouMasina1_PutereMax";
+            this.PanouMasina1_PutereMax.Size = new System.Drawing.Size(118, 24);
+            this.PanouMasina1_PutereMax.TabIndex = 55;
+            this.PanouMasina1_PutereMax.Text = "Putere max";
             // 
-            // label59
+            // PanouMasina1_AnFabMx
             // 
-            this.label59.AutoSize = true;
-            this.label59.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label59, BunifuAnimatorNS.DecorationType.None);
-            this.label59.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.ForeColor = System.Drawing.Color.White;
-            this.label59.Location = new System.Drawing.Point(395, 306);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(176, 24);
-            this.label59.TabIndex = 54;
-            this.label59.Text = "An fabricatie max";
+            this.PanouMasina1_AnFabMx.AutoSize = true;
+            this.PanouMasina1_AnFabMx.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasina1_AnFabMx, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasina1_AnFabMx.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasina1_AnFabMx.ForeColor = System.Drawing.Color.White;
+            this.PanouMasina1_AnFabMx.Location = new System.Drawing.Point(395, 306);
+            this.PanouMasina1_AnFabMx.Name = "PanouMasina1_AnFabMx";
+            this.PanouMasina1_AnFabMx.Size = new System.Drawing.Size(176, 24);
+            this.PanouMasina1_AnFabMx.TabIndex = 54;
+            this.PanouMasina1_AnFabMx.Text = "An fabricatie max";
             // 
             // AnFMaxM1
             // 
@@ -3673,31 +3697,31 @@
             this.AnFMinM1.Size = new System.Drawing.Size(230, 38);
             this.AnFMinM1.TabIndex = 52;
             // 
-            // label60
+            // PanouMasina1_AnFabMn
             // 
-            this.label60.AutoSize = true;
-            this.label60.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label60, BunifuAnimatorNS.DecorationType.None);
-            this.label60.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label60.ForeColor = System.Drawing.Color.White;
-            this.label60.Location = new System.Drawing.Point(145, 306);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(171, 24);
-            this.label60.TabIndex = 51;
-            this.label60.Text = "An fabricatie min";
+            this.PanouMasina1_AnFabMn.AutoSize = true;
+            this.PanouMasina1_AnFabMn.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasina1_AnFabMn, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasina1_AnFabMn.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasina1_AnFabMn.ForeColor = System.Drawing.Color.White;
+            this.PanouMasina1_AnFabMn.Location = new System.Drawing.Point(145, 306);
+            this.PanouMasina1_AnFabMn.Name = "PanouMasina1_AnFabMn";
+            this.PanouMasina1_AnFabMn.Size = new System.Drawing.Size(171, 24);
+            this.PanouMasina1_AnFabMn.TabIndex = 51;
+            this.PanouMasina1_AnFabMn.Text = "An fabricatie min";
             // 
-            // label58
+            // PanouMasina1_PretMx
             // 
-            this.label58.AutoSize = true;
-            this.label58.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label58, BunifuAnimatorNS.DecorationType.None);
-            this.label58.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label58.ForeColor = System.Drawing.Color.White;
-            this.label58.Location = new System.Drawing.Point(395, 229);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(118, 24);
-            this.label58.TabIndex = 50;
-            this.label58.Text = "Pret maxim";
+            this.PanouMasina1_PretMx.AutoSize = true;
+            this.PanouMasina1_PretMx.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasina1_PretMx, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasina1_PretMx.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasina1_PretMx.ForeColor = System.Drawing.Color.White;
+            this.PanouMasina1_PretMx.Location = new System.Drawing.Point(395, 229);
+            this.PanouMasina1_PretMx.Name = "PanouMasina1_PretMx";
+            this.PanouMasina1_PretMx.Size = new System.Drawing.Size(118, 24);
+            this.PanouMasina1_PretMx.TabIndex = 50;
+            this.PanouMasina1_PretMx.Text = "Pret maxim";
             // 
             // PretMaxM1
             // 
@@ -3841,187 +3865,183 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Eroare  Cautare!";
             // 
-            // label44
+            // PanouMasina1_Culoare
             // 
-            this.label44.AutoSize = true;
-            this.label44.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label44, BunifuAnimatorNS.DecorationType.None);
-            this.label44.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.ForeColor = System.Drawing.Color.White;
-            this.label44.Location = new System.Drawing.Point(145, 384);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(84, 24);
-            this.label44.TabIndex = 28;
-            this.label44.Text = "Culoare";
+            this.PanouMasina1_Culoare.AutoSize = true;
+            this.PanouMasina1_Culoare.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasina1_Culoare, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasina1_Culoare.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasina1_Culoare.ForeColor = System.Drawing.Color.White;
+            this.PanouMasina1_Culoare.Location = new System.Drawing.Point(145, 384);
+            this.PanouMasina1_Culoare.Name = "PanouMasina1_Culoare";
+            this.PanouMasina1_Culoare.Size = new System.Drawing.Size(84, 24);
+            this.PanouMasina1_Culoare.TabIndex = 28;
+            this.PanouMasina1_Culoare.Text = "Culoare";
             // 
-            // guna2TileButton19
+            // btnCautaMasina1
             // 
-            this.guna2TileButton19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
-            this.guna2TileButton19.CheckedState.Parent = this.guna2TileButton19;
-            this.guna2TileButton19.CustomImages.Parent = this.guna2TileButton19;
-            this.Animator.SetDecoration(this.guna2TileButton19, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton19.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(182)))), ((int)(((byte)(97)))));
-            this.guna2TileButton19.Font = new System.Drawing.Font("HelvLight", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TileButton19.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton19.HoverState.Parent = this.guna2TileButton19;
-            this.guna2TileButton19.ImageSize = new System.Drawing.Size(60, 60);
-            this.guna2TileButton19.Location = new System.Drawing.Point(140, 471);
-            this.guna2TileButton19.Name = "guna2TileButton19";
-            this.guna2TileButton19.ShadowDecoration.Parent = this.guna2TileButton19;
-            this.guna2TileButton19.Size = new System.Drawing.Size(482, 51);
-            this.guna2TileButton19.TabIndex = 26;
-            this.guna2TileButton19.Text = "Cauta Masina";
-            this.guna2TileButton19.Click += new System.EventHandler(this.guna2TileButton19_Click);
+            this.btnCautaMasina1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
+            this.btnCautaMasina1.CheckedState.Parent = this.btnCautaMasina1;
+            this.btnCautaMasina1.CustomImages.Parent = this.btnCautaMasina1;
+            this.Animator.SetDecoration(this.btnCautaMasina1, BunifuAnimatorNS.DecorationType.None);
+            this.btnCautaMasina1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(182)))), ((int)(((byte)(97)))));
+            this.btnCautaMasina1.Font = new System.Drawing.Font("HelvLight", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCautaMasina1.ForeColor = System.Drawing.Color.White;
+            this.btnCautaMasina1.HoverState.Parent = this.btnCautaMasina1;
+            this.btnCautaMasina1.ImageSize = new System.Drawing.Size(60, 60);
+            this.btnCautaMasina1.Location = new System.Drawing.Point(140, 471);
+            this.btnCautaMasina1.Name = "btnCautaMasina1";
+            this.btnCautaMasina1.ShadowDecoration.Parent = this.btnCautaMasina1;
+            this.btnCautaMasina1.Size = new System.Drawing.Size(482, 51);
+            this.btnCautaMasina1.TabIndex = 26;
+            this.btnCautaMasina1.Text = "Cauta Masina";
+            this.btnCautaMasina1.Click += new System.EventHandler(this.guna2TileButton19_Click);
             // 
-            // label57
+            // lblMasina1
             // 
-            this.label57.AutoSize = true;
-            this.label57.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label57, BunifuAnimatorNS.DecorationType.None);
-            this.label57.Font = new System.Drawing.Font("EA Font v1.5 by Ghettoshark", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label57.Location = new System.Drawing.Point(300, 19);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(165, 42);
-            this.label57.TabIndex = 40;
-            this.label57.Text = "Masina1";
+            this.lblMasina1.AutoSize = true;
+            this.lblMasina1.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.lblMasina1, BunifuAnimatorNS.DecorationType.None);
+            this.lblMasina1.Font = new System.Drawing.Font("EA Font v1.5 by Ghettoshark", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMasina1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.lblMasina1.Location = new System.Drawing.Point(300, 19);
+            this.lblMasina1.Name = "lblMasina1";
+            this.lblMasina1.Size = new System.Drawing.Size(165, 42);
+            this.lblMasina1.TabIndex = 40;
+            this.lblMasina1.Text = "Masina1";
             // 
-            // label53
+            // PanouMasina1_PretMn
             // 
-            this.label53.AutoSize = true;
-            this.label53.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label53, BunifuAnimatorNS.DecorationType.None);
-            this.label53.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.ForeColor = System.Drawing.Color.White;
-            this.label53.Location = new System.Drawing.Point(145, 229);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(113, 24);
-            this.label53.TabIndex = 24;
-            this.label53.Text = "Pret minim";
+            this.PanouMasina1_PretMn.AutoSize = true;
+            this.PanouMasina1_PretMn.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasina1_PretMn, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasina1_PretMn.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasina1_PretMn.ForeColor = System.Drawing.Color.White;
+            this.PanouMasina1_PretMn.Location = new System.Drawing.Point(145, 229);
+            this.PanouMasina1_PretMn.Name = "PanouMasina1_PretMn";
+            this.PanouMasina1_PretMn.Size = new System.Drawing.Size(113, 24);
+            this.PanouMasina1_PretMn.TabIndex = 24;
+            this.PanouMasina1_PretMn.Text = "Pret minim";
             // 
-            // label54
+            // PanouMasina1_Model
             // 
-            this.label54.AutoSize = true;
-            this.label54.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label54, BunifuAnimatorNS.DecorationType.None);
-            this.label54.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.ForeColor = System.Drawing.Color.White;
-            this.label54.Location = new System.Drawing.Point(145, 153);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(68, 24);
-            this.label54.TabIndex = 23;
-            this.label54.Text = "Model";
+            this.PanouMasina1_Model.AutoSize = true;
+            this.PanouMasina1_Model.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasina1_Model, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasina1_Model.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasina1_Model.ForeColor = System.Drawing.Color.White;
+            this.PanouMasina1_Model.Location = new System.Drawing.Point(145, 153);
+            this.PanouMasina1_Model.Name = "PanouMasina1_Model";
+            this.PanouMasina1_Model.Size = new System.Drawing.Size(68, 24);
+            this.PanouMasina1_Model.TabIndex = 23;
+            this.PanouMasina1_Model.Text = "Model";
             // 
-            // label55
+            // PanouMasina1_Marca
             // 
-            this.label55.AutoSize = true;
-            this.label55.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label55, BunifuAnimatorNS.DecorationType.None);
-            this.label55.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.ForeColor = System.Drawing.Color.White;
-            this.label55.Location = new System.Drawing.Point(145, 72);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(69, 24);
-            this.label55.TabIndex = 20;
-            this.label55.Text = "Marca";
+            this.PanouMasina1_Marca.AutoSize = true;
+            this.PanouMasina1_Marca.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasina1_Marca, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasina1_Marca.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasina1_Marca.ForeColor = System.Drawing.Color.White;
+            this.PanouMasina1_Marca.Location = new System.Drawing.Point(145, 72);
+            this.PanouMasina1_Marca.Name = "PanouMasina1_Marca";
+            this.PanouMasina1_Marca.Size = new System.Drawing.Size(69, 24);
+            this.PanouMasina1_Marca.TabIndex = 20;
+            this.PanouMasina1_Marca.Text = "Marca";
             // 
-            // panel15
+            // PanouMeniuCompare
             // 
-            this.panel15.BackColor = System.Drawing.Color.Black;
-            this.panel15.Controls.Add(this.guna2TileButton23);
-            this.panel15.Controls.Add(this.guna2TileButton13);
-            this.panel15.Controls.Add(this.guna2TileButton22);
-            this.panel15.Controls.Add(this.guna2TileButton24);
-            this.Animator.SetDecoration(this.panel15, BunifuAnimatorNS.DecorationType.None);
-            this.panel15.Location = new System.Drawing.Point(0, 0);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(72, 1087);
-            this.panel15.TabIndex = 44;
+            this.PanouMeniuCompare.BackColor = System.Drawing.Color.Black;
+            this.PanouMeniuCompare.Controls.Add(this.MeniuCompare_Edit);
+            this.PanouMeniuCompare.Controls.Add(this.MeniuCompare_Inventory);
+            this.PanouMeniuCompare.Controls.Add(this.MeniuCompare_Home);
+            this.PanouMeniuCompare.Controls.Add(this.MeniuCompare_Shop);
+            this.Animator.SetDecoration(this.PanouMeniuCompare, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMeniuCompare.Location = new System.Drawing.Point(0, 0);
+            this.PanouMeniuCompare.Name = "PanouMeniuCompare";
+            this.PanouMeniuCompare.Size = new System.Drawing.Size(72, 1087);
+            this.PanouMeniuCompare.TabIndex = 44;
             // 
-            // guna2TileButton23
+            // MeniuCompare_Edit
             // 
-            this.guna2TileButton23.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton23.CheckedState.Parent = this.guna2TileButton23;
-            this.guna2TileButton23.CustomImages.Parent = this.guna2TileButton23;
-            this.Animator.SetDecoration(this.guna2TileButton23, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton23.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton23.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton23.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton23.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2TileButton23.HoverState.Parent = this.guna2TileButton23;
-            this.guna2TileButton23.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton23.Image")));
-            this.guna2TileButton23.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton23.Location = new System.Drawing.Point(0, 270);
-            this.guna2TileButton23.Name = "guna2TileButton23";
-            this.guna2TileButton23.ShadowDecoration.Parent = this.guna2TileButton23;
-            this.guna2TileButton23.Size = new System.Drawing.Size(73, 60);
-            this.guna2TileButton23.TabIndex = 5;
-            this.guna2TileButton23.Click += new System.EventHandler(this.guna2TileButton23_Click_1);
+            this.MeniuCompare_Edit.BackColor = System.Drawing.Color.Transparent;
+            this.MeniuCompare_Edit.CheckedState.Parent = this.MeniuCompare_Edit;
+            this.MeniuCompare_Edit.CustomImages.Parent = this.MeniuCompare_Edit;
+            this.Animator.SetDecoration(this.MeniuCompare_Edit, BunifuAnimatorNS.DecorationType.None);
+            this.MeniuCompare_Edit.FillColor = System.Drawing.Color.Transparent;
+            this.MeniuCompare_Edit.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MeniuCompare_Edit.ForeColor = System.Drawing.Color.White;
+            this.MeniuCompare_Edit.HoverState.Parent = this.MeniuCompare_Edit;
+            this.MeniuCompare_Edit.Image = ((System.Drawing.Image)(resources.GetObject("MeniuCompare_Edit.Image")));
+            this.MeniuCompare_Edit.ImageSize = new System.Drawing.Size(30, 30);
+            this.MeniuCompare_Edit.Location = new System.Drawing.Point(0, 270);
+            this.MeniuCompare_Edit.Name = "MeniuCompare_Edit";
+            this.MeniuCompare_Edit.ShadowDecoration.Parent = this.MeniuCompare_Edit;
+            this.MeniuCompare_Edit.Size = new System.Drawing.Size(73, 60);
+            this.MeniuCompare_Edit.TabIndex = 5;
+            this.MeniuCompare_Edit.Click += new System.EventHandler(this.guna2TileButton23_Click_1);
             // 
-            // guna2TileButton13
+            // MeniuCompare_Inventory
             // 
-            this.guna2TileButton13.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton13.CheckedState.Parent = this.guna2TileButton13;
-            this.guna2TileButton13.CustomImages.Parent = this.guna2TileButton13;
-            this.Animator.SetDecoration(this.guna2TileButton13, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton13.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton13.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton13.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton13.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2TileButton13.HoverState.Parent = this.guna2TileButton13;
-            this.guna2TileButton13.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton13.Image")));
-            this.guna2TileButton13.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton13.Location = new System.Drawing.Point(0, 184);
-            this.guna2TileButton13.Name = "guna2TileButton13";
-            this.guna2TileButton13.ShadowDecoration.Parent = this.guna2TileButton13;
-            this.guna2TileButton13.Size = new System.Drawing.Size(73, 60);
-            this.guna2TileButton13.TabIndex = 3;
-            this.guna2TileButton13.Click += new System.EventHandler(this.guna2TileButton13_Click_1);
+            this.MeniuCompare_Inventory.BackColor = System.Drawing.Color.Transparent;
+            this.MeniuCompare_Inventory.CheckedState.Parent = this.MeniuCompare_Inventory;
+            this.MeniuCompare_Inventory.CustomImages.Parent = this.MeniuCompare_Inventory;
+            this.Animator.SetDecoration(this.MeniuCompare_Inventory, BunifuAnimatorNS.DecorationType.None);
+            this.MeniuCompare_Inventory.FillColor = System.Drawing.Color.Transparent;
+            this.MeniuCompare_Inventory.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MeniuCompare_Inventory.ForeColor = System.Drawing.Color.White;
+            this.MeniuCompare_Inventory.HoverState.Parent = this.MeniuCompare_Inventory;
+            this.MeniuCompare_Inventory.Image = ((System.Drawing.Image)(resources.GetObject("MeniuCompare_Inventory.Image")));
+            this.MeniuCompare_Inventory.ImageSize = new System.Drawing.Size(30, 30);
+            this.MeniuCompare_Inventory.Location = new System.Drawing.Point(0, 184);
+            this.MeniuCompare_Inventory.Name = "MeniuCompare_Inventory";
+            this.MeniuCompare_Inventory.ShadowDecoration.Parent = this.MeniuCompare_Inventory;
+            this.MeniuCompare_Inventory.Size = new System.Drawing.Size(73, 60);
+            this.MeniuCompare_Inventory.TabIndex = 3;
+            this.MeniuCompare_Inventory.Click += new System.EventHandler(this.guna2TileButton13_Click_1);
             // 
-            // guna2TileButton22
+            // MeniuCompare_Home
             // 
-            this.guna2TileButton22.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton22.CheckedState.Parent = this.guna2TileButton22;
-            this.guna2TileButton22.CustomImages.Parent = this.guna2TileButton22;
-            this.Animator.SetDecoration(this.guna2TileButton22, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton22.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton22.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton22.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton22.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2TileButton22.HoverState.Parent = this.guna2TileButton22;
-            this.guna2TileButton22.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton22.Image")));
-            this.guna2TileButton22.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton22.Location = new System.Drawing.Point(0, 26);
-            this.guna2TileButton22.Name = "guna2TileButton22";
-            this.guna2TileButton22.ShadowDecoration.Parent = this.guna2TileButton22;
-            this.guna2TileButton22.Size = new System.Drawing.Size(73, 60);
-            this.guna2TileButton22.TabIndex = 2;
-            this.guna2TileButton22.Click += new System.EventHandler(this.guna2TileButton22_Click);
+            this.MeniuCompare_Home.BackColor = System.Drawing.Color.Transparent;
+            this.MeniuCompare_Home.CheckedState.Parent = this.MeniuCompare_Home;
+            this.MeniuCompare_Home.CustomImages.Parent = this.MeniuCompare_Home;
+            this.Animator.SetDecoration(this.MeniuCompare_Home, BunifuAnimatorNS.DecorationType.None);
+            this.MeniuCompare_Home.FillColor = System.Drawing.Color.Transparent;
+            this.MeniuCompare_Home.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MeniuCompare_Home.ForeColor = System.Drawing.Color.White;
+            this.MeniuCompare_Home.HoverState.Parent = this.MeniuCompare_Home;
+            this.MeniuCompare_Home.Image = ((System.Drawing.Image)(resources.GetObject("MeniuCompare_Home.Image")));
+            this.MeniuCompare_Home.ImageSize = new System.Drawing.Size(30, 30);
+            this.MeniuCompare_Home.Location = new System.Drawing.Point(0, 26);
+            this.MeniuCompare_Home.Name = "MeniuCompare_Home";
+            this.MeniuCompare_Home.ShadowDecoration.Parent = this.MeniuCompare_Home;
+            this.MeniuCompare_Home.Size = new System.Drawing.Size(73, 60);
+            this.MeniuCompare_Home.TabIndex = 2;
+            this.MeniuCompare_Home.Click += new System.EventHandler(this.guna2TileButton22_Click);
             // 
-            // guna2TileButton24
+            // MeniuCompare_Shop
             // 
-            this.guna2TileButton24.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton24.CheckedState.Parent = this.guna2TileButton24;
-            this.guna2TileButton24.CustomImages.Parent = this.guna2TileButton24;
-            this.Animator.SetDecoration(this.guna2TileButton24, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton24.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton24.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton24.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton24.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2TileButton24.HoverState.Parent = this.guna2TileButton24;
-            this.guna2TileButton24.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton24.Image")));
-            this.guna2TileButton24.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton24.Location = new System.Drawing.Point(0, 102);
-            this.guna2TileButton24.Name = "guna2TileButton24";
-            this.guna2TileButton24.ShadowDecoration.Parent = this.guna2TileButton24;
-            this.guna2TileButton24.Size = new System.Drawing.Size(73, 60);
-            this.guna2TileButton24.TabIndex = 0;
-            this.guna2TileButton24.Click += new System.EventHandler(this.guna2TileButton24_Click);
+            this.MeniuCompare_Shop.BackColor = System.Drawing.Color.Transparent;
+            this.MeniuCompare_Shop.CheckedState.Parent = this.MeniuCompare_Shop;
+            this.MeniuCompare_Shop.CustomImages.Parent = this.MeniuCompare_Shop;
+            this.Animator.SetDecoration(this.MeniuCompare_Shop, BunifuAnimatorNS.DecorationType.None);
+            this.MeniuCompare_Shop.FillColor = System.Drawing.Color.Transparent;
+            this.MeniuCompare_Shop.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MeniuCompare_Shop.ForeColor = System.Drawing.Color.White;
+            this.MeniuCompare_Shop.HoverState.Parent = this.MeniuCompare_Shop;
+            this.MeniuCompare_Shop.Image = ((System.Drawing.Image)(resources.GetObject("MeniuCompare_Shop.Image")));
+            this.MeniuCompare_Shop.ImageSize = new System.Drawing.Size(30, 30);
+            this.MeniuCompare_Shop.Location = new System.Drawing.Point(0, 102);
+            this.MeniuCompare_Shop.Name = "MeniuCompare_Shop";
+            this.MeniuCompare_Shop.ShadowDecoration.Parent = this.MeniuCompare_Shop;
+            this.MeniuCompare_Shop.Size = new System.Drawing.Size(73, 60);
+            this.MeniuCompare_Shop.TabIndex = 0;
+            this.MeniuCompare_Shop.Click += new System.EventHandler(this.guna2TileButton24_Click);
             // 
             // Modifica
             // 
             this.Modifica.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.Modifica.Controls.Add(this.listBox1);
+            this.Modifica.Controls.Add(this.ListBoxMasini);
             this.Modifica.Controls.Add(this.guna2ControlBox16);
             this.Modifica.Controls.Add(this.guna2ControlBox17);
             this.Modifica.Controls.Add(this.guna2ControlBox18);
@@ -4031,8 +4051,8 @@
             this.Modifica.Controls.Add(this.ModPanel3);
             this.Modifica.Controls.Add(this.ModPanel2);
             this.Modifica.Controls.Add(this.ModModel);
-            this.Modifica.Controls.Add(this.panel7);
-            this.Modifica.Controls.Add(this.panel6);
+            this.Modifica.Controls.Add(this.PanouMasinaEdit);
+            this.Modifica.Controls.Add(this.PanouMeniuEdit);
             this.Animator.SetDecoration(this.Modifica, BunifuAnimatorNS.DecorationType.None);
             this.Modifica.Location = new System.Drawing.Point(4, 25);
             this.Modifica.Name = "Modifica";
@@ -4040,18 +4060,18 @@
             this.Modifica.TabIndex = 5;
             this.Modifica.Text = "Modifica";
             // 
-            // listBox1
+            // ListBoxMasini
             // 
-            this.listBox1.BackColor = System.Drawing.Color.Black;
-            this.Animator.SetDecoration(this.listBox1, BunifuAnimatorNS.DecorationType.None);
-            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listBox1.ForeColor = System.Drawing.Color.White;
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 20;
-            this.listBox1.Location = new System.Drawing.Point(1166, 148);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(773, 324);
-            this.listBox1.TabIndex = 56;
+            this.ListBoxMasini.BackColor = System.Drawing.Color.Black;
+            this.Animator.SetDecoration(this.ListBoxMasini, BunifuAnimatorNS.DecorationType.None);
+            this.ListBoxMasini.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ListBoxMasini.ForeColor = System.Drawing.Color.White;
+            this.ListBoxMasini.FormattingEnabled = true;
+            this.ListBoxMasini.ItemHeight = 20;
+            this.ListBoxMasini.Location = new System.Drawing.Point(1166, 148);
+            this.ListBoxMasini.Name = "ListBoxMasini";
+            this.ListBoxMasini.Size = new System.Drawing.Size(773, 324);
+            this.ListBoxMasini.TabIndex = 56;
             // 
             // guna2ControlBox16
             // 
@@ -4144,13 +4164,13 @@
             // 
             this.ModPanel3.BackColor = System.Drawing.Color.Black;
             this.ModPanel3.Controls.Add(this.MasinaCutie);
-            this.ModPanel3.Controls.Add(this.label72);
+            this.ModPanel3.Controls.Add(this.ModPanel3_CutieV);
             this.ModPanel3.Controls.Add(this.MasinaPutere);
-            this.ModPanel3.Controls.Add(this.label74);
+            this.ModPanel3.Controls.Add(this.ModPanel3_Culoare);
             this.ModPanel3.Controls.Add(this.MasinaAn);
-            this.ModPanel3.Controls.Add(this.label76);
+            this.ModPanel3.Controls.Add(this.ModPanel3_Putere);
             this.ModPanel3.Controls.Add(this.MasinaCul);
-            this.ModPanel3.Controls.Add(this.label78);
+            this.ModPanel3.Controls.Add(this.ModPanel3_AnFb);
             this.Animator.SetDecoration(this.ModPanel3, BunifuAnimatorNS.DecorationType.None);
             this.ModPanel3.Location = new System.Drawing.Point(1166, 786);
             this.ModPanel3.Name = "ModPanel3";
@@ -4171,18 +4191,18 @@
             this.MasinaCutie.TabIndex = 53;
             this.MasinaCutie.Text = "Cutie Viteze";
             // 
-            // label72
+            // ModPanel3_CutieV
             // 
-            this.label72.AutoSize = true;
-            this.label72.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label72, BunifuAnimatorNS.DecorationType.None);
-            this.label72.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label72.ForeColor = System.Drawing.Color.White;
-            this.label72.Location = new System.Drawing.Point(30, 164);
-            this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(123, 24);
-            this.label72.TabIndex = 49;
-            this.label72.Text = "Cutie Viteze";
+            this.ModPanel3_CutieV.AutoSize = true;
+            this.ModPanel3_CutieV.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.ModPanel3_CutieV, BunifuAnimatorNS.DecorationType.None);
+            this.ModPanel3_CutieV.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModPanel3_CutieV.ForeColor = System.Drawing.Color.White;
+            this.ModPanel3_CutieV.Location = new System.Drawing.Point(30, 164);
+            this.ModPanel3_CutieV.Name = "ModPanel3_CutieV";
+            this.ModPanel3_CutieV.Size = new System.Drawing.Size(123, 24);
+            this.ModPanel3_CutieV.TabIndex = 49;
+            this.ModPanel3_CutieV.Text = "Cutie Viteze";
             // 
             // MasinaPutere
             // 
@@ -4197,18 +4217,18 @@
             this.MasinaPutere.TabIndex = 52;
             this.MasinaPutere.Text = "Putere";
             // 
-            // label74
+            // ModPanel3_Culoare
             // 
-            this.label74.AutoSize = true;
-            this.label74.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label74, BunifuAnimatorNS.DecorationType.None);
-            this.label74.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label74.ForeColor = System.Drawing.Color.White;
-            this.label74.Location = new System.Drawing.Point(30, 22);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(84, 24);
-            this.label74.TabIndex = 46;
-            this.label74.Text = "Culoare";
+            this.ModPanel3_Culoare.AutoSize = true;
+            this.ModPanel3_Culoare.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.ModPanel3_Culoare, BunifuAnimatorNS.DecorationType.None);
+            this.ModPanel3_Culoare.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModPanel3_Culoare.ForeColor = System.Drawing.Color.White;
+            this.ModPanel3_Culoare.Location = new System.Drawing.Point(30, 22);
+            this.ModPanel3_Culoare.Name = "ModPanel3_Culoare";
+            this.ModPanel3_Culoare.Size = new System.Drawing.Size(84, 24);
+            this.ModPanel3_Culoare.TabIndex = 46;
+            this.ModPanel3_Culoare.Text = "Culoare";
             // 
             // MasinaAn
             // 
@@ -4223,18 +4243,18 @@
             this.MasinaAn.TabIndex = 51;
             this.MasinaAn.Text = "An Fabricatie";
             // 
-            // label76
+            // ModPanel3_Putere
             // 
-            this.label76.AutoSize = true;
-            this.label76.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label76, BunifuAnimatorNS.DecorationType.None);
-            this.label76.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label76.ForeColor = System.Drawing.Color.White;
-            this.label76.Location = new System.Drawing.Point(30, 117);
-            this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(72, 24);
-            this.label76.TabIndex = 48;
-            this.label76.Text = "Putere";
+            this.ModPanel3_Putere.AutoSize = true;
+            this.ModPanel3_Putere.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.ModPanel3_Putere, BunifuAnimatorNS.DecorationType.None);
+            this.ModPanel3_Putere.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModPanel3_Putere.ForeColor = System.Drawing.Color.White;
+            this.ModPanel3_Putere.Location = new System.Drawing.Point(30, 117);
+            this.ModPanel3_Putere.Name = "ModPanel3_Putere";
+            this.ModPanel3_Putere.Size = new System.Drawing.Size(72, 24);
+            this.ModPanel3_Putere.TabIndex = 48;
+            this.ModPanel3_Putere.Text = "Putere";
             // 
             // MasinaCul
             // 
@@ -4249,18 +4269,18 @@
             this.MasinaCul.TabIndex = 50;
             this.MasinaCul.Text = "Culoare";
             // 
-            // label78
+            // ModPanel3_AnFb
             // 
-            this.label78.AutoSize = true;
-            this.label78.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label78, BunifuAnimatorNS.DecorationType.None);
-            this.label78.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label78.ForeColor = System.Drawing.Color.White;
-            this.label78.Location = new System.Drawing.Point(30, 70);
-            this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(135, 24);
-            this.label78.TabIndex = 47;
-            this.label78.Text = "An Fabricatie";
+            this.ModPanel3_AnFb.AutoSize = true;
+            this.ModPanel3_AnFb.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.ModPanel3_AnFb, BunifuAnimatorNS.DecorationType.None);
+            this.ModPanel3_AnFb.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModPanel3_AnFb.ForeColor = System.Drawing.Color.White;
+            this.ModPanel3_AnFb.Location = new System.Drawing.Point(30, 70);
+            this.ModPanel3_AnFb.Name = "ModPanel3_AnFb";
+            this.ModPanel3_AnFb.Size = new System.Drawing.Size(135, 24);
+            this.ModPanel3_AnFb.TabIndex = 47;
+            this.ModPanel3_AnFb.Text = "An Fabricatie";
             // 
             // ModPanel2
             // 
@@ -4268,11 +4288,11 @@
             this.ModPanel2.Controls.Add(this.restartBtn);
             this.ModPanel2.Controls.Add(this.ButonModifica);
             this.ModPanel2.Controls.Add(this.ModificaPret);
-            this.ModPanel2.Controls.Add(this.label70);
+            this.ModPanel2.Controls.Add(this.ModPanel2_pret);
             this.ModPanel2.Controls.Add(this.ModificaMarca);
-            this.ModPanel2.Controls.Add(this.label69);
+            this.ModPanel2.Controls.Add(this.ModPanel2_Marca);
             this.ModPanel2.Controls.Add(this.ModificaModel);
-            this.ModPanel2.Controls.Add(this.label68);
+            this.ModPanel2.Controls.Add(this.ModPanel2_model);
             this.Animator.SetDecoration(this.ModPanel2, BunifuAnimatorNS.DecorationType.None);
             this.ModPanel2.Location = new System.Drawing.Point(186, 786);
             this.ModPanel2.Name = "ModPanel2";
@@ -4352,18 +4372,18 @@
             this.ModificaPret.Size = new System.Drawing.Size(277, 38);
             this.ModificaPret.TabIndex = 63;
             // 
-            // label70
+            // ModPanel2_pret
             // 
-            this.label70.AutoSize = true;
-            this.label70.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label70, BunifuAnimatorNS.DecorationType.None);
-            this.label70.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label70.ForeColor = System.Drawing.Color.White;
-            this.label70.Location = new System.Drawing.Point(388, 27);
-            this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(49, 24);
-            this.label70.TabIndex = 62;
-            this.label70.Text = "Pret";
+            this.ModPanel2_pret.AutoSize = true;
+            this.ModPanel2_pret.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.ModPanel2_pret, BunifuAnimatorNS.DecorationType.None);
+            this.ModPanel2_pret.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModPanel2_pret.ForeColor = System.Drawing.Color.White;
+            this.ModPanel2_pret.Location = new System.Drawing.Point(388, 27);
+            this.ModPanel2_pret.Name = "ModPanel2_pret";
+            this.ModPanel2_pret.Size = new System.Drawing.Size(49, 24);
+            this.ModPanel2_pret.TabIndex = 62;
+            this.ModPanel2_pret.Text = "Pret";
             // 
             // ModificaMarca
             // 
@@ -4395,18 +4415,18 @@
             this.ModificaMarca.Size = new System.Drawing.Size(277, 38);
             this.ModificaMarca.TabIndex = 61;
             // 
-            // label69
+            // ModPanel2_Marca
             // 
-            this.label69.AutoSize = true;
-            this.label69.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label69, BunifuAnimatorNS.DecorationType.None);
-            this.label69.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label69.ForeColor = System.Drawing.Color.White;
-            this.label69.Location = new System.Drawing.Point(44, 27);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(69, 24);
-            this.label69.TabIndex = 58;
-            this.label69.Text = "Marca";
+            this.ModPanel2_Marca.AutoSize = true;
+            this.ModPanel2_Marca.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.ModPanel2_Marca, BunifuAnimatorNS.DecorationType.None);
+            this.ModPanel2_Marca.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModPanel2_Marca.ForeColor = System.Drawing.Color.White;
+            this.ModPanel2_Marca.Location = new System.Drawing.Point(44, 27);
+            this.ModPanel2_Marca.Name = "ModPanel2_Marca";
+            this.ModPanel2_Marca.Size = new System.Drawing.Size(69, 24);
+            this.ModPanel2_Marca.TabIndex = 58;
+            this.ModPanel2_Marca.Text = "Marca";
             // 
             // ModificaModel
             // 
@@ -4438,18 +4458,18 @@
             this.ModificaModel.Size = new System.Drawing.Size(277, 38);
             this.ModificaModel.TabIndex = 60;
             // 
-            // label68
+            // ModPanel2_model
             // 
-            this.label68.AutoSize = true;
-            this.label68.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label68, BunifuAnimatorNS.DecorationType.None);
-            this.label68.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label68.ForeColor = System.Drawing.Color.White;
-            this.label68.Location = new System.Drawing.Point(44, 108);
-            this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(68, 24);
-            this.label68.TabIndex = 59;
-            this.label68.Text = "Model";
+            this.ModPanel2_model.AutoSize = true;
+            this.ModPanel2_model.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.ModPanel2_model, BunifuAnimatorNS.DecorationType.None);
+            this.ModPanel2_model.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModPanel2_model.ForeColor = System.Drawing.Color.White;
+            this.ModPanel2_model.Location = new System.Drawing.Point(44, 108);
+            this.ModPanel2_model.Name = "ModPanel2_model";
+            this.ModPanel2_model.Size = new System.Drawing.Size(68, 24);
+            this.ModPanel2_model.TabIndex = 59;
+            this.ModPanel2_model.Text = "Model";
             // 
             // ModModel
             // 
@@ -4463,33 +4483,33 @@
             this.ModModel.TabIndex = 47;
             this.ModModel.TabStop = false;
             // 
-            // panel7
+            // PanouMasinaEdit
             // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
-            this.panel7.Controls.Add(this.ModMdl);
-            this.panel7.Controls.Add(this.ModMarca);
-            this.panel7.Controls.Add(this.ModPut);
-            this.panel7.Controls.Add(this.label33);
-            this.panel7.Controls.Add(this.label34);
-            this.panel7.Controls.Add(this.ModAnMax);
-            this.panel7.Controls.Add(this.ModAnMin);
-            this.panel7.Controls.Add(this.label35);
-            this.panel7.Controls.Add(this.label36);
-            this.panel7.Controls.Add(this.ModPMax);
-            this.panel7.Controls.Add(this.ModCuloare);
-            this.panel7.Controls.Add(this.ModPMin);
-            this.panel7.Controls.Add(this.ModPanel);
-            this.panel7.Controls.Add(this.label38);
-            this.panel7.Controls.Add(this.ModCauta);
-            this.panel7.Controls.Add(this.label39);
-            this.panel7.Controls.Add(this.label40);
-            this.panel7.Controls.Add(this.label66);
-            this.panel7.Controls.Add(this.label67);
-            this.Animator.SetDecoration(this.panel7, BunifuAnimatorNS.DecorationType.None);
-            this.panel7.Location = new System.Drawing.Point(186, 148);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(773, 587);
-            this.panel7.TabIndex = 46;
+            this.PanouMasinaEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
+            this.PanouMasinaEdit.Controls.Add(this.ModMdl);
+            this.PanouMasinaEdit.Controls.Add(this.ModMarca);
+            this.PanouMasinaEdit.Controls.Add(this.ModPut);
+            this.PanouMasinaEdit.Controls.Add(this.PanouMasinaEdit_PutereMx);
+            this.PanouMasinaEdit.Controls.Add(this.PanouMasinaEdit_AnFMx);
+            this.PanouMasinaEdit.Controls.Add(this.ModAnMax);
+            this.PanouMasinaEdit.Controls.Add(this.ModAnMin);
+            this.PanouMasinaEdit.Controls.Add(this.PanouMasinaEdit_AnFabMn);
+            this.PanouMasinaEdit.Controls.Add(this.PanouMasinaEdit_PretMx);
+            this.PanouMasinaEdit.Controls.Add(this.ModPMax);
+            this.PanouMasinaEdit.Controls.Add(this.ModCuloare);
+            this.PanouMasinaEdit.Controls.Add(this.ModPMin);
+            this.PanouMasinaEdit.Controls.Add(this.ModPanel);
+            this.PanouMasinaEdit.Controls.Add(this.PanouMasinaEdit_Culoare);
+            this.PanouMasinaEdit.Controls.Add(this.ModCauta);
+            this.PanouMasinaEdit.Controls.Add(this.PanouMasinaEdit_lbl);
+            this.PanouMasinaEdit.Controls.Add(this.PanouMasinaEdit_PretMn);
+            this.PanouMasinaEdit.Controls.Add(this.PanouMasinaEdit_Model);
+            this.PanouMasinaEdit.Controls.Add(this.PanouMasinaEdit_Marca);
+            this.Animator.SetDecoration(this.PanouMasinaEdit, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasinaEdit.Location = new System.Drawing.Point(186, 148);
+            this.PanouMasinaEdit.Name = "PanouMasinaEdit";
+            this.PanouMasinaEdit.Size = new System.Drawing.Size(773, 587);
+            this.PanouMasinaEdit.TabIndex = 46;
             // 
             // ModMdl
             // 
@@ -4579,31 +4599,31 @@
             this.ModPut.Size = new System.Drawing.Size(230, 38);
             this.ModPut.TabIndex = 56;
             // 
-            // label33
+            // PanouMasinaEdit_PutereMx
             // 
-            this.label33.AutoSize = true;
-            this.label33.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label33, BunifuAnimatorNS.DecorationType.None);
-            this.label33.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.ForeColor = System.Drawing.Color.White;
-            this.label33.Location = new System.Drawing.Point(395, 384);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(118, 24);
-            this.label33.TabIndex = 55;
-            this.label33.Text = "Putere max";
+            this.PanouMasinaEdit_PutereMx.AutoSize = true;
+            this.PanouMasinaEdit_PutereMx.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasinaEdit_PutereMx, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasinaEdit_PutereMx.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasinaEdit_PutereMx.ForeColor = System.Drawing.Color.White;
+            this.PanouMasinaEdit_PutereMx.Location = new System.Drawing.Point(395, 384);
+            this.PanouMasinaEdit_PutereMx.Name = "PanouMasinaEdit_PutereMx";
+            this.PanouMasinaEdit_PutereMx.Size = new System.Drawing.Size(118, 24);
+            this.PanouMasinaEdit_PutereMx.TabIndex = 55;
+            this.PanouMasinaEdit_PutereMx.Text = "Putere max";
             // 
-            // label34
+            // PanouMasinaEdit_AnFMx
             // 
-            this.label34.AutoSize = true;
-            this.label34.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label34, BunifuAnimatorNS.DecorationType.None);
-            this.label34.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.ForeColor = System.Drawing.Color.White;
-            this.label34.Location = new System.Drawing.Point(395, 306);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(176, 24);
-            this.label34.TabIndex = 54;
-            this.label34.Text = "An fabricatie max";
+            this.PanouMasinaEdit_AnFMx.AutoSize = true;
+            this.PanouMasinaEdit_AnFMx.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasinaEdit_AnFMx, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasinaEdit_AnFMx.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasinaEdit_AnFMx.ForeColor = System.Drawing.Color.White;
+            this.PanouMasinaEdit_AnFMx.Location = new System.Drawing.Point(395, 306);
+            this.PanouMasinaEdit_AnFMx.Name = "PanouMasinaEdit_AnFMx";
+            this.PanouMasinaEdit_AnFMx.Size = new System.Drawing.Size(176, 24);
+            this.PanouMasinaEdit_AnFMx.TabIndex = 54;
+            this.PanouMasinaEdit_AnFMx.Text = "An fabricatie max";
             // 
             // ModAnMax
             // 
@@ -4665,31 +4685,31 @@
             this.ModAnMin.Size = new System.Drawing.Size(230, 38);
             this.ModAnMin.TabIndex = 52;
             // 
-            // label35
+            // PanouMasinaEdit_AnFabMn
             // 
-            this.label35.AutoSize = true;
-            this.label35.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label35, BunifuAnimatorNS.DecorationType.None);
-            this.label35.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.ForeColor = System.Drawing.Color.White;
-            this.label35.Location = new System.Drawing.Point(145, 306);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(171, 24);
-            this.label35.TabIndex = 51;
-            this.label35.Text = "An fabricatie min";
+            this.PanouMasinaEdit_AnFabMn.AutoSize = true;
+            this.PanouMasinaEdit_AnFabMn.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasinaEdit_AnFabMn, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasinaEdit_AnFabMn.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasinaEdit_AnFabMn.ForeColor = System.Drawing.Color.White;
+            this.PanouMasinaEdit_AnFabMn.Location = new System.Drawing.Point(145, 306);
+            this.PanouMasinaEdit_AnFabMn.Name = "PanouMasinaEdit_AnFabMn";
+            this.PanouMasinaEdit_AnFabMn.Size = new System.Drawing.Size(171, 24);
+            this.PanouMasinaEdit_AnFabMn.TabIndex = 51;
+            this.PanouMasinaEdit_AnFabMn.Text = "An fabricatie min";
             // 
-            // label36
+            // PanouMasinaEdit_PretMx
             // 
-            this.label36.AutoSize = true;
-            this.label36.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label36, BunifuAnimatorNS.DecorationType.None);
-            this.label36.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.ForeColor = System.Drawing.Color.White;
-            this.label36.Location = new System.Drawing.Point(395, 229);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(118, 24);
-            this.label36.TabIndex = 50;
-            this.label36.Text = "Pret maxim";
+            this.PanouMasinaEdit_PretMx.AutoSize = true;
+            this.PanouMasinaEdit_PretMx.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasinaEdit_PretMx, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasinaEdit_PretMx.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasinaEdit_PretMx.ForeColor = System.Drawing.Color.White;
+            this.PanouMasinaEdit_PretMx.Location = new System.Drawing.Point(395, 229);
+            this.PanouMasinaEdit_PretMx.Name = "PanouMasinaEdit_PretMx";
+            this.PanouMasinaEdit_PretMx.Size = new System.Drawing.Size(118, 24);
+            this.PanouMasinaEdit_PretMx.TabIndex = 50;
+            this.PanouMasinaEdit_PretMx.Text = "Pret maxim";
             // 
             // ModPMax
             // 
@@ -4803,18 +4823,18 @@
             this.ModText.TabIndex = 0;
             this.ModText.Text = "Eroare  Cautare!";
             // 
-            // label38
+            // PanouMasinaEdit_Culoare
             // 
-            this.label38.AutoSize = true;
-            this.label38.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label38, BunifuAnimatorNS.DecorationType.None);
-            this.label38.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.ForeColor = System.Drawing.Color.White;
-            this.label38.Location = new System.Drawing.Point(145, 384);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(84, 24);
-            this.label38.TabIndex = 28;
-            this.label38.Text = "Culoare";
+            this.PanouMasinaEdit_Culoare.AutoSize = true;
+            this.PanouMasinaEdit_Culoare.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasinaEdit_Culoare, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasinaEdit_Culoare.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasinaEdit_Culoare.ForeColor = System.Drawing.Color.White;
+            this.PanouMasinaEdit_Culoare.Location = new System.Drawing.Point(145, 384);
+            this.PanouMasinaEdit_Culoare.Name = "PanouMasinaEdit_Culoare";
+            this.PanouMasinaEdit_Culoare.Size = new System.Drawing.Size(84, 24);
+            this.PanouMasinaEdit_Culoare.TabIndex = 28;
+            this.PanouMasinaEdit_Culoare.Text = "Culoare";
             // 
             // ModCauta
             // 
@@ -4835,159 +4855,157 @@
             this.ModCauta.Text = "Cauta Masina";
             this.ModCauta.Click += new System.EventHandler(this.ModCauta_Click);
             // 
-            // label39
+            // PanouMasinaEdit_lbl
             // 
-            this.label39.AutoSize = true;
-            this.label39.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label39, BunifuAnimatorNS.DecorationType.None);
-            this.label39.Font = new System.Drawing.Font("EA Font v1.5 by Ghettoshark", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label39.Location = new System.Drawing.Point(300, 19);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(175, 42);
-            this.label39.TabIndex = 40;
-            this.label39.Text = "Modifica";
+            this.PanouMasinaEdit_lbl.AutoSize = true;
+            this.PanouMasinaEdit_lbl.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasinaEdit_lbl, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasinaEdit_lbl.Font = new System.Drawing.Font("EA Font v1.5 by Ghettoshark", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasinaEdit_lbl.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.PanouMasinaEdit_lbl.Location = new System.Drawing.Point(300, 19);
+            this.PanouMasinaEdit_lbl.Name = "PanouMasinaEdit_lbl";
+            this.PanouMasinaEdit_lbl.Size = new System.Drawing.Size(175, 42);
+            this.PanouMasinaEdit_lbl.TabIndex = 40;
+            this.PanouMasinaEdit_lbl.Text = "Modifica";
             // 
-            // label40
+            // PanouMasinaEdit_PretMn
             // 
-            this.label40.AutoSize = true;
-            this.label40.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label40, BunifuAnimatorNS.DecorationType.None);
-            this.label40.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.ForeColor = System.Drawing.Color.White;
-            this.label40.Location = new System.Drawing.Point(145, 229);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(113, 24);
-            this.label40.TabIndex = 24;
-            this.label40.Text = "Pret minim";
+            this.PanouMasinaEdit_PretMn.AutoSize = true;
+            this.PanouMasinaEdit_PretMn.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasinaEdit_PretMn, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasinaEdit_PretMn.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasinaEdit_PretMn.ForeColor = System.Drawing.Color.White;
+            this.PanouMasinaEdit_PretMn.Location = new System.Drawing.Point(145, 229);
+            this.PanouMasinaEdit_PretMn.Name = "PanouMasinaEdit_PretMn";
+            this.PanouMasinaEdit_PretMn.Size = new System.Drawing.Size(113, 24);
+            this.PanouMasinaEdit_PretMn.TabIndex = 24;
+            this.PanouMasinaEdit_PretMn.Text = "Pret minim";
             // 
-            // label66
+            // PanouMasinaEdit_Model
             // 
-            this.label66.AutoSize = true;
-            this.label66.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label66, BunifuAnimatorNS.DecorationType.None);
-            this.label66.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label66.ForeColor = System.Drawing.Color.White;
-            this.label66.Location = new System.Drawing.Point(145, 153);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(68, 24);
-            this.label66.TabIndex = 23;
-            this.label66.Text = "Model";
+            this.PanouMasinaEdit_Model.AutoSize = true;
+            this.PanouMasinaEdit_Model.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasinaEdit_Model, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasinaEdit_Model.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasinaEdit_Model.ForeColor = System.Drawing.Color.White;
+            this.PanouMasinaEdit_Model.Location = new System.Drawing.Point(145, 153);
+            this.PanouMasinaEdit_Model.Name = "PanouMasinaEdit_Model";
+            this.PanouMasinaEdit_Model.Size = new System.Drawing.Size(68, 24);
+            this.PanouMasinaEdit_Model.TabIndex = 23;
+            this.PanouMasinaEdit_Model.Text = "Model";
             // 
-            // label67
+            // PanouMasinaEdit_Marca
             // 
-            this.label67.AutoSize = true;
-            this.label67.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label67, BunifuAnimatorNS.DecorationType.None);
-            this.label67.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label67.ForeColor = System.Drawing.Color.White;
-            this.label67.Location = new System.Drawing.Point(145, 72);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(69, 24);
-            this.label67.TabIndex = 20;
-            this.label67.Text = "Marca";
+            this.PanouMasinaEdit_Marca.AutoSize = true;
+            this.PanouMasinaEdit_Marca.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.PanouMasinaEdit_Marca, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMasinaEdit_Marca.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PanouMasinaEdit_Marca.ForeColor = System.Drawing.Color.White;
+            this.PanouMasinaEdit_Marca.Location = new System.Drawing.Point(145, 72);
+            this.PanouMasinaEdit_Marca.Name = "PanouMasinaEdit_Marca";
+            this.PanouMasinaEdit_Marca.Size = new System.Drawing.Size(69, 24);
+            this.PanouMasinaEdit_Marca.TabIndex = 20;
+            this.PanouMasinaEdit_Marca.Text = "Marca";
             // 
-            // panel6
+            // PanouMeniuEdit
             // 
-            this.panel6.BackColor = System.Drawing.Color.Black;
-            this.panel6.Controls.Add(this.guna2TileButton20);
-            this.panel6.Controls.Add(this.guna2TileButton14);
-            this.panel6.Controls.Add(this.guna2TileButton15);
-            this.panel6.Controls.Add(this.guna2TileButton16);
-            this.Animator.SetDecoration(this.panel6, BunifuAnimatorNS.DecorationType.None);
-            this.panel6.Location = new System.Drawing.Point(0, 0);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(72, 1087);
-            this.panel6.TabIndex = 45;
+            this.PanouMeniuEdit.BackColor = System.Drawing.Color.Black;
+            this.PanouMeniuEdit.Controls.Add(this.MeniuEdit_Compare);
+            this.PanouMeniuEdit.Controls.Add(this.MeniuEdit_Inventory);
+            this.PanouMeniuEdit.Controls.Add(this.MeniuEdit_Home);
+            this.PanouMeniuEdit.Controls.Add(this.MeniuEdit_Shop);
+            this.Animator.SetDecoration(this.PanouMeniuEdit, BunifuAnimatorNS.DecorationType.None);
+            this.PanouMeniuEdit.Location = new System.Drawing.Point(0, 0);
+            this.PanouMeniuEdit.Name = "PanouMeniuEdit";
+            this.PanouMeniuEdit.Size = new System.Drawing.Size(72, 1087);
+            this.PanouMeniuEdit.TabIndex = 45;
             // 
-            // guna2TileButton20
+            // MeniuEdit_Compare
             // 
-            this.guna2TileButton20.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton20.CheckedState.Parent = this.guna2TileButton20;
-            this.guna2TileButton20.CustomImages.Parent = this.guna2TileButton20;
-            this.Animator.SetDecoration(this.guna2TileButton20, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton20.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton20.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton20.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton20.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2TileButton20.HoverState.Parent = this.guna2TileButton20;
-            this.guna2TileButton20.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton20.Image")));
-            this.guna2TileButton20.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton20.Location = new System.Drawing.Point(0, 270);
-            this.guna2TileButton20.Name = "guna2TileButton20";
-            this.guna2TileButton20.ShadowDecoration.Parent = this.guna2TileButton20;
-            this.guna2TileButton20.Size = new System.Drawing.Size(73, 60);
-            this.guna2TileButton20.TabIndex = 4;
-            this.guna2TileButton20.Click += new System.EventHandler(this.guna2TileButton20_Click);
+            this.MeniuEdit_Compare.BackColor = System.Drawing.Color.Transparent;
+            this.MeniuEdit_Compare.CheckedState.Parent = this.MeniuEdit_Compare;
+            this.MeniuEdit_Compare.CustomImages.Parent = this.MeniuEdit_Compare;
+            this.Animator.SetDecoration(this.MeniuEdit_Compare, BunifuAnimatorNS.DecorationType.None);
+            this.MeniuEdit_Compare.FillColor = System.Drawing.Color.Transparent;
+            this.MeniuEdit_Compare.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MeniuEdit_Compare.ForeColor = System.Drawing.Color.White;
+            this.MeniuEdit_Compare.HoverState.Parent = this.MeniuEdit_Compare;
+            this.MeniuEdit_Compare.Image = ((System.Drawing.Image)(resources.GetObject("MeniuEdit_Compare.Image")));
+            this.MeniuEdit_Compare.ImageSize = new System.Drawing.Size(30, 30);
+            this.MeniuEdit_Compare.Location = new System.Drawing.Point(0, 270);
+            this.MeniuEdit_Compare.Name = "MeniuEdit_Compare";
+            this.MeniuEdit_Compare.ShadowDecoration.Parent = this.MeniuEdit_Compare;
+            this.MeniuEdit_Compare.Size = new System.Drawing.Size(73, 60);
+            this.MeniuEdit_Compare.TabIndex = 4;
+            this.MeniuEdit_Compare.Click += new System.EventHandler(this.guna2TileButton20_Click);
             // 
-            // guna2TileButton14
+            // MeniuEdit_Inventory
             // 
-            this.guna2TileButton14.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton14.CheckedState.Parent = this.guna2TileButton14;
-            this.guna2TileButton14.CustomImages.Parent = this.guna2TileButton14;
-            this.Animator.SetDecoration(this.guna2TileButton14, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton14.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton14.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton14.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton14.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2TileButton14.HoverState.Parent = this.guna2TileButton14;
-            this.guna2TileButton14.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton14.Image")));
-            this.guna2TileButton14.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton14.Location = new System.Drawing.Point(0, 184);
-            this.guna2TileButton14.Name = "guna2TileButton14";
-            this.guna2TileButton14.ShadowDecoration.Parent = this.guna2TileButton14;
-            this.guna2TileButton14.Size = new System.Drawing.Size(73, 60);
-            this.guna2TileButton14.TabIndex = 3;
-            this.guna2TileButton14.Click += new System.EventHandler(this.guna2TileButton14_Click_2);
+            this.MeniuEdit_Inventory.BackColor = System.Drawing.Color.Transparent;
+            this.MeniuEdit_Inventory.CheckedState.Parent = this.MeniuEdit_Inventory;
+            this.MeniuEdit_Inventory.CustomImages.Parent = this.MeniuEdit_Inventory;
+            this.Animator.SetDecoration(this.MeniuEdit_Inventory, BunifuAnimatorNS.DecorationType.None);
+            this.MeniuEdit_Inventory.FillColor = System.Drawing.Color.Transparent;
+            this.MeniuEdit_Inventory.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MeniuEdit_Inventory.ForeColor = System.Drawing.Color.White;
+            this.MeniuEdit_Inventory.HoverState.Parent = this.MeniuEdit_Inventory;
+            this.MeniuEdit_Inventory.Image = ((System.Drawing.Image)(resources.GetObject("MeniuEdit_Inventory.Image")));
+            this.MeniuEdit_Inventory.ImageSize = new System.Drawing.Size(30, 30);
+            this.MeniuEdit_Inventory.Location = new System.Drawing.Point(0, 184);
+            this.MeniuEdit_Inventory.Name = "MeniuEdit_Inventory";
+            this.MeniuEdit_Inventory.ShadowDecoration.Parent = this.MeniuEdit_Inventory;
+            this.MeniuEdit_Inventory.Size = new System.Drawing.Size(73, 60);
+            this.MeniuEdit_Inventory.TabIndex = 3;
+            this.MeniuEdit_Inventory.Click += new System.EventHandler(this.guna2TileButton14_Click_2);
             // 
-            // guna2TileButton15
+            // MeniuEdit_Home
             // 
-            this.guna2TileButton15.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton15.CheckedState.Parent = this.guna2TileButton15;
-            this.guna2TileButton15.CustomImages.Parent = this.guna2TileButton15;
-            this.Animator.SetDecoration(this.guna2TileButton15, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton15.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton15.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton15.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton15.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2TileButton15.HoverState.Parent = this.guna2TileButton15;
-            this.guna2TileButton15.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton15.Image")));
-            this.guna2TileButton15.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton15.Location = new System.Drawing.Point(0, 26);
-            this.guna2TileButton15.Name = "guna2TileButton15";
-            this.guna2TileButton15.ShadowDecoration.Parent = this.guna2TileButton15;
-            this.guna2TileButton15.Size = new System.Drawing.Size(73, 60);
-            this.guna2TileButton15.TabIndex = 2;
-            this.guna2TileButton15.Click += new System.EventHandler(this.guna2TileButton15_Click_1);
+            this.MeniuEdit_Home.BackColor = System.Drawing.Color.Transparent;
+            this.MeniuEdit_Home.CheckedState.Parent = this.MeniuEdit_Home;
+            this.MeniuEdit_Home.CustomImages.Parent = this.MeniuEdit_Home;
+            this.Animator.SetDecoration(this.MeniuEdit_Home, BunifuAnimatorNS.DecorationType.None);
+            this.MeniuEdit_Home.FillColor = System.Drawing.Color.Transparent;
+            this.MeniuEdit_Home.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MeniuEdit_Home.ForeColor = System.Drawing.Color.White;
+            this.MeniuEdit_Home.HoverState.Parent = this.MeniuEdit_Home;
+            this.MeniuEdit_Home.Image = ((System.Drawing.Image)(resources.GetObject("MeniuEdit_Home.Image")));
+            this.MeniuEdit_Home.ImageSize = new System.Drawing.Size(30, 30);
+            this.MeniuEdit_Home.Location = new System.Drawing.Point(0, 26);
+            this.MeniuEdit_Home.Name = "MeniuEdit_Home";
+            this.MeniuEdit_Home.ShadowDecoration.Parent = this.MeniuEdit_Home;
+            this.MeniuEdit_Home.Size = new System.Drawing.Size(73, 60);
+            this.MeniuEdit_Home.TabIndex = 2;
+            this.MeniuEdit_Home.Click += new System.EventHandler(this.guna2TileButton15_Click_1);
             // 
-            // guna2TileButton16
+            // MeniuEdit_Shop
             // 
-            this.guna2TileButton16.BackColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton16.CheckedState.Parent = this.guna2TileButton16;
-            this.guna2TileButton16.CustomImages.Parent = this.guna2TileButton16;
-            this.Animator.SetDecoration(this.guna2TileButton16, BunifuAnimatorNS.DecorationType.None);
-            this.guna2TileButton16.FillColor = System.Drawing.Color.Transparent;
-            this.guna2TileButton16.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TileButton16.ForeColor = System.Drawing.Color.White;
-            this.guna2TileButton16.HoverState.FillColor = System.Drawing.Color.Red;
-            this.guna2TileButton16.HoverState.Parent = this.guna2TileButton16;
-            this.guna2TileButton16.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton16.Image")));
-            this.guna2TileButton16.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2TileButton16.Location = new System.Drawing.Point(0, 102);
-            this.guna2TileButton16.Name = "guna2TileButton16";
-            this.guna2TileButton16.ShadowDecoration.Parent = this.guna2TileButton16;
-            this.guna2TileButton16.Size = new System.Drawing.Size(73, 60);
-            this.guna2TileButton16.TabIndex = 0;
-            this.guna2TileButton16.Click += new System.EventHandler(this.guna2TileButton16_Click_2);
+            this.MeniuEdit_Shop.BackColor = System.Drawing.Color.Transparent;
+            this.MeniuEdit_Shop.CheckedState.Parent = this.MeniuEdit_Shop;
+            this.MeniuEdit_Shop.CustomImages.Parent = this.MeniuEdit_Shop;
+            this.Animator.SetDecoration(this.MeniuEdit_Shop, BunifuAnimatorNS.DecorationType.None);
+            this.MeniuEdit_Shop.FillColor = System.Drawing.Color.Transparent;
+            this.MeniuEdit_Shop.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.MeniuEdit_Shop.ForeColor = System.Drawing.Color.White;
+            this.MeniuEdit_Shop.HoverState.Parent = this.MeniuEdit_Shop;
+            this.MeniuEdit_Shop.Image = ((System.Drawing.Image)(resources.GetObject("MeniuEdit_Shop.Image")));
+            this.MeniuEdit_Shop.ImageSize = new System.Drawing.Size(30, 30);
+            this.MeniuEdit_Shop.Location = new System.Drawing.Point(0, 102);
+            this.MeniuEdit_Shop.Name = "MeniuEdit_Shop";
+            this.MeniuEdit_Shop.ShadowDecoration.Parent = this.MeniuEdit_Shop;
+            this.MeniuEdit_Shop.Size = new System.Drawing.Size(73, 60);
+            this.MeniuEdit_Shop.TabIndex = 0;
+            this.MeniuEdit_Shop.Click += new System.EventHandler(this.guna2TileButton16_Click_2);
             // 
             // CautaData
             // 
+            this.CautaData.Controls.Add(this.panel1);
+            this.CautaData.Controls.Add(this.panel4);
             this.CautaData.Controls.Add(this.panel10);
             this.CautaData.Controls.Add(this.guna2ControlBox4);
             this.CautaData.Controls.Add(this.guna2ControlBox5);
             this.CautaData.Controls.Add(this.guna2ControlBox6);
-            this.CautaData.Controls.Add(this.panel8);
-            this.CautaData.Controls.Add(this.dataGridViewM);
+            this.CautaData.Controls.Add(this.PanelCautaDateTime);
+            this.CautaData.Controls.Add(this.dataGridViewMasina);
             this.CautaData.Controls.Add(this.panel9);
             this.Animator.SetDecoration(this.CautaData, BunifuAnimatorNS.DecorationType.None);
             this.CautaData.Location = new System.Drawing.Point(4, 25);
@@ -4998,63 +5016,135 @@
             this.CautaData.Text = "CautaData";
             this.CautaData.UseVisualStyleBackColor = true;
             // 
-            // panel8
+            // panel1
             // 
-            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
-            this.panel8.Controls.Add(this.label85);
-            this.panel8.Controls.Add(this.label84);
-            this.panel8.Controls.Add(this.ModCuloare1);
-            this.panel8.Controls.Add(this.ModMarca1);
-            this.panel8.Controls.Add(this.ModPanel1);
-            this.panel8.Controls.Add(this.ModDataMax);
-            this.panel8.Controls.Add(this.ModPut1);
-            this.panel8.Controls.Add(this.ModDataMin);
-            this.panel8.Controls.Add(this.label37);
-            this.panel8.Controls.Add(this.label71);
-            this.panel8.Controls.Add(this.ModAnMax1);
-            this.panel8.Controls.Add(this.ModAnMin1);
-            this.panel8.Controls.Add(this.label73);
-            this.panel8.Controls.Add(this.label75);
-            this.panel8.Controls.Add(this.ModPMax1);
-            this.panel8.Controls.Add(this.ModMdl1);
-            this.panel8.Controls.Add(this.ModPMin1);
-            this.panel8.Controls.Add(this.label79);
-            this.panel8.Controls.Add(this.ModCauta1);
-            this.panel8.Controls.Add(this.label80);
-            this.panel8.Controls.Add(this.label81);
-            this.panel8.Controls.Add(this.label82);
-            this.panel8.Controls.Add(this.label83);
-            this.Animator.SetDecoration(this.panel8, BunifuAnimatorNS.DecorationType.None);
-            this.panel8.Location = new System.Drawing.Point(659, 177);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(773, 725);
-            this.panel8.TabIndex = 77;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(30)))));
+            this.Animator.SetDecoration(this.panel1, BunifuAnimatorNS.DecorationType.None);
+            this.panel1.Location = new System.Drawing.Point(1980, 54);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(72, 964);
+            this.panel1.TabIndex = 83;
             // 
-            // label85
+            // panel4
             // 
-            this.label85.AutoSize = true;
-            this.label85.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label85, BunifuAnimatorNS.DecorationType.None);
-            this.label85.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label85.ForeColor = System.Drawing.Color.White;
-            this.label85.Location = new System.Drawing.Point(145, 520);
-            this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(100, 24);
-            this.label85.TabIndex = 77;
-            this.label85.Text = "Data max";
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(30)))));
+            this.Animator.SetDecoration(this.panel4, BunifuAnimatorNS.DecorationType.None);
+            this.panel4.Location = new System.Drawing.Point(0, 54);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(72, 964);
+            this.panel4.TabIndex = 82;
             // 
-            // label84
+            // panel10
             // 
-            this.label84.AutoSize = true;
-            this.label84.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label84, BunifuAnimatorNS.DecorationType.None);
-            this.label84.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label84.ForeColor = System.Drawing.Color.White;
-            this.label84.Location = new System.Drawing.Point(145, 461);
-            this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(95, 24);
-            this.label84.TabIndex = 76;
-            this.label84.Text = "Data min";
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
+            this.Animator.SetDecoration(this.panel10, BunifuAnimatorNS.DecorationType.None);
+            this.panel10.Location = new System.Drawing.Point(-4, 1017);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(2077, 55);
+            this.panel10.TabIndex = 69;
+            // 
+            // guna2ControlBox4
+            // 
+            this.guna2ControlBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            this.guna2ControlBox4.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
+            this.Animator.SetDecoration(this.guna2ControlBox4, BunifuAnimatorNS.DecorationType.None);
+            this.guna2ControlBox4.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox4.HoverState.Parent = this.guna2ControlBox4;
+            this.guna2ControlBox4.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox4.Location = new System.Drawing.Point(1892, 6);
+            this.guna2ControlBox4.Name = "guna2ControlBox4";
+            this.guna2ControlBox4.ShadowDecoration.Parent = this.guna2ControlBox4;
+            this.guna2ControlBox4.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox4.TabIndex = 78;
+            // 
+            // guna2ControlBox5
+            // 
+            this.guna2ControlBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            this.Animator.SetDecoration(this.guna2ControlBox5, BunifuAnimatorNS.DecorationType.None);
+            this.guna2ControlBox5.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox5.HoverState.Parent = this.guna2ControlBox5;
+            this.guna2ControlBox5.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox5.Location = new System.Drawing.Point(1994, 6);
+            this.guna2ControlBox5.Name = "guna2ControlBox5";
+            this.guna2ControlBox5.ShadowDecoration.Parent = this.guna2ControlBox5;
+            this.guna2ControlBox5.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox5.TabIndex = 79;
+            // 
+            // guna2ControlBox6
+            // 
+            this.guna2ControlBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            this.guna2ControlBox6.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
+            this.Animator.SetDecoration(this.guna2ControlBox6, BunifuAnimatorNS.DecorationType.None);
+            this.guna2ControlBox6.Enabled = false;
+            this.guna2ControlBox6.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox6.HoverState.Parent = this.guna2ControlBox6;
+            this.guna2ControlBox6.IconColor = System.Drawing.Color.White;
+            this.guna2ControlBox6.Location = new System.Drawing.Point(1943, 6);
+            this.guna2ControlBox6.Name = "guna2ControlBox6";
+            this.guna2ControlBox6.ShadowDecoration.Parent = this.guna2ControlBox6;
+            this.guna2ControlBox6.Size = new System.Drawing.Size(45, 29);
+            this.guna2ControlBox6.TabIndex = 80;
+            // 
+            // PanelCautaDateTime
+            // 
+            this.PanelCautaDateTime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
+            this.PanelCautaDateTime.Controls.Add(this.CautaDateTime_DataModmax);
+            this.PanelCautaDateTime.Controls.Add(this.CautaDateTime_DataModmin);
+            this.PanelCautaDateTime.Controls.Add(this.ModCuloare1);
+            this.PanelCautaDateTime.Controls.Add(this.ModMarca1);
+            this.PanelCautaDateTime.Controls.Add(this.ModPanel1);
+            this.PanelCautaDateTime.Controls.Add(this.ModDataMax);
+            this.PanelCautaDateTime.Controls.Add(this.ModPut1);
+            this.PanelCautaDateTime.Controls.Add(this.ModDataMin);
+            this.PanelCautaDateTime.Controls.Add(this.CautaDateTime_PutMx);
+            this.PanelCautaDateTime.Controls.Add(this.CautaDateTime_AnFMx);
+            this.PanelCautaDateTime.Controls.Add(this.ModAnMax1);
+            this.PanelCautaDateTime.Controls.Add(this.ModAnMin1);
+            this.PanelCautaDateTime.Controls.Add(this.CautaDateTime_AnMn);
+            this.PanelCautaDateTime.Controls.Add(this.CautaDateTime_PretMx);
+            this.PanelCautaDateTime.Controls.Add(this.ModPMax1);
+            this.PanelCautaDateTime.Controls.Add(this.ModMdl1);
+            this.PanelCautaDateTime.Controls.Add(this.ModPMin1);
+            this.PanelCautaDateTime.Controls.Add(this.CautaDateTime_Culoare);
+            this.PanelCautaDateTime.Controls.Add(this.ModCauta1);
+            this.PanelCautaDateTime.Controls.Add(this.CautaDateTime_lbl);
+            this.PanelCautaDateTime.Controls.Add(this.CautaDateTime_PretMN);
+            this.PanelCautaDateTime.Controls.Add(this.CautaDateTime_Model);
+            this.PanelCautaDateTime.Controls.Add(this.CautaDateTime_Marca);
+            this.Animator.SetDecoration(this.PanelCautaDateTime, BunifuAnimatorNS.DecorationType.None);
+            this.PanelCautaDateTime.Location = new System.Drawing.Point(659, 177);
+            this.PanelCautaDateTime.Name = "PanelCautaDateTime";
+            this.PanelCautaDateTime.Size = new System.Drawing.Size(773, 725);
+            this.PanelCautaDateTime.TabIndex = 77;
+            // 
+            // CautaDateTime_DataModmax
+            // 
+            this.CautaDateTime_DataModmax.AutoSize = true;
+            this.CautaDateTime_DataModmax.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.CautaDateTime_DataModmax, BunifuAnimatorNS.DecorationType.None);
+            this.CautaDateTime_DataModmax.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CautaDateTime_DataModmax.ForeColor = System.Drawing.Color.White;
+            this.CautaDateTime_DataModmax.Location = new System.Drawing.Point(145, 520);
+            this.CautaDateTime_DataModmax.Name = "CautaDateTime_DataModmax";
+            this.CautaDateTime_DataModmax.Size = new System.Drawing.Size(206, 24);
+            this.CautaDateTime_DataModmax.TabIndex = 77;
+            this.CautaDateTime_DataModmax.Text = "Data modificare max";
+            // 
+            // CautaDateTime_DataModmin
+            // 
+            this.CautaDateTime_DataModmin.AutoSize = true;
+            this.CautaDateTime_DataModmin.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.CautaDateTime_DataModmin, BunifuAnimatorNS.DecorationType.None);
+            this.CautaDateTime_DataModmin.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CautaDateTime_DataModmin.ForeColor = System.Drawing.Color.White;
+            this.CautaDateTime_DataModmin.Location = new System.Drawing.Point(145, 461);
+            this.CautaDateTime_DataModmin.Name = "CautaDateTime_DataModmin";
+            this.CautaDateTime_DataModmin.Size = new System.Drawing.Size(201, 24);
+            this.CautaDateTime_DataModmin.TabIndex = 76;
+            this.CautaDateTime_DataModmin.Text = "Data modificare min";
             // 
             // ModCuloare1
             // 
@@ -5140,6 +5230,8 @@
             // 
             // ModDataMax
             // 
+            this.ModDataMax.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
+            this.ModDataMax.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
             this.Animator.SetDecoration(this.ModDataMax, BunifuAnimatorNS.DecorationType.None);
             this.ModDataMax.Location = new System.Drawing.Point(140, 551);
             this.ModDataMax.Name = "ModDataMax";
@@ -5179,8 +5271,10 @@
             // 
             // ModDataMin
             // 
-            this.ModDataMin.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
+            this.ModDataMin.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
+            this.ModDataMin.CalendarTitleBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
             this.ModDataMin.CalendarTitleForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.ModDataMin.Cursor = System.Windows.Forms.Cursors.Default;
             this.Animator.SetDecoration(this.ModDataMin, BunifuAnimatorNS.DecorationType.None);
             this.ModDataMin.Location = new System.Drawing.Point(140, 490);
             this.ModDataMin.Name = "ModDataMin";
@@ -5188,31 +5282,31 @@
             this.ModDataMin.TabIndex = 74;
             this.ModDataMin.ValueChanged += new System.EventHandler(this.ModDataMin_ValueChanged);
             // 
-            // label37
+            // CautaDateTime_PutMx
             // 
-            this.label37.AutoSize = true;
-            this.label37.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label37, BunifuAnimatorNS.DecorationType.None);
-            this.label37.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label37.ForeColor = System.Drawing.Color.White;
-            this.label37.Location = new System.Drawing.Point(395, 384);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(118, 24);
-            this.label37.TabIndex = 55;
-            this.label37.Text = "Putere max";
+            this.CautaDateTime_PutMx.AutoSize = true;
+            this.CautaDateTime_PutMx.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.CautaDateTime_PutMx, BunifuAnimatorNS.DecorationType.None);
+            this.CautaDateTime_PutMx.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CautaDateTime_PutMx.ForeColor = System.Drawing.Color.White;
+            this.CautaDateTime_PutMx.Location = new System.Drawing.Point(395, 384);
+            this.CautaDateTime_PutMx.Name = "CautaDateTime_PutMx";
+            this.CautaDateTime_PutMx.Size = new System.Drawing.Size(118, 24);
+            this.CautaDateTime_PutMx.TabIndex = 55;
+            this.CautaDateTime_PutMx.Text = "Putere max";
             // 
-            // label71
+            // CautaDateTime_AnFMx
             // 
-            this.label71.AutoSize = true;
-            this.label71.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label71, BunifuAnimatorNS.DecorationType.None);
-            this.label71.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label71.ForeColor = System.Drawing.Color.White;
-            this.label71.Location = new System.Drawing.Point(395, 306);
-            this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(176, 24);
-            this.label71.TabIndex = 54;
-            this.label71.Text = "An fabricatie max";
+            this.CautaDateTime_AnFMx.AutoSize = true;
+            this.CautaDateTime_AnFMx.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.CautaDateTime_AnFMx, BunifuAnimatorNS.DecorationType.None);
+            this.CautaDateTime_AnFMx.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CautaDateTime_AnFMx.ForeColor = System.Drawing.Color.White;
+            this.CautaDateTime_AnFMx.Location = new System.Drawing.Point(395, 306);
+            this.CautaDateTime_AnFMx.Name = "CautaDateTime_AnFMx";
+            this.CautaDateTime_AnFMx.Size = new System.Drawing.Size(176, 24);
+            this.CautaDateTime_AnFMx.TabIndex = 54;
+            this.CautaDateTime_AnFMx.Text = "An fabricatie max";
             // 
             // ModAnMax1
             // 
@@ -5274,31 +5368,31 @@
             this.ModAnMin1.Size = new System.Drawing.Size(230, 38);
             this.ModAnMin1.TabIndex = 52;
             // 
-            // label73
+            // CautaDateTime_AnMn
             // 
-            this.label73.AutoSize = true;
-            this.label73.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label73, BunifuAnimatorNS.DecorationType.None);
-            this.label73.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label73.ForeColor = System.Drawing.Color.White;
-            this.label73.Location = new System.Drawing.Point(145, 306);
-            this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(171, 24);
-            this.label73.TabIndex = 51;
-            this.label73.Text = "An fabricatie min";
+            this.CautaDateTime_AnMn.AutoSize = true;
+            this.CautaDateTime_AnMn.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.CautaDateTime_AnMn, BunifuAnimatorNS.DecorationType.None);
+            this.CautaDateTime_AnMn.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CautaDateTime_AnMn.ForeColor = System.Drawing.Color.White;
+            this.CautaDateTime_AnMn.Location = new System.Drawing.Point(145, 306);
+            this.CautaDateTime_AnMn.Name = "CautaDateTime_AnMn";
+            this.CautaDateTime_AnMn.Size = new System.Drawing.Size(171, 24);
+            this.CautaDateTime_AnMn.TabIndex = 51;
+            this.CautaDateTime_AnMn.Text = "An fabricatie min";
             // 
-            // label75
+            // CautaDateTime_PretMx
             // 
-            this.label75.AutoSize = true;
-            this.label75.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label75, BunifuAnimatorNS.DecorationType.None);
-            this.label75.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label75.ForeColor = System.Drawing.Color.White;
-            this.label75.Location = new System.Drawing.Point(395, 229);
-            this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(118, 24);
-            this.label75.TabIndex = 50;
-            this.label75.Text = "Pret maxim";
+            this.CautaDateTime_PretMx.AutoSize = true;
+            this.CautaDateTime_PretMx.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.CautaDateTime_PretMx, BunifuAnimatorNS.DecorationType.None);
+            this.CautaDateTime_PretMx.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CautaDateTime_PretMx.ForeColor = System.Drawing.Color.White;
+            this.CautaDateTime_PretMx.Location = new System.Drawing.Point(395, 229);
+            this.CautaDateTime_PretMx.Name = "CautaDateTime_PretMx";
+            this.CautaDateTime_PretMx.Size = new System.Drawing.Size(118, 24);
+            this.CautaDateTime_PretMx.TabIndex = 50;
+            this.CautaDateTime_PretMx.Text = "Pret maxim";
             // 
             // ModPMax1
             // 
@@ -5390,18 +5484,18 @@
             this.ModPMin1.Size = new System.Drawing.Size(230, 38);
             this.ModPMin1.TabIndex = 47;
             // 
-            // label79
+            // CautaDateTime_Culoare
             // 
-            this.label79.AutoSize = true;
-            this.label79.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label79, BunifuAnimatorNS.DecorationType.None);
-            this.label79.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label79.ForeColor = System.Drawing.Color.White;
-            this.label79.Location = new System.Drawing.Point(145, 384);
-            this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(84, 24);
-            this.label79.TabIndex = 28;
-            this.label79.Text = "Culoare";
+            this.CautaDateTime_Culoare.AutoSize = true;
+            this.CautaDateTime_Culoare.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.CautaDateTime_Culoare, BunifuAnimatorNS.DecorationType.None);
+            this.CautaDateTime_Culoare.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CautaDateTime_Culoare.ForeColor = System.Drawing.Color.White;
+            this.CautaDateTime_Culoare.Location = new System.Drawing.Point(145, 384);
+            this.CautaDateTime_Culoare.Name = "CautaDateTime_Culoare";
+            this.CautaDateTime_Culoare.Size = new System.Drawing.Size(84, 24);
+            this.CautaDateTime_Culoare.TabIndex = 28;
+            this.CautaDateTime_Culoare.Text = "Culoare";
             // 
             // ModCauta1
             // 
@@ -5422,193 +5516,116 @@
             this.ModCauta1.Text = "Cauta Masina";
             this.ModCauta1.Click += new System.EventHandler(this.guna2TileButton27_Click);
             // 
-            // label80
+            // CautaDateTime_lbl
             // 
-            this.label80.AutoSize = true;
-            this.label80.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label80, BunifuAnimatorNS.DecorationType.None);
-            this.label80.Font = new System.Drawing.Font("EA Font v1.5 by Ghettoshark", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label80.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label80.Location = new System.Drawing.Point(319, 20);
-            this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(128, 42);
-            this.label80.TabIndex = 40;
-            this.label80.Text = "CAUTA";
+            this.CautaDateTime_lbl.AutoSize = true;
+            this.CautaDateTime_lbl.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.CautaDateTime_lbl, BunifuAnimatorNS.DecorationType.None);
+            this.CautaDateTime_lbl.Font = new System.Drawing.Font("EA Font v1.5 by Ghettoshark", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CautaDateTime_lbl.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.CautaDateTime_lbl.Location = new System.Drawing.Point(319, 20);
+            this.CautaDateTime_lbl.Name = "CautaDateTime_lbl";
+            this.CautaDateTime_lbl.Size = new System.Drawing.Size(128, 42);
+            this.CautaDateTime_lbl.TabIndex = 40;
+            this.CautaDateTime_lbl.Text = "CAUTA";
             // 
-            // label81
+            // CautaDateTime_PretMN
             // 
-            this.label81.AutoSize = true;
-            this.label81.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label81, BunifuAnimatorNS.DecorationType.None);
-            this.label81.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label81.ForeColor = System.Drawing.Color.White;
-            this.label81.Location = new System.Drawing.Point(145, 229);
-            this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(113, 24);
-            this.label81.TabIndex = 24;
-            this.label81.Text = "Pret minim";
+            this.CautaDateTime_PretMN.AutoSize = true;
+            this.CautaDateTime_PretMN.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.CautaDateTime_PretMN, BunifuAnimatorNS.DecorationType.None);
+            this.CautaDateTime_PretMN.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CautaDateTime_PretMN.ForeColor = System.Drawing.Color.White;
+            this.CautaDateTime_PretMN.Location = new System.Drawing.Point(145, 229);
+            this.CautaDateTime_PretMN.Name = "CautaDateTime_PretMN";
+            this.CautaDateTime_PretMN.Size = new System.Drawing.Size(113, 24);
+            this.CautaDateTime_PretMN.TabIndex = 24;
+            this.CautaDateTime_PretMN.Text = "Pret minim";
             // 
-            // label82
+            // CautaDateTime_Model
             // 
-            this.label82.AutoSize = true;
-            this.label82.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label82, BunifuAnimatorNS.DecorationType.None);
-            this.label82.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label82.ForeColor = System.Drawing.Color.White;
-            this.label82.Location = new System.Drawing.Point(145, 153);
-            this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(68, 24);
-            this.label82.TabIndex = 23;
-            this.label82.Text = "Model";
+            this.CautaDateTime_Model.AutoSize = true;
+            this.CautaDateTime_Model.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.CautaDateTime_Model, BunifuAnimatorNS.DecorationType.None);
+            this.CautaDateTime_Model.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CautaDateTime_Model.ForeColor = System.Drawing.Color.White;
+            this.CautaDateTime_Model.Location = new System.Drawing.Point(145, 153);
+            this.CautaDateTime_Model.Name = "CautaDateTime_Model";
+            this.CautaDateTime_Model.Size = new System.Drawing.Size(68, 24);
+            this.CautaDateTime_Model.TabIndex = 23;
+            this.CautaDateTime_Model.Text = "Model";
             // 
-            // label83
+            // CautaDateTime_Marca
             // 
-            this.label83.AutoSize = true;
-            this.label83.BackColor = System.Drawing.Color.Transparent;
-            this.Animator.SetDecoration(this.label83, BunifuAnimatorNS.DecorationType.None);
-            this.label83.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label83.ForeColor = System.Drawing.Color.White;
-            this.label83.Location = new System.Drawing.Point(145, 72);
-            this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(69, 24);
-            this.label83.TabIndex = 20;
-            this.label83.Text = "Marca";
+            this.CautaDateTime_Marca.AutoSize = true;
+            this.CautaDateTime_Marca.BackColor = System.Drawing.Color.Transparent;
+            this.Animator.SetDecoration(this.CautaDateTime_Marca, BunifuAnimatorNS.DecorationType.None);
+            this.CautaDateTime_Marca.Font = new System.Drawing.Font("HelveticaNeue", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CautaDateTime_Marca.ForeColor = System.Drawing.Color.White;
+            this.CautaDateTime_Marca.Location = new System.Drawing.Point(145, 72);
+            this.CautaDateTime_Marca.Name = "CautaDateTime_Marca";
+            this.CautaDateTime_Marca.Size = new System.Drawing.Size(69, 24);
+            this.CautaDateTime_Marca.TabIndex = 20;
+            this.CautaDateTime_Marca.Text = "Marca";
             // 
-            // dataGridViewM
+            // dataGridViewMasina
             // 
-            this.dataGridViewM.AllowUserToAddRows = false;
-            this.dataGridViewM.AllowUserToDeleteRows = false;
-            this.dataGridViewM.AllowUserToResizeColumns = false;
-            this.dataGridViewM.AllowUserToResizeRows = false;
-            dataGridViewCellStyle52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
-            dataGridViewCellStyle52.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
-            this.dataGridViewM.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle52;
-            this.dataGridViewM.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridViewM.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridViewM.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle53.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
-            dataGridViewCellStyle53.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle53.ForeColor = System.Drawing.SystemColors.MenuBar;
-            dataGridViewCellStyle53.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
-            dataGridViewCellStyle53.SelectionForeColor = System.Drawing.SystemColors.ButtonShadow;
-            dataGridViewCellStyle53.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewM.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle53;
-            this.dataGridViewM.ColumnHeadersHeight = 25;
-            this.dataGridViewM.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dataGridViewM.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Animator.SetDecoration(this.dataGridViewM, BunifuAnimatorNS.DecorationType.None);
-            dataGridViewCellStyle54.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
-            dataGridViewCellStyle54.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle54.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle54.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
-            dataGridViewCellStyle54.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle54.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewM.DefaultCellStyle = dataGridViewCellStyle54;
-            this.dataGridViewM.GridColor = System.Drawing.Color.Black;
-            this.dataGridViewM.Location = new System.Drawing.Point(1011, 177);
-            this.dataGridViewM.Name = "dataGridViewM";
-            this.dataGridViewM.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle55.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
-            dataGridViewCellStyle55.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle55.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle55.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle55.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle55.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewM.RowHeadersDefaultCellStyle = dataGridViewCellStyle55;
-            this.dataGridViewM.RowHeadersVisible = false;
-            this.dataGridViewM.RowHeadersWidth = 100;
-            this.dataGridViewM.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dataGridViewCellStyle56.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
-            this.dataGridViewM.RowsDefaultCellStyle = dataGridViewCellStyle56;
-            this.dataGridViewM.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.dataGridViewM.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(182)))), ((int)(((byte)(97)))));
-            this.dataGridViewM.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewM.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.White;
-            this.dataGridViewM.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
-            this.dataGridViewM.RowTemplate.Height = 35;
-            this.dataGridViewM.Size = new System.Drawing.Size(1007, 725);
-            this.dataGridViewM.TabIndex = 76;
-            // 
-            // guna2DragControl2
-            // 
-            this.guna2DragControl2.TargetControl = this.PictureBoxMasina;
-            // 
-            // guna2DragControl3
-            // 
-            this.guna2DragControl3.TargetControl = this.Home;
-            // 
-            // guna2DragControl4
-            // 
-            this.guna2DragControl4.TargetControl = this.Inventory;
-            // 
-            // guna2DragControl5
-            // 
-            this.guna2DragControl5.TargetControl = this.panel2;
-            // 
-            // guna2DragControl6
-            // 
-            this.guna2DragControl6.TargetControl = this.Compare;
-            // 
-            // guna2DragControl7
-            // 
-            this.guna2DragControl7.TargetControl = this.ComparaSelect;
-            // 
-            // guna2DragControl8
-            // 
-            this.guna2DragControl8.TargetControl = this.Modifica;
-            // 
-            // guna2ControlBox4
-            // 
-            this.guna2ControlBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
-            this.guna2ControlBox4.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MinimizeBox;
-            this.Animator.SetDecoration(this.guna2ControlBox4, BunifuAnimatorNS.DecorationType.None);
-            this.guna2ControlBox4.FillColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox4.HoverState.Parent = this.guna2ControlBox4;
-            this.guna2ControlBox4.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox4.Location = new System.Drawing.Point(1892, 6);
-            this.guna2ControlBox4.Name = "guna2ControlBox4";
-            this.guna2ControlBox4.ShadowDecoration.Parent = this.guna2ControlBox4;
-            this.guna2ControlBox4.Size = new System.Drawing.Size(45, 29);
-            this.guna2ControlBox4.TabIndex = 78;
-            // 
-            // guna2ControlBox5
-            // 
-            this.guna2ControlBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
-            this.Animator.SetDecoration(this.guna2ControlBox5, BunifuAnimatorNS.DecorationType.None);
-            this.guna2ControlBox5.FillColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox5.HoverState.Parent = this.guna2ControlBox5;
-            this.guna2ControlBox5.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox5.Location = new System.Drawing.Point(1994, 6);
-            this.guna2ControlBox5.Name = "guna2ControlBox5";
-            this.guna2ControlBox5.ShadowDecoration.Parent = this.guna2ControlBox5;
-            this.guna2ControlBox5.Size = new System.Drawing.Size(45, 29);
-            this.guna2ControlBox5.TabIndex = 79;
-            // 
-            // guna2ControlBox6
-            // 
-            this.guna2ControlBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
-            this.guna2ControlBox6.ControlBoxType = Guna.UI2.WinForms.Enums.ControlBoxType.MaximizeBox;
-            this.Animator.SetDecoration(this.guna2ControlBox6, BunifuAnimatorNS.DecorationType.None);
-            this.guna2ControlBox6.Enabled = false;
-            this.guna2ControlBox6.FillColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox6.HoverState.Parent = this.guna2ControlBox6;
-            this.guna2ControlBox6.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox6.Location = new System.Drawing.Point(1943, 6);
-            this.guna2ControlBox6.Name = "guna2ControlBox6";
-            this.guna2ControlBox6.ShadowDecoration.Parent = this.guna2ControlBox6;
-            this.guna2ControlBox6.Size = new System.Drawing.Size(45, 29);
-            this.guna2ControlBox6.TabIndex = 80;
-            // 
-            // guna2DragControl9
-            // 
-            this.guna2DragControl9.TargetControl = this.CautaData;
+            this.dataGridViewMasina.AllowUserToAddRows = false;
+            this.dataGridViewMasina.AllowUserToDeleteRows = false;
+            this.dataGridViewMasina.AllowUserToResizeColumns = false;
+            this.dataGridViewMasina.AllowUserToResizeRows = false;
+            dataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            this.dataGridViewMasina.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle20;
+            this.dataGridViewMasina.BackgroundColor = System.Drawing.Color.White;
+            this.dataGridViewMasina.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridViewMasina.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            dataGridViewCellStyle21.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle21.ForeColor = System.Drawing.SystemColors.MenuBar;
+            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.SystemColors.ButtonShadow;
+            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewMasina.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle21;
+            this.dataGridViewMasina.ColumnHeadersHeight = 25;
+            this.dataGridViewMasina.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.dataGridViewMasina.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Animator.SetDecoration(this.dataGridViewMasina, BunifuAnimatorNS.DecorationType.None);
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            dataGridViewCellStyle22.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle22.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewMasina.DefaultCellStyle = dataGridViewCellStyle22;
+            this.dataGridViewMasina.GridColor = System.Drawing.Color.Black;
+            this.dataGridViewMasina.Location = new System.Drawing.Point(945, 179);
+            this.dataGridViewMasina.Name = "dataGridViewMasina";
+            this.dataGridViewMasina.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle23.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewMasina.RowHeadersDefaultCellStyle = dataGridViewCellStyle23;
+            this.dataGridViewMasina.RowHeadersVisible = false;
+            this.dataGridViewMasina.RowHeadersWidth = 100;
+            this.dataGridViewMasina.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            this.dataGridViewMasina.RowsDefaultCellStyle = dataGridViewCellStyle24;
+            this.dataGridViewMasina.RowTemplate.DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.dataGridViewMasina.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(182)))), ((int)(((byte)(97)))));
+            this.dataGridViewMasina.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewMasina.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.White;
+            this.dataGridViewMasina.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(71)))));
+            this.dataGridViewMasina.RowTemplate.Height = 35;
+            this.dataGridViewMasina.Size = new System.Drawing.Size(1007, 725);
+            this.dataGridViewMasina.TabIndex = 76;
             // 
             // panel9
             // 
@@ -5619,15 +5636,6 @@
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(2077, 55);
             this.panel9.TabIndex = 81;
-            // 
-            // panel10
-            // 
-            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(10)))), ((int)(((byte)(40)))), ((int)(((byte)(20)))));
-            this.Animator.SetDecoration(this.panel10, BunifuAnimatorNS.DecorationType.None);
-            this.panel10.Location = new System.Drawing.Point(-4, 1017);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(2077, 55);
-            this.panel10.TabIndex = 69;
             // 
             // guna2TileButton27
             // 
@@ -5648,6 +5656,57 @@
             this.guna2TileButton27.TabIndex = 78;
             this.guna2TileButton27.Click += new System.EventHandler(this.guna2TileButton27_Click_1);
             // 
+            // DragContro_PictureBMasina
+            // 
+            this.DragContro_PictureBMasina.TargetControl = this.PictureBoxMasina;
+            // 
+            // DragControl_Home
+            // 
+            this.DragControl_Home.TargetControl = this.Home;
+            // 
+            // DragControl_Inventory
+            // 
+            this.DragControl_Inventory.TargetControl = this.Inventory;
+            // 
+            // DragControl_PanouMasini
+            // 
+            this.DragControl_PanouMasini.TargetControl = this.PanouMasini;
+            // 
+            // DragControl_Compare
+            // 
+            this.DragControl_Compare.TargetControl = this.Compare;
+            // 
+            // DragControl_CmpSelect
+            // 
+            this.DragControl_CmpSelect.TargetControl = this.ComparaSelect;
+            // 
+            // DragControl_Modifica
+            // 
+            this.DragControl_Modifica.TargetControl = this.Modifica;
+            // 
+            // DragControl_CautaData
+            // 
+            this.DragControl_CautaData.TargetControl = this.CautaData;
+            // 
+            // guna2TileButton1
+            // 
+            this.guna2TileButton1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2TileButton1.CheckedState.Parent = this.guna2TileButton1;
+            this.guna2TileButton1.CustomImages.Parent = this.guna2TileButton1;
+            this.Animator.SetDecoration(this.guna2TileButton1, BunifuAnimatorNS.DecorationType.None);
+            this.guna2TileButton1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2TileButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TileButton1.ForeColor = System.Drawing.Color.White;
+            this.guna2TileButton1.HoverState.Parent = this.guna2TileButton1;
+            this.guna2TileButton1.Image = ((System.Drawing.Image)(resources.GetObject("guna2TileButton1.Image")));
+            this.guna2TileButton1.ImageSize = new System.Drawing.Size(30, 30);
+            this.guna2TileButton1.Location = new System.Drawing.Point(-1, 357);
+            this.guna2TileButton1.Name = "guna2TileButton1";
+            this.guna2TileButton1.ShadowDecoration.Parent = this.guna2TileButton1;
+            this.guna2TileButton1.Size = new System.Drawing.Size(73, 60);
+            this.guna2TileButton1.TabIndex = 7;
+            this.guna2TileButton1.Click += new System.EventHandler(this.guna2TileButton1_Click_2);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
@@ -5667,34 +5726,34 @@
             this.Shop.PerformLayout();
             this.PanouMasinaCumparata.ResumeLayout(false);
             this.PanouMasinaCumparata.PerformLayout();
-            this.panel1.ResumeLayout(false);
+            this.PanouMeniuShop.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
-            this.guna2Panel1.ResumeLayout(false);
+            this.panouCulori.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.OptiuneGri)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.OptiuneRosu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.OptiuneAlb)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.OptiuneNegru)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.OptiuneAlbastru)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBoxCar3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBoxCar2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBoxCar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgCarFata)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgCarSpate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgCarLateral)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxMasina)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.Home.ResumeLayout(false);
             this.Home.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.MeniuHome.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.masinaMijloc)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.masinaDreapta)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.masinaStanga)).EndInit();
             this.Inventory.ResumeLayout(false);
             this.MesajPanel.ResumeLayout(false);
             this.MesajPanel.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
+            this.PanouMeniuInventory.ResumeLayout(false);
+            this.PanouMasini.ResumeLayout(false);
+            this.PanouCautareMasini.ResumeLayout(false);
+            this.PanouCautareMasini.PerformLayout();
             this.Compare.ResumeLayout(false);
             this.Compare.PerformLayout();
             this.DataPanelM2.ResumeLayout(false);
@@ -5704,15 +5763,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.ImgM2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgM1)).EndInit();
             this.ComparaSelect.ResumeLayout(false);
-            this.ComparaBtn.ResumeLayout(false);
-            this.ComparaBtn.PerformLayout();
+            this.PanouMasina2.ResumeLayout(false);
+            this.PanouMasina2.PerformLayout();
             this.PanouEroare2.ResumeLayout(false);
             this.PanouEroare2.PerformLayout();
-            this.panel14.ResumeLayout(false);
-            this.panel14.PerformLayout();
+            this.PanouMasina1.ResumeLayout(false);
+            this.PanouMasina1.PerformLayout();
             this.PanouEroare1.ResumeLayout(false);
             this.PanouEroare1.PerformLayout();
-            this.panel15.ResumeLayout(false);
+            this.PanouMeniuCompare.ResumeLayout(false);
             this.Modifica.ResumeLayout(false);
             this.Modifica.PerformLayout();
             this.ModPanel3.ResumeLayout(false);
@@ -5720,17 +5779,17 @@
             this.ModPanel2.ResumeLayout(false);
             this.ModPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ModModel)).EndInit();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
+            this.PanouMasinaEdit.ResumeLayout(false);
+            this.PanouMasinaEdit.PerformLayout();
             this.ModPanel.ResumeLayout(false);
             this.ModPanel.PerformLayout();
-            this.panel6.ResumeLayout(false);
+            this.PanouMeniuEdit.ResumeLayout(false);
             this.CautaData.ResumeLayout(false);
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
+            this.PanelCautaDateTime.ResumeLayout(false);
+            this.PanelCautaDateTime.PerformLayout();
             this.ModPanel1.ResumeLayout(false);
             this.ModPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewM)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMasina)).EndInit();
             this.panel9.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -5738,7 +5797,7 @@
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
+        private Guna.UI2.WinForms.Guna2DragControl DragControl_Shop;
         private System.Windows.Forms.TabPage Shop;
         private BunifuAnimatorNS.BunifuTransition Animator;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox3;
@@ -5746,66 +5805,66 @@
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox2;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage Home;
-        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl2;
+        private Guna.UI2.WinForms.Guna2DragControl DragContro_PictureBMasina;
         private System.Windows.Forms.Label ModelMas;
         private System.Windows.Forms.Label NumeMasina;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label LabelPretPanou;
+        private System.Windows.Forms.Label LabelAnFabPanou;
+        private System.Windows.Forms.Label LabelPuterePanou;
+        private System.Windows.Forms.Label LabelCuloarePanou;
         private System.Windows.Forms.Label AnFMasina;
         private System.Windows.Forms.Label PutMasina;
         private System.Windows.Forms.Label CulMasina;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Panel panouCulori;
         private Guna.UI2.WinForms.Guna2CirclePictureBox OptiuneGri;
         private Guna.UI2.WinForms.Guna2CirclePictureBox OptiuneRosu;
         private Guna.UI2.WinForms.Guna2CirclePictureBox OptiuneAlbastru;
         private Guna.UI2.WinForms.Guna2CirclePictureBox OptiuneAlb;
         private Guna.UI2.WinForms.Guna2CirclePictureBox OptiuneNegru;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton2;
+        private Guna.UI2.WinForms.Guna2CircleButton ChangeCarBack;
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
-        private Guna.UI2.WinForms.Guna2CircleButton guna2CircleButton1;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBoxCar3;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBoxCar2;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBoxCar1;
+        private Guna.UI2.WinForms.Guna2CircleButton ChangeCarNext;
+        private Guna.UI2.WinForms.Guna2PictureBox ImgCarFata;
+        private Guna.UI2.WinForms.Guna2PictureBox ImgCarSpate;
+        private Guna.UI2.WinForms.Guna2PictureBox ImgCarLateral;
         private Guna.UI2.WinForms.Guna2PictureBox PictureBoxMasina;
-        private System.Windows.Forms.Panel panel1;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton3;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton2;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton8;
+        private System.Windows.Forms.Panel PanouMeniuShop;
+        private Guna.UI2.WinForms.Guna2TileButton PanouMeniuShop_Compare;
+        private Guna.UI2.WinForms.Guna2TileButton PanouMeniuShop_Inventory;
+        private Guna.UI2.WinForms.Guna2TileButton PanouMeniuShop_Home;
         private Guna.UI2.WinForms.Guna2ControlBox Minimizebtn;
         private Guna.UI2.WinForms.Guna2ControlBox Exitbtn;
         private Guna.UI2.WinForms.Guna2ControlBox Maximizebtn;
-        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl3;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private Guna.UI2.WinForms.Guna2DragControl DragControl_Home;
+        private System.Windows.Forms.PictureBox masinaMijloc;
+        private System.Windows.Forms.PictureBox masinaDreapta;
+        private System.Windows.Forms.PictureBox masinaStanga;
         private System.Windows.Forms.TabPage Inventory;
-        private System.Windows.Forms.Panel panel3;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton4;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton5;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton7;
-        private System.Windows.Forms.Panel panel5;
-        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl4;
-        private System.Windows.Forms.Panel panel2;
-        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl5;
+        private System.Windows.Forms.Panel PanouMeniuInventory;
+        private Guna.UI2.WinForms.Guna2TileButton MeniuInventory_Home;
+        private Guna.UI2.WinForms.Guna2TileButton MeniuInventory_Compare;
+        private Guna.UI2.WinForms.Guna2TileButton MeniuInventory_Shop;
+        private System.Windows.Forms.Panel PanouCautareMasini;
+        private Guna.UI2.WinForms.Guna2DragControl DragControl_Inventory;
+        private System.Windows.Forms.Panel PanouMasini;
+        private Guna.UI2.WinForms.Guna2DragControl DragControl_PanouMasini;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox7;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox8;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox9;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label PanouCautareMasini_Pret;
         private Guna.UI2.WinForms.Guna2TextBox PutereMax;
         private Guna.UI2.WinForms.Guna2TextBox PutereMin;
-        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label PanouCautareMasini_Putere;
         private Guna.UI2.WinForms.Guna2TextBox AnFabMax;
         private Guna.UI2.WinForms.Guna2TextBox AnFabMin;
-        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label PanouCautareMasini_AnFab;
         private Guna.UI2.WinForms.Guna2TextBox ModelMasina;
         private Guna.UI2.WinForms.Guna2TextBox MarcaMasina;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label PanouCautareMasini_Model;
+        private System.Windows.Forms.Label PanouCautareMasini_Marca;
         private Guna.UI2.WinForms.Guna2TextBox PretMax;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button BtnCautaMasina;
         private Guna.UI2.WinForms.Guna2TextBox PretMin;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
@@ -5814,41 +5873,41 @@
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
         private Bunifu.Framework.UI.BunifuCheckbox negrubox;
-        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label grilbl;
         private Bunifu.Framework.UI.BunifuCheckbox gribox;
-        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label rosulbl;
         private Bunifu.Framework.UI.BunifuCheckbox rosubox;
-        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Label albastrulbl;
         private Bunifu.Framework.UI.BunifuCheckbox albastrubox;
-        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label alblbl;
         private Bunifu.Framework.UI.BunifuCheckbox albbox;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Panel panel4;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton9;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton1;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton6;
+        private System.Windows.Forms.Label negrulbl;
+        private System.Windows.Forms.Panel MeniuHome;
+        private Guna.UI2.WinForms.Guna2ImageButton guna2MeniuBtn;
+        private Guna.UI2.WinForms.Guna2TileButton MeniuHome_Shop;
+        private Guna.UI2.WinForms.Guna2TileButton MeniuHome_Compare;
+        private Guna.UI2.WinForms.Guna2TileButton MeniuHome_Inventory;
         private System.Windows.Forms.TabPage Compare;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button BtnClearData;
         private System.Windows.Forms.Panel MesajPanel;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton2;
+        private Guna.UI2.WinForms.Guna2ImageButton MesajPanel_Close;
         private System.Windows.Forms.Label EroareLabel;
         private System.Windows.Forms.Label CutieMasina;
-        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label LabelCutieVPanou;
         private System.Windows.Forms.Label PretMasina;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton10;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private Guna.UI2.WinForms.Guna2TileButton CumparaBtn;
+        private System.Windows.Forms.Label checkbxSistemAudio;
+        private System.Windows.Forms.Label lblinteriorPiele;
+        private System.Windows.Forms.Label lblsuspensieSport;
+        private System.Windows.Forms.Label checkbxCameraP;
         private Bunifu.Framework.UI.BunifuCheckbox bunifuCheckbox5;
         private Bunifu.Framework.UI.BunifuCheckbox bunifuCheckbox4;
         private Bunifu.Framework.UI.BunifuCheckbox bunifuCheckbox3;
-        private Bunifu.Framework.UI.BunifuCheckbox bunifuCheckbox2;
-        private Bunifu.Framework.UI.BunifuCheckbox bunifuCheckbox1;
-        private System.Windows.Forms.Label label28;
+        private Bunifu.Framework.UI.BunifuCheckbox checkbxSuspensie;
+        private Bunifu.Framework.UI.BunifuCheckbox checkbxInteriorPiele;
+        private System.Windows.Forms.Label checkbxTrapa;
         private Bunifu.Framework.UI.BunifuCheckbox bunifuCheckbox6;
-        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label checkbxAerCond;
         private System.Windows.Forms.DataGridViewImageColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Model;
@@ -5866,7 +5925,7 @@
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox10;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox11;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox12;
-        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl6;
+        private Guna.UI2.WinForms.Guna2DragControl DragControl_Compare;
         private System.Windows.Forms.Label Model2_;
         private System.Windows.Forms.Label Marca2_;
         private System.Windows.Forms.Label Model_;
@@ -5891,47 +5950,47 @@
         private System.Windows.Forms.Label CuloareM1;
         private System.Windows.Forms.Label PretM2_;
         private System.Windows.Forms.Label PretM1_;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton17;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton12;
+        private Guna.UI2.WinForms.Guna2TileButton BtnEuro;
+        private Guna.UI2.WinForms.Guna2TileButton BtnLei;
         private System.Windows.Forms.TabPage ComparaSelect;
-        private System.Windows.Forms.Panel panel15;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton22;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton24;
-        private System.Windows.Forms.Panel ComparaBtn;
-        private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.Label label44;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton19;
-        private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.Label label54;
-        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Panel PanouMeniuCompare;
+        private Guna.UI2.WinForms.Guna2TileButton MeniuCompare_Home;
+        private Guna.UI2.WinForms.Guna2TileButton MeniuCompare_Shop;
+        private System.Windows.Forms.Panel PanouMasina2;
+        private System.Windows.Forms.Label lblMasina2;
+        private System.Windows.Forms.Label lblMasina1;
+        private System.Windows.Forms.Panel PanouMasina1;
+        private System.Windows.Forms.Label PanouMasina1_Culoare;
+        private Guna.UI2.WinForms.Guna2TileButton btnCautaMasina1;
+        private System.Windows.Forms.Label PanouMasina1_PretMn;
+        private System.Windows.Forms.Label PanouMasina1_Model;
+        private System.Windows.Forms.Label PanouMasina1_Marca;
         private System.Windows.Forms.Panel PanouEroare2;
         private System.Windows.Forms.Panel PanouEroare1;
         private Guna.UI2.WinForms.Guna2TextBox PutereMaxM1;
-        private System.Windows.Forms.Label label61;
-        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.Label PanouMasina1_PutereMax;
+        private System.Windows.Forms.Label PanouMasina1_AnFabMx;
         private Guna.UI2.WinForms.Guna2TextBox AnFMaxM1;
         private Guna.UI2.WinForms.Guna2TextBox AnFMinM1;
-        private System.Windows.Forms.Label label60;
-        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Label PanouMasina1_AnFabMn;
+        private System.Windows.Forms.Label PanouMasina1_PretMx;
         private Guna.UI2.WinForms.Guna2TextBox PretMaxM1;
         private Guna.UI2.WinForms.Guna2TextBox CuloareM1_;
         private Guna.UI2.WinForms.Guna2TextBox PretMinM1;
         private Guna.UI2.WinForms.Guna2TextBox ModelM1;
         private Guna.UI2.WinForms.Guna2TextBox MarcaM2;
         private Guna.UI2.WinForms.Guna2TextBox PutereMaxM2;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label PanouMasina2_PutMx;
+        private System.Windows.Forms.Label PanouMasina2_AnFMx;
         private Guna.UI2.WinForms.Guna2TextBox AnFMaxM2;
         private Guna.UI2.WinForms.Guna2TextBox AnFMinM2;
-        private System.Windows.Forms.Label label65;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label label64;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Label PanouMasina2_Marca;
+        private System.Windows.Forms.Label PanouMasina2_AnFMn;
+        private System.Windows.Forms.Label PanouMasina2_Model;
+        private System.Windows.Forms.Label PanouMasina2_PretMx;
+        private System.Windows.Forms.Label PanouMasina2_PretMinim;
         private Guna.UI2.WinForms.Guna2TextBox PretMaxM2;
-        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.Label PanouMasina2_Cul;
         private Guna.UI2.WinForms.Guna2TextBox CuloareM2_;
         private Guna.UI2.WinForms.Guna2TextBox ModelM2;
         private Guna.UI2.WinForms.Guna2TextBox PretMinM2;
@@ -5939,112 +5998,116 @@
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox13;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox14;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox15;
-        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl7;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton18;
+        private Guna.UI2.WinForms.Guna2DragControl DragControl_CmpSelect;
+        private Guna.UI2.WinForms.Guna2TileButton btnCautaMasina2;
         private Guna.UI2.WinForms.Guna2TileButton CmpBtn;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton11;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton13;
+        private Guna.UI2.WinForms.Guna2TileButton CompareBack;
+        private Guna.UI2.WinForms.Guna2TileButton MeniuCompare_Inventory;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabPage Modifica;
-        private System.Windows.Forms.Panel panel6;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton14;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton15;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton16;
-        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel PanouMeniuEdit;
+        private Guna.UI2.WinForms.Guna2TileButton MeniuEdit_Inventory;
+        private Guna.UI2.WinForms.Guna2TileButton MeniuEdit_Home;
+        private Guna.UI2.WinForms.Guna2TileButton MeniuEdit_Shop;
+        private System.Windows.Forms.Panel PanouMasinaEdit;
         private Guna.UI2.WinForms.Guna2TextBox ModMarca;
         private Guna.UI2.WinForms.Guna2TextBox ModPut;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label PanouMasinaEdit_PutereMx;
+        private System.Windows.Forms.Label PanouMasinaEdit_AnFMx;
         private Guna.UI2.WinForms.Guna2TextBox ModAnMax;
         private Guna.UI2.WinForms.Guna2TextBox ModAnMin;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label PanouMasinaEdit_AnFabMn;
+        private System.Windows.Forms.Label PanouMasinaEdit_PretMx;
         private Guna.UI2.WinForms.Guna2TextBox ModPMax;
         private Guna.UI2.WinForms.Guna2TextBox ModCuloare;
         private Guna.UI2.WinForms.Guna2TextBox ModPMin;
         private System.Windows.Forms.Panel ModPanel;
         private System.Windows.Forms.Label ModText;
-        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label PanouMasinaEdit_Culoare;
         private Guna.UI2.WinForms.Guna2TileButton ModCauta;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label66;
-        private System.Windows.Forms.Label label67;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton20;
+        private System.Windows.Forms.Label PanouMasinaEdit_lbl;
+        private System.Windows.Forms.Label PanouMasinaEdit_PretMn;
+        private System.Windows.Forms.Label PanouMasinaEdit_Model;
+        private System.Windows.Forms.Label PanouMasinaEdit_Marca;
+        private Guna.UI2.WinForms.Guna2TileButton MeniuEdit_Compare;
         private System.Windows.Forms.PictureBox ModModel;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton23;
+        private Guna.UI2.WinForms.Guna2TileButton MeniuCompare_Edit;
         private System.Windows.Forms.Panel ModPanel3;
         private System.Windows.Forms.Panel ModPanel2;
         private Guna.UI2.WinForms.Guna2TileButton ButonModifica;
         private Guna.UI2.WinForms.Guna2TextBox ModificaPret;
-        private System.Windows.Forms.Label label70;
+        private System.Windows.Forms.Label ModPanel2_pret;
         private Guna.UI2.WinForms.Guna2TextBox ModificaMarca;
-        private System.Windows.Forms.Label label69;
+        private System.Windows.Forms.Label ModPanel2_Marca;
         private Guna.UI2.WinForms.Guna2TextBox ModificaModel;
-        private System.Windows.Forms.Label label68;
+        private System.Windows.Forms.Label ModPanel2_model;
         private System.Windows.Forms.Label MasinaCutie;
-        private System.Windows.Forms.Label label72;
+        private System.Windows.Forms.Label ModPanel3_CutieV;
         private System.Windows.Forms.Label MasinaPutere;
-        private System.Windows.Forms.Label label74;
+        private System.Windows.Forms.Label ModPanel3_Culoare;
         private System.Windows.Forms.Label MasinaAn;
-        private System.Windows.Forms.Label label76;
+        private System.Windows.Forms.Label ModPanel3_Putere;
         private System.Windows.Forms.Label MasinaCul;
-        private System.Windows.Forms.Label label78;
+        private System.Windows.Forms.Label ModPanel3_AnFb;
         private System.Windows.Forms.Label ModMasinaModel;
         private System.Windows.Forms.Label ModMasinaMarca;
         private System.Windows.Forms.Label ModMasinaPret;
-        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl8;
+        private Guna.UI2.WinForms.Guna2DragControl DragControl_Modifica;
         private Guna.UI2.WinForms.Guna2TileButton restartBtn;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton21;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton25;
-        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton26;
+        private Guna.UI2.WinForms.Guna2TileButton MeniuInventory_Edit;
+        private Guna.UI2.WinForms.Guna2TileButton PanouMeniuShop_Edit;
+        private Guna.UI2.WinForms.Guna2TileButton MeniuHome_Edit;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox16;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox17;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox18;
         private Guna.UI2.WinForms.Guna2CustomRadioButton LightBtn;
         private Guna.UI2.WinForms.Guna2CustomRadioButton DarkBtn;
-        private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton3;
+        private Guna.UI2.WinForms.Guna2ImageButton guna2SetariBtn;
         private System.Windows.Forms.Label LightLbl;
         private System.Windows.Forms.Label DarkLbl;
         private System.Windows.Forms.Label Themelbl;
         private Guna.UI2.WinForms.Guna2ComboBox ModMdl;
-        private System.Windows.Forms.ListBox listBox1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private System.Windows.Forms.ListBox ListBoxMasini;
+        private Guna.UI2.WinForms.Guna2Button BtnCautaDateTime;
         private System.Windows.Forms.TabPage CautaData;
-        private System.Windows.Forms.DataGridView dataGridViewM;
+        private System.Windows.Forms.DataGridView dataGridViewMasina;
         private System.Windows.Forms.DateTimePicker ModDataMax;
         private System.Windows.Forms.DateTimePicker ModDataMin;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label85;
-        private System.Windows.Forms.Label label84;
+        private System.Windows.Forms.Panel PanelCautaDateTime;
+        private System.Windows.Forms.Label CautaDateTime_DataModmax;
+        private System.Windows.Forms.Label CautaDateTime_DataModmin;
         private Guna.UI2.WinForms.Guna2ComboBox ModCuloare1;
         private Guna.UI2.WinForms.Guna2TextBox ModMarca1;
         private System.Windows.Forms.Panel ModPanel1;
         private System.Windows.Forms.Label ModText1;
         private Guna.UI2.WinForms.Guna2TextBox ModPut1;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label71;
+        private System.Windows.Forms.Label CautaDateTime_PutMx;
+        private System.Windows.Forms.Label CautaDateTime_AnFMx;
         private Guna.UI2.WinForms.Guna2TextBox ModAnMax1;
         private Guna.UI2.WinForms.Guna2TextBox ModAnMin1;
-        private System.Windows.Forms.Label label73;
-        private System.Windows.Forms.Label label75;
+        private System.Windows.Forms.Label CautaDateTime_AnMn;
+        private System.Windows.Forms.Label CautaDateTime_PretMx;
         private Guna.UI2.WinForms.Guna2TextBox ModPMax1;
         private Guna.UI2.WinForms.Guna2TextBox ModMdl1;
         private Guna.UI2.WinForms.Guna2TextBox ModPMin1;
-        private System.Windows.Forms.Label label79;
+        private System.Windows.Forms.Label CautaDateTime_Culoare;
         private Guna.UI2.WinForms.Guna2TileButton ModCauta1;
-        private System.Windows.Forms.Label label80;
-        private System.Windows.Forms.Label label81;
-        private System.Windows.Forms.Label label82;
-        private System.Windows.Forms.Label label83;
+        private System.Windows.Forms.Label CautaDateTime_lbl;
+        private System.Windows.Forms.Label CautaDateTime_PretMN;
+        private System.Windows.Forms.Label CautaDateTime_Model;
+        private System.Windows.Forms.Label CautaDateTime_Marca;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox4;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox5;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox6;
-        private Guna.UI2.WinForms.Guna2DragControl guna2DragControl9;
+        private Guna.UI2.WinForms.Guna2DragControl DragControl_CautaData;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel9;
         private Guna.UI2.WinForms.Guna2TileButton guna2TileButton27;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel4;
+        private Guna.UI2.WinForms.Guna2Button ButonStergeM;
+        private Guna.UI2.WinForms.Guna2TileButton guna2TileButton1;
     }
 }
 

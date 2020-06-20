@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Andrei Ventuneac 3121A
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -68,8 +69,7 @@ namespace LibrarieModele
             Status = string.Empty;
             Cutie_Viteze = string.Empty;
             Denumire_Masina = Marca + ' ' + Model;
-            //IDultim++;
-            //ID = IDultim;
+            
         }
 
         public Masina(string marca_, string model_, long pret_,int anfab_,int putere_,string cutie_,string numeimg_)
@@ -84,33 +84,6 @@ namespace LibrarieModele
             Denumire_Masina = Marca + ' ' + Model;
             IDultim++;
             ID = IDultim;
-        }
-
-        public string ConversieLaSir()
-        {
-            //return string.Format("Elevul {0} de la {1}  are nota {2} si este admis si are optiunea {3}", numecomplet, Facultate, nota,Optiune);
-            if (Status == GOOD)
-                return string.Format("---------------------------     Cutie Viteze : {8}    Img: {9}\n" +
-                                     "|()    ....     ....    ()|     An Fabricatie : {6} \n" +
-                                     "|()    ( .)     (. )    ()|     Marca : {0}    \n" +
-                                     "|()                     ()|     Model : {1}    \n" +
-                                     "|()   -             -   ()|     Pret : {2}    \n" +
-                                     "|()    -           -    ()|     STATUS : {3}    \n" +
-                                     "|()      ---------      ()|     Culoare : {4}\n" +
-                                     "|()                     ()|     Optiuni : {5}\n" +
-                                     "|()                     ()|     Putere: {7} CP\n" +
-                                     "---------------------------", Marca,Model,Pret,Status,Culoare,Optiune,An_Fabricatie,Putere,Cutie_Viteze,Nume_Img);
-            else
-                return string.Format("---------------------------     Cutie Viteze : {8}   Img: {9}\n" +
-                                     "|()   ......   ......   ()|     An Fabricatie : {6}\n" +
-                                     "|()   (  .)     (.  )   ()|     Marca : {0}    \n" +
-                                     "|()       ________      ()|     Model : {1}    \n" +
-                                     "|()      |_______|      ()|     Pret : {2}    \n" +
-                                     "|()                     ()|     STATUS : {3}    \n" +
-                                     "|()          __         ()|     Culoare : {4}\n" +
-                                     "|()                     ()|     Optiuni : {5}\n" +
-                                     "|()                     ()|     Putere: {7} CP\n" +
-                                     "---------------------------", Marca, Model, Pret, Status, Culoare, Optiune,An_Fabricatie, Putere, Cutie_Viteze,Nume_Img);
         }
       
         public string ConversieLaSirFisier()
@@ -154,8 +127,7 @@ namespace LibrarieModele
             else
                 Status = BAD;
             Denumire_Masina = Marca + ' ' + Model;
-            // IDultim++;
-            //ID = IDultim;
+           
         }
       
 

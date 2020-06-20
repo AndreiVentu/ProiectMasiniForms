@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Andrei Ventuneac 3121A
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,6 @@ namespace NivelAccesDate
         ArrayList GetMasini();
 
         bool UpdateMasini(Masina MasinaActualizat);
-       
+        void StergeMasina(int id_m);
     }
 }

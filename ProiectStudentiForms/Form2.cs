@@ -1,16 +1,11 @@
-﻿using LibrarieModele;
+﻿// Andrei Ventuneac 3121A
+using LibrarieModele;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using NivelAccesDate;
 using System.Collections;
-using Teema1;
+
 
 namespace ProiectStudentiForms
 {
@@ -18,23 +13,19 @@ namespace ProiectStudentiForms
     public partial class Form2 : Form
     {
         IStocareData AdminMasini = StocareFactory.GetAdministratorStocare();
-        int IDm = 0;
-        Masina m1, m2, modificat;
-
+        Masina  modificat;
         int ok = 1;
         long _PretMin_ = 0;
         long _PretMax_ = 0;
         int _AnFabMin_ = 0;
         int _AnFabMax_ = 0;
         int _PutereMax_ = 0;
-        int eroare = 1;
         Culori cul;
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Masina mas = new Masina(Convert.ToString(listBox1.SelectedItem));
+            Masina mas = new Masina(Convert.ToString(listBoxModifica.SelectedItem));
             modificat = mas;
-            //MessageBox.Show(Convert.ToString(modificat.IDMAS));
             ModMasinaMarca.Text = mas.Marca;
             ModMasinaModel.Text = mas.Model;
             ModMasinaPret.Text = Convert.ToString(mas.Pret) + "€";
@@ -50,11 +41,12 @@ namespace ProiectStudentiForms
             ModMasinaModel.Visible = true;
             ModMasinaPret.Visible = true;
             ModPanel2.Visible = true;
-            panel1.Visible = false;
+            PanouInfo.Visible = false;
         }
 
         private void ButonModifica_Click(object sender, EventArgs e)
         {
+            int ok = 1;
             string mrc, mdl;
             long prt;
             if (ModificaMarca.Text == string.Empty)
@@ -82,24 +74,30 @@ namespace ProiectStudentiForms
             else
             {
                 prt = Convert.ToInt64(ModificaPret.Text);
+                if (prt < 1000)
+                {
+                    ok = 0;
+                    label70.ForeColor = Color.Red;
+                }
+                    
             }
 
- 
-            modificat.Marca = mrc;
-            modificat.Model = mdl;
-            modificat.Pret = prt;
-            modificat.dataActualizare = DateTime.Now;
-            ModMasinaPret.Text = Convert.ToString(modificat.Pret) + "€";
-            ModMasinaMarca.Text = modificat.Marca;
-            ModMasinaModel.Text = modificat.Model;
-            AdminMasini.UpdateMasini(modificat);
-            listBox1.Items.Clear();
-            ModCauta.PerformClick();
-            
+           if(ok == 1)
+            {
+                label70.ForeColor = Color.Black;
+                modificat.Marca = mrc;
+                modificat.Model = mdl;
+                modificat.Pret = prt;
+                modificat.dataActualizare = DateTime.Now;
+                ModMasinaPret.Text = Convert.ToString(modificat.Pret) + "€";
+                ModMasinaMarca.Text = modificat.Marca;
+                ModMasinaModel.Text = modificat.Model;
+                AdminMasini.UpdateMasini(modificat);
+                listBoxModifica.Items.Clear();
+                ModCauta.PerformClick();
 
-            panel1.Visible = true;
-            //this.Close();
-           
+                PanouInfo.Visible = true;
+            }
             
         }
 
@@ -162,7 +160,7 @@ namespace ProiectStudentiForms
 
         private void ModCauta_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Clear();
+            listBoxModifica.Items.Clear();
              ok = 1;
              _PretMin_ = 0;
              _PretMax_ = 0;
@@ -171,7 +169,7 @@ namespace ProiectStudentiForms
              _PutereMax_ = 0;
             int eroare = 1;
             ModPanel2.BackColor = Color.Black;
-            label68.Visible = true;
+            ModPanel2_Model.Visible = true;
             label69.Visible = true;
             label70.Visible = true;
             ButonModifica.Visible = true;
@@ -208,16 +206,13 @@ namespace ProiectStudentiForms
             }
 
 
-
-
             if (ok != 0)
             {
                
 
                 foreach (Masina m in masini)
                 {
-                    //IDm++;
-                    //m.ID = IDm;
+                
                     if (ModPMin.Text == string.Empty)
                     {
                         _PretMin_ = m.Pret;
@@ -273,11 +268,11 @@ namespace ProiectStudentiForms
                         if (verificat == true)
                         {
                             cul = (Culori)Enum.Parse(typeof(Culori), ModCuloare.Text, true);
-                            label38.ForeColor = Color.White;
+                            PanouModifica_Culoare.ForeColor = Color.White;
                         }
                         else
                         {
-                            label38.ForeColor = Color.Red;
+                            PanouModifica_Culoare.ForeColor = Color.Red;
                             cul = 0;
                         }
                     }
@@ -287,22 +282,9 @@ namespace ProiectStudentiForms
                     if (m.Marca == ModMarca.Text && m.Model == ModMdl.Text && m.Pret >= _PretMin_ && m.Pret <= _PretMax_ && m.An_Fabricatie >= _AnFabMin_ && m.An_Fabricatie <= _AnFabMax_ && m.Putere <= _PutereMax_ && m.Culoare == cul)
                     {
                         
-                        eroare = 0;
-                        // ModModel.Image = Image.FromFile("D:/IconiteMasiniForms/" + m.Nume_Img);
-                        //ModMasinaMarca.Text = m.Marca;
-                        //ModMasinaModel.Text = m.Model;
-                        //ModMasinaPret.Text = Convert.ToString(m.Pret) + "€";
-                        // ModMasinaMarca.Visible = true;
-                        //ModMasinaModel.Visible = true;
-                        //ModMasinaPret.Visible = true;
-                        //ModPanel2.Visible = true;
-                        //ModPanel3.Visible = true;
-                        //MasinaAn.Text = Convert.ToString(m.An_Fabricatie);
-                        //MasinaCul.Text = Convert.ToString(m.Culoare);
-                        //MasinaPutere.Text = Convert.ToString(m.Putere);
-                        //MasinaCutie.Text = m.Cutie_Viteze;
+                        eroare = 0;                 
                         var linieTabel = String.Format("{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10}",m.IDMAS, m.Marca, m.Model, m.Pret, m.An_Fabricatie, m.Putere, m.Cutie_Viteze, m.Nume_Img, Convert.ToInt32(m.Culoare), Convert.ToInt32(m.Optiune),m.dataActualizare);
-                        listBox1.Items.Add(linieTabel);
+                        listBoxModifica.Items.Add(linieTabel);
                     }
 
                 }
@@ -319,15 +301,13 @@ namespace ProiectStudentiForms
                 {
                     ModText.Text = "MASINA GASITA!";
                     ModPanel.BackColor = Color.Red;
-                    listBox1.Visible = true;
-                    panel7.Location = new Point(112, 96);
+                    listBoxModifica.Visible = true;
+                    PanouModifica.Location = new Point(112, 96);
                     ModModel.Size = new Size(501, 428);
                     ModModel.Location = new Point(930, 250);
                     ModPanel2.Visible = true;
                     ModPanel3.Visible = true;
                 }
-
-
 
             }
         }
